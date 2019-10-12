@@ -1,6 +1,6 @@
 import * as fs from 'fs-extra';
 
-import { stringify } from './util';
+import { flatten, stringify } from './util';
 
 (async () => {
   const files = (await fs.readdir('./src/books')).map(f => f.slice(0, -3));
@@ -17,6 +17,6 @@ import { stringify } from './util';
   );
   await fs.writeFile(
     `./data/extracted.json`,
-    stringify(files.map(f => all[f])),
+    stringify(flatten(files.map(f => all[f]))),
   );
 })();

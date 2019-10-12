@@ -1,3 +1,5 @@
+export const flatten = x => x.reduce((res, y) => [...res, ...y], []);
+
 export const stringify = (x = null as any) => {
   if (Array.isArray(x)) return `[${x.map(stringify).join(', ')}]`;
   if (x === null || typeof x !== 'object') return JSON.stringify(x);
