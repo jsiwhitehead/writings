@@ -7,8 +7,10 @@ export const config = {
   end: 'Notes',
   classes: {
     'brl-bold': { i: true },
-    'brl-text-larger1': {},
     'brl-head': {},
+    'brl-global-title': { header: 2 },
+    'brl-subtitle': { header: 2 },
+    'brl-global-selection-number': { header: 2 },
   },
 };
 

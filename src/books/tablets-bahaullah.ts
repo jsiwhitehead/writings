@@ -4,6 +4,9 @@ export const config = {
   start: 'Lawḥ‑i‑Karmil',
   end: 'Passages Translated by Shoghi Effendi',
   smallBreak: true,
+  classes: {
+    'brl-text-larger1': { header: 3 },
+  },
 };
 
 export default data =>

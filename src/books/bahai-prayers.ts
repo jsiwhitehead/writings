@@ -6,6 +6,12 @@ export const config = {
   end:
     'This document has been downloaded from the . You are free to use its content subject to the terms of use found at',
   smallBreak: true,
+  classes: {
+    'brl-global-instructions': { block: true, i: true },
+    'brl-linegroup': { block: true },
+    'brl-bold': { header: 3 },
+    'brl-fullpage': { above: 2, below: 2 },
+  },
 };
 
 export default data =>

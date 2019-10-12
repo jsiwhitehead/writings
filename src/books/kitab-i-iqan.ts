@@ -4,6 +4,9 @@ export const config = {
   start:
     'This is the Day in which the testimony of the Lord hath been fulfilled, the Day in which the Word of God hath been made manifest, and His evidence firmly established. His voice is calling you unto that which shall profit you, and enjoineth you to observe that which shall draw you nigh unto God, the Lord of Revelation.',
   end: 'Notes',
+  classes: {
+    'brl-text-smaller2': { i: true },
+  },
 };
 
 export default data =>

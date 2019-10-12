@@ -3,6 +3,10 @@ export const config = {
     'https://www.bahai.org/library/authoritative-texts/abdul-baha/tablets-divine-plan/tablets-divine-plan.xhtml',
   start: 'Tablet to the Bahá’ís of the Northeastern States',
   end: 'Notes',
+  classes: {
+    'brl-linegroup': { block: true },
+    'brl-fullpage': { above: 2, below: 2 },
+  },
 };
 
 export default data =>

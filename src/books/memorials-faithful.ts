@@ -3,6 +3,9 @@ export const config = {
     'https://www.bahai.org/library/authoritative-texts/abdul-baha/memorials-faithful/memorials-faithful.xhtml',
   start: 'Nabíl‑i‑Akbar',
   end: 'Notes',
+  classes: {
+    'brl-linegroup': { block: true },
+  },
 };
 
 export default data =>

@@ -3,6 +3,9 @@ export const config = {
     'https://www.bahai.org/library/authoritative-texts/abdul-baha/selections-writings-abdul-baha/selections-writings-abdul-baha.xhtml',
   start: 'Preface',
   end: 'Notes on Translations',
+  classes: {
+    'brl-margin-4': { block: true },
+  },
 };
 
 export default data =>

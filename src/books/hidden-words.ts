@@ -5,6 +5,9 @@ export const config = {
   end:
     'This document has been downloaded from the . You are free to use its content subject to the terms of use found at',
   smallBreak: true,
+  classes: {
+    'brl-margin-number': { ignore: true },
+  },
 };
 
 export default data =>

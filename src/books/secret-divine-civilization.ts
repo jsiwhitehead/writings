@@ -3,6 +3,9 @@ export const config = {
     'https://www.bahai.org/library/authoritative-texts/abdul-baha/secret-divine-civilization/secret-divine-civilization.xhtml',
   start: 'In the Name of God the Clement, the Merciful',
   end: 'Notes',
+  classes: {
+    'brl-global-verse': { block: true },
+  },
 };
 
 export default data => [

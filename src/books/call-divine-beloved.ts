@@ -3,6 +3,10 @@ export const config = {
     'https://www.bahai.org/library/authoritative-texts/bahaullah/call-divine-beloved/call-divine-beloved.xhtml',
   start: 'Preface',
   end: 'Notes',
+  classes: {
+    'brl-linegroup': { block: true },
+    'brl-global-gloss-definition': { block: true },
+  },
 };
 
 export default data =>

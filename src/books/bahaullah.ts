@@ -14,8 +14,8 @@ export const config = {
     'This document has been downloaded from the . You are free to use its content subject to the terms of use found at',
   classes: {
     'brl-bold': { i: true },
-    'brl-text-larger1': {},
     'brl-head': {},
+    'brl-pagebreakspacer': { below: 2 },
   },
 };
 

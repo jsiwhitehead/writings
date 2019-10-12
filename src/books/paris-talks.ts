@@ -5,6 +5,9 @@ export const config = {
     'https://www.bahai.org/library/authoritative-texts/abdul-baha/paris-talks/paris-talks.xhtml',
   start: 'Part One',
   end: 'Notes',
+  classes: {
+    'brl-margin-4': { block: true },
+  },
 };
 
 export default data =>

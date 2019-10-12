@@ -3,6 +3,9 @@ export const config = {
     'https://www.bahai.org/library/authoritative-texts/bahaullah/gems-divine-mysteries/gems-divine-mysteries.xhtml',
   start: 'Introduction',
   end: 'Notes',
+  classes: {
+    'brl-global-verse': { block: true },
+  },
 };
 
 export default data =>
