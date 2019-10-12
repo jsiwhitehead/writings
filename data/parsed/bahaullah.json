@@ -52,7 +52,7 @@
       {
         "notes": [
           {
-            "position": 834,
+            "position": 836,
             "content": [
               {
                 "spans": [{ "end": 34, "start": 16, "types": ["i"] }],
@@ -343,7 +343,7 @@
       {
         "notes": [
           {
-            "position": 1111,
+            "position": 1113,
             "content": [
               {
                 "spans": [
@@ -406,7 +406,7 @@
         "block": true,
         "notes": [
           {
-            "position": 419,
+            "position": 418,
             "content": [
               {
                 "spans": [{ "end": 55, "start": 13, "types": ["i"] }],
@@ -503,7 +503,7 @@
       {
         "notes": [
           {
-            "position": 1397,
+            "position": 1399,
             "content": [
               {
                 "spans": [{ "end": 13, "start": 0, "types": ["i"] }],
@@ -594,7 +594,7 @@
         "block": true,
         "notes": [
           {
-            "position": 390,
+            "position": 391,
             "content": [
               {
                 "spans": [{ "end": 21, "start": 0, "types": ["i"] }],
@@ -844,7 +844,7 @@
         "block": true,
         "notes": [
           {
-            "position": 758,
+            "position": 757,
             "content": [
               {
                 "spans": [{ "end": 42, "start": 0, "types": ["i"] }],
@@ -1098,7 +1098,7 @@
         "i": true,
         "notes": [
           {
-            "position": 511,
+            "position": 512,
             "content": [
               {
                 "spans": [{ "end": 42, "start": 0, "types": ["i"] }],
@@ -1152,7 +1152,7 @@
       {
         "notes": [
           {
-            "position": 523,
+            "position": 524,
             "content": [
               {
                 "spans": [
@@ -1256,7 +1256,7 @@
         "block": true,
         "notes": [
           {
-            "position": 324,
+            "position": 325,
             "content": [
               {
                 "spans": [{ "end": 42, "start": 0, "types": ["i"] }],
@@ -1666,7 +1666,7 @@
         "block": true,
         "notes": [
           {
-            "position": 1294,
+            "position": 1295,
             "content": [
               {
                 "spans": [{ "end": 55, "start": 0, "types": ["i"] }],
@@ -1736,7 +1736,7 @@
       {
         "notes": [
           {
-            "position": 573,
+            "position": 572,
             "content": [
               {
                 "spans": [{ "end": 13, "start": 0, "types": ["i"] }],
@@ -1745,7 +1745,7 @@
             ]
           }
         ],
-        "spans": [{ "end": 562, "start": 560, "types": ["u"] }],
+        "spans": [{ "end": 561, "start": 559, "types": ["u"] }],
         "content": "Having surrendered unreservedly to God’s summons, He was equally in no doubt about the role which He had been called upon to play in human history. As the Manifestation of God to the age of fulfilment, He is the one promised in all the scriptures of the past, the “Desire of all nations,” the “King of Glory.” To Judaism He is “Lord of Hosts”; to Christianity, the Return of Christ in the glory of the Father; to Islam, the “Great Announcement”; to Buddhism, the Maitreya Buddha; to Hinduism, the new incarnation of Krishna; to Zoroastrianism, the advent of “Sháh‑Bahrám.”"
       },
       {
@@ -1765,7 +1765,7 @@
       {
         "notes": [
           {
-            "position": 565,
+            "position": 567,
             "content": [
               {
                 "spans": [{ "end": 42, "start": 0, "types": ["i"] }],

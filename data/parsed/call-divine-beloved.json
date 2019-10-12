@@ -571,7 +571,7 @@
               }
             ]
           },
-          { "position": 209, "content": [{ "content": "Qur’án 1:6." }] }
+          { "position": 208, "content": [{ "content": "Qur’án 1:6." }] }
         ],
         "spans": [{ "end": 12, "start": 10, "types": ["u"] }],
         "content": "Wherefore Khájih ‘Abdu’lláh —may God the Most High sanctify his blessed soul—hath made, in this connexion, a subtle point and spoken an eloquent word as to the meaning of “Guide Thou us on the straight path”, which is: “Show us the right way; that is, honour us with the love of Thine Essence, that we may be freed from occupation with ourselves and aught else save Thee, and may become wholly Thine; that we may know only Thee, and see only Thee, and think of none save Thee.”"
@@ -1460,7 +1460,7 @@
       {
         "notes": [
           {
-            "position": 632,
+            "position": 633,
             "content": [{ "content": "Famed writers on grammar and rhetoric." }]
           }
         ],
@@ -1551,12 +1551,12 @@
       },
       {
         "block": true,
-        "notes": [{ "position": 233, "content": [{ "content": "Sa‘dí." }] }],
+        "notes": [{ "position": 234, "content": [{ "content": "Sa‘dí." }] }],
         "spans": [
-          { "end": 51, "start": 0, "types": ["l"] },
-          { "end": 114, "start": 51, "types": ["l"] },
-          { "end": 172, "start": 114, "types": ["l"] },
-          { "end": 233, "start": 172, "types": ["l"] }
+          { "end": 52, "start": 0, "types": ["l"] },
+          { "end": 115, "start": 52, "types": ["l"] },
+          { "end": 173, "start": 115, "types": ["l"] },
+          { "end": 234, "start": 173, "types": ["l"] }
         ],
         "content": "The storey of Thy beauty reached the hermit’s dell; Crazed, he sought the Tavern where the wine they buy and sell. The love of Thee hath levelled down the fort of patience; The pain of Thee hath firmly barred the gate of hope as well."
       },

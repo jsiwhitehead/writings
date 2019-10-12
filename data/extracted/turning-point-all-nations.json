@@ -5,6 +5,13 @@
     "type": "Preface",
     "content": [
       {
+        "content": "A statement prepared by the Bahá'í International Community United Nations Office, New York"
+      },
+      { "content": "Turning Point for All Nations" },
+      {
+        "content": "A Statement of the Bahá’í International Community on the Occasion of the 50th Anniversary of the United Nations"
+      },
+      {
         "block": true,
         "i": true,
         "content": "“Unification of the whole of mankind is the hall‑mark of the stage which human society is now approaching. Unity of family, of tribe, of city‑state, and nation have been successively attempted and fully established. World unity is the goal towards which a harassed humanity is striving. Nation‑building has come to an end. The anarchy inherent in state sovereignty is moving towards a climax. A world, growing to maturity, must abandon this fetish, recognise the oneness and wholeness of human relationships, and establish once for all the machinery that can best incarnate this fundamental principle of its life.”"
@@ -113,7 +120,7 @@
       {
         "notes": [
           {
-            "position": 842,
+            "position": 844,
             "content": [
               {
                 "spans": [{ "end": 46, "start": 22, "types": ["i"] }],
@@ -182,16 +189,16 @@
       {
         "notes": [
           {
-            "position": 321,
+            "position": 322,
             "content": [
               {
-                "spans": [{ "end": 60, "start": 37, "types": ["i"] }],
+                "spans": [{ "end": 61, "start": 37, "types": ["i"] }],
                 "content": "The Commission on Global Governance, Our Global Neighbourhood. (New York: Oxford University Press, 1995.)"
               }
             ]
           }
         ],
-        "spans": [{ "end": 204, "start": 181, "types": ["i"] }],
+        "spans": [{ "end": 205, "start": 181, "types": ["i"] }],
         "content": "Most of these works are constructive; some are also provocative. Among them, one of the most balanced and thoughtful is the report of the Commission on Global Governance, entitled, Our Global Neighbourhood, which argues for the widespread adoption of new values, as well as structural reforms in the United Nations system."
       },
       {
@@ -249,11 +256,11 @@
             "position": 555,
             "content": [
               {
-                "spans": [{ "end": 111, "start": 88, "types": ["i"] }],
+                "spans": [{ "end": 112, "start": 88, "types": ["i"] }],
                 "content": "We are not alone in making this proposal. The Commission on Global Governance writes in Our Global Neighbourhood: “Our recommendation is that the General Assembly should agree to hold a World Conference on Governance in 1998, with its decisions to be ratified and put into effect by 2000.”"
               },
               {
-                "spans": [{ "end": 74, "start": 51, "types": ["i"] }],
+                "spans": [{ "end": 75, "start": 51, "types": ["i"] }],
                 "content": "The Report of the Commission on Global Governance, Our Global Neighbourhood. (New York: Oxford University Press. 1995.) p.351."
               }
             ]
@@ -343,7 +350,7 @@
       {
         "notes": [
           {
-            "position": 1022,
+            "position": 1024,
             "content": [
               {
                 "content": "Bahá’í International Community. Proposals to the United Nations for Charter Revision. May 23, 1955."
@@ -562,7 +569,7 @@
       {
         "notes": [
           {
-            "position": 357,
+            "position": 358,
             "content": [
               {
                 "content": "In a “special contribution” to the 1994 Human Development Report, James Tobin, winner of the 1981 Nobel Prize for Economics, observes that “a permanent single currency” would eliminate much if not all of the turbulence currently associated with the huge amount of currency speculation on world markets today. Observing that such a single world currency is probably a long way off, he proposes as an interim measure an “international uniform tax” on spot transactions in foreign exchange."
@@ -631,7 +638,7 @@
             "position": 166,
             "content": [
               {
-                "spans": [{ "end": 159, "start": 21, "types": ["i"] }],
+                "spans": [{ "end": 161, "start": 21, "types": ["i"] }],
                 "content": "Glenview Foundation, The Stassen Draught Charter for a New United Nations to Emerge from the Original, to Serve World Peace and Progress for the Next Forty Years. (Philadelphia: Glenview Foundation. 1985.)"
               },
               {
@@ -1179,7 +1186,7 @@
       {
         "notes": [
           {
-            "position": 327,
+            "position": 328,
             "content": [
               {
                 "content": "The Golden Rule, the teaching that we should treat others as we ourselves would wish to be treated, is an ethic variously repeated in all the great religions:"
@@ -1343,7 +1350,7 @@
                 "content": " “This cannot be leadership confined within domestic walls. It must reach beyond country, race, religion, culture, language, life‑style. It must embrace a wider human constituency, be infused with a sense of caring for others, a sense of responsibility to the global neighbourhood.”"
               },
               {
-                "spans": [{ "end": 70, "start": 47, "types": ["i"] }],
+                "spans": [{ "end": 71, "start": 47, "types": ["i"] }],
                 "content": "Report of the Commission on Global Governance, Our Global Neighbourhood. (New York: Oxford University Press. 1995.) p.353."
               }
             ]

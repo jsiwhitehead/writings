@@ -1,6 +1,19 @@
 import * as unified from 'unified';
 import * as rehype from 'rehype-parse';
 
+const spellings = require('../spellings.json');
+
+const spellKeys = Object.keys(spellings);
+const capitalize = s => s.charAt(0).toUpperCase() + s.slice(1);
+const correctSpelling = s =>
+  spellKeys.reduce(
+    (res, k) =>
+      res.replace(new RegExp(`\\b${k}\\b`, 'ig'), m =>
+        m[0].toUpperCase() === m[0] ? capitalize(spellings[k]) : spellings[k],
+      ),
+    s,
+  );
+
 const findChild = (node, test) => {
   if (node.type !== 'element') return null;
   for (const c of node.children) {
@@ -60,6 +73,9 @@ export default (text, classes) => {
               content.length - 1
             ].trimLeft();
           }
+          content[content.length - 1] = correctSpelling(
+            content[content.length - 1],
+          );
         }
       } else if (node.type === 'element') {
         if (node.tagName === 'sup' && node.children[0].properties) {

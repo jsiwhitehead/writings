@@ -282,10 +282,10 @@
     "content": [
       {
         "spans": [
-          { "end": 33, "start": 31, "types": ["u"] },
-          { "end": 37, "start": 35, "types": ["u"] },
-          { "end": 76, "start": 74, "types": ["u"] },
-          { "end": 116, "start": 114, "types": ["u"] }
+          { "end": 34, "start": 32, "types": ["u"] },
+          { "end": 38, "start": 36, "types": ["u"] },
+          { "end": 77, "start": 75, "types": ["u"] },
+          { "end": 117, "start": 115, "types": ["u"] }
         ],
         "content": "Question: What is the storey of Shaykh Aḥmad‑i‑Aḥsá’í and Siyyid Káẓim‑i‑Rashtí, the journey of their disciples to Shíráz, and their declaration of allegiance to the Báb, and how did these events unfold?"
       },

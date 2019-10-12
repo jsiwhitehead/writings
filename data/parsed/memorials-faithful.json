@@ -34,8 +34,8 @@
       },
       {
         "spans": [
-          { "end": 260, "start": 258, "types": ["u"] },
-          { "end": 272, "start": 270, "types": ["u"] }
+          { "end": 261, "start": 259, "types": ["u"] },
+          { "end": 273, "start": 271, "types": ["u"] }
         ],
         "content": "One day, on the floor of the outer apartments reserved for the men, the honoured Nabíl was reverently kneeling in the presence of Bahá’u’lláh. At that moment Ḥájí Mírzá Ḥasan‑‘Amú, a trusted associate of the mujtahids of Karbilá, came in with Zaynu’l‑‘Ábidín Khán, the Fakhru’d‑Dawlih. Observing how humbly and deferentially Nabíl was kneeling there, the Ḥají was astonished."
       },
@@ -45,8 +45,8 @@
       },
       {
         "spans": [
-          { "end": 179, "start": 177, "types": ["u"] },
-          { "end": 183, "start": 181, "types": ["u"] }
+          { "end": 180, "start": 178, "types": ["u"] },
+          { "end": 184, "start": 182, "types": ["u"] }
         ],
         "content": "The two visitors could not recover from their surprise, for it was widely known that this personage was unique among mujtahids and was the most favoured disciple of the renowned Shaykh Murtaḍá."
       },
@@ -91,10 +91,10 @@
         "spans": [
           { "end": 23, "start": 21, "types": ["u"] },
           { "end": 35, "start": 33, "types": ["u"] },
-          { "end": 550, "start": 548, "types": ["u"] },
-          { "end": 554, "start": 552, "types": ["u"] },
-          { "end": 616, "start": 614, "types": ["u"] },
-          { "end": 620, "start": 618, "types": ["u"] }
+          { "end": 551, "start": 549, "types": ["u"] },
+          { "end": 555, "start": 553, "types": ["u"] },
+          { "end": 617, "start": 615, "types": ["u"] },
+          { "end": 621, "start": 619, "types": ["u"] }
         ],
         "content": "He left, then, for Bukhárá and ‘Ishqábád, continuously teaching the Faith in those regions. Like a candle, he was using up his life; but in spite of his sufferings he was never dispirited, rather his joy and ardour increased with every passing day. He was eloquent of speech; he was a skilled physician, a remedy for every ill, a balm to every sore. He would guide the Illuminati by their own philosophical principles, and with the mystics he would prove the Divine Advent in terms of “inspiration” and the “celestial vision.” He would convince the Shaykhí leaders by quoting the very words of their late Founders, Shaykh Aḥmad and Siyyid Káẓim, and would convert Islamic theologians with texts from the Qur’án and traditions from the Imáms, who guide mankind aright. Thus he was an instant medicine to the ailing, and a rich bestowal to the poor."
       },
@@ -132,7 +132,7 @@
         "content": "Among the Hands of the Cause of God who have departed this life and ascended to the Supreme Horizon was Jináb‑i‑Ismu’lláhu’l‑Aṣdaq. Another was Jináb‑i‑Nabíl‑i‑Akbar. Still others were Jináb‑i‑Mullá ‘Alí‑Akbar and Jináb‑i‑Shaykh Muḥammad‑Riḍáy‑i‑Yazdí. Again, among others, was the revered martyr, Áqá Mírzá Varqá."
       },
       {
-        "spans": [{ "end": 371, "start": 369, "types": ["u"] }],
+        "spans": [{ "end": 372, "start": 370, "types": ["u"] }],
         "content": "Ismu’lláhu’l‑Aṣdaq was truly a servant of the Lord from the beginning of life till his last breath. When young, he joined the circle of the late Siyyid Káẓim and became one of his disciples. He was known in Persia for his purity of life, winning fame as Mullá Ṣádiq the saintly. He was a blessed individual, a man accomplished, learned, and much honoured. The people of Khurásán were strongly attached to him, for he was a great scholar and among the most renowned of matchless and unique divines. As a teacher of the Faith, he spoke with such eloquence, such extraordinary power, that his hearers were won over with great ease."
       },
       {
@@ -188,11 +188,11 @@
     "content": [
       {
         "notes": [
-          { "position": 1558, "content": [{ "content": "Cf. Qur’án 19:98." }] }
+          { "position": 1559, "content": [{ "content": "Cf. Qur’án 19:98." }] }
         ],
         "spans": [
-          { "end": 423, "start": 421, "types": ["u"] },
-          { "end": 427, "start": 425, "types": ["u"] }
+          { "end": 424, "start": 422, "types": ["u"] },
+          { "end": 428, "start": 426, "types": ["u"] }
         ],
         "content": "Yet another Hand of the Cause was the revered Mullá ‘Alí‑Akbar, upon him be the glory of God, the All‑Glorious. Early in life, this illustrious man attended institutions of higher learning and laboured diligently, by day and night, until he became thoroughly conversant with the learning of the day, with secular studies, philosophy, and religious jurisprudence. He frequented the gatherings of philosophers, mystics, and Shaykhís, thoughtfully traversing those areas of knowledge, intuitive wisdom, and illumination; but he thirsted after the wellspring of truth, and hungered for the bread that comes down from Heaven. No matter how he strove to perfect himself in those regions of the mind, he was never satisfied; he never reached the goal of his desires; his lips stayed parched; he was confused, perplexed, and felt that he had wandered from his path. The reason was that in all those circles he had found no passion; no joy, no ecstasy; no faintest scent of love. And as he went deeper into the core of those manifold beliefs, he discovered that from the day of the Prophet Muḥammad’s advent until our own times, innumerable sects have arisen: creeds differing among themselves; disparate opinions, divergent goals, uncounted roads and ways. And he found each one, under some plea or other, claiming to reveal spiritual truth; each one believing that it alone followed the true path—this although the Muḥammedic sea could rise in one great tide, and carry all those sects away to the ocean floor. “No cry shalt thou hear from them, nor a whisper even.”"
       },
@@ -502,7 +502,7 @@
         "content": "He went away for a time and sojourned in Beirut, where he met the noted scholar, Khájih Findík. This personage warmly praised the erudition of the great Afnán in various circles, affirming that an individual of such wide and diverse learning was rare throughout the East. Later on, the Afnán returned to the Holy Land, settling near the Mansion of Bahjí and directing all his thoughts toward aspects of human culture. Much of the time he would occupy himself with uncovering the secrets of the heavens, contemplating in their detail the movements of the stars. He had a telescope with which he would make his observations every night. He lived a happy life, carefree and light of heart. In the neighbourhood of Bahá’u’lláh his days were blissful, his nights bright as the first morning in spring."
       },
       {
-        "spans": [{ "end": 729, "start": 727, "types": ["u"] }],
+        "spans": [{ "end": 731, "start": 729, "types": ["u"] }],
         "content": "But then came the Beloved’s departure from this world. The Afnán’s peace was shattered, his joy was changed to grief. The Supreme Affliction was upon us, separation consumed us, the once bright days turned black as night, and all those roses of other hours were dust and rubble now. He lived on for a little while, his heart smouldering, his eyes shedding their tears. But he could not bear the longing for his Well‑Beloved, and in a little while his soul gave up this life and fled to the eternal one, passed into the Heaven of abiding reunion and was immersed beneath an ocean of light. Upon him be most great mercy, plenteous bounty, and every blessing, as the ages and cycles roll on. His honoured tomb is in ‘Akká at the Manshíyyih."
       }
     ]
@@ -545,7 +545,7 @@
     "content": [
       {
         "notes": [
-          { "position": 694, "content": [{ "content": "Qur’án 68:4." }] }
+          { "position": 695, "content": [{ "content": "Qur’án 68:4." }] }
         ],
         "content": "Among those who emigrated and were companions in the Most Great Prison was Áqá ‘Abdu’ṣ‑Ṣáliḥ. This excellent soul, a child of early believers, came from Iṣfahán. His noble‑hearted father died, and this child grew up an orphan. There was none to rear or care for him and he was the prey of anyone who chose to do him harm. At last he became adolescent, and older now, sought out his Well‑Beloved. He emigrated to the Most Great Prison and here, at the Riḍván, achieved the honour of being appointed gardener. At this task he was second to none. In his faith, too, he was staunch, loyal, worthy of trust; as to his character, he was an embodiment of the sacred verse, “Of a noble nature art thou.” That is how he won the distinction of being gardener at the Riḍván, and of thus receiving the greatest bounty of all: almost daily, he entered the presence of Bahá’u’lláh."
       },
@@ -733,7 +733,7 @@
         "content": "He entered Bahá’u’lláh’s presence and drank of the red wine of allegiance and homage. He was then given specific orders to travel everywhere, and in every region to raise the call that God was now made manifest: to spread the blissful tidings that the Sun of Truth had risen. He was truly on fire, driven by restive love. With great fervour he would pass through a country, bringing this best of all messages and reviving the hearts. He flamed like a torch in every company, he was the star of every assemblage, to all who came he held out the intoxicating cup. He journeyed as to the beat of drums and at last he reached the ‘Akká fortress."
       },
       {
-        "spans": [{ "end": 344, "start": 342, "types": ["u"] }],
+        "spans": [{ "end": 345, "start": 343, "types": ["u"] }],
         "content": "In those days the restrictions were exceptionally severe. The gates were shut, the roads closed off. Wearing a disguise, Nabíl arrived at the ‘Akká gate. Siyyid Muḥammad and his wretched accomplice immediately hurried to the Governorate and informed against the traveller. “He is a Persian,” they reported. “He is not, as he seems, a man of Bukhárá. He has come here to seek for news of Bahá’u’lláh.” The authorities expelled him at once."
       },
       {
@@ -783,7 +783,7 @@
         "content": "Before that day when he offered himself up, he wrote out the year of his death in the one word: “Drowned.” Then he threw down his life for the Well‑Beloved, and was released from his despair, and no longer shut away."
       },
       {
-        "spans": [{ "end": 700, "start": 693, "types": ["i"] }],
+        "spans": [{ "end": 702, "start": 695, "types": ["i"] }],
         "content": "This distinguished man was erudite, wise, and eloquent of speech. His native genius was pure inspiration, his poetic gift like a crystal stream. In particular his ode “Bahá, Bahá!” was written in sheer ecstasy. Throughout all his life, from earliest youth till he was feeble and old, he spent his time serving and worshipping the Lord. He bore hardships, he lived through misfortunes, he suffered afflictions. From the lips of the Manifestation he heard marvellous things. He was shown the lights of Paradise; he won his dearest wish. And at the end, when the Daystar of the world had set, he could endure no more, and flung himself into the sea. The waters of sacrifice closed over him; he was drowned, and he came, at last, to the Most High."
       },
       {
@@ -797,7 +797,7 @@
       {
         "notes": [
           {
-            "position": 367,
+            "position": 368,
             "content": [{ "content": "Terms used by the Ṣúfís." }]
           }
         ],
@@ -1202,7 +1202,7 @@
     ],
     "content": [
       {
-        "spans": [{ "end": 100, "start": 98, "types": ["u"] }],
+        "spans": [{ "end": 101, "start": 99, "types": ["u"] }],
         "content": "Another of those who left their homeland to become our neighbours and fellow prisoners was ‘Abdu’l‑Ghaffár of Iṣfahán. He was a highly perceptive individual who, on commercial business, had travelled about Asia Minor for many years. He made a journey to Iraq, where Áqá Muḥammad‑‘Alí of Ṣád (Iṣfahán) brought him into the shelter of the Faith. He soon ripped off the bandage of illusions that had blinded his eyes before, and he rose up, winging to salvation in the Heaven of Divine love. With him, the veil had been thin, almost transparent, and that is why, as the first word was imparted, he was immediately released from the world of idle imaginings and attached himself to the One Who is clear to see."
       },
       {
@@ -1277,7 +1277,7 @@
       {
         "spans": [
           { "end": 32, "start": 30, "types": ["u"] },
-          { "end": 217, "start": 215, "types": ["u"] }
+          { "end": 218, "start": 216, "types": ["u"] }
         ],
         "content": "They lived outside ‘Akká in Bágh‑i‑Firdaws, worked as farmers, and spent their days returning thanks to God because once again they had won their way to the neighbourhood of grace and love. But they were natives of Ádhirbáyján, accustomed to the cold, and they could not endure the local heat. Furthermore, this was during our early days in ‘Akká, when the air was noxious, and the water unwholesome in the extreme. They both fell ill of a chronic, high fever. They bore it cheerfully, with amazing patience. During their days of illness, despite the assault of the fever, the violence of their ailment, the raging thirst, the restlessness, they remained inwardly at peace, rejoicing at the Divine glad tidings. And at a time when they were offering thanks with all their heart, they hurried away from this world and entered the other; they escaped from this cage and were released into the garden of immortality. Upon them be the mercy of God, and may He be well pleased with them. Unto them be salutations and praise. May God bring them into the Realm that abides forever, to delight in reunion with Him, to bask in the Kingdom of Splendours. Their two luminous tombs are in ‘Akká."
       }
@@ -1449,7 +1449,7 @@
       },
       {
         "notes": [
-          { "position": 742, "content": [{ "content": "Qur’án 54:55." }] }
+          { "position": 743, "content": [{ "content": "Qur’án 54:55." }] }
         ],
         "content": "These two were firm believers, loyal, patient, at all times thankful, at all times supplicating God in lowliness, with their faces turned in His direction. During that long stay in the prison they were never neglectful of duty, never at fault. They were constantly joyful, for they had drunk deep of the holy cup; and when they soared upward, out of the world, the friends mourned over them and asked that by the grace of Bahá’u’lláh, they should be favoured and forgiven. These two were embosomed in bounty, and Divinely sustained, and the Blessed Beauty was well pleased with them both; with this provision for their journey, they set out for the world to come. Upon them both be the glory of God the All‑Glorious; to each be a seat of truth in the Kingdom of Splendours."
       }
@@ -1487,7 +1487,7 @@
       {
         "notes": [
           {
-            "position": 451,
+            "position": 452,
             "content": [
               {
                 "spans": [
@@ -1498,7 +1498,7 @@
               }
             ]
           },
-          { "position": 715, "content": [{ "content": "Qur’án 89:27–30." }] }
+          { "position": 716, "content": [{ "content": "Qur’án 89:27–30." }] }
         ],
         "content": "Áqá Muḥammad could no longer find rest, for he had come alive through the musk‑laden breathings of God; his heart was alight, he could inhale the holy fragrance, he had an eye to see, an ear to hear. He guided a number of souls, remaining true and loyal to the great Cause. He endured terrible persecution and torment, but did not falter. Then he found favour in the eyes of the King of Martyrs and became a trusted attendant of the Beloved of Martyrs, serving them for some years. He was confirmed in his work, so that on many occasions the King of Martyrs expressed satisfaction with him, saying, “This man is one of those souls who are at rest; he is indeed well‑pleased with his Lord, and well‑pleasing unto Him. His faith is unalloyed, he loves God, he has a good character, and leads a good life. He is also an agreeable companion, and an eloquent one.”"
       },
@@ -1518,7 +1518,7 @@
     ],
     "content": [
       {
-        "spans": [{ "end": 121, "start": 119, "types": ["u"] }],
+        "spans": [{ "end": 122, "start": 120, "types": ["u"] }],
         "content": "Yet another of those who came out of their homeland to live in the neighbourhood of Bahá’u’lláh was Faraju’lláh of Tafrísh. This blessed individual was from earliest youth the servant of Bahá’u’lláh, and with his esteemed father, Áqá Luṭfu’lláh, he emigrated from Persia to Adrianople. Áqá Luṭfu’lláh was a staunch believer, lovingly devoted to the Blessed Beauty. Patient, long‑suffering, completely indifferent to this world and its vanities, he lived content in the neighbourhood of Bahá’u’lláh; and then humbly at the Threshold, with a contrite heart, he abandoned this fleeting life and soared away to the boundless realms beyond. His sweet‑scented dust is in Adrianople."
       },
       {
@@ -1557,7 +1557,7 @@
       },
       {
         "notes": [
-          { "position": 430, "content": [{ "content": "Qur’án 89:27–30." }] }
+          { "position": 429, "content": [{ "content": "Qur’án 89:27–30." }] }
         ],
         "content": "As for Muḥammad‑Ṣádiq, he too, in Mosul, was subjected to hardships on God’s path. He too was a soul at rest, well‑pleased with his Lord and well‑pleasing unto Him. In the end he too replied to the voice of the King of Glory: “Lord, here am I!” and came to fulfil the verses: “O thou soul who art well‑assured, return unto thy Lord, well‑pleased, and well‑pleasing unto Him. Enter thou among My servants; enter Thou My Paradise.”"
       },
@@ -1603,7 +1603,7 @@
       },
       {
         "notes": [
-          { "position": 453, "content": [{ "content": "Qur’án 13:28." }] }
+          { "position": 454, "content": [{ "content": "Qur’án 13:28." }] }
         ],
         "content": "Áqá Muḥammad continued to live out his life, high of aim, unvarying as to his inner condition, with fervour and love. Then he welcomed death, laughing like a rose suddenly full‑blown, and crying, “Here am I!” Thus he quitted Haifa, exchanging it for the world above. From this narrow slip of land he hastened upward to the Well‑Beloved, soared out of this dust heap to pitch his tent in a fair and shining place. Blessings be unto him, and a goodly home. May God sheathe him in mercies; may he rest under the tabernacles of forgiveness and be brought into the gardens of Heaven."
       }
@@ -1742,7 +1742,7 @@
           { "end": 8, "start": 6, "types": ["u"] },
           { "end": 294, "start": 292, "types": ["u"] },
           { "end": 397, "start": 395, "types": ["u"] },
-          { "end": 1137, "start": 1135, "types": ["u"] }
+          { "end": 1138, "start": 1136, "types": ["u"] }
         ],
         "content": "The Ílkhání had been a man of unlimited wealth, but he had wasted it all on the desires of the flesh. He was now destitute, to such a point that he did not even dare to step outside his house, because of the creditors waiting there to fall upon him. Bahá’u’lláh directed him to go to ‘Umar Páshá, the Governor of Damascus, and obtain from him a letter of recommendation to Constantinople. The Ílkhání complied, and he received every assistance from the Governor of Baghdad. After utter despair, he began to hope again, and left for Constantinople. When he arrived at Díyárbakr he penned a letter on behalf of two Armenian merchants. “These two are about to leave for Baghdad,” his letter said. “They have shown me every courtesy, and have also asked me for an introduction. I had no refuge or shelter except Your bounty; thus I beg of You to show them favour.” The superscription, that is, the address he had written on the envelope was: “To His Eminence Bahá’u’lláh, Leader of the Bábís.” The merchants presented this letter to Bahá’u’lláh at the head of the bridge, and when He inquired about it their reply was: “In Díyárbakr, the Ílkhání gave us particulars as to this Cause.” Then they accompanied Him to His house."
       },
@@ -1759,9 +1759,9 @@
     "content": [
       {
         "spans": [
-          { "end": 112, "start": 110, "types": ["u"] },
-          { "end": 172, "start": 170, "types": ["u"] },
-          { "end": 394, "start": 392, "types": ["u"] }
+          { "end": 113, "start": 111, "types": ["u"] },
+          { "end": 173, "start": 171, "types": ["u"] },
+          { "end": 396, "start": 394, "types": ["u"] }
         ],
         "content": "Another of those who left their homes and came to settle in the neighbourhood of Bahá’u’lláh was Ḥájí Muḥammad Khán. This distinguished man, a native of Sístán, was a Balúch. When he was very young, he caught fire and became a mystic—an ‘áríf, or adept. As a wandering dervish, completely selfless, he went out from his home and, following the dervish rule, travelled about in search of his murshid, his perfect leader. For he yearned, as the Qalandar dervishes would say, to discover that “priest of the Magi,” or spiritual guide."
       },
@@ -1798,7 +1798,7 @@
       {
         "spans": [
           { "end": 259, "start": 257, "types": ["u"] },
-          { "end": 531, "start": 529, "types": ["u"] }
+          { "end": 533, "start": 531, "types": ["u"] }
         ],
         "content": "Ḥájí Muḥammad then went to the blissful future martyr, the King of Martyrs, and asked him to intercede, so that he, the Ḥájí, might be allowed to keep watch at the doorway of Bahá’u’lláh. The King of Martyrs sent in this request by letter, after which Ḥájí Khán duly arrived at the Most Great Prison and made his home in the neighbourhood of his loving Friend. He enjoyed this honour for a long time, and later, in the Mazra‘ih garden as well, he was very frequently in Bahá’u’lláh’s presence. After the Beloved had ascended, Ḥájí Khán remained faithful to the Covenant and Testament, shunning the hypocrites. At last, when this servant was absent on the journeys to Europe and America, the Ḥájí made his way to the travellers’ hospice at the Ḥaẓíratu’l‑Quds; and here, beside the Shrine of the Báb, he took his flight to the world above."
       },
@@ -1818,7 +1818,7 @@
         "spans": [
           { "end": 367, "start": 365, "types": ["u"] },
           { "end": 496, "start": 494, "types": ["u"] },
-          { "end": 1011, "start": 1009, "types": ["u"] }
+          { "end": 1012, "start": 1010, "types": ["u"] }
         ],
         "content": "Muḥammad‑Ibráhím Amír came from Nayríz. He was a blessed person; he was like a cup filled with the red wine of faith. At the time when he was first made captive by the tender Loved One, he was in the flower of his youth. Then he fell a prey to the oppressors, and following the upheaval in Nayríz and all the suffering, his persecutors laid hold of him. Three farráshes pinned his arms and tied his hands behind him; but the Amír by main strength burst his bonds, snatched a dagger from a farrásh’s belt, saved himself and ran away to Iraq. There he engaged in writing down the sacred verses and later won the honour of serving at the Holy Threshold. Constant and steadfast, he remained on duty day and night. During the journey from Baghdad to Constantinople, from there to Adrianople, and from there to the Most Great Prison, he was always at hand to serve. He married the handmaid of God, Ḥabíbih, who also served at the Threshold, and his daughter Badí‘ih became the helpmeet of the late Ḥusayn‑Áqá Qahvih‑chí."
       },
@@ -1833,7 +1833,7 @@
       {
         "notes": [
           {
-            "position": 253,
+            "position": 254,
             "content": [
               {
                 "spans": [{ "end": 2, "start": 0, "types": ["u"] }],
@@ -1843,8 +1843,8 @@
           }
         ],
         "spans": [
-          { "end": 44, "start": 42, "types": ["u"] },
-          { "end": 245, "start": 243, "types": ["u"] }
+          { "end": 45, "start": 43, "types": ["u"] },
+          { "end": 246, "start": 244, "types": ["u"] }
         ],
         "content": "This honoured man, Mírzá Mihdí, was from Káshán. In early youth, under his father’s tutelage, he had studied sciences and arts, and had become skilled in composing both prose and verse, as well as in producing calligraphy in the style known as shikastih. He was singled out from his fellows, head and shoulders above the rest. When still a child, he learned of the Lord’s Advent, caught fire with love, and became one of those who “gave their all to purchase Joseph.” He was chief of the yearning seekers, lord of lovers; eloquently, he began to teach the Faith, and to prove the validity of the Manifestation."
       },
@@ -1860,7 +1860,7 @@
               {
                 "spans": [
                   { "end": 9, "start": 7, "types": ["u"] },
-                  { "end": 373, "start": 371, "types": ["u"] }
+                  { "end": 374, "start": 372, "types": ["u"] }
                 ],
                 "content": "Gawhar Khánum’s marriage to Bahá’u’lláh took place in Baghdad. She remained with her brother in that city when Bahá’u’lláh left Iraq and later proceeded to ‘Akká at His instruction. While travelling from Baghdad to Mosul, she was made captive together with other believers, among them Zaynu’l‑Muqarrabín. Bahá’u’lláh makes reference to this captivity in His Tablet to the Sháh."
               },
@@ -1897,7 +1897,7 @@
       {
         "notes": [
           {
-            "position": 77,
+            "position": 78,
             "content": [
               {
                 "spans": [{ "end": 59, "start": 57, "types": ["u"] }],
@@ -1906,7 +1906,7 @@
             ]
           },
           {
-            "position": 118,
+            "position": 119,
             "content": [
               {
                 "spans": [
@@ -1917,15 +1917,15 @@
               }
             ]
           },
-          { "position": 499, "content": [{ "content": "Qur’án 61:4." }] }
+          { "position": 500, "content": [{ "content": "Qur’án 61:4." }] }
         ],
-        "spans": [{ "end": 108, "start": 106, "types": ["u"] }],
+        "spans": [{ "end": 109, "start": 107, "types": ["u"] }],
         "content": "Among the exiles, neighbours, and prisoners there was also a second Mír ‘Imád, the eminent calligrapher, Mishkín‑Qalam. He wielded a musk‑black pen, and his brows shone with faith. He was among the most noted of mystics, and had a witty and subtle mind. The fame of this spiritual wayfarer reached out to every land. He was the leading calligrapher of Persia and well known to all the great; he enjoyed a special position among the court ministers of Ṭihrán, and with them he was solidly established. He was famed throughout Asia Minor; his pen was the wonder of all calligraphers, for he was adept at every calligraphic style. He was besides, for human virtues, a bright star."
       },
       {
         "notes": [
           {
-            "position": 1062,
+            "position": 1063,
             "content": [
               {
                 "content": "In some of this artist’s productions, the writing was so arranged as to take the forms of birds. When E. G. Browne was in Persia, he was told that “these would be eagerly sought after by Persians of all classes, were it not that they all bore, as the signature of the penman, the following verse:"
@@ -1960,7 +1960,7 @@
         "content": "This highly accomplished man first heard of the Cause of God in Iṣfahán, and the result was that he set out to find Bahá’u’lláh. He crossed the great distances, measured out the miles, climbing mountains, passing over deserts and over the sea, until at last he came to Adrianople. Here he reached the heights of faith and assurance; here he drank the wine of certitude. He responded to the summons of God, he attained the presence of Bahá’u’lláh, he ascended to that apogee where he was received and accepted. By now he was reeling to and fro like a drunkard in his love for God, and because of his violent desire and yearning, his mind seemed to wander. He would be raised up, and then cast down again; he was as one distracted. He spent some time under the sheltering grace of Bahá’u’lláh, and every day new blessings were showered upon him. Meanwhile he produced his splendid calligraphs; he would write out the Most Great Name, Yá Bahá’u’l‑Abhá, O Thou Glory of the All‑Glorious, with marvellous skill, in many different forms, and would send them everywhere."
       },
       {
-        "spans": [{ "end": 416, "start": 414, "types": ["u"] }],
+        "spans": [{ "end": 417, "start": 415, "types": ["u"] }],
         "content": "He was then directed to go on a journey to Constantinople, and set out with Jináb‑i‑Sayyáḥ. When he reached that Great City, the leading Persians and Turks received him with every honour at first, and they were captivated by his jet black, calligraphic art. He, however, began boldly and eloquently to teach the Faith. The Persian ambassador lurked in ambush; betaking himself to the Sulṭán’s vazírs he slandered Mishkín‑Qalam. “This man is an agitator,” the ambassador told them, “sent here by Bahá’u’lláh to stir up trouble and make mischief in this Great City. He has already won over a large company, and he intends to subdue still more. These Bahá’ís turned Persia upside down; now they have started in on the capital of Turkey. The Persian Government put 20,000 of them to the sword, hoping by this tactic to quench the fires of sedition. You should awaken to the danger; soon this perverse thing will blaze up here as well. It will consume the harvest of your life; it will burn up the whole world. Then you can do nothing, for it will be too late.”"
       },
       {
@@ -2112,11 +2112,11 @@
       },
       {
         "spans": [
-          { "end": 458, "start": 456, "types": ["u"] },
-          { "end": 881, "start": 879, "types": ["u"] },
-          { "end": 933, "start": 931, "types": ["u"] },
-          { "end": 963, "start": 961, "types": ["u"] },
-          { "end": 1056, "start": 1054, "types": ["u"] }
+          { "end": 459, "start": 457, "types": ["u"] },
+          { "end": 882, "start": 880, "types": ["u"] },
+          { "end": 934, "start": 932, "types": ["u"] },
+          { "end": 964, "start": 962, "types": ["u"] },
+          { "end": 1057, "start": 1055, "types": ["u"] }
         ],
         "content": "There was a notable in Baghdad by the name of Ḥájí Mírzá Hádí, the jeweller. He had a distinguished son, Áqá Mírzá Músá, who had received from Bahá’u’lláh the title “Letter of Eternity.” This son had become a staunch believer. As for his father, the Ḥájí, he was a princely individual known for his lavish openhandedness not only in Persia and Iraq but as far away as India. To begin with he had been a Persian vazír; but when he saw how the late Fatḥ‑‘Alí Sháh eyed worldly riches, particularly the worldly riches of Persian vazírs, and how he snatched whatever they had accumulated, and how, not content with confiscating their costly vanities and lumber, he punished and tortured them right and left, calling it a legal penalty—the Ḥájí dreaded that he too might be catapulted into the abyss. He abandoned his position as vazír, and his mansion, and fled to Baghdad. Fatḥ‑‘Alí Sháh demanded that the Governor of Baghdad, Dávúd Páshá, send him back, but the Páshá was a man of courage and the Ḥájí was widely known for his able mind. Accordingly, the Páshá respected and helped him and the Ḥájí set up in business as a jeweller. He lived with pomp and splendour, like a great prince. He was one of the most remarkable men of his time, for within his palace he carried on a life of gratification and opulence, but he left his pomp, style and retinue behind, occupied himself with his business affairs and realised great profits."
       },
@@ -2164,7 +2164,7 @@
       {
         "notes": [
           {
-            "position": 837,
+            "position": 838,
             "content": [
               {
                 "content": "This was in accord with the law of Islám. Cf. Qur’án 4:12."
@@ -2267,7 +2267,7 @@
         "content": "Yet another of the emigrants and settlers was the valiant Jamshíd‑i‑Gurjí, who came from Georgia, but grew up in the city of Káshán. He was a fine youth, faithful, trustworthy, with a high sense of honour. When he heard of a new Faith dawning, and awoke to the tidings that on Persia’s horizons the Sun of Truth had risen, he was filled with holy ecstasy, and he longed and loved. The new fire burned away those veils of uncertainty and doubt that had closed him round; the light of Truth shed down its rays, the lamp of guidance burned before him."
       },
       {
-        "spans": [{ "end": 369, "start": 367, "types": ["u"] }],
+        "spans": [{ "end": 371, "start": 369, "types": ["u"] }],
         "content": "He remained in Persia for a time, then left for Rumelia, which was Ottoman territory, and in the Land of Mystery, Adrianople, won the honour of entering the presence of Bahá’u’lláh; it was there that his meeting took place. His joy and fervour were boundless. Later, at Bahá’u’lláh’s command he made a journey to Constantinople, with Áqá Muḥammad‑Báqir and Áqá ‘Abdu’l‑Ghaffár. In that city, the tyrannous imprisoned him and put him in chains."
       },
       {
@@ -2287,8 +2287,8 @@
       },
       {
         "notes": [
-          { "position": 419, "content": [{ "content": "Qur’án 89:27." }] },
-          { "position": 653, "content": [{ "content": "Qur’án 4:71." }] }
+          { "position": 420, "content": [{ "content": "Qur’án 89:27." }] },
+          { "position": 655, "content": [{ "content": "Qur’án 4:71." }] }
         ],
         "spans": [{ "end": 5, "start": 3, "types": ["u"] }],
         "content": "Jamshíd spent some time in utter bliss, receiving the grace and favour of Bahá’u’lláh and ever and again being admitted to His presence. He was tranquil and at peace. The believers were well‑pleased with him, and he was well‑pleased with God. It was in this condition that he hearkened to the celestial bidding: “O thou soul who art well‑assured, return unto thy Lord, well‑pleased with Him, and well‑pleasing unto Him.” And to God’s cry: “Return!” he replied, “Yea, verily!” He rose out of the Most Great Prison to the highest Heaven; he soared away to a pure and gleaming Kingdom, out of this world of dust. May God succour him in the celestial company, bring him into the Paradise of Splendours, and safe in the Divine gardens, make him to live forevermore."
@@ -2344,7 +2344,7 @@
       },
       {
         "notes": [
-          { "position": 136, "content": [{ "content": "Qur’án 89:27–30." }] }
+          { "position": 137, "content": [{ "content": "Qur’án 89:27–30." }] }
         ],
         "content": "This, then, is the life storey of those three brothers. All three were souls well‑assured; all three were pleased, and pleasing unto God. They were flames; they were captives of the Faith; they were pure and holy. And therefore, cut off from the world, turning their faces toward the Most High Kingdom, they ascended. May God wrap them in the garment of His grace in the realm of forgiveness, and immerse them in the waters of His mercy forever and ever. Greetings be unto them, and praise."
       }
@@ -2520,7 +2520,7 @@
         "content": "In Ádhirbáyján the Turkish clerics had brought down Áqá Siyyid Asadu’lláh, hunted him down in Ardabíl and plotted to shed his blood; but the Governor, by a ruse, managed to save him from being physically beaten and then murdered: he sent the victim to Tabríz in chains, and from there had him conducted to Ṭihrán. Amínu’s‑Sulṭán came to the prisoner’s assistance and, in his own office, provided Asadu’lláh with a sanctuary. One day when the Prime Minister was ill, Náṣiri’d‑Dín Sháh arrived to visit him. The Minister then explained the situation, and lavished praise upon his captive; so much so that the Sháh, as he left, showed great kindness to Asadu’lláh, and spoke words of consolation. This, when at an earlier time, the captive would have been strung up at once to adorn some gallows‑tree, and shot down with a gun."
       },
       {
-        "spans": [{ "end": 157, "start": 155, "types": ["u"] }],
+        "spans": [{ "end": 158, "start": 156, "types": ["u"] }],
         "content": "After a time Amínu’s‑Sulṭán lost the Sovereign’s favour. Hated, in disgrace, he was banished to the city of Qum. Thereupon this servant dispatched Sulaymán Khán to Persia, carrying a prayer and a missive written by me. The prayer besought God’s aid and bounty and succour for the fallen Minister, so that he might, from that corner of oblivion, be recalled to favour. In the letter we clearly stated: “Prepare to return to Ṭihrán. Soon will God’s help arrive; the light of grace will shine on you again; with full authority again, you will find yourself free, and Prime Minister. This is your reward for the efforts you exerted on behalf of a man who was oppressed.” That letter and that prayer are today in the possession of the family of Amínu’s‑Sulṭán."
       },
       {
@@ -2696,8 +2696,8 @@
         "spans": [
           { "end": 35, "start": 0, "types": ["l"] },
           { "end": 69, "start": 36, "types": ["l"] },
-          { "end": 99, "start": 70, "types": ["l"] },
-          { "end": 132, "start": 100, "types": ["l"] }
+          { "end": 100, "start": 70, "types": ["l"] },
+          { "end": 133, "start": 101, "types": ["l"] }
         ],
         "content": "To our King though we bow the knee, We are kings of the morning star. No changeable colours have we— Red lions, black dragons we are!"
       },
@@ -2736,10 +2736,10 @@
       {
         "spans": [
           { "end": 30, "start": 28, "types": ["u"] },
-          { "end": 259, "start": 257, "types": ["u"] },
-          { "end": 263, "start": 261, "types": ["u"] },
-          { "end": 274, "start": 272, "types": ["u"] },
-          { "end": 294, "start": 292, "types": ["u"] }
+          { "end": 260, "start": 258, "types": ["u"] },
+          { "end": 264, "start": 262, "types": ["u"] },
+          { "end": 275, "start": 273, "types": ["u"] },
+          { "end": 295, "start": 293, "types": ["u"] }
         ],
         "content": "When Mírzá Muṣṭafá reached Ádhirbáyján, he began to spread the Faith. Day and night he remained in a state of prayer, and there in Tabríz he drank of a brimming cup. His fervour increased, his teaching raised a tumult. Then the eminent scholar, the renowned Shaykh Aḥmad‑i‑Khurásání, came to Ádhirbáyján and the two of them joined forces. The result was such overwhelming spiritual fire that they taught the Faith openly and publicly and the people of Tabríz rose up in wrath."
       },
@@ -2763,7 +2763,7 @@
       },
       {
         "notes": [
-          { "position": 335, "content": [{ "content": "Cf. Qur’án 13:28." }] }
+          { "position": 336, "content": [{ "content": "Cf. Qur’án 13:28." }] }
         ],
         "content": "From youth till old age, this illustrious man, Mírzá Muṣṭafá, devoted his entire life to service on the pathway of God. Today he dwells in the all‑glorious Realm, in the neighbourhood of the ineffable mercy of God, and he rejoices with exceeding gladness, and he celebrates the praise of his Lord. Blessedness be his, and a goodly home. To him be tidings of great joy, from the Lord of Lords. May God grant him an exalted station, in that high Company."
       }
@@ -2941,7 +2941,7 @@
         "content": "Then he took a little merchandise with him from Adrianople, and left for the city of Jum‘ih‑Bázár, to earn his livelihood. What he had with him was trifling, but still, it was carried off by thieves. When the Persian Consul learned of this he presented a document to the Government, naming an enormous sum as the value of the stolen goods. By chance the thieves were caught and proved to be in possession of considerable funds. It was decided to investigate the case. The Consul called in Ḥájí ‘Alí‑‘Askar and told him: “These thieves are very rich. In my report to the Government, I wrote that the amount of the theft was great. Therefore you must attend the trial and testify conformably to what I wrote.”"
       },
       {
-        "spans": [{ "end": 33, "start": 31, "types": ["u"] }],
+        "spans": [{ "end": 34, "start": 32, "types": ["u"] }],
         "content": "The Ḥájí replied: “Your Honour, Khán, the stolen goods amounted to very little. How can I report something that is not true? When they question me, I will give the facts exactly as they are. I consider this my duty, and only this.”"
       },
       {
@@ -3033,9 +3033,9 @@
       },
       {
         "spans": [
-          { "end": 425, "start": 423, "types": ["u"] },
-          { "end": 537, "start": 535, "types": ["u"] },
-          { "end": 547, "start": 545, "types": ["u"] }
+          { "end": 426, "start": 424, "types": ["u"] },
+          { "end": 538, "start": 536, "types": ["u"] },
+          { "end": 548, "start": 546, "types": ["u"] }
         ],
         "content": "Pahlaván Riḍá—God’s mercy and blessings and splendours be upon him; praise and salutations be unto him—was a man to outward seeming untutored, devoid of learning. He was a tradesman, and like the others who came in at the start, he cast everything away out of love for God, attaining in one leap the highest reaches of knowledge. He is of those from the earlier time. So eloquent did he suddenly become that the people of Káshán were astounded. For example this man, to all appearances unschooled, betook himself to Ḥájí Muḥammad‑Karím Khán in Káshán and propounded this question:"
       },
@@ -3239,7 +3239,7 @@
       },
       {
         "notes": [
-          { "position": 723, "content": [{ "content": "Qur’án 76:5." }] }
+          { "position": 725, "content": [{ "content": "Qur’án 76:5." }] }
         ],
         "content": "Then the ignoble and the ignorant amongst Thy creatures rose against him, and with tyranny and malice they pronounced his death; and void of justice, with harsh oppression, they shed his immaculate blood. Under the glittering sword that noble personage cried out to Thee: “Praised be Thou, O my God, that on the Promised Day, Thou hast helped me to attain this manifest grace; that Thou hast reddened the dust with my blood, spilled out upon Thy path, so that it puts forth crimson flowers. Favour and grace are Thine, to grant me this gift which in all the world I longed for most. Thanks be unto Thee that Thou didst succour me and confirm me and didst give me to drink of this cup that was tempered at the camphor fountain—on the Day of Manifestation, at the hands of the cupbearer of martyrdom, in the assemblage of delights. Thou art verily the One full of grace, the Generous, the Bestower.”"
       },
@@ -3340,7 +3340,7 @@
       {
         "notes": [
           {
-            "position": 893,
+            "position": 894,
             "content": [
               {
                 "content": "Persian women of the day went heavily veiled in public."
@@ -3349,10 +3349,10 @@
           }
         ],
         "spans": [
-          { "end": 407, "start": 405, "types": ["u"] },
-          { "end": 438, "start": 436, "types": ["u"] },
-          { "end": 909, "start": 907, "types": ["u"] },
-          { "end": 1071, "start": 1069, "types": ["u"] }
+          { "end": 408, "start": 406, "types": ["u"] },
+          { "end": 439, "start": 437, "types": ["u"] },
+          { "end": 910, "start": 908, "types": ["u"] },
+          { "end": 1072, "start": 1070, "types": ["u"] }
         ],
         "content": "As Ṭáhirih became celebrated throughout Karbilá, and the Cause of His Supreme Holiness, the Báb, spread all over Persia, the latter‑day ‘ulamás arose to deny, to heap scorn upon, and to destroy it. They issued a fatvá or judgement that called for a general massacre. Ṭáhirih was one of those designated by the evil ‘ulamás of the city as an unbeliever, and they mistakenly thought her to be in the home of Shamsu’ḍ‑Ḍuḥá. They broke into Shams’s house, hemmed her in, abused and vilified her, and inflicted grievous bodily harm. They dragged her out of the house and through the streets to the bázár; they beat her with clubs; they stoned her, they denounced her in foul language, repeatedly assaulting her. While this was going on, Ḥájí Siyyid Mihdí, the father of her distinguished husband, reached the scene. “This woman is not Ṭáhirih!” he shouted at them. But he had no witness to prove it, and the farráshes, the police and the mob would not let up. Then, through the uproar, a voice screamed out: “They have arrested Qurratu’l‑‘Ayn!” At this, the people abandoned Shamsu’ḍ‑Ḍuḥá."
       },
@@ -3382,14 +3382,14 @@
       },
       {
         "spans": [
-          { "end": 385, "start": 383, "types": ["u"] },
-          { "end": 389, "start": 387, "types": ["u"] },
-          { "end": 403, "start": 401, "types": ["u"] },
-          { "end": 413, "start": 411, "types": ["u"] },
-          { "end": 417, "start": 415, "types": ["u"] },
-          { "end": 555, "start": 553, "types": ["u"] },
-          { "end": 715, "start": 713, "types": ["u"] },
-          { "end": 719, "start": 717, "types": ["u"] }
+          { "end": 386, "start": 384, "types": ["u"] },
+          { "end": 390, "start": 388, "types": ["u"] },
+          { "end": 404, "start": 402, "types": ["u"] },
+          { "end": 414, "start": 412, "types": ["u"] },
+          { "end": 418, "start": 416, "types": ["u"] },
+          { "end": 556, "start": 554, "types": ["u"] },
+          { "end": 716, "start": 714, "types": ["u"] },
+          { "end": 720, "start": 718, "types": ["u"] }
         ],
         "content": "One day the Muftí’s father came in and belaboured them violently and at length. This somewhat discomfited the Muftí and he began to apologise for his father. Then he said: “Your answer has arrived from Constantinople. The Sovereign has set you free, but on condition that you quit his realms.” The next morning they left the Muftí’s house and proceeded to the public baths. Meanwhile Shaykh Muḥammad‑i‑Shibl and Shaykh Sulṭán‑i‑‘Arab made the necessary preparations for their journey, and when three days had passed, they left Baghdad; that is, Ṭáhirih, Shamsu’ḍ‑Ḍuḥá, the Leaf of Paradise, the mother of Mírzá Hádí, and a number of Siyyids from Yazd set out for Persia. Their travel expenses were all provided by Shaykh Muḥammad."
       },
@@ -3400,7 +3400,7 @@
       {
         "notes": [
           {
-            "position": 580,
+            "position": 583,
             "content": [
               {
                 "spans": [{ "end": 28, "start": 11, "types": ["i"] }],
@@ -3414,9 +3414,9 @@
       },
       {
         "spans": [
-          { "end": 442, "start": 440, "types": ["u"] },
-          { "end": 539, "start": 537, "types": ["u"] },
-          { "end": 657, "start": 655, "types": ["u"] }
+          { "end": 443, "start": 441, "types": ["u"] },
+          { "end": 540, "start": 538, "types": ["u"] },
+          { "end": 658, "start": 656, "types": ["u"] }
         ],
         "content": "As they journeyed, some horsemen, kinsfolk of Ṭáhirih’s, that is, her brothers, approached. “We have come,” they said, “at our father’s command, to lead her away, alone.” But Ṭáhirih refused, and accordingly the whole party remained together until they arrived in Qazvín. Here, Ṭáhirih went to her father’s house and the friends, those who had ridden and those who had travelled on foot, put up at a caravanserai. Mírzá Hádí, the husband of Shamsu’ḍ‑Ḍuḥá, had gone to Máh‑Kú, seeking out the Báb. On his return, he awaited the arrival of Shams in Qazvín, after which the couple left for Iṣfahán, and when they reached there, Mírzá Hádí journeyed on to Badasht. In that hamlet and its vicinity he was attacked, tormented, even stoned, and was subjected to such ordeals that finally, in a ruined caravanserai, he died. His brother, Mírzá Muḥammad‑‘Alí, buried him there, along the roadside."
       },
@@ -3427,7 +3427,7 @@
       {
         "notes": [
           {
-            "position": 511,
+            "position": 512,
             "content": [
               {
                 "content": "The reference is to Muḥammad’s daughter, Fáṭimih, “the bright and fair of face, the Lady of Light.”"
@@ -3480,8 +3480,8 @@
       {
         "spans": [
           { "end": 99, "start": 97, "types": ["u"] },
-          { "end": 417, "start": 415, "types": ["u"] },
-          { "end": 449, "start": 447, "types": ["u"] }
+          { "end": 418, "start": 416, "types": ["u"] },
+          { "end": 450, "start": 448, "types": ["u"] }
         ],
         "content": "Since the brother was greatly respected and trusted by high and low alike, the Governor released Shamsu’ḍ‑Ḍuḥá in his custody, letting her go. She lived for a while in his house, crying out, grieving, shedding her tears, mourning her dead. Neither was the brother at peace, nor would the hostile leave them alone; there was some new turmoil every day, and public clamour. The brother finally thought it best to take Shams away on a pilgrimage to Mashhad, hoping that the fire of civil disturbances would die down."
       },
@@ -3518,7 +3518,7 @@
       {
         "spans": [
           { "end": 2, "start": 0, "types": ["u"] },
-          { "end": 473, "start": 471, "types": ["u"] }
+          { "end": 474, "start": 472, "types": ["u"] }
         ],
         "content": "Shamsu’ḍ‑Ḍuḥá was thus back in Iṣfahán, boldly teaching the Faith and spreading abroad the sweet savours of God. So vehement was the fiery love in her heart that it compelled her to speak out, whenever she found a listening ear. And when it was observed that once again the household of the King of Martyrs was about to be overtaken by calamities, and that they were enduring severe afflictions there in Iṣfahán, Bahá’u’lláh desired them to come to the Most Great Prison. Shamsu’ḍ‑Ḍuḥá, with the widow of the King of Martyrs and the children, arrived in the Holy Land. Here they were joyously spending their days when the son of the King of Martyrs, Mírzá ‘Abdu’l‑Ḥusayn, as a result of the awful suffering he had been subjected to in Iṣfahán, came down with tuberculosis and died in ‘Akká."
       },
@@ -3593,10 +3593,10 @@
       {
         "notes": [
           {
-            "position": 238,
+            "position": 239,
             "content": [{ "content": "Qur’án 17:1; 30:56; 50:19; etc." }]
           },
-          { "position": 410, "content": [{ "content": "The sixth Imám." }] }
+          { "position": 411, "content": [{ "content": "The sixth Imám." }] }
         ],
         "content": "For some time, she carried on heated discussions with her father, debating such questions as the Resurrection and the Day of Judgement, the Night‑Ascent of Muḥammad to Heaven, the Promise and the Threat, and the Advent of the Promised One. Lacking arguments, her father would resort to curses and abuse. Then one night, in support of her contention, Ṭáhirih quoted a holy tradition from the Imám Ja‘far‑i‑Ṣádiq; and since it confirmed what she was saying, her father burst out laughing, mocking the tradition. Ṭáhirih said, “Oh my father, these are the words of the Holy Imám. How can you mock and deny them?”"
       },
@@ -3708,7 +3708,7 @@
       {
         "notes": [
           {
-            "position": 540,
+            "position": 541,
             "content": [
               {
                 "spans": [
