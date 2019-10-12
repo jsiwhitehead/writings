@@ -7,11 +7,19 @@ import * as fs from 'fs-extra';
   await Promise.all(
     files.map(async f => {
       const config = require(`./books/${f}`).config;
-      const html = await (await fetch(config.url)).text();
-      await fs.writeFile(
-        `./data/downloaded/${f}.html`,
-        (config.replace || []).reduce((res, [a, b]) => res.replace(a, b), html),
-      );
+      if (config.url.endsWith('.pdf')) {
+        const pdf = await (await fetch(config.url)).arrayBuffer();
+        await fs.writeFile(`./data/downloaded/${f}.pdf`, Buffer.from(pdf));
+      } else {
+        const html = await (await fetch(config.url)).text();
+        await fs.writeFile(
+          `./data/downloaded/${f}.html`,
+          (config.replace || []).reduce(
+            (res, [a, b]) => res.replace(a, b),
+            html,
+          ),
+        );
+      }
     }),
   );
 })();

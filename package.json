@@ -2,11 +2,16 @@
   "name": "writings",
   "version": "1.0.0",
   "scripts": {
+    "prettier": "prettier --write \"src/**/*.{ts,json}\"",
     "d": "rimraf data/downloaded && ts-node src/download",
     "p": "rimraf data/parsed && ts-node src/parse && prettier --write \"data/parsed/**/*.json\"",
     "e": "rimraf data/extracted && rimraf data/extracted.json && ts-node src/extract && prettier --write \"data/extracted**/*.json\" && prettier --write \"data/extracted.json\"",
     "c": "rimraf data/data.json && ts-node src/clean && prettier --write \"data/data.json\"",
-    "x": "prettier --write \"src/spellings.json\""
+    "x": "ts-node src/pdf"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
   },
   "devDependencies": {
     "@types/node": "^12.7.12",
@@ -14,6 +19,7 @@
     "js-levenshtein": "^1.1.6",
     "moment": "^2.24.0",
     "node-fetch": "^2.6.0",
+    "pdf2json": "^1.1.8",
     "prettier": "^1.18.2",
     "rehype-parse": "^6.0.1",
     "rimraf": "^3.0.0",
