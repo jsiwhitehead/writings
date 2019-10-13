@@ -4,13 +4,9 @@ export const config = {
   url:
     'https://www.bahai.org/library/other-literature/official-statements-commentaries/turning-point-all-nations/turning-point-all-nations.xhtml',
   start:
-    '“Unification of the whole of mankind is the hall‑mark of the stage which human society is now approaching. Unity of family, of tribe, of city‑state, and nation have been successively attempted and fully established. World unity is the goal towards which a harassed humanity is striving. Nation‑building has come to an end. The anarchy inherent in state sovereignty is moving towards a climax. A world, growing to maturity, must abandon this fetish, recognize the oneness and wholeness of human relationships, and establish once for all the machinery that can best incarnate this fundamental principle of its life.”',
+    'A Statement of the Bahá’í International Community on the Occasion of the 50th Anniversary of the United Nations',
   end:
     'This document has been downloaded from the . You are free to use its content subject to the terms of use found at',
-  classes: {
-    'brl-bold': { i: true },
-    'brl-head': {},
-  },
 };
 
 export default data => {

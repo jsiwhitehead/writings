@@ -5,19 +5,22 @@
     "type": "Preface",
     "content": [
       {
-        "content": "A statement prepared by the Bahá'í International Community United Nations Office, New York"
-      },
-      { "content": "Turning Point for All Nations" },
-      {
         "content": "A Statement of the Bahá’í International Community on the Occasion of the 50th Anniversary of the United Nations"
       },
       {
         "block": true,
         "i": true,
         "content": "“Unification of the whole of mankind is the hall‑mark of the stage which human society is now approaching. Unity of family, of tribe, of city‑state, and nation have been successively attempted and fully established. World unity is the goal towards which a harassed humanity is striving. Nation‑building has come to an end. The anarchy inherent in state sovereignty is moving towards a climax. A world, growing to maturity, must abandon this fetish, recognise the oneness and wholeness of human relationships, and establish once for all the machinery that can best incarnate this fundamental principle of its life.”"
-      },
-      { "block": true, "r": true, "content": "Shoghi Effendi, 1936" },
-      { "i": true, "content": "I. Overview: An Opportunity for Reflection" },
+      }
+    ]
+  },
+  {
+    "author": "The Universal House of Justice",
+    "name": { "content": "Turning Point for All Nations" },
+    "part": [1],
+    "section": "Overview: An Opportunity for Reflection",
+    "type": "Writings",
+    "content": [
       {
         "content": "The 20th Century, one of the most tumultuous periods in human history, has been marked by numerous upheavals, revolutions and radical departures from the past. Ranging from the collapse of the colonial system and the great nineteenth century empires to the rise and fall of broad and disastrous experiments with totalitarianism, fascism and communism, some of these upheavals have been extremely destructive, involving the deaths of millions, the eradication of old lifestyles and traditions, and the collapse of time‑honoured institutions."
       },
@@ -209,16 +212,19 @@
       },
       {
         "content": "Second, since the body of humankind is one and indivisible, each member of the human race is born into the world as a trust of the whole. This relationship between the individual and the collective constitutes the moral foundation of most of the human rights which the instruments of the United Nations are attempting to define. It also serves to define an overriding purpose for the international order in establishing and preserving the rights of the individual."
+      },
+      {
+        "content": "Third, the discussions about the future of the international order must involve and excite the generality of humankind. This discussion is so important that it cannot be confined to leaders—be they in government, business, the academic community, religion, or organisations of civil society. On the contrary, this conversation must engage women and men at the grassroots level. Broad participation will make the process self‑reinforcing by raising awareness of world citizenship and increase support for an expanded international order."
       }
     ]
   },
   {
-    "author": "Shoghi Effendi",
+    "author": "The Universal House of Justice",
     "name": { "content": "Turning Point for All Nations" },
-    "type": "Preface",
+    "part": [2],
+    "section": "Recognising the Historical Context: A Call to World Leaders",
+    "type": "Writings",
     "content": [
-      { "i": true, "content": "II. Recognising the Historical Context:" },
-      { "i": true, "content": "A Call to World Leaders" },
       {
         "content": "The Bahá’í International Community regards the current world confusion and the calamitous condition of human affairs as a natural phase in an organic process leading ultimately and irresistibly to the unification of the human race in a single social order whose boundaries are those of the planet."
       },
@@ -359,18 +365,19 @@
           }
         ],
         "content": "In 1955, during the first decade review of the UN charter, the Bahá’í International Community offered a statement to the United Nations, based on ideas articulated nearly a century before by Bahá’u’lláh. “The Bahá’í concept of world order is defined in these terms: A world Super‑State in whose favour all the nations of the world will have ceded every claim to make war, certain rights to impose taxation and all rights to maintain armaments, except for the purposes of maintaining internal order within their respective dominions. This State will have to include an International Executive adequate to enforce supreme and unchallengeable authority on every recalcitrant member of the Commonwealth; a World Parliament whose members are elected by the peoples in their respective countries and whose election is confirmed by their respective governments; a Supreme Tribunal whose judgement has a binding effect even in cases where the parties concerned have not voluntarily agreed to submit their case to its consideration.”"
+      },
+      {
+        "content": "While we believe this formulation of a world government is at once the ultimate safeguard and the inevitable destiny of humankind, we do recognise that it represents a long‑term picture of a global society. Given the pressing nature of the current state of affairs, the world requires bold, practical and actionable strategies that go beyond inspiring visions of the future. Nevertheless, by focusing on a compelling concept, a clear and consistent direction for evolutionary change emerges from the mire of contradictory views and doctrines."
       }
     ]
   },
   {
-    "author": "Shoghi Effendi",
+    "author": "The Universal House of Justice",
     "name": { "content": "Turning Point for All Nations" },
-    "type": "Preface",
+    "part": [3],
+    "section": "Defining a Role for the UN Within the Emerging International Order",
+    "type": "Writings",
     "content": [
-      {
-        "i": true,
-        "content": "III. Defining a Role for the UN Within the Emerging International Order"
-      },
       {
         "content": "The United Nations was the centrepiece of the international system created by the victors of World War II and, during the long decades of ideological conflict between the East and the West, it served as a forum for international dialogue. Over the years, its activities have expanded to include not only international standard‑setting and promotion of social and economic development but also peacekeeping operations on several continents."
       },
@@ -408,8 +415,16 @@
           }
         ],
         "content": "We believe the combination of recommendations described herein meets these conditions and that their adoption would represent a measured but significant step toward building a more just world order."
-      },
-      { "i": true, "content": "A. Resuscitating the General Assembly" },
+      }
+    ]
+  },
+  {
+    "author": "The Universal House of Justice",
+    "name": { "content": "Turning Point for All Nations" },
+    "part": [3, 1],
+    "section": "Resuscitating the General Assembly",
+    "type": "Writings",
+    "content": [
       {
         "content": "The foundation for any system of governance is the rule of law and the primary institution for promulgating law is the legislature. While the authority of local and national legislatures is generally respected, regional and international legislative bodies have been the subject of fear and suspicion."
       },
@@ -451,7 +466,7 @@
         "content": "Nevertheless, in the short term, five practical measures are possible to strengthen the General Assembly, enhance its reputation and align it with a longer term direction."
       },
       {
-        "i": true,
+        "header": 3,
         "content": "1. Raising minimum requirements for membership"
       },
       {
@@ -464,7 +479,7 @@
         "content": "We propose that there should be consequences for member states that violate these standards. Similarly, nations seeking recognition should be denied membership until they openly espouse these standards or make recognisable efforts to move in that direction."
       },
       {
-        "i": true,
+        "header": 3,
         "content": "2. Appointing a commission to study borders and frontiers"
       },
       {
@@ -490,7 +505,7 @@
       {
         "content": "In order to establish a genuine community of nations in the long run, it will be necessary to settle finally all disputes over borders. This research would serve that end."
       },
-      { "i": true, "content": "3. Searching for new financial arrangements" },
+      { "header": 3, "content": "3. Searching for new financial arrangements" },
       {
         "content": "Primarily triggered by the unwillingness of some member states to remit their general assessments on time, compounded by the absence of authority to collect any interest accrued because of that delay, and further aggravated by the bureaucratic inefficiencies in parts of its operations, the annual budget shortfall pressures the UN into a crisis management mentality."
       },
@@ -516,7 +531,7 @@
         "content": "In studying alternatives, the Task Force should be mindful of several fundamental principles. First, there should be no assessments without representation. Second, in the interest of fairness and justice, assessments should be graduated. Third, mechanisms for encouraging voluntary contributions by individuals and communities should not be overlooked."
       },
       {
-        "i": true,
+        "header": 3,
         "content": "4. Making a commitment to a universal auxiliary language and a common script"
       },
       {
@@ -563,7 +578,7 @@
         "content": "This proposal should be read narrowly. It does not in any way envision the decline of any living language or culture."
       },
       {
-        "i": true,
+        "header": 3,
         "content": "5. Investigating the possibility of a single international currency"
       },
       {
@@ -585,8 +600,16 @@
       },
       {
         "content": "The possibility of savings will not lead to action unless there is an overwhelming body of evidence addressing the relevant concerns and doubts of sceptics, accompanied by a credible implementation plan. We propose the appointment of a Commission consisting of the most accomplished government leaders, academics and professionals to begin immediate exploration into the economic benefits and the political costs of a single currency and to hypothesise about an effective implementation approach."
-      },
-      { "i": true, "content": "B. Developing a Meaningful Executive Function" },
+      }
+    ]
+  },
+  {
+    "author": "The Universal House of Justice",
+    "name": { "content": "Turning Point for All Nations" },
+    "part": [3, 2],
+    "section": "Developing a Meaningful Executive Function",
+    "type": "Writings",
+    "content": [
       {
         "notes": [
           {
@@ -610,7 +633,7 @@
       {
         "content": "In the short term, four practical measures are possible to strengthen the executive function within the United Nations."
       },
-      { "i": true, "content": "1. Limiting the exercise of the veto power" },
+      { "header": 3, "content": "1. Limiting the exercise of the veto power" },
       {
         "notes": [
           {
@@ -629,7 +652,7 @@
         "content": "In its 1955 submission on UN reform, the Bahá’í International Community argued for the gradual elimination of the concepts of “permanent membership” and “veto power” as confidence in the Security Council would build. Today, forty years later, we reaffirm that position. However, we also propose that, as a transitionary step, measures be introduced to curb the exercise of the veto power to reflect the original intention of the Charter."
       },
       {
-        "i": true,
+        "header": 3,
         "content": "2. Institutionalising ad hoc military arrangements"
       },
       {
@@ -682,7 +705,7 @@
         "content": "As an immediate step toward the establishment of this Force, the present system of ad hoc arrangements could be institutionalised to establish core regional forces for rapid deployment during a crisis."
       },
       {
-        "i": true,
+        "header": 3,
         "content": "3. Applying the notion of collective security to other problems of the global commons"
       },
       {
@@ -702,7 +725,7 @@
         "content": "We believe this issue would have to be included on the agenda of the proposed Global Summit. However, it is unlikely that expansive formulations of collective security would preclude the fundamental cause of military aggression."
       },
       {
-        "i": true,
+        "header": 3,
         "content": "4. Retaining successful UN institutions with independent executive function"
       },
       {
@@ -721,8 +744,16 @@
           }
         ],
         "content": "Generally, these organisations already have their own executive function. Their independence should be retained and reinforced as part of the international executive."
-      },
-      { "i": true, "content": "C. A Strengthened World Court" },
+      }
+    ]
+  },
+  {
+    "author": "The Universal House of Justice",
+    "name": { "content": "Turning Point for All Nations" },
+    "part": [3, 3],
+    "section": "A Strengthened World Court",
+    "type": "Writings",
+    "content": [
       {
         "notes": [
           {
@@ -783,25 +814,26 @@
         ],
         "content": "The Court’s primary shortcoming is that it lacks the authority to issue legally binding decisions, except in those cases where states have chosen in advance to be bound by its decisions. Without jurisdiction, the Court is powerless to administer justice. In time, the decisions of the World Court may become binding and enforceable upon all states; however, in the short term, the World Court might be strengthened through two other measures."
       },
-      { "i": true, "content": "1. Extending the court’s jurisdiction" },
+      { "header": 3, "content": "1. Extending the court’s jurisdiction" },
       {
         "content": "Currently, the Court’s jurisdiction is limited to a few categories of cases, and only nations have standing to bring an action. We propose that in addition to member states, other organs of the United Nations should be given the right to bring cases before the Court."
       },
-      { "i": true, "content": "2. Coordinating the thematic courts" },
+      { "header": 3, "content": "2. Coordinating the thematic courts" },
       {
         "content": "The World Court should act as an umbrella for existing and new thematic courts, that arbitrate and adjudicate international cases within specific thematic domains."
+      },
+      {
+        "content": "Early components of a unified system can already be found in the specialised courts for arbitration of such matters as commerce and transportation, and in the proposals for such bodies as an International Criminal Court and a Chamber for Environmental Matters. Other issue areas that might need to be addressed under such a system would include courts for international terrorism and drug trafficking."
       }
     ]
   },
   {
-    "author": "Shoghi Effendi",
+    "author": "The Universal House of Justice",
     "name": { "content": "Turning Point for All Nations" },
-    "type": "Preface",
+    "part": [4],
+    "section": "Releasing the Power of the Individual: A Critical Challenge of the Emerging International Order",
+    "type": "Writings",
     "content": [
-      {
-        "i": true,
-        "content": "IV. Releasing the Power of the Individual: A Critical Challenge of the Emerging International Order"
-      },
       {
         "content": "The primary objective of governing institutions at all levels is the advancement of human civilization. This objective is difficult to satisfy without the inspired and intelligent participation of the generality of humankind in the life and affairs of the community."
       },
@@ -819,8 +851,16 @@
       },
       {
         "content": "Along with the measures for strengthening its structure, the United Nations needs to adopt initiatives that release the latent power in all people to participate in this galvanising process. To this end, certain themes that accelerate the advancement of the individual and society warrant special consideration. Among them, promoting economic development, protecting human rights, advancing the status of women, and emphasising moral development are four priorities so closely tied to the advancement of civilization that they must be emphasised as part of the United Nations agenda."
-      },
-      { "i": true, "content": "A. Promoting Economic Development" },
+      }
+    ]
+  },
+  {
+    "author": "The Universal House of Justice",
+    "name": { "content": "Turning Point for All Nations" },
+    "part": [4, 1],
+    "section": "Promoting Economic Development",
+    "type": "Writings",
+    "content": [
       {
         "content": "Economic development strategies employed by the United Nations, the World Bank and a number of governments during the last fifty years, however sincerely conceived and executed, have fallen far short of aspirations. In much of the world, the gap between the “haves” and “have‑nots” has widened and is accelerating with the persistent disparity in income levels. Social problems have not subsided. In fact, crime and disease are not just on the rise; they are also becoming endemic and more difficult to combat."
       },
@@ -887,7 +927,7 @@
         "content": "We propose the following recommendation to the United Nations system for promoting more effective development."
       },
       {
-        "i": true,
+        "header": 3,
         "content": "1. Launching a determined campaign to implement Agenda 21"
       },
       {
@@ -908,8 +948,16 @@
       },
       {
         "content": "If successful, this new machinery could also be extended to coordinate implementation of the measures identified at the recent Social Summit."
-      },
-      { "i": true, "content": "B. Protecting Fundamental Human Rights" },
+      }
+    ]
+  },
+  {
+    "author": "The Universal House of Justice",
+    "name": { "content": "Turning Point for All Nations" },
+    "part": [4, 2],
+    "section": "Protecting Fundamental Human Rights",
+    "type": "Writings",
+    "content": [
       {
         "content": "Over the five decades since the United Nations was founded, an understanding has emerged that human rights must be recognised and protected internationally if peace, social progress and economic prosperity are to be established."
       },
@@ -978,7 +1026,7 @@
         "content": "Ultimately, while it is up to the individual to fulfil the responsibility in each such area, it is up to international institutions to protect the related human right. We propose three measures for immediate action."
       },
       {
-        "i": true,
+        "header": 3,
         "content": "1. Strengthening the machinery of the UN for monitoring, implementation and follow‑up"
       },
       {
@@ -988,14 +1036,14 @@
         "content": "We believe the resources assigned to this Centre must be dramatically increased if it is to discharge its duties properly."
       },
       {
-        "i": true,
+        "header": 3,
         "content": "2. Encouraging universal ratification of international conventions on human rights"
       },
       {
         "content": "Since ratifying the international conventions on human rights creates an obligation for member states, albeit not a practically enforceable one, the Secretary‑General and all bodies of the UN might consider every opportunity to encourage member states to act on this issue. In fact, a demanding timeline for universal ratification may be an inspiring goal to be set by the General Assembly."
       },
       {
-        "i": true,
+        "header": 3,
         "content": "3. Assuring respect for the monitoring organs of UN involved in human rights"
       },
       {
@@ -1009,8 +1057,16 @@
       },
       {
         "content": "Finally, it also seems prudent for member states that have ratified the international conventions but are under scrutiny for gross human rights violations to be disqualified from election to the offices of conferences and other meetings of the Commission on Human Rights. This will prevent a widespread perception of the proceedings as a mockery."
-      },
-      { "i": true, "content": "C. Advancing the Status of Women" },
+      }
+    ]
+  },
+  {
+    "author": "The Universal House of Justice",
+    "name": { "content": "Turning Point for All Nations" },
+    "part": [4, 3],
+    "section": "Advancing the Status of Women",
+    "type": "Writings",
+    "content": [
       {
         "notes": [
           {
@@ -1119,21 +1175,21 @@
         "content": "As a starting point for this dialogue we offer this analogy from the Bahá’í Writings: “The world of humanity has two wings—one is women and the other men. Not until both wings are equally developed can the bird fly. Should one wing remain weak, flight is impossible.” In addition, we support the following three specific measures."
       },
       {
-        "i": true,
+        "header": 3,
         "content": "1. Increasing the participation of women in member state delegations"
       },
       {
         "content": "We recommend that member states be encouraged to appoint an increased number of women to ambassadorial or similar diplomatic positions."
       },
       {
-        "i": true,
+        "header": 3,
         "content": "2. Encouraging universal ratification of international conventions that protect women’s rights and improve their status"
       },
       {
         "content": "As with the international conventions on human rights, the Secretary‑General and all bodies of the UN should consider every opportunity to encourage member states to proceed with ratification of conventions and protocols that protect women’s rights and seek their advancement."
       },
       {
-        "i": true,
+        "header": 3,
         "content": "3. Planning ahead for implementation of the Beijing Platform of Action"
       },
       {
@@ -1151,8 +1207,16 @@
       },
       {
         "content": "We propose that a monitoring system be established to prepare status reports on the implementation of adopted measures and to make presentations to the General Assembly annually, highlighting the top twenty and bottom twenty member states in terms of compliance."
-      },
-      { "i": true, "content": "D. Emphasising Moral Development" },
+      }
+    ]
+  },
+  {
+    "author": "The Universal House of Justice",
+    "name": { "content": "Turning Point for All Nations" },
+    "part": [4, 4],
+    "section": "Emphasising Moral Development",
+    "type": "Writings",
+    "content": [
       {
         "content": "The process of integrating human beings into larger and larger groups, although influenced by culture and geography, has been driven largely by religion, the most powerful agent for changing human attitudes and behaviour. By religion, however, we mean the essential foundation or reality of religion, not the dogmas and blind imitations which have gradually encrusted it and which are the cause of its decline and effacement."
       },
@@ -1192,66 +1256,39 @@
                 "content": "The Golden Rule, the teaching that we should treat others as we ourselves would wish to be treated, is an ethic variously repeated in all the great religions:"
               },
               {
-                "spans": [
-                  { "end": 8, "start": 0, "types": ["i"] },
-                  { "end": 85, "start": 74, "types": ["i"] }
-                ],
+                "spans": [{ "end": 85, "start": 74, "types": ["i"] }],
                 "content": "Buddhism: “Hurt not others in ways that you yourself would find hurtful.” Udana‑Varqa, 5:18."
               },
               {
-                "spans": [
-                  { "end": 14, "start": 0, "types": ["i"] },
-                  { "end": 132, "start": 116, "types": ["i"] }
-                ],
+                "spans": [{ "end": 132, "start": 116, "types": ["i"] }],
                 "content": "Zoroastrianism: “That nature only is good when it shall not do unto another whatever is not good for its own self.” Dadistan‑i Dinik, 94:5."
               },
               {
-                "spans": [
-                  { "end": 7, "start": 0, "types": ["i"] },
-                  { "end": 124, "start": 114, "types": ["i"] }
-                ],
+                "spans": [{ "end": 124, "start": 114, "types": ["i"] }],
                 "content": "Judaism: “What is hateful to you, do not to your fellow men. That is the entire Law, all the rest is commentary.” The Talmud, Shabbat, 31a."
               },
               {
-                "spans": [
-                  { "end": 8, "start": 0, "types": ["i"] },
-                  { "end": 202, "start": 187, "types": ["i"] }
-                ],
+                "spans": [{ "end": 202, "start": 187, "types": ["i"] }],
                 "content": "Hinduism: “This is the sum of all true righteousness: deal with others as thou wouldst thyself be dealt by. Do nothing to thy neighbour which thou wouldst not have him do to thee after.” The Mahabharata."
               },
               {
-                "spans": [
-                  { "end": 12, "start": 0, "types": ["i"] },
-                  { "end": 88, "start": 84, "types": ["i"] }
-                ],
+                "spans": [{ "end": 88, "start": 84, "types": ["i"] }],
                 "content": "Christianity: “As ye would that men should do to you, do ye also to them likewise.” Luke 6:31."
               },
               {
-                "spans": [
-                  { "end": 5, "start": 0, "types": ["i"] },
-                  { "end": 111, "start": 105, "types": ["i"] }
-                ],
+                "spans": [{ "end": 111, "start": 105, "types": ["i"] }],
                 "content": "Islam: “No one of you is a believer until he desires for his brother that which he desires for himself.” Sunnah."
               },
               {
-                "spans": [
-                  { "end": 6, "start": 0, "types": ["i"] },
-                  { "end": 168, "start": 154, "types": ["i"] }
-                ],
+                "spans": [{ "end": 168, "start": 154, "types": ["i"] }],
                 "content": "Taoism: The good man “ought to pity the malignant tendencies of others; to regard their gains as if they were his own, and their losses in the same way.” The Thai‑Shang."
               },
               {
-                "spans": [
-                  { "end": 12, "start": 0, "types": ["i"] },
-                  { "end": 128, "start": 120, "types": ["i"] }
-                ],
+                "spans": [{ "end": 128, "start": 120, "types": ["i"] }],
                 "content": "Confucianism: “Surely it is the maxim of loving‑kindness: Do not unto others that you would not have them do unto you.” Analects, XV, 23"
               },
               {
-                "spans": [
-                  { "end": 12, "start": 0, "types": ["i"] },
-                  { "end": 139, "start": 130, "types": ["i"] }
-                ],
+                "spans": [{ "end": 139, "start": 130, "types": ["i"] }],
                 "content": "Bahá’í Faith: “He should not wish for others that which he doth not wish for himself, nor promise that which he doth not fulfil.” Gleanings."
               }
             ]
@@ -1260,7 +1297,7 @@
         "content": "Reflection on the commonalties inherent in the great religious and moral systems of the world reveals that each one espouses unity, cooperation and harmony among people, establishes guidelines for responsible behaviour and supports the development of virtues which are the foundation for trust‑based and principled interactions."
       },
       {
-        "i": true,
+        "header": 3,
         "content": "1. Promoting the development of curricula for moral education in schools"
       },
       {
@@ -1271,18 +1308,19 @@
       },
       {
         "content": "We also believe the campaign will be successful only to the extent that the force of religion is relied upon in the effort. The doctrine of the separation of church and state should not be used as a shield to block this salutary influence. Specifically, religious communities will have to be drawn in as collaborative partners in this important initiative."
+      },
+      {
+        "content": "As it proceeds, this campaign will accelerate a process of individual empowerment that will transform the way in which people, regardless of economic class, social standing, or ethnic, racial or religious background, interact with their society."
       }
     ]
   },
   {
-    "author": "Shoghi Effendi",
+    "author": "The Universal House of Justice",
     "name": { "content": "Turning Point for All Nations" },
-    "type": "Preface",
+    "part": [5],
+    "section": "A Turning Point for All Nations: A Call to World Leaders",
+    "type": "Writings",
     "content": [
-      {
-        "i": true,
-        "content": "V. A Turning Point for All Nations: A Call to World Leaders"
-      },
       {
         "content": "We have reached a turning point in the progress of nations."
       },
@@ -1363,6 +1401,20 @@
       },
       {
         "content": "Through an unblemished record of personal integrity, they must help restore confidence and trust in government. They must embody the characteristics of honesty, humility and sincerity of purpose in seeking the truth of a situation. They must be committed to and guided by principles, thereby acting in the best long‑term interests of humanity as a whole."
+      },
+      {
+        "notes": [
+          {
+            "position": 271,
+            "content": [
+              {
+                "spans": [{ "end": 42, "start": 0, "types": ["i"] }],
+                "content": "Gleanings from the Writings of Bahá’u’lláh. Translated by Shoghi Effendi. (Wilmette, Ill.: Bahá’í Publishing Trust. 1976.) p.7."
+              }
+            ]
+          }
+        ],
+        "content": "“Let your vision be world‑embracing, rather than confined to your own selves,” Bahá’u’lláh wrote. “Do not busy yourselves in your own concerns; let your thoughts be fixed upon that which will rehabilitate the fortunes of mankind and sanctify the hearts and souls of men.”"
       }
     ]
   }

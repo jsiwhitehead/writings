@@ -2,8 +2,7 @@
   {
     "author": "The Universal House of Justice",
     "name": { "content": "Bahá’u’lláh" },
-    "part": 1,
-    "type": "Writings",
+    "type": "Preface",
     "content": [
       {
         "content": "May 29, 1992, marks the centenary of the passing of Bahá’u’lláh. His vision of humanity as one people and of the earth as a common homeland, dismissed out of hand by the world leaders to whom it was first enunciated over a hundred years ago, has today become the focus of human hope. Equally inescapable is the collapse of moral and social order, which this same declaration foresaw with awesome clarity."
@@ -16,7 +15,7 @@
   {
     "author": "The Universal House of Justice",
     "name": { "content": "Bahá’u’lláh" },
-    "part": 2,
+    "part": 1,
     "section": "Bahá’u’lláh",
     "type": "Writings",
     "content": [
@@ -80,7 +79,7 @@
   {
     "author": "The Universal House of Justice",
     "name": { "content": "Bahá’u’lláh" },
-    "part": 3,
+    "part": 2,
     "section": "Birth of a New Revelation",
     "type": "Writings",
     "content": [
@@ -219,7 +218,7 @@
   {
     "author": "The Universal House of Justice",
     "name": { "content": "Bahá’u’lláh" },
-    "part": 4,
+    "part": 3,
     "section": "Exile",
     "type": "Writings",
     "content": [
@@ -374,7 +373,7 @@
   {
     "author": "The Universal House of Justice",
     "name": { "content": "Bahá’u’lláh" },
-    "part": 5,
+    "part": 4,
     "section": "The Declaration in the Riḍván Garden",
     "type": "Writings",
     "content": [
@@ -534,7 +533,7 @@
   {
     "author": "The Universal House of Justice",
     "name": { "content": "Bahá’u’lláh" },
-    "part": 6,
+    "part": 5,
     "section": "“The Changeless Faith of God…”",
     "type": "Writings",
     "content": [
@@ -747,7 +746,7 @@
   {
     "author": "The Universal House of Justice",
     "name": { "content": "Bahá’u’lláh" },
-    "part": 7,
+    "part": 6,
     "section": "The Manifestation of God",
     "type": "Writings",
     "content": [
@@ -846,7 +845,7 @@
   {
     "author": "The Universal House of Justice",
     "name": { "content": "Bahá’u’lláh" },
-    "part": 8,
+    "part": 7,
     "section": "“An Ever‑Advancing Civilization…”",
     "type": "Writings",
     "content": [
@@ -977,7 +976,7 @@
   {
     "author": "The Universal House of Justice",
     "name": { "content": "Bahá’u’lláh" },
-    "part": 9,
+    "part": 8,
     "section": "The Day of God",
     "type": "Writings",
     "content": [
@@ -1175,7 +1174,7 @@
   {
     "author": "The Universal House of Justice",
     "name": { "content": "Bahá’u’lláh" },
-    "part": 10,
+    "part": 9,
     "section": "Announcement to the Kings",
     "type": "Writings",
     "content": [
@@ -1320,7 +1319,7 @@
   {
     "author": "The Universal House of Justice",
     "name": { "content": "Bahá’u’lláh" },
-    "part": 11,
+    "part": 10,
     "section": "Arrival in the Holy Land",
     "type": "Writings",
     "content": [
@@ -1487,7 +1486,7 @@
   {
     "author": "The Universal House of Justice",
     "name": { "content": "Bahá’u’lláh" },
-    "part": 12,
+    "part": 11,
     "section": "Religion as Light and Darkness",
     "type": "Writings",
     "content": [
@@ -1608,7 +1607,7 @@
   {
     "author": "The Universal House of Justice",
     "name": { "content": "Bahá’u’lláh" },
-    "part": 13,
+    "part": 12,
     "section": "World Peace",
     "type": "Writings",
     "content": [
@@ -1721,7 +1720,7 @@
   {
     "author": "The Universal House of Justice",
     "name": { "content": "Bahá’u’lláh" },
-    "part": 14,
+    "part": 13,
     "section": "“Not of Mine Own Volition”",
     "type": "Writings",
     "content": [
@@ -1856,7 +1855,7 @@
   {
     "author": "The Universal House of Justice",
     "name": { "content": "Bahá’u’lláh" },
-    "part": 15,
+    "part": 14,
     "section": "The Covenant of God with Humankind",
     "type": "Writings",
     "content": [
