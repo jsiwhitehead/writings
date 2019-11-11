@@ -1,0 +1,1 @@
+[streams: "src/app/streams"]

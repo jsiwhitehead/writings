@@ -7,25 +7,31 @@
     "p": "rimraf data/parsed && ts-node src/parse && prettier --write \"data/parsed/**/*.json\"",
     "e": "rimraf data/extracted && rimraf data/extracted.json && ts-node src/extract && prettier --write \"data/extracted**/*.json\" && prettier --write \"data/extracted.json\"",
     "c": "rimraf data/data.json && ts-node src/clean && prettier --write \"data/data.json\"",
-    "x": "ts-node src/pdf"
+    "x": "ts-node src/pdf",
+    "dev": "app-dev",
+    "build": "app-build"
   },
   "prettier": {
     "singleQuote": true,
     "trailingComma": "all"
   },
   "devDependencies": {
-    "@types/node": "^12.7.12",
+    "@types/node": "^12.12.7",
     "fs-extra": "^8.1.0",
     "js-levenshtein": "^1.1.6",
+    "maraca-app": "^0.2.1",
     "moment": "^2.24.0",
     "node-fetch": "^2.6.0",
     "pdf2json": "^1.1.8",
-    "prettier": "^1.18.2",
-    "rehype-parse": "^6.0.1",
+    "prettier": "^1.19.1",
+    "prettier-plugin-maraca": "^0.3.2",
+    "rehype-parse": "^6.0.2",
     "rimraf": "^3.0.0",
     "roman-numbers": "^1.0.1",
-    "ts-node": "^8.4.1",
-    "typescript": "^3.6.4",
-    "unified": "^8.4.1"
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.5.0",
+    "typescript": "^3.7.2",
+    "unified": "^8.4.2",
+    "webfontloader": "^1.6.28"
   }
 }

@@ -20,6 +20,7 @@ export default data =>
       : {
           type: 'Writings',
           author: '‘Abdu’l‑Bahá',
+          excerpt: true,
           content,
         },
   );
