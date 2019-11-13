@@ -1,6 +1,10 @@
 [
   {
-    "info": [[1, { "content": "Preface" }], [1, {}], [1, {}]],
+    "info": [
+      [1, { "content": "Preface" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "In 1953 Shoghi Effendi, the Guardian of the Bahá’í Faith, included as one of the goals of his Ten Year Plan the preparation of a Synopsis and Codification of the Laws and Ordinances of the Kitáb‑i‑Aqdas as an essential prelude to its translation. He himself worked on the codification, but had not finished it when he died in 1957. The task was continued on the basis of his work, and the resulting volume was released in 1973. That publication included, in addition to the Synopsis and Codification itself and explanatory notes, a compilation of the passages from the Kitáb‑i‑Aqdas which had already been translated by Shoghi Effendi and published in various books. The Synopsis and Codification covered the text of both the Kitáb‑i‑Aqdas and the Questions and Answers which constitutes an appendix to the Aqdas. In 1986 the Universal House of Justice decided that the time had come when the preparation of an English translation of the complete text of the Most Holy Book was both possible and essential and made its accomplishment a goal of the Six Year Plan 1986–1992. Its publication in English will be followed by translations in other languages."
@@ -27,7 +31,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Introduction" }], [1, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Introduction" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "This year, the 149th of the Bahá’í era, marks the Centenary of the Ascension of Bahá’u’lláh, Bearer of the universal Revelation of God destined to lead humanity to its collective coming of age. That this occasion should be observed by a community of believers representing a cross‑section of the entire human race and established, in the course of a century and a half, in the most remote corners of the globe, is a token of the forces of unity released by Bahá’u’lláh’s advent. A further testimony to the operation of these same forces can be seen in the extent to which Bahá’u’lláh’s vision has prefigured contemporary human experience in so many of its aspects. It is a propitious moment for the publication of this first authorised translation into English of the Mother Book of His Revelation, His “Most Holy Book,” the Book in which He sets forth the Laws of God for a Dispensation destined to endure for no less than a thousand years."
@@ -246,7 +254,11 @@
     ]
   },
   {
-    "info": [[4, { "content": "The Kitáb‑i‑Aqdas" }], [1, {}], [1, {}]],
+    "info": [
+      [4, { "content": "The Kitáb‑i‑Aqdas" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "In the name of Him Who is the Supreme Ruler over all that hath been and all that is to be"

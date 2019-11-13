@@ -3,9 +3,6 @@ export const config = {
     'https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/19851001_001/19851001_001.xhtml',
   start: 'To the Peoples of the World',
   end: '[signed: The Universal House of Justice]',
-  // classes: {
-  //   'brl-text-larger1': { header: 3 },
-  // },
 };
 
 export default data =>

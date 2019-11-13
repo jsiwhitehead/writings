@@ -1,6 +1,10 @@
 [
   {
-    "info": [[1, { "content": "Introduction" }], [1, {}], [1, {}]],
+    "info": [
+      [1, { "content": "Introduction" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "The years following Bahá’u’lláh’s arrival in Adrianople witnessed His Revelation’s attainment, in the words of Shoghi Effendi, of “its meridian glory” through the proclamation of its Founder’s message to the kings and rulers of the world. During this relatively brief but turbulent period of the Faith’s history, and in the early years of His subsequent exile in 1868 to the fortress town of ‘Akká, He summoned the monarchs of East and West collectively, and some among them individually, to recognise the Day of God and to acknowledge the One promised in the scriptures of the religions professed by the recipients of His summons. “Never since the beginning of the world,” Bahá’u’lláh declares, “hath the Message been so openly proclaimed.”"
@@ -66,7 +70,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Súriy‑i‑Haykal" }], [1, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Súriy‑i‑Haykal" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       { "content": "He is the Most Wondrous, the All‑Glorious!" },
       {
@@ -1352,7 +1360,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Súriy‑i‑Haykal" }], [7, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Súriy‑i‑Haykal" }],
+      [7, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "Thus have We built the Temple with the hands of power and might, could ye but know it. This is the Temple promised unto you in the Book. Draw ye nigh unto it. This is that which profiteth you, could ye but comprehend it. Be fair, O peoples of the earth! Which is preferable, this, or a temple which is built of clay? Set your faces towards it. Thus have ye been commanded by God, the Help in Peril, the Self‑Subsisting. Follow ye His bidding, and praise ye God, your Lord, for that which He hath bestowed upon you. He, verily, is the Truth. No God is there but He. He revealeth what He pleaseth, through His words “Be and it is”."
@@ -1360,7 +1372,11 @@
     ]
   },
   {
-    "info": [[3, { "content": "Súriy‑i‑Ra’ís" }], [1, {}], [1, {}]],
+    "info": [
+      [3, { "content": "Súriy‑i‑Ra’ís" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       { "content": "In His name, the All‑Glorious!" },
       {
@@ -1569,7 +1585,11 @@
     ]
   },
   {
-    "info": [[4, { "content": "Lawḥ‑i‑Ra’ís" }], [1, {}], [1, {}]],
+    "info": [
+      [4, { "content": "Lawḥ‑i‑Ra’ís" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       { "content": "He is in His own Right the Supreme Ruler!" },
       {
@@ -1696,7 +1716,11 @@
     ]
   },
   {
-    "info": [[5, { "content": "Lawḥ‑i‑Fu’ád" }], [1, {}], [1, {}]],
+    "info": [
+      [5, { "content": "Lawḥ‑i‑Fu’ád" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       { "content": "He is the Most Holy, the Most Glorious!" },
       {
@@ -1828,7 +1852,11 @@
     ]
   },
   {
-    "info": [[6, { "content": "Súriy‑i‑Mulúk" }], [1, {}], [1, {}]],
+    "info": [
+      [6, { "content": "Súriy‑i‑Mulúk" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       { "content": "He is the Almighty!" },
       {

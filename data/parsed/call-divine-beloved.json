@@ -1,6 +1,10 @@
 [
   {
-    "info": [[1, { "content": "Preface" }], [1, {}], [1, {}]],
+    "info": [
+      [1, { "content": "Preface" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -294,7 +298,11 @@
     ]
   },
   {
-    "info": [[3, { "content": "The Seven Valleys" }], [1, {}], [1, {}]],
+    "info": [
+      [3, { "content": "The Seven Valleys" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -1036,7 +1044,11 @@
     ]
   },
   {
-    "info": [[3, { "content": "The Seven Valleys" }], [2, {}], [1, {}]],
+    "info": [
+      [3, { "content": "The Seven Valleys" }],
+      [2, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "O My friend! Many a hound hunteth this gazelle of the desert of oneness; many an eagle pursueth this nightingale of the garden of eternity. Ravens of hatred lie in wait for this bird of the heavens of God, and the huntsman of envy stalketh this deer of the meadow of love."
@@ -1155,7 +1167,11 @@
     ]
   },
   {
-    "info": [[5, { "content": "Three Other Tablets" }], [1, {}], [1, {}]],
+    "info": [
+      [5, { "content": "Three Other Tablets" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -1200,7 +1216,11 @@
     ]
   },
   {
-    "info": [[5, { "content": "Three Other Tablets" }], [2, {}], [1, {}]],
+    "info": [
+      [5, { "content": "Three Other Tablets" }],
+      [2, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -1225,7 +1245,11 @@
     ]
   },
   {
-    "info": [[5, { "content": "Three Other Tablets" }], [3, {}], [1, {}]],
+    "info": [
+      [5, { "content": "Three Other Tablets" }],
+      [3, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "block": true,
@@ -1317,7 +1341,11 @@
     ]
   },
   {
-    "info": [[6, { "content": "The Four Valleys" }], [1, {}], [1, {}]],
+    "info": [
+      [6, { "content": "The Four Valleys" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       { "c": true, "content": "He is the Ever‑Living." },
       {

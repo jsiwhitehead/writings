@@ -1,6 +1,10 @@
 [
   {
-    "info": [[1, {}], [1, {}], [1, {}]],
+    "info": [
+      [1, {}],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "May 29, 1992, marks the centenary of the passing of Bahá’u’lláh. His vision of humanity as one people and of the earth as a common homeland, dismissed out of hand by the world leaders to whom it was first enunciated over a hundred years ago, has today become the focus of human hope. Equally inescapable is the collapse of moral and social order, which this same declaration foresaw with awesome clarity."
@@ -11,7 +15,11 @@
     ]
   },
   {
-    "info": [[1, {}], [2, { "content": "Bahá’u’lláh" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [2, { "content": "Bahá’u’lláh" }],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "As the new millennium approaches, the crucial need of the human race is to find a unifying vision of the nature of man and society. For the past century humanity’s response to this impulse has driven a succession of ideological upheavals that have convulsed our world and that appear now to have exhausted themselves. The passion invested in the struggle, despite its disheartening results, testifies to the depth of the need. For, without a common conviction about the course and direction of human history, it is inconceivable that foundations can be laid for a global society to which the mass of humankind can commit themselves."
@@ -71,7 +79,11 @@
     ]
   },
   {
-    "info": [[1, {}], [3, { "content": "Birth of a New Revelation" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [3, { "content": "Birth of a New Revelation" }],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "Bahá’u’lláh’s mission began in a subterranean dungeon in Teheran in August 1852. Born into a noble family that could trace its ancestry back to the great dynasties of Persia’s imperial past, He declined the ministerial career open to Him in government, and chose instead to devote His energies to a range of philanthropies which had, by the early 1840s, earned Him widespread renown as “Father of the Poor.” This privileged existence swiftly eroded after 1844, when Bahá’u’lláh became one of the leading advocates of a movement that was to change the course of His country’s history."
@@ -206,7 +218,11 @@
     ]
   },
   {
-    "info": [[1, {}], [4, { "content": "Exile" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [4, { "content": "Exile" }],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -730,7 +746,11 @@
     ]
   },
   {
-    "info": [[1, {}], [7, { "content": "The Manifestation of God" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [7, { "content": "The Manifestation of God" }],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -956,7 +976,11 @@
     ]
   },
   {
-    "info": [[1, {}], [9, { "content": "The Day of God" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [9, { "content": "The Day of God" }],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "What does Bahá’u’lláh hold to be the goal of the evolution of human consciousness? In the perspective of eternity, its purpose is that God should see, ever more clearly, the reflection of His perfections in the mirror of His creation, and that, in the words of Bahá’u’lláh:"
@@ -1295,7 +1319,11 @@
     ]
   },
   {
-    "info": [[1, {}], [11, { "content": "Arrival in the Holy Land" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [11, { "content": "Arrival in the Holy Land" }],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -1579,7 +1607,11 @@
     ]
   },
   {
-    "info": [[1, {}], [13, { "content": "World Peace" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [13, { "content": "World Peace" }],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "In the light of subsequent events, the warnings and appeals of Bahá’u’lláh’s writings during this period take on a terrible poignancy:"

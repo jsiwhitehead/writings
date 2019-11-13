@@ -12,7 +12,10 @@ export const config = {
 
 export default data =>
   data.map(({ info, content }) => {
-    const intro = content.splice(0, content.findIndex(c => !c.c));
+    const intro = content.splice(
+      0,
+      content.findIndex(c => !c.c),
+    );
     const [location, date] =
       intro.length === 1 && intro[0].content !== '4 Avenue de Camoëns, Paris'
         ? [undefined, ...intro]

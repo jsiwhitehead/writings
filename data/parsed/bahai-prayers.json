@@ -1,6 +1,10 @@
 [
   {
-    "info": [[1, {}], [1, {}], [1, {}]],
+    "info": [
+      [1, {}],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "block": true,
@@ -23,7 +27,11 @@
     ]
   },
   {
-    "info": [[1, {}], [1, {}], [2, {}]],
+    "info": [
+      [1, {}],
+      [1, {}],
+      [2, {}]
+    ],
     "content": [
       {
         "block": true,
@@ -140,7 +148,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Obligatory Prayers" }], [1, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Obligatory Prayers" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "block": true,
@@ -154,7 +166,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Obligatory Prayers" }], [1, {}], [2, {}]],
+    "info": [
+      [2, { "content": "Obligatory Prayers" }],
+      [1, {}],
+      [2, {}]
+    ],
     "content": [
       {
         "block": true,

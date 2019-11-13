@@ -2195,7 +2195,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Part Two" }], [1, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Part Two" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "The Eleven Principles out of the Teaching of Bahá’u’lláh, Explained by ‘Abdu’l‑Bahá in Paris."

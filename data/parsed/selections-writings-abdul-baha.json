@@ -1,6 +1,10 @@
 [
   {
-    "info": [[1, { "content": "Preface" }], [1, {}], [1, {}]],
+    "info": [
+      [1, { "content": "Preface" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "spans": [

@@ -20,16 +20,18 @@ const convertGaps = content =>
 
 const buildNotes = content => {
   const notes = {};
-  content.forEach(c => {
+  const withoutNotes = content.filter(c => {
     if (typeof c !== 'number') {
       const { note, gap, ...rest } = c;
       if (note) {
         notes[note] = notes[note] || [];
         notes[note].push(rest);
+        return false;
       }
     }
+    return true;
   });
-  return content.map(c => {
+  return withoutNotes.map(c => {
     if (!c.notes) return c;
     return {
       ...c,

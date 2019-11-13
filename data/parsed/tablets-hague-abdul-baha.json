@@ -174,7 +174,11 @@
     ]
   },
   {
-    "info": [[1, { "content": "First Tablet to The Hague" }], [2, {}], [1, {}]],
+    "info": [
+      [1, { "content": "First Tablet to The Hague" }],
+      [2, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "O peoples of the world! The Sun of Truth hath risen to illumine the whole earth, and to spiritualize the community of man. Laudable are the results and the fruits thereof, abundant the holy evidences deriving from this grace. This is mercy unalloyed and purest bounty; it is light for the world and all its peoples; it is harmony and fellowship, and love and solidarity; indeed it is compassion and unity, and the end of foreignness; it is the being at one, in complete dignity and freedom, with all on earth."

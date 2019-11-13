@@ -1,6 +1,10 @@
 [
   {
-    "info": [[1, {}], [1, {}], [1, {}]],
+    "info": [
+      [1, {}],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       { "content": "To The World’s Religious Leaders" },
       {
@@ -24,7 +28,11 @@
     ]
   },
   {
-    "info": [[1, {}], [1, {}], [2, {}]],
+    "info": [
+      [1, {}],
+      [1, {}],
+      [2, {}]
+    ],
     "content": [
       {
         "content": "As the twentieth century opened, the prejudice that seemed more likely than any other to succumb to the forces of change was that of religion. In the West, scientific advances had already dealt rudely with some of the central pillars of sectarian exclusivity. In the context of the transformation taking place in the human race’s conception of itself, the most promising new religious development seemed to be the interfaith movement. In 1893, the World’s Columbian Exposition surprised even its ambitious organisers by giving birth to the famed “Parliament of Religions”, a vision of spiritual and moral consensus that captured the popular imagination on all continents and managed to eclipse even the scientific, technological and commercial wonders that the Exposition celebrated."
@@ -53,7 +61,11 @@
     ]
   },
   {
-    "info": [[1, {}], [1, {}], [3, {}]],
+    "info": [
+      [1, {}],
+      [1, {}],
+      [3, {}]
+    ],
     "content": [
       {
         "content": "The implications for today are summed up by Bahá’u’lláh in words written over a century ago and widely disseminated in the intervening decades:"
@@ -86,7 +98,11 @@
     ]
   },
   {
-    "info": [[1, {}], [1, {}], [4, {}]],
+    "info": [
+      [1, {}],
+      [1, {}],
+      [4, {}]
+    ],
     "content": [
       {
         "content": "Because it is concerned with the ennobling of character and the harmonising of relationships, religion has served throughout history as the ultimate authority in giving meaning to life. In every age, it has cultivated the good, reproved the wrong and held up, to the gaze of all those willing to see, a vision of potentialities as yet unrealized. From its counsels the rational soul has derived encouragement in overcoming limits imposed by the world and in fulfilling itself. As the name implies, religion has simultaneously been the chief force binding diverse peoples together in ever larger and more complex societies through which the individual capacities thus released can find expression. The great advantage of the present age is the perspective that makes it possible for the entire human race to see this civilising process as a single phenomenon, the ever‑recurring encounters of our world with the world of God."

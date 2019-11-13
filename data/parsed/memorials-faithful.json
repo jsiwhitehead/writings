@@ -1,6 +1,10 @@
 [
   {
-    "info": [[1, {}], [1, { "content": "Nabíl‑i‑Akbar" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [1, { "content": "Nabíl‑i‑Akbar" }],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -122,7 +126,11 @@
     ]
   },
   {
-    "info": [[1, {}], [2, { "content": "Ismu’lláhu’l‑Aṣdaq" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [2, { "content": "Ismu’lláhu’l‑Aṣdaq" }],
+      [1, {}]
+    ],
     "content": [
       {
         "spans": [
@@ -184,7 +192,11 @@
     ]
   },
   {
-    "info": [[1, {}], [3, { "content": "Mullá ‘Alí‑Akbar" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [3, { "content": "Mullá ‘Alí‑Akbar" }],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -253,7 +265,11 @@
     ]
   },
   {
-    "info": [[1, {}], [4, { "content": "Shaykh Salmán" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [4, { "content": "Shaykh Salmán" }],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [{ "position": 12, "content": [{ "content": "1849–1850." }] }],
@@ -508,7 +524,11 @@
     ]
   },
   {
-    "info": [[1, {}], [7, { "content": "Muḥammad‑‘Alíy‑i‑Iṣfahání" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [7, { "content": "Muḥammad‑‘Alíy‑i‑Iṣfahání" }],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "Muḥammad‑‘Alí of Iṣfahán was among the earliest of believers, guided to the Faith from its very beginning. He was one of the mystics; his house was a gathering place for them, and the philosophers. Noble, high‑minded, he was one of Iṣfahán’s most respected citizens, and served as a host and sanctuary for every stranger, rich or poor. He had verve, an excellent disposition, was forbearing, affable, generous, a boon companion; and it was known throughout the city that he enjoyed a good time."
@@ -571,7 +591,11 @@
     ]
   },
   {
-    "info": [[1, {}], [9, { "content": "Ustád Ismá‘íl" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [9, { "content": "Ustád Ismá‘íl" }],
+      [1, {}]
+    ],
     "content": [
       {
         "spans": [
@@ -669,7 +693,11 @@
     ]
   },
   {
-    "info": [[1, {}], [10, { "content": "Nabíl‑i‑Zarandí" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [10, { "content": "Nabíl‑i‑Zarandí" }],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -792,7 +820,11 @@
     ]
   },
   {
-    "info": [[1, {}], [11, { "content": "Darvísh Ṣidq‑‘Alí" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [11, { "content": "Darvísh Ṣidq‑‘Alí" }],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -876,7 +908,11 @@
     ]
   },
   {
-    "info": [[1, {}], [13, { "content": "Pidar‑Ján of Qazvín" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [13, { "content": "Pidar‑Ján of Qazvín" }],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "The late Pidar‑Ján was among those believers who emigrated to Baghdad. He was a godly old man, enamoured of the Well‑Beloved; in the garden of Divine love, he was like a rose full‑blown. He arrived there, in Baghdad, and spent his days and nights communing with God and chanting prayers; and although he walked the earth, he travelled the heights of Heaven."
@@ -896,7 +932,11 @@
     ]
   },
   {
-    "info": [[1, {}], [14, { "content": "Shaykh Ṣádiq‑i‑Yazdí" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [14, { "content": "Shaykh Ṣádiq‑i‑Yazdí" }],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -950,7 +990,11 @@
     ]
   },
   {
-    "info": [[1, {}], [15, { "content": "Sháh‑Muḥammad‑Amín" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [15, { "content": "Sháh‑Muḥammad‑Amín" }],
+      [1, {}]
+    ],
     "content": [
       {
         "spans": [{ "end": 2, "start": 0, "types": ["u"] }],
@@ -988,7 +1032,11 @@
     ]
   },
   {
-    "info": [[1, {}], [16, { "content": "Mashhadí Faṭṭáḥ" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [16, { "content": "Mashhadí Faṭṭáḥ" }],
+      [1, {}]
+    ],
     "content": [
       {
         "spans": [{ "end": 4, "start": 2, "types": ["u"] }],
@@ -1008,7 +1056,11 @@
     ]
   },
   {
-    "info": [[1, {}], [17, { "content": "Nabíl of Qá’in" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [17, { "content": "Nabíl of Qá’in" }],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -1240,7 +1292,11 @@
     ]
   },
   {
-    "info": [[1, {}], [21, { "content": "‘Alí Najaf‑Ábádí" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [21, { "content": "‘Alí Najaf‑Ábádí" }],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "Also among the emigrants and near neighbours was Áqá ‘Alí Najaf‑Ábádí. When this spiritual young man first listened to the call of God he set his lips to the holy cup and beheld the glory of the Speaker on the Mount. And when, by grace of the light, he had attained positive knowledge, he journeyed to the Most Great Prison, where he witnessed the substance of knowledge itself, and arrived at the high station of indubitable truth."
@@ -1338,7 +1394,11 @@
     ]
   },
   {
-    "info": [[1, {}], [25, { "content": "Muḥammad‑Hádíy‑i‑Ṣaḥḥáf" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [25, { "content": "Muḥammad‑Hádíy‑i‑Ṣaḥḥáf" }],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "Yet one more among those who emigrated and came to settle near Bahá’u’lláh was the bookbinder, Muḥammad‑Hádí. This noted man was from Iṣfahán, and as a binder and illuminator of books he had no peer. When he gave himself up to the love of God he was alert on the path and fearless. He abandoned his home and began a dreadful journey, passing with extreme hardship from one country to another until he reached the Holy Land and became a prisoner. He stationed himself by the Holy Threshold, carefully sweeping it and keeping watch. Through his constant efforts, the square in front of Bahá’u’lláh’s house was at all times swept, sprinkled and immaculate."
@@ -1392,7 +1452,11 @@
     ]
   },
   {
-    "info": [[1, {}], [26, { "content": "Mírzá Muḥammad‑Qulí" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [26, { "content": "Mírzá Muḥammad‑Qulí" }],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -1456,7 +1520,11 @@
     ]
   },
   {
-    "info": [[1, {}], [28, { "content": "Muḥammad Ḥaná‑Sáb" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [28, { "content": "Muḥammad Ḥaná‑Sáb" }],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -1583,7 +1651,11 @@
     ]
   },
   {
-    "info": [[1, {}], [31, { "content": "Áqá Muḥammad‑Ibráhím" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [31, { "content": "Áqá Muḥammad‑Ibráhím" }],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -1610,7 +1682,11 @@
     ]
   },
   {
-    "info": [[1, {}], [32, { "content": "Zaynu’l‑‘Ábidín Yazdí" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [32, { "content": "Zaynu’l‑‘Ábidín Yazdí" }],
+      [1, {}]
+    ],
     "content": [
       {
         "spans": [{ "end": 104, "start": 102, "types": ["u"] }],
@@ -1755,7 +1831,11 @@
     ]
   },
   {
-    "info": [[1, {}], [35, { "content": "Ḥájí Muḥammad Khán" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [35, { "content": "Ḥájí Muḥammad Khán" }],
+      [1, {}]
+    ],
     "content": [
       {
         "spans": [
@@ -1828,7 +1908,11 @@
     ]
   },
   {
-    "info": [[1, {}], [37, { "content": "Mírzá Mihdíy‑i‑Káshání" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [37, { "content": "Mírzá Mihdíy‑i‑Káshání" }],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -1892,7 +1976,11 @@
     ]
   },
   {
-    "info": [[1, {}], [38, { "content": "Mishkín‑Qalam" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [38, { "content": "Mishkín‑Qalam" }],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -2105,7 +2193,11 @@
     ]
   },
   {
-    "info": [[1, {}], [42, { "content": "Mírzá Muḥammad‑i‑Vakíl" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [42, { "content": "Mírzá Muḥammad‑i‑Vakíl" }],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "One of the captives who were sent on from Baghdad to Mosul was Mírzá Muḥammad‑i‑Vakíl. This righteous soul was among those who became believers in Baghdad. It was there he drank from the cup of resignation to the will of God and sought his rest in the shade of the celestial Tree. He was a man high‑minded and worthy of trust. He was also an extremely capable and energetic administrator of important affairs, famous in Iraq for his wise counsel. After he became a believer, he was distinguished by the title of Vakíl—deputy. It happened in this way:"
@@ -2229,7 +2321,11 @@
     ]
   },
   {
-    "info": [[1, {}], [44, { "content": "Ḥusayn Effendi Tabrízí" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [44, { "content": "Ḥusayn Effendi Tabrízí" }],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "This youth was from Tabríz, and he was filled with the love of God like a cup flowing and brimming over with red wine. In the flower of his youth he left Persia and travelled to Greece, making his living as a merchant there; till a day came when, guided by Divine bounty, he went from Greece to Smyrna, and there he was given the glad tidings of a new Manifestation on earth. He shouted aloud, was frenzied, was drunk with the music of the new message. He escaped from his debits and credits, set out to meet the Lord of his heart, and entered the presence of Bahá’u’lláh. For some time, a trusted attendant and companion, he served the Blessed Beauty. He was then directed to seek a lodging in the city of Haifa."
@@ -2257,7 +2353,11 @@
     ]
   },
   {
-    "info": [[1, {}], [45, { "content": "Jamshíd‑i‑Gurjí" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [45, { "content": "Jamshíd‑i‑Gurjí" }],
+      [1, {}]
+    ],
     "content": [
       {
         "spans": [
@@ -2400,7 +2500,11 @@
     ]
   },
   {
-    "info": [[1, {}], [48, { "content": "‘Abdu’lláh Baghdádí" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [48, { "content": "‘Abdu’lláh Baghdádí" }],
+      [1, {}]
+    ],
     "content": [
       {
         "spans": [{ "end": 57, "start": 55, "types": ["u"] }],
@@ -2613,7 +2717,11 @@
     ]
   },
   {
-    "info": [[1, {}], [54, { "content": "Ḥájí Áqáy‑i‑Tabrízí" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [54, { "content": "Ḥájí Áqáy‑i‑Tabrízí" }],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "Early in his youth this spiritual man, who came from Tabríz, had sensed the mystic knowledge and drunk the heady wine of God, and he remained staunch as ever in the Faith during his years of helpless age."
@@ -2722,7 +2830,11 @@
     ]
   },
   {
-    "info": [[1, {}], [57, { "content": "Mírzá Muṣṭafá Naráqí" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [57, { "content": "Mírzá Muṣṭafá Naráqí" }],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "Among that company of pure and goodly souls was Mírzá Muṣṭafá, a leading citizen of Naráq and one of the earliest believers. His face shone with the love of God. His mind was concerned with the anemones of mystic meanings, fair as meadows and beds of flowers."
@@ -2770,7 +2882,11 @@
     ]
   },
   {
-    "info": [[1, {}], [58, { "content": "Zaynu’l‑Muqarrabín" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [58, { "content": "Zaynu’l‑Muqarrabín" }],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "This distinguished man was one of the greatest of all the Báb’s companions and all the loved ones of Bahá’u’lláh. When he lived under Islám, he was already famed for his purity and holiness of life. He was talented and highly accomplished in many directions. He was the leader and spiritual exemplar of the entire population of Najaf‑Ábád, and the eminent of that area showed him unbounded respect. When he spoke out, his was the deciding opinion; when he passed judgement, it took effect; for he was known to all as the standard, and the authority of last resort."
@@ -2810,7 +2926,11 @@
     ]
   },
   {
-    "info": [[1, {}], [59, { "content": "‘Aẓím‑i‑Tafríshí" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [59, { "content": "‘Aẓím‑i‑Tafríshí" }],
+      [1, {}]
+    ],
     "content": [
       {
         "spans": [{ "end": 49, "start": 47, "types": ["u"] }],
@@ -2835,7 +2955,11 @@
     ]
   },
   {
-    "info": [[1, {}], [60, { "content": "Mírzá Ja‘far‑i‑Yazdí" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [60, { "content": "Mírzá Ja‘far‑i‑Yazdí" }],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -2891,7 +3015,11 @@
     ]
   },
   {
-    "info": [[1, {}], [61, { "content": "Ḥusayn‑Áqáy‑i‑Tabrízí" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [61, { "content": "Ḥusayn‑Áqáy‑i‑Tabrízí" }],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "This man who was close to the Divine Threshold was the respected son of ‘Alí‑‘Askar‑i‑Tabrízí. Full of yearning love, he came with his father from Tabríz to Adrianople, and by his own wish, went on with joy and hope to the Most Great Prison. From the day of his arrival at the fortress of ‘Akká he took over the coffee service, and waited upon the friends. This accomplished man was so patient, so docile, that over a forty‑year period, despite extreme difficulties (for day and night, friend and stranger alike thronged the doors), he attended upon each and every one who came, faithfully helping them all. During all that time Ḥusayn‑Áqá never offended a soul, nor did anyone, where he was concerned, utter a single complaint. This was truly a miracle, and no one else could have established such a record of service. He was always smiling, attentive as to the tasks committed to his care, known as a man to trust. In the Cause of God he was staunch, proud and true; in times of calamity he was patient and long‑suffering."
@@ -2977,7 +3105,11 @@
     ]
   },
   {
-    "info": [[1, {}], [63, { "content": "Áqá ‘Alíy‑i‑Qazvíní" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [63, { "content": "Áqá ‘Alíy‑i‑Qazvíní" }],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "This eminent man had high ambitions and aims. He was to a supreme degree constant, loyal and firmly rooted in his faith, and he was among the earliest and greatest of the believers. At the very dawn of the new Day of Guidance he became enamoured of the Báb and began to teach. From morning till dark he worked at his craft, and almost every night he entertained the friends at supper. Being host in this way to friends in the spirit, he guided many seekers to the Faith, attracting them with the melody of the love of God. He was amazingly constant, energetic, and persevering."
@@ -3136,7 +3268,11 @@
     ]
   },
   {
-    "info": [[1, {}], [66, { "content": "Áqá Faraj" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [66, { "content": "Áqá Faraj" }],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "In all these straits, Áqá Faraj was the companion of Abu’l‑Qásim. When, in Persian Iraq, he first heard the uproar caused by the Advent of the Most Great Light, he shook and trembled, clapped his hands, cried out in exultation and hastened off to Iraq. Overcome with delight, he entered the presence of his holy Lord. He was gathered into the loving fellowship, and blissfully received the honour of attending upon Bahá’u’lláh. Then he returned, bearing glad tidings to Sulṭán‑Ábád."
@@ -3261,7 +3397,11 @@
     ]
   },
   {
-    "info": [[1, {}], [68, { "content": "Shamsu’ḍ‑Ḍuḥá" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [68, { "content": "Shamsu’ḍ‑Ḍuḥá" }],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -3529,7 +3669,11 @@
     ]
   },
   {
-    "info": [[1, {}], [69, { "content": "Ṭáhirih" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [69, { "content": "Ṭáhirih" }],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [

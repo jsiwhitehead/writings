@@ -1,6 +1,10 @@
 [
   {
-    "info": [[1, { "content": "Preface" }], [1, {}], [1, {}]],
+    "info": [
+      [1, { "content": "Preface" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "The observance of holy days occupies a central place in every religion. Through their commemoration, the calendar year becomes the stage on which the signal events associated with the life and ministry of the divine Manifestations of God are annually remembered and honoured. This remembrance has both a personal dimension, providing a time for reflection on the significance of these events, and a social dimension, helping to deepen the identity and foster the cohesion of the community."
@@ -40,7 +44,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Naw‑Rúz" }], [1, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Naw‑Rúz" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       { "c": true, "i": true, "content": "He is the Almighty." },
       {
@@ -59,7 +67,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Naw‑Rúz" }], [2, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Naw‑Rúz" }],
+      [2, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -81,7 +93,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Naw‑Rúz" }], [3, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Naw‑Rúz" }],
+      [3, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -124,7 +140,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Naw‑Rúz" }], [4, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Naw‑Rúz" }],
+      [4, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -179,7 +199,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Naw‑Rúz" }], [5, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Naw‑Rúz" }],
+      [5, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -198,7 +222,11 @@
     ]
   },
   {
-    "info": [[3, { "content": "Riḍván" }], [1, {}], [1, {}]],
+    "info": [
+      [3, { "content": "Riḍván" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -268,7 +296,11 @@
     ]
   },
   {
-    "info": [[3, { "content": "Riḍván" }], [2, {}], [1, {}]],
+    "info": [
+      [3, { "content": "Riḍván" }],
+      [2, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -317,7 +349,11 @@
     ]
   },
   {
-    "info": [[3, { "content": "Riḍván" }], [3, {}], [1, {}]],
+    "info": [
+      [3, { "content": "Riḍván" }],
+      [3, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -339,7 +375,11 @@
     ]
   },
   {
-    "info": [[3, { "content": "Riḍván" }], [4, {}], [1, {}]],
+    "info": [
+      [3, { "content": "Riḍván" }],
+      [4, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -353,7 +393,11 @@
     ]
   },
   {
-    "info": [[3, { "content": "Riḍván" }], [5, {}], [1, {}]],
+    "info": [
+      [3, { "content": "Riḍván" }],
+      [5, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "The day‑star of words, dawning above the horizon of the utterance of Him Who is the Lord of all names and attributes, hath, at this most blessed of hours, shone forth in all truth with the splendours of the light of God. The spirit of understanding, flowing from the Pen of the All‑Glorious, hath, by virtue of His grace, been conferred upon all created things. The mystery of all mysteries, emerging from behind the veils of concealment, hath, in very truth, been revealed to the righteous, as bidden by God, the Almighty, the Unconstrained."
@@ -471,7 +515,11 @@
     ]
   },
   {
-    "info": [[3, { "content": "Riḍván" }], [6, {}], [1, {}]],
+    "info": [
+      [3, { "content": "Riḍván" }],
+      [6, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -622,7 +670,11 @@
     ]
   },
   {
-    "info": [[3, { "content": "Riḍván" }], [8, {}], [1, {}]],
+    "info": [
+      [3, { "content": "Riḍván" }],
+      [8, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -644,7 +696,11 @@
     ]
   },
   {
-    "info": [[3, { "content": "Riḍván" }], [9, {}], [1, {}]],
+    "info": [
+      [3, { "content": "Riḍván" }],
+      [9, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -672,7 +728,11 @@
     ]
   },
   {
-    "info": [[3, { "content": "Riḍván" }], [10, {}], [1, {}]],
+    "info": [
+      [3, { "content": "Riḍván" }],
+      [10, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "Praise be to Thee, O my God, for having cast in this Day the radiance of all Thy names upon all created things, O Thou Who art the Lord of glory, majesty, and grandeur; of power, might, and blessings! This is the Day whereon He Who is the Mouthpiece of God, the All‑Possessing, the Inaccessible, the Most High, hath called out from the realm of eternity, saying: “The Kingdom is God’s, the Almighty, the Most Exalted, the Most Glorious!”"
@@ -716,7 +776,11 @@
     ]
   },
   {
-    "info": [[3, { "content": "Riḍván" }], [11, {}], [1, {}]],
+    "info": [
+      [3, { "content": "Riḍván" }],
+      [11, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -794,7 +858,11 @@
     ]
   },
   {
-    "info": [[3, { "content": "Riḍván" }], [12, {}], [1, {}]],
+    "info": [
+      [3, { "content": "Riḍván" }],
+      [12, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -832,7 +900,11 @@
     ]
   },
   {
-    "info": [[3, { "content": "Riḍván" }], [13, {}], [1, {}]],
+    "info": [
+      [3, { "content": "Riḍván" }],
+      [13, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -848,7 +920,11 @@
     ]
   },
   {
-    "info": [[3, { "content": "Riḍván" }], [14, {}], [1, {}]],
+    "info": [
+      [3, { "content": "Riḍván" }],
+      [14, {}],
+      [1, {}]
+    ],
     "content": [
       { "c": true, "i": true, "content": "He is God." },
       {
@@ -863,7 +939,11 @@
     ]
   },
   {
-    "info": [[3, { "content": "Riḍván" }], [15, {}], [1, {}]],
+    "info": [
+      [3, { "content": "Riḍván" }],
+      [15, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -913,7 +993,11 @@
     ]
   },
   {
-    "info": [[3, { "content": "Riḍván" }], [17, {}], [1, {}]],
+    "info": [
+      [3, { "content": "Riḍván" }],
+      [17, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -1080,7 +1164,11 @@
     ]
   },
   {
-    "info": [[3, { "content": "Riḍván" }], [19, {}], [1, {}]],
+    "info": [
+      [3, { "content": "Riḍván" }],
+      [19, {}],
+      [1, {}]
+    ],
     "content": [
       { "c": true, "i": true, "content": "He is the Ever‑Abiding." },
       {
@@ -1089,7 +1177,11 @@
     ]
   },
   {
-    "info": [[3, { "content": "Riḍván" }], [20, {}], [1, {}]],
+    "info": [
+      [3, { "content": "Riḍván" }],
+      [20, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "spans": [{ "end": 330, "start": 328, "types": ["u"] }],
@@ -1394,7 +1486,11 @@
     ]
   },
   {
-    "info": [[4, { "content": "Declaration of the Báb" }], [3, {}], [1, {}]],
+    "info": [
+      [4, { "content": "Declaration of the Báb" }],
+      [3, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -1722,7 +1818,11 @@
     ]
   },
   {
-    "info": [[6, { "content": "Martyrdom of the Báb" }], [1, {}], [1, {}]],
+    "info": [
+      [6, { "content": "Martyrdom of the Báb" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "Give ear, O My servant, unto that which is being sent down unto thee from the Throne of thy Lord, the Inaccessible, the Most Great. There is none other God but Him. He hath called into being His creatures, that they may know Him, Who is the Compassionate, the All‑Merciful. Unto the cities of all nations He hath sent His Messengers, Whom He hath commissioned to announce unto men tidings of the Paradise of His good‑pleasure, and to draw them nigh unto the Haven of abiding security, the Seat of eternal holiness and transcendent glory."
@@ -2020,7 +2120,11 @@
     ]
   },
   {
-    "info": [[7, { "content": "Birth of the Báb" }], [1, {}], [1, {}]],
+    "info": [
+      [7, { "content": "Birth of the Báb" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -2051,7 +2155,11 @@
     ]
   },
   {
-    "info": [[7, { "content": "Birth of the Báb" }], [2, {}], [1, {}]],
+    "info": [
+      [7, { "content": "Birth of the Báb" }],
+      [2, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -2163,7 +2271,11 @@
     ]
   },
   {
-    "info": [[8, { "content": "Birth of Bahá’u’lláh" }], [2, {}], [1, {}]],
+    "info": [
+      [8, { "content": "Birth of Bahá’u’lláh" }],
+      [2, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,
@@ -2191,7 +2303,11 @@
     ]
   },
   {
-    "info": [[8, { "content": "Birth of Bahá’u’lláh" }], [3, {}], [1, {}]],
+    "info": [
+      [8, { "content": "Birth of Bahá’u’lláh" }],
+      [3, {}],
+      [1, {}]
+    ],
     "content": [
       { "c": true, "i": true, "content": "He is God." },
       {
@@ -2263,7 +2379,11 @@
     ]
   },
   {
-    "info": [[8, { "content": "Birth of Bahá’u’lláh" }], [4, {}], [1, {}]],
+    "info": [
+      [8, { "content": "Birth of Bahá’u’lláh" }],
+      [4, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "c": true,

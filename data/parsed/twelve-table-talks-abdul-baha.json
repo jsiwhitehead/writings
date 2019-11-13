@@ -16,7 +16,11 @@
     ]
   },
   {
-    "info": [[1, {}], [2, { "content": "Two Kinds of Prophecy" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [2, { "content": "Two Kinds of Prophecy" }],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "Question: In the books of the Prophets there are tidings of the future; that is, certain events and incidents have been explicitly or implicitly announced and unseen matters foretold, which in this day are witnessed to have come true in their entirety. How were these events of the present day foreseen in the past?"
@@ -75,7 +79,11 @@
     ]
   },
   {
-    "info": [[1, {}], [5, { "content": "The Wisdom of Fasting" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [5, { "content": "The Wisdom of Fasting" }],
+      [1, {}]
+    ],
     "content": [
       { "content": "Question: What is the divine wisdom of fasting?" },
       {
@@ -525,7 +533,11 @@
     ]
   },
   {
-    "info": [[1, {}], [12, { "content": "Christ and Bahá’u’lláh" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [12, { "content": "Christ and Bahá’u’lláh" }],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "Some have asserted that, while mighty signs and marvellous deeds have appeared from Bahá’u’lláh, through which His greatness shines forth as resplendent as the sun, yet the Revelation of Christ is superior to and incommensurate with His."

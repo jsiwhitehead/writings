@@ -26,7 +26,10 @@ export default data =>
       return [...res, d];
     }, [])
     .map(({ info, content }) => {
-      const intro = content.splice(0, content.findIndex(c => !c.c));
+      const intro = content.splice(
+        0,
+        content.findIndex(c => !c.c),
+      );
       const [date, scribe] = intro;
       return {
         type: 'Talk',

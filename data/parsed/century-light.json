@@ -25,7 +25,11 @@
     "content": [{ "i": true, "content": "Naw‑Rúz, 158 B.E." }]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [1, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [1, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "The twentieth century, the most turbulent in the history of the human race, has reached its end. Dismayed by the deepening moral and social chaos that marked its course, the generality of the world’s peoples are eager to leave behind them the memories of the suffering that these decades brought with them. No matter how frail the foundations of confidence in the future may seem, no matter how great the dangers looming on the horizon, humanity appears desperate to believe that, through some fortuitous conjunction of circumstances, it will nevertheless be possible to bend the conditions of human life into conformity with prevailing human desires."
@@ -80,7 +84,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [3, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [3, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -370,7 +378,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [5, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [5, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "spans": [
@@ -509,7 +521,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [7, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [7, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "No more brilliant a stage for the opening act of this great drama could have been desired than London, capital city of the largest and most cosmopolitan empire the world has ever known. In the eyes of the little groups of believers who had made the practical arrangements and who longed for the sight of His face, the trip was a triumph far surpassing their brightest hopes. Public officials, scholars, writers, editors, industrialists, leaders of reform movements, members of the British aristocracy, and influential clergymen of many denominations eagerly sought Him out, invited Him to their platforms, classrooms, homes and pulpits, and showered appreciation on the views He expounded. On Sunday, 10 September 1911, the Master spoke for the first time to a public audience anywhere, from the pulpit of the City Temple. His words evoked for His hearers the vision of a new age in the evolution of civilization:"
@@ -657,7 +673,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [8, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [8, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "The key to this vision of the coming transformation of the individual and social life of humankind was ‘Abdu’l‑Bahá’s proclamation, shortly after His arrival in North America, of Bahá’u’lláh’s Covenant and of the central part He Himself had been called on to play in it. In the Master’s own words:"
@@ -772,7 +792,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [9, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [9, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "spans": [{ "end": 101, "start": 82, "types": ["i"] }],
@@ -951,7 +975,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [10, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [10, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "As war’s inferno was engulfing the world, ‘Abdu’l‑Bahá turned His attention to the one great task remaining in His ministry, that of ensuring the proclamation to the remotest corners of the Earth of the message which had been neglected—or opposed—in Islamic and Western society alike. The instrument He devised for this purpose was the Divine Plan laid out in fourteen great Tablets, four of them addressed to the Bahá’í community of North America and ten subsidiary ones addressed to five specific segments of that community. Together with Bahá’u’lláh’s Tablet of Carmel and the Master’s Will and Testament, the Tablets of the Divine Plan were described by Shoghi Effendi as three of the “Charters” of the Cause. Revealed during the darkest days of the war, in 1916 and 1917, the Divine Plan summoned the small body of American and Canadian believers to assume the role of leadership in establishing the Cause of God throughout the planet. The implications of the trust were awe‑inspiring. In the words of the Master:"
@@ -1255,7 +1283,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [13, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [13, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -1410,7 +1442,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [14, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [14, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "Fully aware of the condition into which society had fallen, the consequences of his betrayal at the hands of family members on whose assistance he should have been able to rely, and the relative weakness of the resources available to him in the Bahá’í community itself, Shoghi Effendi arose to forge the means needed to realise the mission bequeathed to him."
@@ -1606,7 +1642,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [15, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [15, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -1873,7 +1913,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [17, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [17, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -2019,7 +2063,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [18, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [18, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "By 1946, the end of hostilities had opened the way for the launching by Shoghi Effendi of a second Seven Year Plan, which benefited from the new receptivity to the message of the Faith produced by the shift of consciousness that was by then already apparent. Once again, the North American Bahá’í community was summoned to assume a demanding responsibility, one that essentially built upon and developed the achievements of the earlier Plan. The great difference, however, was that several other Bahá’í communities were now in a position to participate. Already in 1938, the Bahá’ís of India, Pakistan and Burma had set out on a plan of their own. As international hostilities gradually came to an end, the National Spiritual Assemblies of Persia, of the British Isles, of Australia and New Zealand, of Germany and Austria, of Egypt and the Sudan, and of Iraq—freed from the limitations imposed on them by the war—embarked on projects of various durations to expand the base of the Administrative Order, settle pioneers in goals both at home and abroad, and multiply the available Bahá’í literature."
@@ -2124,7 +2172,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [19, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [19, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "The grief and overwhelming sense of desolation produced by the loss of the Guardian lends all the greater significance to the triumph of the Plan he had conceived and inspired. On 21 April 1963, the ballots of delegates from fifty‑six National Spiritual Assemblies, including the forty‑four new bodies called for and successfully formed during the Ten Year Crusade, brought into existence the Universal House of Justice, the governing body of the Cause conceived by Bahá’u’lláh and assured by Him unequivocally of Divine guidance in the exercise of its functions:"
@@ -2354,7 +2406,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [22, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [22, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "What the Bahá’í world accomplished during those same years acquires an added brilliancy against the background of this darkened horizon. It is impossible to exaggerate the significance of the achievement that brought the Universal House of Justice into existence. For some six thousand years humanity has experimented with an almost unlimited variety of methods for collective decision‑making. From the vantage point of the twentieth century, the political history of the world presents a constantly shifting scene in which there was no possibility that was not seized upon by human ingenuity. Systems based on principles as different as theocracy, monarchy, aristocracy, oligarchy, republic, democracy and near anarchy have proliferated freely, along with innovations without end that have sought to combine various desirable features of these possibilities. Although most of the options have lent themselves to abuses of one kind or another, the great majority have no doubt contributed in varying degrees to fulfilling hopes of those whose interests they purportedly served."
@@ -2909,7 +2965,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [25, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [25, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "spans": [{ "end": 229, "start": 227, "types": ["u"] }],
@@ -2984,7 +3044,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [26, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [26, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "Not only the Bahá’í community but the United Nations’ human rights system itself benefited from this long struggle. Initially, after the Islamic revolution, the community of believers in Iran had faced a threat to its very survival. In time, the United Nations Human Rights Commission, however slow and relatively cumbersome its operations may appear to some outside observers, succeeded in compelling the Iranian regime to bring the worst of the persecution to a halt. In this way, the “case of Iran’s Bahá’ís” marked a significant victory for the Commission and the Bahá’í Faith alike. It served as a startling demonstration of the power of the community of nations, acting through the machinery created for the purpose, to bring under control patterns of oppression that had darkened the pages of recorded history throughout the ages."
@@ -3005,7 +3069,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [27, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [27, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "spans": [{ "end": 231, "start": 205, "types": ["i"] }],
@@ -3044,7 +3112,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [28, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [28, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "During the century’s concluding years, many National Spiritual Assemblies won impressive victories of their own in the field of external affairs. Two outstanding examples suggest the character and importance of these advances. The first was achieved by the National Spiritual Assembly of Germany, where the nature of Bahá’í elected bodies had been challenged by local authorities as being technically incompatible with the requirements of German civil law. In upholding the appeal of the Local Spiritual Assembly of the Bahá’ís of Tübingen against this ruling, Germany’s constitutional High Court concluded that the Bahá’í Administrative Order is an integral feature of the Faith and as such is inseparable from Bahá’í belief. The High Court justified its taking jurisdiction in the case by adducing evidence that the Bahá’í Faith itself is a religion, a judgement with far‑reaching implications in a society where church opponents have long sought to misrepresent the Cause as a “cult” or “sect”. The definitive language of the judgement merits repetition:"
@@ -3129,7 +3201,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [30, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [30, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
@@ -3196,7 +3272,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [31, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [31, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "Despite the historic importance of the meetings and the fact that the greater portion of humanity’s political, civil and religious leadership took part, the Millennium Summit made little impression on the public mind in most countries. Generous media attention was given to certain of the events, but few readers or listeners could fail to note the expression of scepticism that characterised editorial treatment of the subject or the air of doubt—even of cynicism—that crept into many of the news storeys themselves. This sharp disjunction between an event that could legitimately claim to mark a major turning‑point in human history, on the one hand, and the lack of enthusiasm or even interest it aroused among populations who were its supposed beneficiaries, on the other, was perhaps the most striking feature of the millennium observations. It exposed the depth of the crisis the world is experiencing at century’s end, in which the processes of both integration and disintegration that had gathered momentum during the past hundred years seem to accelerate with each passing day."
@@ -3225,7 +3305,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [32, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [32, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "In the perspective of Bahá’u’lláh’s teachings, the greatest danger of both the moral crisis and the inequities associated with globalisation in its current form is an entrenched philosophical attitude that seeks to justify and excuse these failures. The overthrow of the twentieth century’s totalitarian systems has not meant the end of ideology. On the contrary. There has not been a society in the history of the world, no matter how pragmatic, experimentalist and multi‑form it may have been, that did not derive its thrust from some foundational interpretation of reality. Such a system of thought reigns today virtually unchallenged across the planet, under the nominal designation “Western civilization”. Philosophically and politically, it presents itself as a kind of liberal relativism; economically and socially, as capitalism—two value systems that have now so adjusted to each other and become so mutually reinforcing as to constitute virtually a single, comprehensive world‑view."
@@ -3343,7 +3427,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [34, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [34, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "Barely a third of the twentieth century had elapsed when the Guardian summoned the followers of Bahá’u’lláh to a far deeper understanding of the Cause itself than anything they had yet appreciated. The Faith had reached the point, he said, when it was “ceasing to designate itself a movement, a fellowship and the like”, designations which, although perhaps appropriate at a time when the message was first being introduced to the West, now “did grave injustice to its ever‑unfolding system”. Rejecting as adequate even the term “religion” in its familiar sense, he pointed out that the Faith was already:"
@@ -3405,7 +3493,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [35, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [35, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "Three years before his passing, Shoghi Effendi took advantage of the acquisition of the last plot of land needed for the erection of the International Archives Building to describe for the Bahá’í world the nature and significance of the building project on the slopes of Mount Carmel that the Master had inaugurated and that he himself was pursuing:"
@@ -3457,7 +3549,11 @@
     ]
   },
   {
-    "info": [[2, { "content": "Century of Light" }], [36, {}], [1, {}]],
+    "info": [
+      [2, { "content": "Century of Light" }],
+      [36, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [

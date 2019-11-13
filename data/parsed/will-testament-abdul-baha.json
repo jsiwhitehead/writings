@@ -1,6 +1,10 @@
 [
   {
-    "info": [[1, {}], [1, { "content": "Part One" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [1, { "content": "Part One" }],
+      [1, {}]
+    ],
     "content": [
       { "content": "Herein Follow the Tablets and Testament of ‘Abdu’l‑Bahá" },
       {
@@ -99,7 +103,11 @@
     ]
   },
   {
-    "info": [[1, {}], [2, {}], [1, {}]],
+    "info": [
+      [1, {}],
+      [2, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "i": true,
@@ -108,7 +116,11 @@
     ]
   },
   {
-    "info": [[1, {}], [3, { "content": "Part Two" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [3, { "content": "Part Two" }],
+      [1, {}]
+    ],
     "content": [
       { "content": "He Is God" },
       {
@@ -156,7 +168,11 @@
     ]
   },
   {
-    "info": [[1, {}], [4, { "content": "Part Three" }], [1, {}]],
+    "info": [
+      [1, {}],
+      [4, { "content": "Part Three" }],
+      [1, {}]
+    ],
     "content": [
       { "content": "He Is the Witness, the All‑Sufficing" },
       {

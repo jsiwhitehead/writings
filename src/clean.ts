@@ -26,13 +26,11 @@ import { flatten, stringify } from './util';
           flatten(
             text.map(s =>
               flatten(
-                s
-                  .split('…')
-                  .map(s =>
-                    Array.from({ length: Math.ceil(s.length / 20) }).map(
-                      (_, i) => s.slice(i * 20, (i + 1) * 20),
-                    ),
-                  ),
+                s.split('…').map(s =>
+                  Array.from({
+                    length: Math.ceil(s.length / 20),
+                  }).map((_, i) => s.slice(i * 20, (i + 1) * 20)),
+                ),
               ),
             ),
           ),

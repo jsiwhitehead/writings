@@ -2167,7 +2167,11 @@
     ]
   },
   {
-    "info": [[9, { "content": "Lawḥ‑i‑Ḥikmat" }], [2, {}], [1, {}]],
+    "info": [
+      [9, { "content": "Lawḥ‑i‑Ḥikmat" }],
+      [2, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "content": "This is an Epistle which the All‑Merciful hath sent down from the Kingdom of Utterance. It is truly a breath of life unto those who dwell in the realm of creation. Glorified be the Lord of all worlds! In this Epistle mention is made of him who magnifieth the Name of God, his Lord, and who is named Nabíl in a weighty Tablet."
@@ -2463,7 +2467,11 @@
     ]
   },
   {
-    "info": [[11, { "content": "Lawḥ‑i‑Maqṣúd" }], [2, {}], [1, {}]],
+    "info": [
+      [11, { "content": "Lawḥ‑i‑Maqṣúd" }],
+      [2, {}],
+      [1, {}]
+    ],
     "content": [
       { "content": "He is God, exalted is He, the Lord of Majesty and Power" },
       {
@@ -2873,7 +2881,11 @@
     ]
   },
   {
-    "info": [[14, { "content": "Lawḥ‑i‑Burhán" }], [2, {}], [1, {}]],
+    "info": [
+      [14, { "content": "Lawḥ‑i‑Burhán" }],
+      [2, {}],
+      [1, {}]
+    ],
     "content": [
       {
         "notes": [
