@@ -20,7 +20,7 @@ export default data =>
         return res;
       }
       return [...res, n];
-    })
+    }, [])
     .map(({ content, info }, j) => {
       let i = content.findIndex(n => n.r && n.content === 'Shoghi.');
       if (i !== -1 && content[i - 1].c) i--;

@@ -52,7 +52,7 @@ const config = {
   },
 };
 
-export default (text, classes) => {
+export default (text, classes, titleJoin = ' ') => {
   const content = [] as any[];
   const infos = {};
   const spans = [] as any[];
@@ -86,7 +86,10 @@ export default (text, classes) => {
           });
         } else if (node.tagName === 'br') {
           if (output) {
-            content[content.length - 1] += ' ';
+            content[content.length - 1] = content[
+              content.length - 1
+            ].trimRight();
+            content[content.length - 1] += titleJoin;
             content[content.length - 1] = content[content.length - 1].replace(
               /\s+/g,
               ' ',

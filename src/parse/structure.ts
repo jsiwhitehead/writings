@@ -1,4 +1,5 @@
-const isNumber = s => /^(([0-9]+)|(– [0-9]+ –)|(– [MDCLXVI]+ –))$/.test(s);
+const isNumber = s =>
+  /^(([0-9]+)|(– [0-9]+ –)|(– [MDCLXVI]+ –)|(‑ Chapter [MDCLXVI]+ ‑))$/.test(s);
 
 const convertGaps = content =>
   content.reduce((res, { gap, ...c }) => {
@@ -52,7 +53,7 @@ const sliceContent = (content, start, end) => {
   );
 };
 
-const createLevels = (content, smallBreak) =>
+const createLevels = (content, smallBreak, titleJoin) =>
   content
     .filter((c, i) => {
       if (typeof c !== 'number') return true;
@@ -79,7 +80,9 @@ const createLevels = (content, smallBreak) =>
         !prev.note &&
         !c.note
       ) {
-        prev.content = `${prev.content} ${c.content}`.trim();
+        prev.content = `${prev.content}${
+          prev.content && c.content ? titleJoin : ''
+        }${c.content}`.trim();
         return res;
       }
       return [...res, c];
@@ -126,11 +129,12 @@ const groupItems = content => {
   return result;
 };
 
-export default (content, start, end, smallBreak) => {
+export default (content, start, end, smallBreak, titleJoin = ' ') => {
   return groupItems(
     createLevels(
       sliceContent(buildNotes(convertGaps(content)), start, end),
       smallBreak,
+      titleJoin,
     ),
   );
 };

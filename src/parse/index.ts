@@ -28,10 +28,11 @@ import structure from './structure';
       } else {
         const html = await fs.readFile(`./data/downloaded/${f}.html`, 'utf8');
         const parsed = structure(
-          scrape(html, config.classes),
+          scrape(html, config.classes, config.titleJoin),
           config.start,
           config.end,
           config.smallBreak,
+          config.titleJoin,
         );
         await fs.writeFile(`./data/parsed/${f}.json`, stringify(parsed));
       }
