@@ -22,4 +22,27 @@ import * as fs from 'fs-extra';
       }
     }),
   );
+
+  const messageFiles = (
+    await (
+      await fetch(
+        'https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/',
+      )
+    ).text()
+  )
+    .match(/id="([^"]*)" class="document-row"/g)!
+    .map(s => s.slice(4, 16));
+  const messages = {};
+  for (const m of messageFiles) {
+    const html = await (
+      await fetch(
+        `https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/${m}/${m}.xhtml`,
+      )
+    ).text();
+    messages[m] = html;
+  }
+  await fs.writeFile(
+    `./data/downloaded/messages.json`,
+    JSON.stringify(messages),
+  );
 })();

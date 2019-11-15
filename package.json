@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "prettier": "prettier --write \"src/**/*.{ts,json}\"",
-    "d": "rimraf data/downloaded && ts-node src/download",
+    "d": "rimraf data/downloaded && ts-node src/download && prettier --write \"data/downloaded/**/*.json\"",
     "p": "rimraf data/parsed && ts-node src/parse && prettier --write \"data/parsed/**/*.json\"",
     "e": "rimraf data/extracted && rimraf data/extracted.json && ts-node src/extract && prettier --write \"data/extracted**/*.json\" && prettier --write \"data/extracted.json\"",
     "c": "rimraf data/data.json && ts-node src/clean && prettier --write \"data/data.json\""
@@ -27,7 +27,7 @@
     "rimraf": "^3.0.0",
     "roman-numbers": "^1.0.1",
     "ts-loader": "^6.2.1",
-    "ts-node": "^8.5.0",
+    "ts-node": "^8.5.2",
     "typescript": "^3.7.2",
     "unified": "^8.4.2",
     "webfontloader": "^1.6.28"

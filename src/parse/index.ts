@@ -38,4 +38,17 @@ import structure from './structure';
       }
     }),
   );
+
+  const messages = JSON.parse(
+    await fs.readFile(`./data/downloaded/messages.json`, 'utf8'),
+  );
+  for (const m of Object.keys(messages)) {
+    messages[m] = structure(
+      scrape(messages[m], {}),
+      '',
+      'This document has been downloaded from the . You are free to use its content subject to the terms of use found at',
+      false,
+    );
+  }
+  await fs.writeFile(`./data/parsed/messages.json`, stringify(messages));
 })();
