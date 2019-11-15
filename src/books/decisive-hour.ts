@@ -14,7 +14,7 @@ export default data =>
   data.map(({ content, info }) => ({
     type: 'Message',
     author: 'Shoghi Effendi',
-    name: { content: 'The Advent of Divine Justice' },
+    name: { content: 'This Decisive Hour' },
     part: info[1][0],
     title: info[1][1],
     date: content
