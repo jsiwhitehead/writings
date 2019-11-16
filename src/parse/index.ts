@@ -43,12 +43,16 @@ import structure from './structure';
     await fs.readFile(`./data/downloaded/messages.json`, 'utf8'),
   );
   for (const m of Object.keys(messages)) {
-    messages[m] = structure(
-      scrape(messages[m], {}),
-      '',
-      'This document has been downloaded from the . You are free to use its content subject to the terms of use found at',
-      false,
-    );
+    const { html, ...info } = messages[m];
+    messages[m] = {
+      data: structure(
+        scrape(html, {}),
+        '',
+        'This document has been downloaded from the . You are free to use its content subject to the terms of use found at',
+        false,
+      ),
+      ...info,
+    };
   }
   await fs.writeFile(`./data/parsed/messages.json`, stringify(messages));
 })();

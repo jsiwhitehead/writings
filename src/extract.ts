@@ -21,9 +21,10 @@ import { flatten, stringify } from './util';
   );
   const messageKeys = Object.keys(messages).sort();
   const messageResults = messageKeys.map(k => {
-    const content = messages[k]
+    const { data, ...info } = messages[k];
+    const content = data
       .map((n, i) => {
-        const prev = messages[k][i - 1];
+        const prev = data[i - 1];
         if (prev) {
           n.content.unshift(
             prev.info[1][0] !== n.info[1][0]
@@ -38,6 +39,7 @@ import { flatten, stringify } from './util';
       type: 'Message',
       author: 'The Universal House of Justice',
       key: k,
+      ...info,
       content: content,
     };
   });
