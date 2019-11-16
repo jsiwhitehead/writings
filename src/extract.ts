@@ -1,5 +1,4 @@
 import * as fs from 'fs-extra';
-import * as moment from 'moment';
 
 import { flatten, stringify } from './util';
 
@@ -35,11 +34,10 @@ import { flatten, stringify } from './util';
         return n;
       })
       .reduce((res, n) => [...res, ...n.content], []);
-    const date = moment.utc(k, 'YYYYMMDD');
     return {
       type: 'Message',
       author: 'The Universal House of Justice',
-      date: date.format('D/M/YYYY'),
+      key: k,
       content: content,
     };
   });
