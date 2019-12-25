@@ -48,8 +48,17 @@ import { flatten, stringify } from './util';
     stringify(messageResults),
   );
 
+  const manualFiles = await fs.readdir('./data/manual');
+  const manual = await Promise.all<any>(
+    manualFiles.map(async f =>
+      JSON.parse(await fs.readFile(`./data/manual/${f}`, 'utf8')),
+    ),
+  );
+
   await fs.writeFile(
     `./data/extracted.json`,
-    stringify(flatten([...files.map(f => all[f]), ...messageResults])),
+    stringify(
+      flatten([...files.map(f => all[f]), ...messageResults, ...manual]),
+    ),
   );
 })();
