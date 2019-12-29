@@ -772,11 +772,11 @@
         "content": "The arguments set out in The Promise of World Peace reflect the emphasis the Bahá'í teachings place on religion as an instrument to build civilization. But, although the role of religion as a positive social force is extolled, it is also acknowledged that it can be distorted through the manipulation of self-seeking leaders. Indeed, misunderstandings and confusion perpetrated in the name of religion are among the causes of the deplorable conditions of the world today. To attribute these conditions to the rise of secularism would be unfair. In many respects secularism is clearly a welcome development in the history of humanity, an inevitable and necessary reaction to religion fallen prey to fanaticism and superstition. Referring to religion as a means for human progress, Bahá'u'lláh stated the following:"
       },
       {
-        "break": true,
+        "block": true,
         "content": "The purpose of religion as revealed from the heaven of God's holy Will is to establish unity and concord amongst the peoples of the world; make it not the cause of dissension and strife. The religion of God and His divine law are the most potent instruments and the surest of all means for the dawning of the light of unity amongst men. The progress of the world, the development of nations, the tranquility of peoples, and the peace of all who dwell on Earth are among the principles and ordinances of God."
       },
       {
-        "break": true,
+        "block": true,
         "content": "BPT (1988, pp. 129–130)"
       },
       {
@@ -793,11 +793,11 @@
         "content": "Most readers of these pages will readily accept that, as is the case with much of civilization, religion is in crisis. But there are many who may hesitate to attribute a similar crisis to science as a system. The ethical problems faced by humanity as a result of accelerated scientific and technological advance are, of course, commonly acknowledged. It is possible, however, to regard these issues as challenges that emerge naturally in the course of progress and that will in time be addressed by science itself. The crisis to which I refer is a systemic one with many more dimensions than those that are purely ethical; it arises from inadequacies in the very process through which scientific knowledge is generated and applied. In his celebrated book of some years ago, Scientific Knowledge and Its Social Problems, Jerome R. Ravetz exposed the alarming consequences resulting from the lack of a “renewed understanding” of the nature of scientific inquiry:"
       },
       {
-        "break": true,
+        "block": true,
         "content": "The activity of modern natural science has transformed our knowledge and control of the world about us; but in the process it has also transformed itself; and it has created problems which natural science alone cannot solve. Modern society depends increasingly on industrial production based on the application of scientific results; but the production of these results has itself become a large and expensive industry; and the problems of managing that industry, and of controlling the effects of its products, are urgent and difficult. All this has happened so quickly within the past generation, that the new situation, and its implications, are only imperfectly understood. It opens up new possibilities for science and for human life, but it also presents new problems and dangers. For science itself, the analogies between the industrial production of material goods and that of scientific results have their uses, and also their hazards. As a product of a socially organized activity, scientific knowledge is very different from soap; and those who plan for science will neglect that difference at their peril. Also, the understanding and control of the effects of our science-based technology present problems for which neither the academic science of the past, nor the industrialized science of the present, possesses techniques or attitudes appropriate to their solution. The illusion that there is a natural science standing pure and separate from all involvement with society is disappearing rapidly; but it tends to be replaced by the vulgar reduction of science to a branch of commercial or military industry. Unless science itself is to be debased and corrupted, and its results used in a headlong rush to social and ecological catastrophe, there must be a renewed understanding of the very special sort of work, so delicate and so powerful, of scientific inquiry."
       },
       {
-        "break": true,
+        "block": true,
         "content": "Ravetz (1973, p. 9)"
       },
       {
@@ -817,19 +817,19 @@
         "content": "In his analysis of the evolution of the concept of syphilis as a clearly defined disease entity and of the development of the Wassermann reaction and the emergence of serology as a scientific field, Fleck (1979 [1935]) introduced a number of ideas such as systems of opinion, thought styles, and thought collectives. The use of concepts of this nature is by no means free of problems. Yet, whatever one's disagreements with some aspects of the analysis, one can no longer be beguiled by simplistic definitions of scientific truth after reflecting on Fleck's brilliant arguments. One may seek to modify but cannot ignore his statement that"
       },
       {
-        "break": true,
+        "block": true,
         "content": "Cognition is the most socially-conditioned activity of man, and knowledge is the paramount social creation. The very structure of language presents a compelling philosophy characteristic of that community, and even a single word can represent a complex theory. To whom do these philosophies and theories belong?"
       },
       {
-        "break": true,
+        "block": true,
         "content": "Thoughts pass from one individual to another, each time a little transformed, for each individual can attach to them somewhat different associations. Strictly speaking, the receiver never understands the thought exactly in the way that the transmitter intended it to be understood. After a series of such encounters, practically nothing is left of the original content. Whose thought is it that continues to circulate? It is one that obviously belongs not to any single individual but to the collective. Whether an individual construes it as truth or error, understands it correctly or not, a set of findings meanders throughout the community, becoming polished, transformed, reinforced, or attenuated, while influencing other findings, concept formation, opinions, and habits of thought. After making several rounds within the community, a finding often returns considerably changed to its originator, who reconsiders it himself in quite a different light. He either does not recognize it as his own or believes, and this happens quite often, to have originally seen it in its present form. The history of the Wassermann reaction will afford us the opportunity to describe such meanderings in the particular case of a completely “empirical” finding."
       },
       {
-        "break": true,
+        "block": true,
         "content": "This social character inherent in the very nature of scientific activity is not without its substantive consequences. Words, which formerly were simple terms become slogans; sentences which once were simple statements become calls to battle. This completely alters their socio-cogitative value. They no longer influence the mind through their logical meaning — indeed, they often act against it — but rather they acquire a magical power and exert a mental influence simply by being used. As an example, one might consider the effect of terms such as “materialism” or “atheism,” which in some countries at once discredit their proponents but in others function as essential passwords for acceptability. This magical power of slogans, with “vitalism” in biology, “specificity” in immunology, and “bacterial transformation” in bacteriology, clearly extends to the very depth of specialist research. Whenever such a term is found in a scientific text, it is not examined logically, but immediately makes either enemies or friends."
       },
       {
-        "break": true,
+        "block": true,
         "content": "Fleck (1979 [1935], pp. 42–43)"
       },
       {
@@ -843,34 +843,34 @@
         "content": "Examining the role played in his or her research by a scientific inquirer's attraction to beauty can open invaluable insights into the nature of science. Unfortunately, it is not possible in a brief exposition, and without the use of mathematics, to explore with any precision the concept of beauty, for example, in physics. In The Mind of God: The Scientific Basis for a Rational World, Paul Davies (1993) employed his admirable talent for making scientific ideas accessible to the nonspecialist to express the following:"
       },
       {
-        "break": true,
+        "block": true,
         "content": "It is widely believed among scientists that beauty is a reliable guide to truth, and many advances in theoretical physics have been made by the theorist demanding mathematical elegance of a new theory. Sometimes, where laboratory tests are difficult, these aesthetic criteria are considered even more important than experiment. Einstein, when discussing an experimental test of his general theory of relativity, was once asked what he would do if the experiment didn't agree with the theory. He was unperturbed at the prospect. “So much the worse for the experiment,” he retorted. “The theory is right!” Paul Dirac, the theoretical physicist whose aesthetic deliberations led him to construct a mathematically more elegant equation for the electron, which then led to the successful prediction of the existence of antimatter, echoed these sentiments when he judged that “it is more important to have beauty in one's equations than to have them fit experiment.”"
       },
       {
-        "break": true,
+        "block": true,
         "content": "Mathematical elegance is not an easy concept to convey to those unfamiliar with mathematics, but it is keenly appreciated by professional scientists. Like all aesthetic value-judgments, however, it is highly subjective. Nobody has yet invented a “beauty meter” that can measure the aesthetic value of things without referring to human criteria. Can one really say that certain mathematical forms are intrinsically more beautiful than others? Perhaps not. In which case it is very odd that beauty is such a good guide in science. Why should the laws of the universe seem beautiful to humans? No doubt there are all sorts of biological and psychological factors at work in framing our impressions of what is beautiful. It is no surprise that the female form is attractive to men, for example, and the curvaceous lines of many beautiful sculptures, paintings, and architectural structures doubtless have sexual referents. The structure and operation of the brain may also dictate what is pleasing to the eye or ear. Music may reflect cerebral rhythms in some fashion. Either way, though, there is something curious here. If beauty is entirely biologically programmed, selected for its survival value alone, it is all the more surprising to see it re-emerge in the esoteric world of fundamental physics, which has no direct connection with biology. On the other hand, if beauty is more than mere biology at work, if our aesthetic appreciation stems from contact with something firmer and more pervasive, then it is surely a fact of major significance that the fundamental laws of the universe seem to reflect this “something.”"
       },
       {
-        "break": true,
+        "block": true,
         "content": "Davies (1993, pp. 175–176)"
       },
       {
-        "break": true,
+        "block": true,
         "content": "My own inclination is to suppose that qualities such as ingenuity, economy, beauty, and so on have a genuine transcendent reality — they are not merely the product of human experience — and that these qualities are reflected in the structure of the natural world. Whether such qualities can themselves bring the universe into existence I don't know. If they could, one could conceive of God as merely a mythical personification of such creative qualities, rather than as an independent agent. This would, of course, be unlikely to satisfy anyone who feels he or she has a personal relationship with God."
       },
       {
-        "break": true,
+        "block": true,
         "content": "Davies (1993, pp. 214–215)"
       },
       {
         "content": "Davies is, of course, correct in assuming that a mere personification of creative qualities falls far short of the concept of God held by most religions. But the concept that the physical universe reflects in its structure the attributes of God is one that finds considerable resonance in religious discourse. Bahá'u'lláh, for example, whose teachings uphold the existence of a God forever unknowable in essence, stated that"
       },
       {
-        "break": true,
+        "block": true,
         "content": "Whatever is in the heavens and whatever is on the earth is a direct evidence of the revelation within it of the attributes and names of God, inasmuch as within every atom are enshrined the signs that bear eloquent testimony to the revelation of that most great Light. Methinks, but for the potency of that revelation, no being could ever exist. How resplendent the luminaries of knowledge that shine in an atom, and how vast the oceans of wisdom that surge within a drop!"
       },
       {
-        "break": true,
+        "block": true,
         "content": "BPT (1983b, pp. 100–101)"
       },
       {
@@ -884,11 +884,11 @@
         "content": "All too often, rationality is identified with one or another specific way of thinking. The rational soul is a unique characteristic of the human being; its powers include scientific investigation, comprehension of meaning, and contemplation of beauty. These powers can express themselves in the creation of more than one mode of rational thought and action. Only if we are willing to abandon narrow definitions of rationality will we appreciate the underlying harmony between science and religion. The definitions at which we arrive should allow for the scepticism that characterizes any scientific method, but we should also acknowledge the need for repeated leaps of faith, for it is an undeniable fact of life that one without the other leads nowhere. The following passage from David Bohm's Wholeness and the Implicate Order illustrates what I mean by a “way of thinking”:"
       },
       {
-        "break": true,
+        "block": true,
         "content": "Nevertheless, this sort of ability of man to separate himself from his environment and to divide and apportion things ultimately led to a wide range of negative and destructive results, because man lost awareness of what he was doing and thus extended the process of division beyond the limits within which it works properly. In essence, the process of division is a way of thinking about things that is convenient and useful mainly in the domain of practical, technical and functional activities (e.g., to divide up an area of land into different fields where various crops are to be grown). However, when this mode of thought is applied more broadly to man's notion of himself and the whole world in which he lives (i.e. to his self–world view), then man ceases to regard the resulting divisions as merely useful or convenient and begins to see and experience himself and his world as actually constituted of separately existent fragments. Being guided by a fragmentary self–world view, man then acts in such a way as to try to break himself and the world up, so that all seems to correspond to his way of thinking. Man thus obtains an apparent proof of the correctness of his fragmentary self–world view though, of course, he overlooks the fact that it is he himself, acting according to his mode of thought, who has brought about the fragmentation that now seems to have an autonomous existence, independent of his will and of his desire."
       },
       {
-        "break": true,
+        "block": true,
         "content": "Bohm (1981, pp. 2–3, emphasis in the original)"
       },
       {
@@ -902,11 +902,11 @@
         "content": "Attempts to apply the principle of complementarity to areas other than physics do not enjoy every scientist's blessing. For one thing, physicists do not agree on the precise meaning of complementarity, nor do they share all the philosophical views expressed by the architects of the Copenhagen interpretation, primarily Niels Bohr. One issue on which profound differences exist, for example, is whether human ideas can grasp the essence of things. Bohr was clearly doubtful of such a possibility; for him, as Henry P. Stapp (1993) put it, “progress in human understanding would more likely consist of the growth of a web of interwoven complementary understandings of various aspects of the fullness of nature.” “Such a view,” Stapp continued,"
       },
       {
-        "break": true,
+        "block": true,
         "content": "though withholding the promise for eventual complete illumination regarding the ultimate essence of nature, does offer the prospect that human inquiry can continue indefinitely to yield important new truths. And these can be final in the sense that they grasp or illuminate some aspect of nature as it is revealed to human experience. And the hope can persist that man will perceive ever more clearly, through his growing patchwork of complementary views, the general form of a pervading presence. But this pervading presence cannot be expected or required to be a resident of the three-dimensional space of naïve intuition, or to be described fundamentally in terms of quantities associated with points of a four-dimensional spacetime continuum."
       },
       {
-        "break": true,
+        "block": true,
         "content": "Stapp (1993 p. 70)"
       },
       {
@@ -923,27 +923,27 @@
         "content": "There is a vast difference between the duality of quantum mechanics and the dichotomies on which the mechanistic worldview seems to have thrived. One of the most significant contributions of “new physics” to a pattern of thought that is emerging in the world today is its rejection of this worldview. In The Quantum Self: A Revolutionary View of Human Nature and Consciousness Rooted in the New Physics, Danah Zohar (1991) gave an insightful analysis of the alienation resulting from the mechanical interpretation of the universe:"
       },
       {
-        "break": true,
+        "block": true,
         "content": "The three “pernicious dichotomies” left us wondering how we conscious human beings related to ourselves (our own bodies, our own past and future, our own sub-selves), to each other or to the world of nature and facts. In trying to resolve these questions, our psychology, our philosophy and our religion fragmented into opposite extremes. As Yeats said of this era, “Things fall apart, the centre cannot hold.”"
       },
       {
-        "break": true,
+        "block": true,
         "content": "The split between mind and body, or between inner and outer, gave rise to the dichotomy between extreme subjectivism (a world without objects) and extreme objectivism (a world without subjects). Thus Idealism denied the reality or importance of matter and reduced everything to mind, while materialism denied the reality or importance of mind and reduced everything to matter. Freud assumed that the inner was real and accessible, while the outer was all projection, and many strains of mysticism mirrored this view — for example the world is the veil of Maya, a veil of illusion. At the other extreme, Behaviourism assumed the outer was real but denied the relevance of the inner. It became psychology without the psyche."
       },
       {
-        "break": true,
+        "block": true,
         "content": "The split between the individual and his relationships led on the one hand to an exaggerated individualism, to a selfish will to power and possession, and on the other to an enforced communitarianism like that of Marxism, which denied the meaning or importance of individuals at all while stressing the absolute primacy of relationship."
       },
       {
-        "break": true,
+        "block": true,
         "content": "The split between culture and nature led both to relativism of all sorts — factual, moral, aesthetic and spiritual (value judgments) — and to dogma and extreme fundamentalism. There seemed no middle ground between the two extremes of saying that a given way of looking at things was only one of many contingent and relative ways of looking at them, or between saying there was only one, true and absolute way of looking at them. There seemed no way to say that we were not either wholly creatures of culture, and therefore unrooted in any established facts, or wholly creatures of nature (of the given), with no flexibility or room for creative development."
       },
       {
-        "break": true,
+        "block": true,
         "content": "In the West, these dichotomies robbed our individuality of its context and landed us in the deepest isolation, leading to narcissism. We were cut off from an outer confirmation of our inner life, leading to nihilism, and denied the confirmation of our ideas, leaving us with relativism and subjectivism. Each nourished a form of alienation, and the sum total of this alienation is the curse of modernism."
       },
       {
-        "break": true,
+        "block": true,
         "content": "Zohar (1991, pp. 217–218)"
       },
       {
@@ -1174,45 +1174,45 @@
         "content": "As mentioned earlier in the paper, the methodology adopted for this research project invites each participant to make explicit the religious beliefs underlying the arguments he or she is advancing. This subsection is primarily an exposition of some of the Bahá'í teachings relevant to capacity-building, the topic to be treated in the next section. Although the ideas expressed represent my own understanding of these teachings, I have tried to follow Bahá'í texts as closely as possible. Let me give an example to illustrate how I have gone about doing this. My brief description of the concept of humanity's coming of age is based on a number of passages from the Bahá'í writings. Bahá'u'lláh made repeated reference to the opening of a new stage in the life of humanity:"
       },
       {
-        "break": true,
+        "block": true,
         "content": "This is the Day in which God's most excellent favors have been poured out upon men, the Day in which His most mighty grace hath been infused into all created things. It is incumbent upon all the peoples of the world to reconcile their differences, and, with perfect unity and peace, abide beneath the shadow of the Tree of His care and loving-kindness. It behoveth them to cleave to whatsoever will, in this Day, be conducive to the exaltation of their stations, and to the promotion of their best interests."
       },
       {
-        "break": true,
+        "block": true,
         "content": "BPT (1983a, IV)"
       },
       {
         "content": "'Abdu'l-Bahá, interpreting his father's teachings, further elaborated on this idea:"
       },
       {
-        "break": true,
+        "block": true,
         "content": "From the beginning to the end of his life man passes through certain periods, or stages, each of which is marked by certain conditions peculiar to itself. For instance, during the period of childhood his conditions and requirements are characteristic of that degree of intelligence and capacity. After a time he enters the period of youth, in which his former conditions and needs are superseded by new requirements applicable to the advance in his degree. His faculties of observation are broadened and deepened; his intelligent capacities are trained and awakened; the limitations and environment of childhood no longer restrict his energies and accomplishments. At last he passes out of the period of youth and enters the stage, or station, of maturity, which necessitates another transformation and corresponding advance in his sphere of life activity. New powers and perceptions clothe him, teaching and training commensurate with his progression occupy his mind, special bounties and bestowals descend in proportion to his increased capacities, and his former period of youth and its conditions will no longer satisfy his matured view and vision. Similarly, there are periods and stages in the life of the aggregate world of humanity. ..."
       },
       {
-        "break": true,
+        "block": true,
         "content": "From every standpoint the world of humanity is undergoing a reformation. The laws of former governments and civilizations are in process of revision; scientific ideas and theories are developing and advancing to meet a new range of phenomena; invention and discovery are penetrating hitherto unknown fields, revealing new wonders and hidden secrets of the material universe; industries have vastly wider scope and production; everywhere the world of mankind is in the throes of evolutionary activity indicating the passing of the old conditions and advent of the new age of reformation. ..."
       },
       {
-        "break": true,
+        "block": true,
         "content": "This is the cycle of maturity and reformation in religion as well. Dogmatic imitations of ancestral beliefs are passing. ... Bigotry and dogmatic adherence to ancient beliefs have become the central and fundamental source of animosity among men, the obstacle to human progress, the cause of warfare and strife, the destroyer of peace, composure and welfare in the world. ..."
       },
       {
-        "break": true,
+        "block": true,
         "content": "This reformation and renewal of the fundamental reality of religion constitute the true and outworking spirit of modernism, the unmistakable light of the world, the manifest effulgence of the Word of God, the divine remedy for all human ailment and the bounty of eternal life to all mankind."
       },
       {
-        "break": true,
+        "block": true,
         "content": "BPT (1982, pp. 438–439)"
       },
       {
         "content": "The operations of two processes, one of integration and the other of disintegration, through which the “coming together” of the peoples of the world is to be realized, are also the subject of detailed exposition in Bahá'í texts. Bahá'ís are called on, then, to do all they can to promote the forces of integration in society but to understand well the inevitable effects of the destructive forces that are at work in their own lives and in the lives of others. As they do so, they are to keep before their eyes a vision of a future that is depicted in terms such as the following:"
       },
       {
-        "break": true,
+        "block": true,
         "content": "National rivalries, hatreds, and intrigues will cease, and racial animosity and prejudice will be replaced by racial amity, understanding and cooperation. The causes of religious strife will be permanently removed, economic barriers and restrictions will be completely abolished, and the inordinate distinction between classes will be obliterated. Destitution on the one hand, and gross accumulation of ownership on the other, will disappear. The enormous energy dissipated and wasted on war, whether economic or political, will be consecrated to such ends as will extend the range of human inventions and technical development, to the increase of the productivity of mankind, to the extermination of disease, to the extension of scientific research, to the raising of the standard of physical health, to the sharpening and refinement of the human brain, to the exploitation of the unused and unsuspected resources of the planet, to the prolongation of human life, and to the furtherance of any other agency that can stimulate the intellectual, the moral, and spiritual life of the entire human race."
       },
       {
-        "break": true,
+        "block": true,
         "content": "BPT (1991, p. 204)"
       },
       {
@@ -1509,42 +1509,42 @@
         "content": "In expressing his conclusions — as true today as when they were written — Winner seized on the imagery of Mary Shelley's Frankenstein:"
       },
       {
-        "break": true,
+        "block": true,
         "content": "The best single statement of her view comes on the title page of the book, a quotation from Milton's Paradise Lost:"
       },
       {
-        "break": true,
+        "block": true,
         "content": "Did I request thee, Maker, from my clay"
       },
       {
-        "break": true,
+        "block": true,
         "content": "To mould me man? Did I solicit thee"
       },
       {
-        "break": true,
+        "block": true,
         "content": "From darkness to promote me? —"
       },
       {
-        "break": true,
+        "block": true,
         "content": "Suggested in these words is, it seems to me, the issue truly at stake in the whole of Frankenstein: the plight of things that have been created but not in a context of sufficient care. The problem captures the essence of the themes my inquiry has addressed."
       },
       {
-        "break": true,
+        "block": true,
         "content": "Victor Frankenstein is a person who discovers, but refuses to ponder, the implications of his discovery. He is a man who creates something new in the world and then pours all of his energy into an effort to forget. His invention is incredibly powerful and represents a quantum jump in the performance capability of a certain kind of technology. Yet he sends it out into the world with no real concern for how best to include it in the human community. Victor embodies an artifact with a kind of life previously manifest only in human beings. He then looks on in surprise as it returns to him as an autonomous force, with a structure of its own, with demands upon which it insists absolutely. Provided with no plan for its existence, the technological creation enforces a plan upon its creator. Victor is baffled, fearful, and totally unable to discover a way to repair the disruptions caused by his half-completed, imperfect work. He never moves beyond a dream of progress, the thirst for power, or the unquestioned belief that the products of science and technology are an unqualified blessing for humankind. Although he is aware of the fact that there is something extraordinary at large in the world, it takes a disaster to convince him that the responsibility is his. Unfortunately, by the time he overcomes his passivity, the consequences of his deeds have become irreversible, and he finds himself totally helpless before an unchosen fate."
       },
       {
-        "break": true,
+        "block": true,
         "content": "Winner (1978, pp. 312–313)"
       },
       {
         "content": "Having argued that the entire world now faces this same problem, Winner continued:"
       },
       {
-        "break": true,
+        "block": true,
         "content": "Beyond these dominant beliefs and attitudes, however, lies something even more fundamental, for there is a sense in which all technical activity contains an inherent tendency toward forgetfulness. Is not the point of all invention, technique, apparatus, and organization to have something and have it over with? One does not want to bother anymore with building, developing, or learning it again. One does not want to bother with its structure or the principles of its internal workings. One simply wants the technical thing to be present in its utility. The goods are to be oriented without having to understand the factory or the distribution network. Energy is to be utilized without understanding the myriad of connections that made its generation and delivery possible. Technology, then, allows us to ignore our own works. It is license to forget. In its sphere the truths of all important processes are encased, shut away, and removed from our concern. This more than anything else, I am convinced, is the true source of the colossal passivity in man's dealings with technical means."
       },
       {
-        "break": true,
+        "block": true,
         "content": "Winner (1978, pp. 314–315, emphasis in the original)"
       },
       {
@@ -1564,155 +1564,155 @@
         "content": "[From Reading 1]"
       },
       {
-        "break": true,
+        "block": true,
         "content": "For an educational process to be truly successful, it must encourage students to reflect on the conceptual foundation of their own education. The units entitled “Basic Concepts” are to provide you with the opportunity to engage in such reflection. As with other units in the area of language, their purpose is to assist you in developing your skills of expression. Their content, however, will explore fundamental concepts that you have encountered in various courses without having had a chance to examine them in depth."
       },
       {
-        "break": true,
+        "block": true,
         "content": "Let us begin by looking at the purpose of your education. You have been told time and again that your education is purposeful. What is this purpose and how does it manifest itself in the educational program you have been following now for a number of years?"
       },
       {
-        "break": true,
+        "block": true,
         "content": "To say that your education has a purpose does not, by itself, have a great deal of significance. Every educational system sets out to accomplish laudable aims. To become a useful citizen, to contribute to the progress of one's country, to become a productive member of society, to achieve happiness, to find work and improve one's standard of living, such expressions abound in books and documents on education. Why is it, then, that today, in spite of these explicit aims, the majority of students in the world are confused about the purpose of their education? Why are there so few who are truly motivated to learn? What has motivated you to show zeal and enthusiasm during the course of your studies? Does your understanding of the purpose of your education have anything to do with your high level of motivation?"
       },
       {
-        "break": true,
+        "block": true,
         "content": "If we were to summarize everything we have discussed on the subject of education throughout the years, we would say that the purpose of your education is your growth as an individual and the development of your capacity to contribute to the transformation of society. This is a simple statement with numerous ramifications. The readings that follow shed light, each in its own way, on the meaning and implications of this statement."
       },
       {
-        "break": true,
+        "block": true,
         "content": "FUNDAEC (1998, p. 1)"
       },
       {
         "content": "[From Reading 3]"
       },
       {
-        "break": true,
+        "block": true,
         "content": "The enhancement of understanding is one of the most fundamental aims of the educational process in which you are participating. The next two readings are taken from a series of lectures on curriculum development given by one of the founders of FUNDAEC. They contain a number of ideas — some of which are more or less self-evident — that will be useful to you in reflecting on your own education, even if the secondary education you received was not through FUNDAEC."
       },
       {
-        "break": true,
+        "block": true,
         "content": "The verb “to understand” obviously has to have a subject and an object. The subject of the verb is the human mind and heart, which need to fulfill certain conditions in order to reach the shores of true understanding. “Objects of understanding” are those things that the human mind and heart are supposed to understand; they are extremely varied and fall into many seemingly unrelated categories. A cursory examination of a few statements made in conversation points to some of these categories:"
       },
       {
-        "break": true,
+        "block": true,
         "content": "“I don't understand why you act this way.”"
       },
       {
-        "break": true,
+        "block": true,
         "content": "“I don't understand why suffering exists in the world.”"
       },
       {
-        "break": true,
+        "block": true,
         "content": "“He doesn't understand our friendship.”"
       },
       {
-        "break": true,
+        "block": true,
         "content": "“I wish I could understand chemistry.”"
       },
       {
-        "break": true,
+        "block": true,
         "content": "“Do you understand how this gadget works?”"
       },
       {
-        "break": true,
+        "block": true,
         "content": "“I understand what you are saying.”"
       },
       {
-        "break": true,
+        "block": true,
         "content": "“I don't understand what you are driving at.”"
       },
       {
-        "break": true,
+        "block": true,
         "content": "“You should try harder to understand his feelings.”"
       },
       {
-        "break": true,
+        "block": true,
         "content": "“I fully understand his views.”"
       },
       {
-        "break": true,
+        "block": true,
         "content": "“We need to gain a greater understanding of the dynamics of crisis and victory.”"
       },
       {
-        "break": true,
+        "block": true,
         "content": "“We need to understand the true nature of man.”"
       },
       {
-        "break": true,
+        "block": true,
         "content": "From these few examples it is easy to see that objects of understanding fall into categories such as subject matter, relationships, feelings, views, interactions, the causes of things, the reason for things, the meaning of things, the purpose of things, the workings of things, and the reality or essence of things. To this you may add visions, contexts, approaches, attitudes, results, conventions — and undoubtedly a myriad other things — and you will have a rather formidable list of categories of things to be understood. What is important for you to realize is that in the course of your education, we were careful to address a sufficient number of objects of understanding from various categories so as to sharpen your faculties and to equip you with those mental tools needed to achieve an understanding of yourself and the world that surrounds you."
       },
       {
-        "break": true,
+        "block": true,
         "content": "Two of these mental tools, both extremely powerful in the process of investigation of reality, are worthy of mention. One is analysis, that is, breaking things into smaller parts and then examining the relations and interactions of these parts. The other is placing things in larger and larger contexts in order to gain insights into causes and reasons for their existence and behavior. ..."
       },
       {
-        "break": true,
+        "block": true,
         "content": "FUNDAEC (1998, pp. 15–16)"
       },
       {
         "content": "[From Reading 5]"
       },
       {
-        "break": true,
+        "block": true,
         "content": "The educational process in which you are participating is characterized by its emphasis on moral and ethical considerations. Concern with morality, however, is not expressed in the form of sermons on good behavior; the discussion of moral and ethical issues is incorporated into every element of the curriculum. The next two readings consist of a few paragraphs from a document exploring a framework for moral education appropriate for this period of human history, a period to which the document refers as the age of transition from humanity's childhood to maturity. Slight modifications have been made in order to render the readings suitable for this unit."
       },
       {
-        "break": true,
+        "block": true,
         "content": "In order to act effectively during the present period of transition in human society, individuals must, above all, be imbued with a strong sense of purpose that impels them both to transform their own selves and to contribute to the transformation of society. On a personal level, this purpose is directed towards the development of one's vast potentialities, comprising both those virtues and qualities that should adorn every human being and those talents and characteristics that are the individual's unique endowment. On a social level, it is expressed through dedication to the promotion of the welfare of the human race. These aspects of the sense of twofold purpose are fundamentally inseparable, for the standards and behavior of individuals shape their environment, and in turn are molded by social structures and processes. Unless the transformation of both individual character and environment are addressed simultaneously, the full potential of humanity's age of maturity cannot be realized."
       },
       {
-        "break": true,
+        "block": true,
         "content": "A profound awareness of the reciprocal relationship between personal growth and organic change in social structures is, then, essential to moral education. One cannot develop virtues and talents in isolation, but only through effort and activity for the benefit of others. Idle worship and prolonged withdrawal from society, advocated by some philosophies of the past, can neither promote individual development nor aid humanity's progress. To focus one's sense of purpose only on the development of one's own potential is to lose objectivity and perspective. With no outside interactions and social goals, one has no standard by which to judge personal progress and no concrete results by which to measure one's development. A person forgetful of the social dimension of moral purpose is prone to subtle forms of ego — combinations of guilt, self-righteousness and self-satisfaction."
       },
       {
-        "break": true,
+        "block": true,
         "content": "Conversely, a sense of purpose driven only by the desire to transform society, with no attention to the need for personal growth and transformation, is easily misdirected. The person who blames society for every wrong and ignores the importance of individual responsibility loses respect and compassion for others and is prone to acts of cruelty and oppression. Social transformation, if divorced from the desire to transform one's own character, is an extremely fragile enterprise. ..."
       },
       {
-        "break": true,
+        "block": true,
         "content": "FUNDAEC (1998, p. 35)"
       },
       {
         "content": "[From Reading 7]"
       },
       {
-        "break": true,
+        "block": true,
         "content": "By the term “capability” we mean developed capacity to think and to act in a well-defined sphere of activity and according to a well-defined purpose. We use the word to refer not to individual skills but rather to complex spheres of thought and action each requiring a number of related skills and abilities. Moreover, we place great importance on the notion that the gradual acquisition of a given capability, in addition to the mastering of skills, is dependent on the assimilation of relevant information, the understanding of a set of concepts, the development of certain attitudes, and advancement in a number of spiritual qualities."
       },
       {
-        "break": true,
+        "block": true,
         "content": "Classification, for example, is a capability, in this case a mathematical one, which an individual can acquire at different levels of competence. At the most elementary level, say, at the beginning of secondary school, it involves acquiring an understanding of the concepts of sets, of an element of a set, and of belonging to a set. It also requires an understanding of the concept that things can be divided into sets according to common properties. But, even at this level, such an understanding is not sufficient. The ability to recognize the properties according to which the elements in question are to be classified, as well as some relevant information about those elements, is also necessary. For example, if someone is to classify objects according to size, the skill of estimating or measuring the size of the objects in question becomes essential. As to attitudes, carefulness and appreciation for order are clearly desirable. At a more fundamental level, truthfulness is a spiritual quality that helps generate positive attitudes towards precision and care."
       },
       {
-        "break": true,
+        "block": true,
         "content": "In language, to cite another example, the mechanics of reading and writing are skills, but to read at a certain level of comprehension is a rather complex capability. Another language capability is that of describing what we observe in the world around us in ever greater contexts. To describe the world around us quantitatively is a mathematical capability. Examples of highly desirable scientific capabilities are those of making organized observations of phenomena and designing experiments to test a hypothesis. Participating effectively in consultation is a capability needed in the social realm, as is the capability of participating in collective enterprises. To manage one's affairs and responsibilities with rectitude of conduct is a moral capability. Another essential moral capability is that of building environments of unity based on an appreciation of diversity."
       },
       {
-        "break": true,
+        "block": true,
         "content": "FUNDAEC (1998, pp. 60–61)"
       },
       {
         "content": "[From Reading 8]"
       },
       {
-        "break": true,
+        "block": true,
         "content": "The approach we adopted to curriculum design, organized around capabilities rather than subject matters, helped our students learn with extraordinary rapidity. That the capabilities we were trying to develop all had the same explicit social purpose enabled us to address one of the basic challenges of curricular integration: how to overcome the dichotomy between theoretical and practical knowledge. Most current educational systems tend to teach practical and manual skills to some and book-learning to others. The capacity to participate in planning and decision-making is developed in a few, while the majority are trained to carry out orders. What we tried to achieve is to maintain the interest of the students simultaneously in concrete and abstract activities. For example, the skills of animal husbandry were taught in conjunction with the study of animal physiology, and the steps to establish a village store with the analysis of abstract social and economic theories. To the degree that we succeeded in integrating theoretical and practical knowledge, we saw prejudices and false scales of prestige gradually disappear and be replaced by a purposeful attitude towards learning and change."
       },
       {
-        "break": true,
+        "block": true,
         "content": "But the most difficult challenge of our educational innovation proved not to be the fusion of elements of knowledge of the physical universe and society. A far greater task was the integration of material and spiritual concepts into a knowledge system that would enable individuals and entire populations to contribute to the creation of a world civilization, towards which, we felt, humanity is inexorably moving. To meet this challenge, we did not develop specific courses on religion; nor did we engage in humanistic studies of ethics and social behavior. Spirituality was treated as a state, an inner condition, that should manifest itself in action, in everyday choices, in profound understanding of human nature and in meaningful contributions to community life and society. Following this interpretation, we tried to integrate spirituality into every educational activity: every act had to be a means for the clarification and application of spiritual principles."
       },
       {
-        "break": true,
+        "block": true,
         "content": "In doing so, we found that a number of issues needed to be tackled. Spirituality has to be built into curricula without denying material well-being or relegating prosperity to another life. What has to be done is to elevate everyday activities to a more sublime station by imbuing them with the spirit of service. However, identifying spirituality exclusively with service poses the danger of conveying the notion that spirituality arises from actions that lead to well-being. To counterbalance this effect, the manifestations of the most profound yearnings of the human soul, such as the search for nearness to God through prayer and meditation, also have to be given due consideration. “Being” and “doing” are intimately connected and should not be artificially separated."
       },
       {
-        "break": true,
+        "block": true,
         "content": "Furthermore, this integration of the spiritual and the material calls for increasing understanding of the delicate balance that must exist between the many forces at work in the human mind and heart: balance between personal liberty and social obligation, between being the master of nature and living in harmony with it, between humanism and science, the rational and the emotional. To achieve such a balance, one has to go beyond the attributes of the mind and touch those qualities of the soul that are the foundation of human character. An essential requisite for achieving a balance between the forces at work in the human mind and heart is, then, the development of spiritual qualities, such as justice, love, generosity, compassion, humility, and truthfulness. Moreover, if these qualities are to give rise to attitudes and behavior which are a true reflection of spirituality, they must be developed in such a way that they moderate one another. Otherwise, all that is achieved in the name of spirituality is self-righteousness and fanaticism. Further, it is only through understanding the interaction of spiritual qualities that we learn to distinguish moderation from mediocrity — justice moderated by compassion, not half-justice; lavish generosity together with humility, not cautious giving; absolute truthfulness acting in the medium of love, not the mixing of truth with lies whenever it is convenient."
       },
       {
-        "break": true,
+        "block": true,
         "content": "FUNDAEC (1998, pp. 71–72)"
       }
     ]
