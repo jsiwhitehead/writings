@@ -5,7 +5,11 @@
   style: PT Serif 20,
   :
     #data
-    .[d=>> d?.part: (d?.name.content == "The Hidden Words: Part One", d?)]
+    .[
+      d=>>
+        d?.part:
+          (d?.part ! 0, d?.name.content = "The Hidden Words: Part One", d?),
+    ]
     .[d=>> : [d?]]
     .[
       d=> n=>
@@ -19,7 +23,7 @@
               c=> i=>
                 [
                   style:
-                    ({c?.c, i? == 1}, center) ({c?.b, i? == 1}, bold)
+                    ({c?.c, i? = 1}, center) ({c?.b, i? = 1}, bold)
                     (c?.i, italic),
                   c?.content,
                 ],

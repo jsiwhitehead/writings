@@ -1,1 +1,1 @@
-[streams: "src/app/streams"]
+[library: ["src/app/streams"]]

@@ -1,4 +1,4 @@
-import { fromJs, toJs } from 'maraca';
+import { fromJs } from 'maraca';
 import * as webfont from 'webfontloader';
 
 webfont.load({
@@ -7,27 +7,21 @@ webfont.load({
 
 const data = require('../../data/data.json');
 
+const mapArrays = x => {
+  if (Array.isArray(x))
+    return x.map((y, i) => ({ key: i + 1, value: mapArrays(y) }));
+  if (Object.prototype.toString.call(x) === '[object Object]') {
+    return Object.keys(x).reduce(
+      (res, k) => ({ ...res, [k]: mapArrays(x[k]) }),
+      {},
+    );
+  }
+  return x;
+};
+
 export default {
-  '@': [
-    emit => {
-      let count = 1;
-      let interval;
-      return value => {
-        if (interval) clearInterval(interval);
-        if (value) {
-          const inc = toJs(value);
-          if (typeof inc === 'number') {
-            emit(fromJs(count++));
-            interval = setInterval(() => emit(fromJs(count++)), inc * 1000);
-          } else {
-            emit(fromJs(null));
-          }
-        }
-      };
-    },
-  ],
-  '#': {
-    data: fromJs(
+  data: fromJs(
+    mapArrays(
       data.filter(
         d =>
           d.name &&
@@ -36,11 +30,11 @@ export default {
           ),
       ),
     ),
-    tick: emit => {
-      let count = 1;
-      emit(fromJs(count++));
-      const interval = setInterval(() => emit(fromJs(count++)), 1000);
-      return () => clearInterval(interval);
-    },
+  ),
+  tick: emit => {
+    let count = 1;
+    emit(fromJs(count++));
+    const interval = setInterval(() => emit(fromJs(count++)), 1000);
+    return () => clearInterval(interval);
   },
 };
