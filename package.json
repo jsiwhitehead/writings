@@ -14,10 +14,10 @@
     "proseWrap": "always"
   },
   "devDependencies": {
-    "@types/node": "^13.7.1",
+    "@types/node": "^13.7.7",
     "fs-extra": "^8.1.0",
     "js-levenshtein": "^1.1.6",
-    "maraca-app": "^0.2.6",
+    "maraca-app": "^0.2.7",
     "moment": "^2.24.0",
     "node-fetch": "^2.6.0",
     "pdf2json": "^1.1.8",
@@ -28,7 +28,7 @@
     "roman-numbers": "^1.0.1",
     "ts-loader": "^6.2.1",
     "ts-node": "^8.6.2",
-    "typescript": "^3.7.5",
+    "typescript": "^3.8.3",
     "unified": "^8.4.2",
     "webfontloader": "^1.6.28"
   }
