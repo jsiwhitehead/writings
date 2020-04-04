@@ -7,7 +7,7 @@ export const config = {
     'This document has been downloaded from the . You are free to use its content subject to the terms of use found at',
 };
 
-export default data => [
+export default (data) => [
   {
     type: 'Writings',
     author: 'Bahá’u’lláh',

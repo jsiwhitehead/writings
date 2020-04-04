@@ -8,13 +8,10 @@ export const config = {
   smallBreak: true,
 };
 
-export default data =>
+export default (data) =>
   data.map(({ content }) => ({
     type: 'Prayer',
-    author: content
-      .pop()
-      .content.split(' ')[0]
-      .slice(1),
+    author: content.pop().content.split(' ')[0].slice(1),
     categories: { Children: true },
     content,
   }));

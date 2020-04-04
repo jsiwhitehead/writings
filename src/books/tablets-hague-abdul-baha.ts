@@ -7,7 +7,7 @@ export const config = {
   end: 'Notes',
 };
 
-export default data =>
+export default (data) =>
   data
     .reduce((res, d) => {
       const prev = res[res.length - 1];

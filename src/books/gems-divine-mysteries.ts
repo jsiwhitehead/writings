@@ -8,7 +8,7 @@ export const config = {
   },
 };
 
-export default data =>
+export default (data) =>
   data.map(({ info, content }) => {
     const result = { name: { content: 'Gems of Divine Mysteries' }, content };
     if (info[0][1].content === 'Introduction') {

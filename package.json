@@ -2,7 +2,7 @@
   "name": "writings",
   "version": "1.0.0",
   "scripts": {
-    "prettier": "prettier --write \"src/**/*.{ts,json}\"",
+    "prettier": "prettier --write \"{app,src}/**/*.{ts,json}\"",
     "d": "rimraf data/downloaded && ts-node src/download && prettier --write \"data/downloaded/**/*.json\"",
     "p": "rimraf data/parsed && ts-node src/parse && prettier --write \"data/parsed/**/*.json\"",
     "e": "rimraf data/extracted && rimraf data/extracted.json && ts-node src/extract && prettier --write \"data/extracted**/*.json\" && prettier --write \"data/extracted.json\"",
@@ -14,22 +14,22 @@
     "proseWrap": "always"
   },
   "devDependencies": {
-    "@types/node": "^13.7.7",
-    "fs-extra": "^8.1.0",
+    "@types/node": "^13.11.0",
+    "fs-extra": "^9.0.0",
     "js-levenshtein": "^1.1.6",
-    "maraca-app": "^0.2.7",
+    "maraca-app": "^0.2.9",
     "moment": "^2.24.0",
     "node-fetch": "^2.6.0",
-    "pdf2json": "^1.1.8",
-    "prettier": "^1.19.1",
-    "prettier-plugin-maraca": "^0.3.4",
+    "pdf2json": "^1.2.0",
+    "prettier": "^2.0.2",
+    "prettier-plugin-maraca": "^0.3.7",
     "rehype-parse": "^6.0.2",
     "rimraf": "^3.0.2",
     "roman-numbers": "^1.0.1",
-    "ts-loader": "^6.2.1",
-    "ts-node": "^8.6.2",
+    "ts-loader": "^6.2.2",
+    "ts-node": "^8.8.1",
     "typescript": "^3.8.3",
-    "unified": "^8.4.2",
+    "unified": "^9.0.0",
     "webfontloader": "^1.6.28"
   }
 }

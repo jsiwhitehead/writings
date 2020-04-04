@@ -9,7 +9,7 @@ export const config = {
   },
 };
 
-export default data =>
+export default (data) =>
   data.map(({ info, content }) => ({
     type: info[1][0] === 1 ? 'Preface' : 'Tablet',
     categories: { 'Tablets of the Divine Plan': true },

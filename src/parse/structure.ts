@@ -1,7 +1,7 @@
-const isNumber = s =>
+const isNumber = (s) =>
   /^(([0-9]+)|(– [0-9]+ –)|(– [MDCLXVI]+ –)|(‑ Chapter [MDCLXVI]+ ‑))$/.test(s);
 
-const convertGaps = content =>
+const convertGaps = (content) =>
   content.reduce((res, { gap, ...c }) => {
     if (
       c.content &&
@@ -19,9 +19,9 @@ const convertGaps = content =>
     return res;
   }, []);
 
-const buildNotes = content => {
+const buildNotes = (content) => {
   const notes = {};
-  const withoutNotes = content.filter(c => {
+  const withoutNotes = content.filter((c) => {
     if (typeof c !== 'number') {
       const { note, gap, ...rest } = c;
       if (note) {
@@ -32,7 +32,7 @@ const buildNotes = content => {
     }
     return true;
   });
-  return withoutNotes.map(c => {
+  return withoutNotes.map((c) => {
     if (!c.notes) return c;
     return {
       ...c,
@@ -45,8 +45,8 @@ const buildNotes = content => {
 };
 
 const sliceContent = (content, start, end) => {
-  const startIndex = content.findIndex(p => p.content === start);
-  const endIndex = content.findIndex(p => p.content === end);
+  const startIndex = content.findIndex((p) => p.content === start);
+  const endIndex = content.findIndex((p) => p.content === end);
   return content.slice(
     startIndex === -1 ? 0 : startIndex,
     endIndex === -1 ? undefined : endIndex,
@@ -60,11 +60,11 @@ const createLevels = (content, smallBreak, titleJoin) =>
       return (
         c >= (smallBreak ? 1 : 2) &&
         ![i - 1, i + 1].some(
-          j => !content[j] || content[j].header || content[j].note,
+          (j) => !content[j] || content[j].header || content[j].note,
         )
       );
     }, [])
-    .map(c => {
+    .map((c) => {
       if (typeof c === 'number') return c >= 5 ? { level: 2 } : { level: 3 };
       const { header, note, ...r } = c;
       if (note) return { level: 1, note, ...r };
@@ -88,17 +88,17 @@ const createLevels = (content, smallBreak, titleJoin) =>
       return [...res, c];
     }, []);
 
-const groupItems = content => {
+const groupItems = (content) => {
   const result = [] as any[];
   let countLevel = 1;
   const info = { 1: [1], 2: [1], 3: [1] } as any;
   while (content.length > 0) {
-    const i = content.findIndex(r => r.level) + 1;
+    const i = content.findIndex((r) => r.level) + 1;
     const c = content.splice(0, i || content.length);
     const item = i ? c.pop() : null;
     if (c.length) {
       result.push({
-        info: [1, 2, 3].map(x => [info[x][0], info[x][1] || {}]),
+        info: [1, 2, 3].map((x) => [info[x][0], info[x][1] || {}]),
         content: c,
       });
     }
@@ -112,10 +112,11 @@ const groupItems = content => {
   }
   const indices = result.map(
     (r, i) =>
-      i !== 0 && [0, 1, 2].find(j => r.info[j][0] !== result[i - 1].info[j][0]),
+      i !== 0 &&
+      [0, 1, 2].find((j) => r.info[j][0] !== result[i - 1].info[j][0]),
   ) as any[];
   result.forEach((r, i) => {
-    [0, 1, 2].forEach(j => {
+    [0, 1, 2].forEach((j) => {
       if (i === 0) {
         r.info[j][0] = 1;
       } else {

@@ -7,7 +7,7 @@ export const config = {
     'This document has been downloaded from the . You are free to use its content subject to the terms of use found at',
 };
 
-export default data =>
+export default (data) =>
   data
     .reduce((res, d) => {
       const prev = res[res.length - 1];

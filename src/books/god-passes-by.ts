@@ -12,7 +12,7 @@ export const config = {
   },
 };
 
-export default data =>
+export default (data) =>
   data.map(({ content, info }) => {
     if (info[1][0] === 1) {
       return {

@@ -6,7 +6,7 @@ export const config = {
     'This document has been downloaded from the . You are free to use its content subject to the terms of use found at',
 };
 
-export default data =>
+export default (data) =>
   data
     .reduce((res, d) => {
       const prev = res[res.length - 1];
@@ -16,7 +16,7 @@ export default data =>
       }
       return [...res, d];
     }, [])
-    .filter(d => ![1, 1, 2].every((x, i) => d.info[i][0] === x))
+    .filter((d) => ![1, 1, 2].every((x, i) => d.info[i][0] === x))
     .map(({ info, content }, i) => ({
       type: info[0][0] === 1 ? 'Preface' : 'Writings',
       author: 'The Universal House of Justice',

@@ -14,7 +14,7 @@ export const config = {
   },
 };
 
-export default data =>
+export default (data) =>
   data
     .reduce((res, n) => {
       const prev = res[res.length - 1];
@@ -74,10 +74,10 @@ export default data =>
       }
 
       const labels = info
-        .map(x => x[1].content)
-        .filter(x => x)
-        .filter(x => !['General', 'Occasional'].some(s => x.includes(s)))
-        .map(x => {
+        .map((x) => x[1].content)
+        .filter((x) => x)
+        .filter((x) => !['General', 'Occasional'].some((s) => x.includes(s)))
+        .map((x) => {
           if (x.includes('Women')) return 'Women';
           if (x.includes('Infants')) return 'Infants';
           return x;

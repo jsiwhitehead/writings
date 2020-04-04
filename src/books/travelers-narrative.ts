@@ -6,7 +6,7 @@ export const config = {
   end: 'Notes',
 };
 
-export default data => [
+export default (data) => [
   {
     type: 'History',
     author: '‘Abdu’l‑Bahá',

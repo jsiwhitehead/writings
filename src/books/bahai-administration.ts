@@ -10,7 +10,7 @@ export const config = {
   },
 };
 
-export default data =>
+export default (data) =>
   data
     .slice(1)
     .reduce((res, n) => {
@@ -22,7 +22,7 @@ export default data =>
       return [...res, n];
     }, [])
     .map(({ content, info }, j) => {
-      let i = content.findIndex(n => n.r && n.content === 'Shoghi.');
+      let i = content.findIndex((n) => n.r && n.content === 'Shoghi.');
       if (i !== -1 && content[i - 1].c) i--;
       return {
         type: 'Message',
@@ -37,7 +37,7 @@ export default data =>
                 ...content.slice(0, i),
                 ...content
                   .slice(i)
-                  .filter(n => n.header || n.content.startsWith('P.S.')),
+                  .filter((n) => n.header || n.content.startsWith('P.S.')),
               ],
       };
     });

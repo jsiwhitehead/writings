@@ -8,15 +8,15 @@ import scrape from './scrape';
 import structure from './structure';
 
 (async () => {
-  const files = (await fs.readdir('./src/books')).map(f => f.slice(0, -3));
+  const files = (await fs.readdir('./src/books')).map((f) => f.slice(0, -3));
   await fs.ensureDir('./data/parsed');
   await Promise.all(
-    files.map(async f => {
+    files.map(async (f) => {
       const config = require(`../books/${f}`).config;
       if (config.url.endsWith('.pdf')) {
-        await new Promise(resolve => {
+        await new Promise((resolve) => {
           const pdfParser = new PDFParser();
-          pdfParser.on('pdfParser_dataReady', async data => {
+          pdfParser.on('pdfParser_dataReady', async (data) => {
             await fs.writeFile(
               `./data/parsed/${f}.json`,
               stringify(parsePdf(data, config.start, config.end)),

@@ -1,17 +1,17 @@
-export const flatten = x => x.reduce((res, y) => [...res, ...y], []);
+export const flatten = (x) => x.reduce((res, y) => [...res, ...y], []);
 
 export const stringify = (x = null as any) => {
   if (Array.isArray(x)) return `[${x.map(stringify).join(', ')}]`;
   if (x === null || typeof x !== 'object') return JSON.stringify(x);
   const keys = [
     ...Object.keys(x)
-      .filter(k => k !== 'content')
+      .filter((k) => k !== 'content')
       .sort(),
     'content',
   ];
   return `{ ${keys
-    .filter(k => x[k] !== undefined)
-    .map(k => `${JSON.stringify(k)}: ${stringify(x[k])}`)
+    .filter((k) => x[k] !== undefined)
+    .map((k) => `${JSON.stringify(k)}: ${stringify(x[k])}`)
     .join(', ')} }`;
 };
 
@@ -25,7 +25,7 @@ export const sliceContent = (data, start, end) => {
       ...rest,
     }));
     result.spans = result.spans.filter(
-      s => s.start >= 0 && s.end <= result.content.length,
+      (s) => s.start >= 0 && s.end <= result.content.length,
     );
     if (result.spans.length === 0) delete result.spans;
   }
@@ -35,7 +35,7 @@ export const sliceContent = (data, start, end) => {
       ...rest,
     }));
     result.notes = result.notes.filter(
-      n => n.position > 0 && n.position <= result.content.length,
+      (n) => n.position > 0 && n.position <= result.content.length,
     );
     if (result.notes.length === 0) delete result.notes;
   }

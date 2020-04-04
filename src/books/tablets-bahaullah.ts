@@ -9,7 +9,7 @@ export const config = {
   },
 };
 
-export default data =>
+export default (data) =>
   data
     .reduce((res, d) => {
       const prev = res[res.length - 1];
@@ -87,7 +87,7 @@ export default data =>
       }
       return [...res, d];
     }, [])
-    .filter(d => d.content.length > 0)
+    .filter((d) => d.content.length > 0)
     .reduce((res, d) => {
       const prev = res[res.length - 1];
       if (prev && prev.part && d.part && d.part !== 1) d.part = prev.part + 1;

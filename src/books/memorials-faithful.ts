@@ -8,7 +8,7 @@ export const config = {
   },
 };
 
-export default data =>
+export default (data) =>
   data.map(({ info, content }) => ({
     type: 'Memorial',
     author: '‘Abdu’l‑Bahá',

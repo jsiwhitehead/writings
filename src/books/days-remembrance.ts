@@ -5,7 +5,7 @@ export const config = {
   end: 'Notes',
 };
 
-export default data =>
+export default (data) =>
   data.map(({ info, content }) => {
     const result = { type: 'Tablet', author: 'Bahá’u’lláh', content } as any;
     if (info[0][1].content === 'Preface') {

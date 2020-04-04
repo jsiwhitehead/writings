@@ -15,8 +15,8 @@ export default (color = '', hex = false) => {
 
   const [h = 0, c = 0, l = 0, o = 100] = color
     .split(/\s+/)
-    .filter(s => s)
-    .map(s => (isNumber(s) ? parseFloat(s) : undefined));
+    .filter((s) => s)
+    .map((s) => (isNumber(s) ? parseFloat(s) : undefined));
   const r = h * R;
   const a = Math.cos(r) * c;
   const b = Math.sin(r) * c;
@@ -30,14 +30,14 @@ export default (color = '', hex = false) => {
     3.2404542 * x - 1.5371385 * y - 0.4985314 * z,
     -0.969266 * x + 1.8760108 * y + 0.041556 * z,
     0.0556434 * x - 0.2040259 * y + 1.0572252 * z,
-  ].map(v =>
+  ].map((v) =>
     clean(
       255 * (v <= 0.00304 ? 12.92 * v : 1.055 * Math.pow(v, 1 / 2.4) - 0.055),
       255,
     ),
   );
 
-  if (hex) return rgb.map(v => v.toString(16).padStart(2, '0')).join('');
+  if (hex) return rgb.map((v) => v.toString(16).padStart(2, '0')).join('');
 
   const alpha = clean(o, 100) * 0.01;
 

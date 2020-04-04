@@ -5,7 +5,7 @@ export const config = {
   end: 'Shoghi',
 };
 
-export default data =>
+export default (data) =>
   data.map(({ content, info }) => ({
     type: 'Message',
     author: 'Shoghi Effendi',

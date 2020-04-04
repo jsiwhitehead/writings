@@ -8,7 +8,7 @@ export const config = {
   },
 };
 
-export default data =>
+export default (data) =>
   data.map(({ info, content }) =>
     info[0][1].content === 'Preface'
       ? {

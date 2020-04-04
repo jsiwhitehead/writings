@@ -12,7 +12,7 @@ export const config = {
   },
 };
 
-export default data =>
+export default (data) =>
   data
     .reduce((res, n) => {
       const prev = res[res.length - 1];
@@ -27,7 +27,7 @@ export default data =>
       return [...res, n];
     }, [])
     .map(({ content, info }) => {
-      const i = content.findIndex(n => n.c || n.r || n.content === 'Shoghi.');
+      const i = content.findIndex((n) => n.c || n.r || n.content === 'Shoghi.');
       const result = {
         type: 'Message',
         author: 'Shoghi Effendi',

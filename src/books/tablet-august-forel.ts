@@ -6,7 +6,7 @@ export const config = {
   end: 'Notes',
 };
 
-export default data => {
+export default (data) => {
   const content = data[0].content;
   content.pop();
   return [

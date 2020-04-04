@@ -9,7 +9,7 @@ export const config = {
   end: 'Key to Passages Translated by Shoghi Effendi',
 };
 
-export default data =>
+export default (data) =>
   data.map(({ info, content }) => {
     const result = { type: 'Writings', author: 'The Báb', content } as any;
     if (info[0][1].content === 'Tablets and Addresses') {
@@ -22,7 +22,7 @@ export default data =>
       if (result.name.content !== 'Excerpts from the Dalá’il‑i‑Sab‘ih') {
         const last = result.content[result.content.length - 1];
         const span = last.spans
-          .filter(s => s.types.includes('i'))
+          .filter((s) => s.types.includes('i'))
           .sort((a, b) => b.start - a.start)[0];
         result.chapter = last.content
           .slice(span.start - 1, span.end)

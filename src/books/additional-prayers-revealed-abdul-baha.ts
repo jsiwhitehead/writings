@@ -28,7 +28,7 @@ const categories = [
   ['Parents', 'Women'],
 ];
 
-export default data =>
+export default (data) =>
   data
     .reduce(
       (res, d) => {
@@ -39,7 +39,7 @@ export default data =>
       },
       [[]],
     )
-    .filter(x => x.length > 0)
+    .filter((x) => x.length > 0)
     .map((content, i) => ({
       type: 'Prayer',
       author: '‘Abdu’l-Bahá',

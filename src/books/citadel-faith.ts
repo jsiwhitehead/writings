@@ -10,7 +10,7 @@ export const config = {
   },
 };
 
-export default data =>
+export default (data) =>
   data
     .reduce((res, n) => {
       const prev = res[res.length - 1];
@@ -27,7 +27,7 @@ export default data =>
       }
       return [...res, n];
     }, [])
-    .filter(n => n.content.length !== 0)
+    .filter((n) => n.content.length !== 0)
     .map(({ content, info }) => {
       if (info[0][0] === 1) {
         const date = content.shift();

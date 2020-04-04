@@ -11,7 +11,7 @@ export const config = {
   },
 };
 
-export default data =>
+export default (data) =>
   data.map(({ content }) => {
     const categories = {} as any;
     if (
@@ -20,7 +20,7 @@ export default data =>
         'O God! The trials Thou sendest are a salve to the sores of all',
         'Praised be Thou, O Lord my God! Thou art He Who hath created',
         'Magnified be Thy name, O Thou in Whose grasp are the reins of the',
-      ].some(s => content[0].content.startsWith(s))
+      ].some((s) => content[0].content.startsWith(s))
     ) {
       categories.Women = true;
     }
@@ -28,14 +28,14 @@ export default data =>
       type: 'Prayer',
       author: 'Bahá’u’lláh',
       content: content.filter(
-        x =>
+        (x) =>
           ![
             'Short obligatory',
             'Medium obligatory',
             'Long obligatory',
             'Tablet of Visitation',
             'Prayer for the Dead',
-          ].some(s => x.content.includes(s)),
+          ].some((s) => x.content.includes(s)),
       ),
     } as any;
     if (Object.keys(categories).length > 0) {

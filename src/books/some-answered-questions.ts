@@ -5,7 +5,7 @@ export const config = {
   end: 'Notes',
 };
 
-export default data =>
+export default (data) =>
   data.map(({ info, content }) => {
     if (
       ['Foreword', 'Author’s Preface to the First Edition'].includes(

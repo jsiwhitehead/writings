@@ -5,7 +5,7 @@ export const config = {
   end: 'Notes',
 };
 
-export default data =>
+export default (data) =>
   data.map(({ info, content }) => ({
     type: 'Talk',
     author: '‘Abdu’l‑Bahá',

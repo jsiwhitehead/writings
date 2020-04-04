@@ -5,11 +5,11 @@ import { flatten, stringify } from './util';
 
 (async () => {
   const data = JSON.parse(await fs.readFile('./data/extracted.json', 'utf8'))
-    .map(d => {
+    .map((d) => {
       const text = d.content
-        .map(c => c.content)
-        .filter(s => s)
-        .map(s =>
+        .map((c) => c.content)
+        .filter((s) => s)
+        .map((s) =>
           s
             .toLowerCase()
             .replace(/\(.+\)/g, '')
@@ -24,9 +24,9 @@ import { flatten, stringify } from './util';
         chunks:
           (['Prayer', 'Tablet'].includes(d.type) || d.excerpt) &&
           flatten(
-            text.map(s =>
+            text.map((s) =>
               flatten(
-                s.split('…').map(s =>
+                s.split('…').map((s) =>
                   Array.from({
                     length: Math.ceil(s.length / 20),
                   }).map((_, i) => s.slice(i * 20, (i + 1) * 20)),
@@ -39,7 +39,7 @@ import { flatten, stringify } from './util';
     .sort((a, b) => b.length - a.length);
 
   data.forEach((a, i) => {
-    data.slice(i + 1).forEach(b => {
+    data.slice(i + 1).forEach((b) => {
       if (
         ['Prayer', 'Tablet'].includes(a.type) &&
         ['Prayer', 'Tablet'].includes(b.type) &&
@@ -72,11 +72,11 @@ import { flatten, stringify } from './util';
   });
 
   data.forEach((a, i) => {
-    data.slice(i + 1).forEach(b => {
+    data.slice(i + 1).forEach((b) => {
       if (
         a.author === b.author &&
         b.excerpt &&
-        b.chunks.filter(s => a.text.some(x => x.includes(s))).length /
+        b.chunks.filter((s) => a.text.some((x) => x.includes(s))).length /
           b.chunks.length >
           0.5
       ) {

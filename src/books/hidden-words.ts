@@ -10,7 +10,7 @@ export const config = {
   },
 };
 
-export default data =>
+export default (data) =>
   data
     .reduce((res, n) => {
       const prev = res[res.length - 1];
@@ -50,9 +50,11 @@ export default data =>
           const first = result.content[0].i ? result.content.shift() : null;
           const s = result.content[0].content;
           const i = s.indexOf('!');
-          result.content = [s.slice(0, i + 1), s.slice(i + 2)].map(content => ({
-            content,
-          }));
+          result.content = [s.slice(0, i + 1), s.slice(i + 2)].map(
+            (content) => ({
+              content,
+            }),
+          );
           if (first) result.content.unshift(first);
         }
       }

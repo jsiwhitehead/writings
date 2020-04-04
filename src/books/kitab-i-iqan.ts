@@ -9,9 +9,9 @@ export const config = {
   },
 };
 
-export default data =>
+export default (data) =>
   data.map(({ info, content }) => {
-    const section = info.map(x => x[1].content).join('');
+    const section = info.map((x) => x[1].content).join('');
     const result = {
       type: 'Writings',
       author: 'Bahá’u’lláh',

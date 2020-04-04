@@ -14,7 +14,7 @@ export const config = {
   },
 };
 
-export default data =>
+export default (data) =>
   data
     .reduce((res, d) => {
       const prev = res[res.length - 1];
@@ -28,7 +28,7 @@ export default data =>
     .map(({ info, content }) => {
       const intro = content.splice(
         0,
-        content.findIndex(c => !c.c),
+        content.findIndex((c) => !c.c),
       );
       const [date, scribe] = intro;
       return {

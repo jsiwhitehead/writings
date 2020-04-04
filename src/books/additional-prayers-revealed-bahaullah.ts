@@ -7,7 +7,7 @@ export const config = {
     'This document has been downloaded from the Bahá’í Reference Library. You are free to use its content subject to the terms of use found at www.bahai.org/legal',
 };
 
-export default data =>
+export default (data) =>
   data
     .reduce(
       (res, d) => {
@@ -18,8 +18,8 @@ export default data =>
       },
       [[]],
     )
-    .filter(x => x.length > 0)
-    .map(content => ({
+    .filter((x) => x.length > 0)
+    .map((content) => ({
       type: 'Prayer',
       author: 'Bahá’u’lláh',
       content,

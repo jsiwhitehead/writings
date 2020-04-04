@@ -4,11 +4,11 @@ import * as rehype from 'rehype-parse';
 const spellings = require('../spellings.json');
 
 const spellKeys = Object.keys(spellings);
-const capitalize = s => s.charAt(0).toUpperCase() + s.slice(1);
-const correctSpelling = s =>
+const capitalize = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+const correctSpelling = (s) =>
   spellKeys.reduce(
     (res, k) =>
-      res.replace(new RegExp(`\\b${k}\\b`, 'ig'), m =>
+      res.replace(new RegExp(`\\b${k}\\b`, 'ig'), (m) =>
         m[0].toUpperCase() === m[0] ? capitalize(spellings[k]) : spellings[k],
       ),
     s,
@@ -59,7 +59,7 @@ export default (text, classes, titleJoin = ' ') => {
   const notes = [] as any[];
 
   const scrape = (children, output, base = {}) =>
-    children.forEach(node => {
+    children.forEach((node) => {
       if (node.type === 'text') {
         if (output) {
           const first = !content[content.length - 1];
@@ -98,20 +98,20 @@ export default (text, classes, titleJoin = ' ') => {
         } else {
           const flags = {} as any;
           Object.assign(flags, config.tags[node.tagName] || {});
-          (node.properties.className || []).forEach(x => {
+          (node.properties.className || []).forEach((x) => {
             Object.assign(flags, { ...config.classes, ...classes }[x] || {});
           });
           if (!flags.ignore) {
             if (
               node.tagName === 'li' &&
-              !findChild(node, x => x.tagName === 'ul') &&
-              findChild(node, x =>
+              !findChild(node, (x) => x.tagName === 'ul') &&
+              findChild(node, (x) =>
                 (x.properties.className || []).includes('brl-returntotext'),
               )
             ) {
               flags.note = findChild(
                 node,
-                x =>
+                (x) =>
                   x.tagName === 'a' &&
                   (x.properties.className || []).includes('brl-location') &&
                   x.properties.id,
@@ -170,22 +170,20 @@ export default (text, classes, titleJoin = ' ') => {
     });
 
   scrape(
-    unified()
-      .use(rehype, { footnotes: true })
-      .parse(text).children,
+    unified().use(rehype, { footnotes: true }).parse(text).children,
     false,
   );
 
   return content.map((p, i) => {
     const s = spans
-      .filter(s => s.paragraph === i)
+      .filter((s) => s.paragraph === i)
       .map(({ types, start, end }) => ({
         types,
         start,
         end: Math.min(end, p.length),
       }));
     const n = notes
-      .filter(n => n.paragraph === i)
+      .filter((n) => n.paragraph === i)
       .map(({ id, position }) => ({ id, position }));
     const { gap, ...info } = infos[i];
     return {

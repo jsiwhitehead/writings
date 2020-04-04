@@ -3,11 +3,11 @@ import * as fs from 'fs-extra';
 import { flatten, stringify } from './util';
 
 (async () => {
-  const files = (await fs.readdir('./src/books')).map(f => f.slice(0, -3));
+  const files = (await fs.readdir('./src/books')).map((f) => f.slice(0, -3));
   await fs.ensureDir('./data/extracted');
   const all = {};
   await Promise.all(
-    files.map(async f => {
+    files.map(async (f) => {
       const parsed = await fs.readFile(`./data/parsed/${f}.json`, 'utf8');
       const func = require(`./books/${f}`).default;
       const extracted = func(JSON.parse(parsed));
@@ -20,7 +20,7 @@ import { flatten, stringify } from './util';
     await fs.readFile(`./data/parsed/messages.json`, 'utf8'),
   );
   const messageKeys = Object.keys(messages).sort();
-  const messageResults = messageKeys.map(k => {
+  const messageResults = messageKeys.map((k) => {
     const { data, ...info } = messages[k];
     const content = data
       .map((n, i) => {
@@ -50,7 +50,7 @@ import { flatten, stringify } from './util';
 
   const manualFiles = await fs.readdir('./data/manual');
   const manual = await Promise.all<any>(
-    manualFiles.map(async f =>
+    manualFiles.map(async (f) =>
       JSON.parse(await fs.readFile(`./data/manual/${f}`, 'utf8')),
     ),
   );
@@ -58,7 +58,7 @@ import { flatten, stringify } from './util';
   await fs.writeFile(
     `./data/extracted.json`,
     stringify(
-      flatten([...files.map(f => all[f]), ...messageResults, ...manual]),
+      flatten([...files.map((f) => all[f]), ...messageResults, ...manual]),
     ),
   );
 })();

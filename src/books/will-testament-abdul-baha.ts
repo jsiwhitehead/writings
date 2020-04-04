@@ -5,9 +5,9 @@ export const config = {
   end: 'Notes',
 };
 
-export default data =>
+export default (data) =>
   data
-    .filter(d => d.info[1][0] !== 2)
+    .filter((d) => d.info[1][0] !== 2)
     .map(({ content }, i) => ({
       type: 'Writings',
       author: '‘Abdu’l‑Bahá',

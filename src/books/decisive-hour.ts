@@ -10,16 +10,13 @@ export const config = {
   },
 };
 
-export default data =>
+export default (data) =>
   data.map(({ content, info }) => ({
     type: 'Message',
     author: 'Shoghi Effendi',
     name: { content: 'This Decisive Hour' },
     part: info[1][0],
     title: info[1][1],
-    date: content
-      .shift()
-      .content.replace(/\[/g, '')
-      .replace(/\]/g, ''),
+    date: content.shift().content.replace(/\[/g, '').replace(/\]/g, ''),
     content,
   }));

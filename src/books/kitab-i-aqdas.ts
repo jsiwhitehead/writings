@@ -5,7 +5,7 @@ export const config = {
   end: 'Some Texts Revealed by Bahá’u’lláh Supplementary to the Kitáb‑i‑Aqdas',
 };
 
-export default data =>
+export default (data) =>
   data.map(({ info, content }) => {
     const result = {
       type: 'Preface',

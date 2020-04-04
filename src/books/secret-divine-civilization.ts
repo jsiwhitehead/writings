@@ -8,7 +8,7 @@ export const config = {
   },
 };
 
-export default data => [
+export default (data) => [
   {
     type: 'Writings',
     author: '‘Abdu’l‑Bahá',
