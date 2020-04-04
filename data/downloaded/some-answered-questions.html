@@ -75,9 +75,9 @@ body, p, h1, h2, h3, h4, h5, h6 {
     /*default*/ }
   .library-document-content .brl-italic, .library-document-content .brl-global-instructions, .library-document-content .brl-global-attribution, .library-document-content .brl-muhj-heading-italic {
     font-style: italic; }
-  .library-document-content .brl-bold, .library-document-content .brl-global-lettertitle, .library-document-content .brl-global-transnotes-header, .library-document-content .brl-se-subheading {
+  .library-document-content .brl-bold, .library-document-content .brl-global-lettertitle, .library-document-content .brl-global-transnotes-header, .library-document-content .brl-compilation-subheading, .library-document-content .brl-se-subheading {
     font-weight: bold; }
-  .library-document-content .brl-displayblock, .library-document-content .brl-global-title, .library-document-content .brl-global-subtitle, .library-document-content .brl-global-lettertitle, .library-document-content .brl-se-subheading {
+  .library-document-content .brl-displayblock, .library-document-content .brl-global-title, .library-document-content .brl-global-subtitle, .library-document-content .brl-global-lettertitle, .library-document-content .brl-compilation-subheading, .library-document-content .brl-se-subheading {
     display: block; }
   .library-document-content .brl-nowrap, .library-document-content .brl-muhj-signature {
     white-space: nowrap; }
@@ -168,10 +168,16 @@ body, p, h1, h2, h3, h4, h5, h6 {
   .brl-tableofcontents .brl-divider_toc {
     color: #ccc; }
 
-.library-document-content .brl-topmargin, .library-document-content .brl-hemistich-container, .library-document-content .brl-global-signature, .library-document-content .brl-se-subheading, .library-document-content .brl-muhj-attachment, .library-document-content .brl-muhj-head-attachment, .library-document-content .brl-muhj-addressee {
+.library-document-content .brl-fa-btmmargin, .library-document-content .brl-compilation-extract:lang(fa) {
+  padding-bottom: .4em; }
+
+.library-document-content .brl-fa-topmargin, .library-document-content .brl-compilation-extract:lang(fa) {
+  padding-top: .4em; }
+
+.library-document-content .brl-topmargin, .library-document-content .brl-hemistich-container, .library-document-content .brl-global-signature, .library-document-content .brl-compilation-subheading, .library-document-content .brl-compilation-extract, .library-document-content .brl-se-subheading, .library-document-content .brl-muhj-attachment, .library-document-content .brl-muhj-head-attachment, .library-document-content .brl-muhj-addressee {
   padding-top: 1em; }
 
-.library-document-content .brl-btmmargin, .library-document-content .brl-hemistich-container, .library-document-content .brl-global-opening-invocation, .library-document-content .brl-global-gloss-definition, .library-document-content .brl-se-addressee, .library-document-content .brl-se-opening-salutation, .library-document-content .brl-se-subheading, .library-document-content .brl-muhj-letterhead, .library-document-content .brl-muhj-letterhead-uhj, .library-document-content .brl-muhj-letterhead-dos-line2, .library-document-content .brl-muhj-opening-date, .library-document-content .brl-muhj-opening-date-right, .library-document-content .brl-muhj-addressee-and-opening-date, .library-document-content .brl-muhj-addressee, .library-document-content .brl-muhj-opening-salutation, .library-document-content .brl-muhj-paragraph, .library-document-content .brl-muhj-divider, .library-document-content .brl-muhj-attribution, .library-document-content .brl-muhj-heading-italic, .library-document-content .brl-muhj-complimentary-closing {
+.library-document-content .brl-btmmargin, .library-document-content .brl-hemistich-container, .library-document-content .brl-global-opening-invocation, .library-document-content .brl-global-gloss-definition, .library-document-content .brl-compilation-extract, .library-document-content .brl-se-addressee, .library-document-content .brl-se-opening-salutation, .library-document-content .brl-se-subheading, .library-document-content .brl-muhj-letterhead, .library-document-content .brl-muhj-letterhead-uhj, .library-document-content .brl-muhj-letterhead-dos-line2, .library-document-content .brl-muhj-opening-date, .library-document-content .brl-muhj-opening-date-right, .library-document-content .brl-muhj-addressee-and-opening-date, .library-document-content .brl-muhj-addressee, .library-document-content .brl-muhj-opening-salutation, .library-document-content .brl-muhj-paragraph, .library-document-content .brl-muhj-divider, .library-document-content .brl-muhj-attribution, .library-document-content .brl-muhj-heading-italic, .library-document-content .brl-muhj-complimentary-closing {
   padding-bottom: 1em; }
 
 .library-document-content .brl-margin-1,
@@ -181,6 +187,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .library-document-content .brl-margin-3,
 .library-document-content .brl-margin-4,
 .library-document-content .brl-global-verse,
+.library-document-content .brl-compilation-reference,
 .library-document-content .brl-margin-5,
 .library-document-content .brl-margin-6,
 .library-document-content .brl-muhj-attribution {
@@ -193,6 +200,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .library-document-content span.brl-margin-3,
 .library-document-content span.brl-margin-4,
 .library-document-content span.brl-global-verse,
+.library-document-content span.brl-compilation-reference,
 .library-document-content span.brl-margin-5,
 .library-document-content span.brl-margin-6,
 .library-document-content span.brl-muhj-attribution {
@@ -235,16 +243,16 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .rtl .library-document-content .brl-margin-3 p a.brl-pnum, .rtl .library-document-content .brl-margin-3 div a.brl-pnum {
   margin-right: -3em; }
 
-.ltr .library-document-content .brl-margin-4, .ltr .library-document-content .brl-global-verse {
+.ltr .library-document-content .brl-margin-4, .ltr .library-document-content .brl-global-verse, .ltr .library-document-content .brl-compilation-reference {
   padding-left: 4em; }
 
-.rtl .library-document-content .brl-margin-4, .rtl .library-document-content .brl-global-verse {
+.rtl .library-document-content .brl-margin-4, .rtl .library-document-content .brl-global-verse, .rtl .library-document-content .brl-compilation-reference {
   padding-right: 4em; }
 
-.ltr .library-document-content .brl-margin-4 p a.brl-pnum, .ltr .library-document-content .brl-global-verse p a.brl-pnum, .ltr .library-document-content .brl-margin-4 div a.brl-pnum, .ltr .library-document-content .brl-global-verse div a.brl-pnum {
+.ltr .library-document-content .brl-margin-4 p a.brl-pnum, .ltr .library-document-content .brl-global-verse p a.brl-pnum, .ltr .library-document-content .brl-compilation-reference p a.brl-pnum, .ltr .library-document-content .brl-margin-4 div a.brl-pnum, .ltr .library-document-content .brl-global-verse div a.brl-pnum, .ltr .library-document-content .brl-compilation-reference div a.brl-pnum {
   margin-left: -4em; }
 
-.rtl .library-document-content .brl-margin-4 p a.brl-pnum, .rtl .library-document-content .brl-global-verse p a.brl-pnum, .rtl .library-document-content .brl-margin-4 div a.brl-pnum, .rtl .library-document-content .brl-global-verse div a.brl-pnum {
+.rtl .library-document-content .brl-margin-4 p a.brl-pnum, .rtl .library-document-content .brl-global-verse p a.brl-pnum, .rtl .library-document-content .brl-compilation-reference p a.brl-pnum, .rtl .library-document-content .brl-margin-4 div a.brl-pnum, .rtl .library-document-content .brl-global-verse div a.brl-pnum, .rtl .library-document-content .brl-compilation-reference div a.brl-pnum {
   margin-right: -4em; }
 
 .ltr .library-document-content .brl-margin-5 {
@@ -301,7 +309,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .library-document-content p.brl-firstline-indent {
   text-indent: 2em; }
 
-.library-document-content p.brl-firstline-noindent, .library-document-content p.brl-global-opening-invocation, .library-document-content p.brl-global-instructions, .library-document-content p.brl-global-title, .library-document-content p.brl-global-subtitle, .library-document-content p.brl-global-lettertitle, .library-document-content p.brl-se-addressee, .library-document-content p.brl-se-opening-salutation, .library-document-content p.brl-se-subheading, .library-document-content p.brl-muhj-letterhead, .library-document-content p.brl-muhj-letterhead-uhj, .library-document-content p.brl-muhj-letterhead-dos-line1, .library-document-content p.brl-muhj-letterhead-dos-line2, .library-document-content p.brl-muhj-opening-date, .library-document-content p.brl-muhj-opening-date-right, .library-document-content p.brl-muhj-addressee, .library-document-content p.brl-muhj-opening-salutation, .library-document-content p.brl-muhj-complimentary-closing, .library-document-content p.brl-muhj-signature {
+.library-document-content p.brl-firstline-noindent, .library-document-content p.brl-global-opening-invocation, .library-document-content p.brl-global-instructions, .library-document-content p.brl-global-title, .library-document-content p.brl-global-subtitle, .library-document-content p.brl-global-lettertitle, .library-document-content p.brl-compilation-subheading, .library-document-content p.brl-se-addressee, .library-document-content p.brl-se-opening-salutation, .library-document-content p.brl-se-subheading, .library-document-content p.brl-muhj-letterhead, .library-document-content p.brl-muhj-letterhead-uhj, .library-document-content p.brl-muhj-letterhead-dos-line1, .library-document-content p.brl-muhj-letterhead-dos-line2, .library-document-content p.brl-muhj-opening-date, .library-document-content p.brl-muhj-opening-date-right, .library-document-content p.brl-muhj-addressee, .library-document-content p.brl-muhj-opening-salutation, .library-document-content p.brl-muhj-complimentary-closing, .library-document-content p.brl-muhj-signature {
   text-indent: 0; }
 
 .library-document-content .brl-firstline-outdent, .library-document-content .brl-global-verse,
@@ -587,6 +595,46 @@ body, p, h1, h2, h3, h4, h5, h6 {
   margin-left: 2em; }
   .library-document-content .brl-global-hanging-indent a.brl-pnum {
     left: calc(-38px - 2.5em); }
+
+.library-document-content div.brl-three-star-spacer.brl-three-star-pagebreakspacer {
+  margin: 0;
+  height: 0; }
+
+.library-document-content div.brl-three-star-spacer.brl-star-size {
+  font-size: 1rem; }
+
+.library-document-content div.brl-three-star-spacer.brl-three-star-divider:after {
+  font-family: "Arial Unicode MS", Arial, Helvetica, sans-serif;
+  content: "* * *";
+  padding: 12px 0 0;
+  line-height: 12px;
+  text-align: center;
+  display: block;
+  font-size: 1.4rem; }
+
+.library-document-content .brl-compilation-tab-after {
+  white-space: pre; }
+  .library-document-content .brl-compilation-tab-after::after {
+    content: "\9"; }
+
+.library-document-content .brl-compilation-reference {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+  .library-document-content .brl-compilation-reference p {
+    text-indent: -.35em; }
+  .library-document-content .brl-compilation-reference p:last-child {
+    font-weight: bold; }
 
 .library-document-content .brl-muhj-opening-date-right {
   padding-right: 2em; }
@@ -4175,8 +4223,7 @@ div.library-download-footer {
                         the Gospel. Even Christ Himself says that the Son of man came down from heaven, and
                         the Son of man is in heaven; and no man hath ascended up to heaven but He that came
                         down from heaven.<sup class="brl-note brl-endnote"><a href="#127620088">87</a></sup> Thus it is admitted by all that Christ came down from heaven, whereas to outward
-                        seeming He came from the womb of Mary. Thus it is admitted by all that Christ came
-                        down from heaven, whereas to outward seeming He came from the womb of Mary.
+                        seeming He came from the womb of Mary.
                      </p>
                      <p>
                         <a class="brl-pnum">3</a>
