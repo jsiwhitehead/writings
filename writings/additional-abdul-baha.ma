@@ -1,18 +1,14 @@
 [
+  group: 'Additional Prayers Revealed by ‘Abdu’l-Bahá',
+  author: '‘Abdu’l-Bahá',
+  type: Prayer,
+  source:
+    'https://www.bahai.org/library/authoritative-texts/abdul-baha/additional-prayers-revealed-abdul-baha/additional-prayers-revealed-abdul-baha.pdf'
+  ,
   [
-    content=>>
-      [
-        author: '‘Abdu’l-Bahá',
-        source:
-          'https://www.bahai.org/library/authoritative-texts/abdul-baha/additional-prayers-revealed-abdul-baha/additional-prayers-revealed-abdul-baha.pdf?b3c0e29e'
-        ,
-        title: 'Additional Prayers Revealed by ‘Abdu’l-Bahá',
-        : content?,
-      ],
-  ]
-  .[
+    group: true,
     categories: [Youth],
-    ["O Lord!"],
+    [: call, "O Lord!"],
     [
       "Plant this tender seedling in the garden of Thy manifold bounties, water
       it from the fountains of Thy loving-kindness and grant that it may grow
@@ -21,7 +17,8 @@
     ["Thou art the Mighty and the Powerful."],
   ],
   [
-    ["He is the Most Glorious!"],
+    group: true,
+    [: call, "He is the Most Glorious!"],
     [
       "O my merciful Lord! This is a hyacinth which hath grown in the garden of
       Thy good pleasure and a twig which hath appeared in the orchard of true
@@ -33,8 +30,9 @@
     ["Verily Thou art the All-Glorious."],
   ],
   [
+    group: true,
     categories: [Children],
-    ["He is God!"],
+    [: call, "He is God!"],
     [
       "O Thou kind Lord! We are poor children, needy and insignificant, yet we
       are plants which have sprouted by Thy heavenly stream and saplings
@@ -57,8 +55,9 @@
     ["Thou art the Bestower, the Bountiful, the All-Loving."],
   ],
   [
+    group: true,
     categories: [Youth],
-    ["He is God!"],
+    [: call, "He is God!"],
     [
       "O Thou pure God! Let these saplings which have sprouted by the stream of
       Thy guidance become fresh and verdant through the outpourings of the
@@ -75,8 +74,9 @@
     ["Thou art the Mighty and the Powerful."],
   ],
   [
+    group: true,
     categories: [Youth, Women],
-    ["O Lord!"],
+    [: call, "O Lord!"],
     [
       "Help this daughter of the Kingdom to be exalted in both worlds; cause her
       to turn away from this mortal world of dust and from those who have set
@@ -88,7 +88,8 @@
     ["Thou art the Mighty One."],
   ],
   [
-    ["O Thou kind Lord!"],
+    group: true,
+    [: call, "O Thou kind Lord!"],
     [
       "Grant that these trees may become the adornment of the Abhá Paradise.
       Cause them to grow through Thy celestial bounty. Make them fresh and
@@ -102,8 +103,9 @@
     ],
   ],
   [
+    group: true,
     categories: [Children],
-    ["He is God!"],
+    [: call, "He is God!"],
     [
       "O God, my God! We are children who have sucked the milk of divine
       knowledge from the breast of Thy love and have been admitted into Thy
@@ -117,8 +119,9 @@
     ["Verily Thou art the Bestower, the Merciful, the Compassionate."],
   ],
   [
+    group: true,
     categories: [Youth],
-    ["O Thou Lord of wondrous grace!"],
+    [: call, "O Thou Lord of wondrous grace!"],
     [
       "Bestow upon us new blessings. Give to us the freshness of the spring. We
       are saplings which have been planted by the fingers of Thy bounty and have
@@ -132,6 +135,7 @@
     ],
   ],
   [
+    group: true,
     categories: [Children],
     [
       "O Thou pure God! I am a little child; grant that the breast of Thy
@@ -146,6 +150,7 @@
     ],
   ],
   [
+    group: true,
     categories: [Children],
     [
       "O Lord! Guard Thou the children that are born in Thy day, are nurtured at
@@ -160,6 +165,7 @@
     ["Thou art verily the Generous, the Clement, the Compassionate!"],
   ],
   [
+    group: true,
     [
       "O God! Grant Thy favour, and bestow Thy blessing. Vouchsafe Thy grace,
       and give a portion of Thy bounty. Enable these men to witness during this
@@ -169,7 +175,8 @@
     ],
   ],
   [
-    ["He is God!"],
+    group: true,
+    [: call, "He is God!"],
     [
       "O peerless Lord! Praised be Thou for having kindled that light in the
       glass of the Concourse on high, for having guided that bird of
@@ -185,6 +192,7 @@
     ],
   ],
   [
+    group: true,
     [
       "O my God, O my God! Verily this plant hath yielded its fruit and standeth
       upright upon its stalk. Verily it hath astounded the farmers and perturbed
@@ -200,6 +208,7 @@
     ],
   ],
   [
+    group: true,
     categories: [Children],
     [
       "O Compassionate God! O Lord of Hosts! Praise be unto Thee that Thou hast
@@ -213,6 +222,7 @@
     ],
   ],
   [
+    group: true,
     [
       "O Thou beloved of my heart and soul! I have no refuge save Thee. I raise
       no voice at dawn save in Thy commemoration and praise. Thy love
@@ -227,6 +237,7 @@
     ["Verily, Thou art the Giver, the Forgiver, the Compassionate."],
   ],
   [
+    group: true,
     [
       "O God, my God! Give me to drink from the cup of Thy bestowal and illumine
       my face with the light of guidance. Make me firm in the path of
@@ -241,6 +252,7 @@
     ],
   ],
   [
+    group: true,
     [
       "O my God! O Thou Who endowest every just power and equitable dominion
       with abiding glory and everlasting might, with permanence and stability,
@@ -265,8 +277,9 @@
     ],
   ],
   [
+    group: true,
     categories: [Holy Land],
-    ["O Thou kind God!"],
+    [: call, "O Thou kind God!"],
     [
       "From America, that distant country, we hastened to the Holy Land and
       directed our steps toward this blessed Spot. We attained unto the two
@@ -288,6 +301,7 @@
     ["Thou art the Forgiver, the Resplendent, the Ever-Loving."],
   ],
   [
+    group: true,
     categories: [Parents, Women],
     [
       "O Thou forgiving God! Forgive the sins of my loving mother, pardon her

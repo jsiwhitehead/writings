@@ -1,16 +1,12 @@
 [
+  group: 'Additional Prayers Revealed by Bahá’u’lláh',
+  author: 'Bahá’u’lláh',
+  type: Prayer,
+  source:
+    'https://www.bahai.org/library/authoritative-texts/bahaullah/additional-prayers-revealed-bahaullah/additional-prayers-revealed-bahaullah.pdf'
+  ,
   [
-    content=>>
-      [
-        author: 'Bahá’u’lláh',
-        source:
-          'https://www.bahai.org/library/authoritative-texts/bahaullah/additional-prayers-revealed-bahaullah/additional-prayers-revealed-bahaullah.pdf'
-        ,
-        title: 'Additional Prayers Revealed by Bahá’u’lláh',
-        : content?,
-      ],
-  ]
-  .[
+    group: true,
     [
       "Pure and sanctified art Thou, O my God! How can the pen move and the ink
       flow after the breezes of loving-kindness have ceased, and the signs of
@@ -30,6 +26,7 @@
     ],
   ],
   [
+    group: true,
     [
       "O Thou Who holdest within Thy grasp the Kingdom of names and the Empire
       of all things, Thou seest how I have become a stranger from my land on
@@ -44,8 +41,9 @@
     ],
   ],
   [
+    group: true,
     [
-      : i c,
+      : call,
       "In the Name of our Lord, the Most Holy, the Most Great, the Exalted, the
       Most Glorious!",
     ],
@@ -63,8 +61,9 @@
     ],
   ],
   [
+    group: true,
     [
-      : i c,
+      : call,
       "In the Name of our Lord, the Most Holy, the Most Great, the Exalted, the
       Most Glorious!",
     ],
@@ -78,6 +77,7 @@
     ],
   ],
   [
+    group: true,
     [
       "O God, my God! Glory be to Thee for having guided me unto the horizon of
       Thy Revelation, illumined me with the splendours of the light of Thy grace
@@ -99,6 +99,7 @@
     ],
   ],
   [
+    group: true,
     [
       "Praise be to Thee, O Lord my God, for guiding me unto the horizon of Thy
       Revelation and for causing me to be mentioned by Thy Name. I beseech Thee,
@@ -110,7 +111,8 @@
     ],
   ],
   [
-    [: i c, "He is the Peerless!"],
+    group: true,
+    [: call, "He is the Peerless!"],
     [
       "Praise be unto Thee, O Lord my God! I beseech Thee by Thy Most Exalted
       Name in the Tabernacle of effulgent splendour, and by Thy Most Sublime
@@ -123,7 +125,8 @@
     ],
   ],
   [
-    [: i c, "He is the All-Glorious!"],
+    group: true,
+    [: call, "He is the All-Glorious!"],
     [
       "Praise be to Thee, O my God! Thou didst call me, and I answered Thee.
       Thou didst summon me, and I hastened unto Thee, entering beneath the shade
@@ -138,6 +141,7 @@
     ],
   ],
   [
+    group: true,
     [
       "O my God! O my God! I testify that this is Thy Day which hath been
       mentioned in Thy Books, Thy Epistles, Thy Psalms and Thy Tablets. In it
@@ -155,6 +159,7 @@
     ],
   ],
   [
+    group: true,
     [
       "In regard to his affairs, let him repeat nineteen times: “Thou seest me,
       O my God, detached from all save Thee and cleaving unto Thee. Guide me,
@@ -166,7 +171,8 @@
     ],
   ],
   [
-    [: i c, "He is God, exalted is He, the Lord of might and grandeur!"],
+    group: true,
+    [: call, "He is God, exalted is He, the Lord of might and grandeur!"],
     [
       "O God, my God! I yield Thee thanks at all times and render Thee praise
       under all conditions.",
@@ -230,6 +236,7 @@
     ],
   ],
   [
+    group: true,
     [
       "Praised be Thou, O Lord my God! Sanctify mine eye, and mine ear, and my
       tongue, and my spirit, and my heart, and my soul, and my body, and mine
