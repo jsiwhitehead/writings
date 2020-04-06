@@ -30,46 +30,69 @@ const toJson = (data) => {
       );
 
       const items = [] as any[];
+      const titles = {};
       const walk = (
         data,
         index = 0,
-        base = { title: [] } as any,
-        content = false,
+        base = { index: [] } as any,
+        inContent = false,
       ) => {
-        if (typeof data === 'string') {
-          items[items.length - 1].content += data;
-        } else if (content) {
-          const { indices, values } = data;
-          const span = {
-            start: items[items.length - 1].content.length,
-            ...values,
-          };
-          indices.forEach((d, i) => walk(d, i, values, true));
-          span.end = items[items.length - 1].content.length;
-          items[items.length - 1].spans = items[items.length - 1].spans || [];
-          items[items.length - 1].spans.push(span);
+        if (inContent) {
+          if (typeof data === 'string') {
+            items[items.length - 1].content += data;
+          } else {
+            const { indices, values } = data;
+            const span = {
+              start: items[items.length - 1].content.length,
+              ...values,
+            };
+            indices.forEach((d, i) => walk(d, i, values, true));
+            span.end = items[items.length - 1].content.length;
+            items[items.length - 1].spans = items[items.length - 1].spans || [];
+            items[items.length - 1].spans.push(span);
+          }
         } else {
-          const { indices, values } = data;
-          const newBase = {
-            ...base,
-            ...values,
-            title: [...base.title, [index + 1, values.title].filter((x) => x)],
-            list: (base.list || 0) + (values.list || 0),
-          };
-          if (!newBase.list) delete newBase.list;
-          const newContent = indices.every(
-            (d) =>
-              typeof d === 'string' || ['i', 'b', 'q'].some((x) => d.values[x]),
-          );
-          if (newContent) items.push({ content: '', ...newBase });
-          indices.forEach((d, i) => walk(d, i, newBase, newContent));
+          if (typeof data === 'string') {
+            items.push({
+              content: data,
+              ...base,
+              index: [...base.index, index + 1],
+            });
+          } else {
+            const { indices, values } = data;
+            const newBase = {
+              ...base,
+              ...values,
+              index: [...base.index, index + 1],
+              list: (base.list || 0) + (values.list || 0),
+            };
+            delete newBase.title;
+            if (!newBase.list) delete newBase.list;
+            if (values.title) titles[newBase.index.join('.')] = values.title;
+            const newContent =
+              Object.keys(values).length === 0 &&
+              indices.every(
+                (d) =>
+                  typeof d === 'string' ||
+                  Object.keys(d.values).filter(
+                    (k) => !['i', 'b', 'q'].includes(k),
+                  ).length === 0,
+              ) &&
+              indices.some(
+                (d) =>
+                  typeof d !== 'string' &&
+                  ['i', 'b', 'q'].some((k) => d.values[k]),
+              );
+            if (newContent) items.push({ content: '', ...newBase });
+            indices.forEach((d, i) => walk(d, i, newBase, newContent));
+          }
         }
       };
       data.indices.forEach((d, i) => walk(d, i));
 
       await fs.writeFile(
         `./data/flattened/${f}.json`,
-        JSON.stringify({ ...data.values, items }, null, 2),
+        JSON.stringify({ ...data.values, titles, items }, null, 2),
       );
     }),
   );
