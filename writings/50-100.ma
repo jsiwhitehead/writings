@@ -1,79 +1,87 @@
 [
-  group:
+  title:
     'Developing the capacity to engage 50 to 100 junior youth in a programme for their spiritual empowerment: some considerations'
   ,
   author: 'The Office Of Social And Economic Development',
   type: Learning,
   date: 'January 2016',
   [
-    group: true,
     [
-      group: true,
       [
         "In its message dated 27 December 2005 to the Conference of the
         Continental Boards of Counsellors, the Universal House of Justice urged
-        all National Assemblies to “consider the junior youth groups formed
-        through programmes implemented by their training institutes a fourth
-        core activity in its own right and to promote its wide-scale
-        multiplication.” In the ten or so years since, there has been a near
-        ten-fold increase in capacity to engage junior youth in efforts aimed at
-        their spiritual empowerment. Much has been learned during this period
-        about various aspects of the programme’s implementation and how it can
-        contribute to a cluster’s development. The following was stated in a
-        letter written on behalf of the Universal House of Justice:",
+        all National Assemblies to
+        <
+          q: '27 December 2005',
+          "consider the junior youth groups formed through programmes
+          implemented by their training institutes a fourth core activity in its
+          own right and to promote its wide-scale multiplication.",
+        />
+        In the ten or so years since, there has been a near ten-fold increase in
+        capacity to engage junior youth in efforts aimed at their spiritual
+        empowerment. Much has been learned during this period about various
+        aspects of the programme’s implementation and how it can contribute to a
+        cluster’s development. The following was stated in a letter written on
+        behalf of the Universal House of Justice:",
       ],
       [
-        : block,
-        "“Throughout the world, across all classes and social groups, there has
-        been a ready response from youth who are invited to examine the forces
-        shaping their society and their role in contributing to its constructive
-        transformation through service as animators of junior youth groups. Time
-        and again it has been seen that consideration of, and reflection upon,
-        the profound concepts addressed in Book 5 of the Ruhi Institute release
-        the deep reservoirs of commitment to significant social change that
-        young people possess. Engaging their fertile minds in an exploration of
-        such ideas gives rise to profound conversations that leave their mark
-        and find expression in action. Those who are inclined to establish a
-        junior youth group are assisted to do so, and in this way, the
-        programme’s reach in a town or neighborhood is expanded in a relatively
-        short period, even if there are only a limited number of human resources
-        available within the Bahá’í community.",
-      ],
-      [
-        : block,
-        "“The merit of the junior youth spiritual empowerment programme lies,
-        first and foremost, in its effectiveness at enhancing the power of
-        expression and the quality of spiritual perception within its
-        participants and in assisting them to develop the capabilities necessary
-        for a life of meaningful service to their communities. Repeated accounts
-        from officials, parents, and young people themselves testify to the
-        power of the programme to shape character and bring forth the
-        praiseworthy qualities latent in junior youth. Yet, even more, the
-        benefits of the programme are experienced in every stage of the
-        educational process in which the Bahá’í community is engaged, as well as
-        in the scheme of community building in which the spiritual empowerment
-        programme is embedded. By multiplying vibrant junior youth groups, a
-        community learns a great deal about, for instance, how capable human
-        resources are increased and deployed; how capacity for service is raised
-        within cohorts of individuals; how an expanding programme can be
-        effectively coordinated; and how initiating one activity can, quite
-        naturally, lead to the emergence of others. And as a consequence of the
-        organic unfoldment of the educational process and the participants’
-        ongoing spiritual and moral development, all facets of the growth
-        programme are, in time, extended and enhanced.”",
+        q: 'Letter written on behalf of the Universal House of Justice',
+        [
+          "Throughout the world, across all classes and social groups, there has
+          been a ready response from youth who are invited to examine the forces
+          shaping their society and their role in contributing to its
+          constructive transformation through service as animators of junior
+          youth groups. Time and again it has been seen that consideration of,
+          and reflection upon, the profound concepts addressed in Book 5 of the
+          Ruhi Institute release the deep reservoirs of commitment to
+          significant social change that young people possess. Engaging their
+          fertile minds in an exploration of such ideas gives rise to profound
+          conversations that leave their mark and find expression in action.
+          Those who are inclined to establish a junior youth group are assisted
+          to do so, and in this way, the programme’s reach in a town or
+          neighborhood is expanded in a relatively short period, even if there
+          are only a limited number of human resources available within the
+          Bahá’í community.",
+        ],
+        [
+          "The merit of the junior youth spiritual empowerment programme lies,
+          first and foremost, in its effectiveness at enhancing the power of
+          expression and the quality of spiritual perception within its
+          participants and in assisting them to develop the capabilities
+          necessary for a life of meaningful service to their communities.
+          Repeated accounts from officials, parents, and young people themselves
+          testify to the power of the programme to shape character and bring
+          forth the praiseworthy qualities latent in junior youth. Yet, even
+          more, the benefits of the programme are experienced in every stage of
+          the educational process in which the Bahá’í community is engaged, as
+          well as in the scheme of community building in which the spiritual
+          empowerment programme is embedded. By multiplying vibrant junior youth
+          groups, a community learns a great deal about, for instance, how
+          capable human resources are increased and deployed; how capacity for
+          service is raised within cohorts of individuals; how an expanding
+          programme can be effectively coordinated; and how initiating one
+          activity can, quite naturally, lead to the emergence of others. And as
+          a consequence of the organic unfoldment of the educational process and
+          the participants’ ongoing spiritual and moral development, all facets
+          of the growth programme are, in time, extended and enhanced.",
+        ],
       ],
       [
         "For the Five Year Plan commencing at Riḍván 2016, one of the objectives
-        set before the Bahá’í world is to “raise the number of clusters where a
-        programme of growth has become intensive to 5,000.” One aspect of the
-        divers and evolving efforts of the friends in clusters that are striving
-        to establish an intensive programme of growth pertains to the
-        introduction and strengthening of the junior youth programme. In the
-        vast majority of such clusters, efforts to implement the junior youth
-        programme are either yet to begin or at the very initial stages. In
-        relation to this educational activity, the task at hand can be viewed in
-        terms of developing capacity to engage and sustain the participation of
-        some 50 to 100 junior youth in the programme. The purpose of this
+        set before the Bahá’í world is to
+        <
+          q: '29 December 2015',
+          "raise the number of clusters where a programme of growth has become
+          intensive to 5,000.",
+        />
+        One aspect of the divers and evolving efforts of the friends in clusters
+        that are striving to establish an intensive programme of growth pertains
+        to the introduction and strengthening of the junior youth programme. In
+        the vast majority of such clusters, efforts to implement the junior
+        youth programme are either yet to begin or at the very initial stages.
+        In relation to this educational activity, the task at hand can be viewed
+        in terms of developing capacity to engage and sustain the participation
+        of some 50 to 100 junior youth in the programme. The purpose of this
         document is to assist those who are supporting friends in other
         clusters, for instance as regional junior youth coordinators or as part
         of a team of experienced friends, in their efforts to carry out the
@@ -146,8 +154,8 @@
           spirit of joy in service, helps ensure continuity of action regardless
           of challenges. Often the loving support of a number of individuals,
           such as parents, and the community at large is instrumental in helping
-          to move past difficulties and to turn them into “stepping stones for
-          progress”.",
+          to move past difficulties and to turn them into
+          <q: '28 December 2010', "stepping stones for progress"/>.",
         ],
       ],
       [
@@ -169,7 +177,6 @@
       ],
     ],
     [
-      group: true,
       [
         "Before discussing the aforementioned capacities in more depth, let us
         consider the current circumstances in the clusters you are serving. Of
@@ -227,9 +234,7 @@
     ],
   ],
   [
-    group: true,
     [
-      group: true,
       [
         "Vital to the progress of a cluster is a growing pool of capable human
         resources who are fully committed to its movement from one stage of
@@ -380,7 +385,7 @@
       ],
     ],
     [
-      group:
+      title:
         'Engaging youth in an ongoing conversation about service to their communities'
       ,
       [
@@ -392,14 +397,18 @@
         course other settings, such as schools, families, and networks of
         friends have also been particularly useful in engaging youth in an
         ongoing conversation about service. Regardless of the settings, such
-        conversations can be seen in the context of a process “that seeks to
-        raise capacity within a population to take charge of its own spiritual,
-        social and intellectual development”. In general, they are not limited
-        to the youth themselves but extend to their families and other relevant
-        individuals or structures that have some bearing on the life of youth in
-        a community. All of these interactions are opportunities to develop
-        friendships and to connect with others who are eager to contribute to
-        the betterment of their communities.",
+        conversations can be seen in the context of a process
+        <
+          q: 'Riḍván 2010',
+          "that seeks to raise capacity within a population to take charge of
+          its own spiritual, social and intellectual development",
+        />.
+        In general, they are not limited to the youth themselves but extend to
+        their families and other relevant individuals or structures that have
+        some bearing on the life of youth in a community. All of these
+        interactions are opportunities to develop friendships and to connect
+        with others who are eager to contribute to the betterment of their
+        communities.",
       ],
       [
         "To enrich the conversations with youth and their families, friends have
@@ -451,7 +460,7 @@
       ],
     ],
     [
-      group: 'Assisting youth to receive training to serve as animators',
+      title: 'Assisting youth to receive training to serve as animators',
       [
         "Let us now consider the question of capacity within a cluster to assist
         those willing to serve as animators to participate in the institute
@@ -466,13 +475,13 @@
         the following in its Riḍván 2010 message to the Bahá’ís of the World:",
       ],
       [
-        : block,
-        "“Much will fall on those who serve as tutors ... Theirs will be the
+        q: 'Riḍván 2010',
+        "Much will fall on those who serve as tutors ... Theirs will be the
         challenge to provide the environment that is envisioned in the institute
         courses, an environment conducive to the spiritual empowerment of
         individuals, who will come to see themselves as active agents of their
         own learning, as protagonists of a constant effort to apply knowledge to
-        effect individual and collective transformation.”",
+        effect individual and collective transformation.",
       ],
       [
         "Animators of junior youth groups play an indispensable role in bringing
@@ -572,7 +581,7 @@
       ],
     ],
     [
-      group:
+      title:
         'Accompanying youth along a path of service and nurturing the development of the programme'
       ,
       [
@@ -583,8 +592,8 @@
         the Ruhi Institute:",
       ],
       [
-        : block,
-        "“The capabilities required to serve effectively as an animator will, of
+        q: 'Book 5',
+        "The capabilities required to serve effectively as an animator will, of
         course, develop over time, and those pursuing this path of service need
         not feel compelled, at the beginning, to offer the programme in all of
         its dimensions. One might start by implementing the study portion only,
@@ -594,7 +603,7 @@
         terms of walking a path on which individuals are assisted in carrying
         out acts of service, gradually acquire the attributes needed to perform
         them, and eventually are able to accompany others in their efforts to
-        follow a similar path.”",
+        follow a similar path.",
       ],
       [
         "As implied by the paragraph above, animators require different kinds of
@@ -832,7 +841,7 @@
       ],
     ],
     [
-      group: 'Enhancing the involvement of the community',
+      title: 'Enhancing the involvement of the community',
       [
         "Essential to progress in of all of the areas discussed until now is the
         involvement of the community. In its Riḍván message of 1996 to the
@@ -840,14 +849,14 @@
         these terms:",
       ],
       [
-        : block,
-        "“A community is of course more than the sum of its membership; it is a
+        q: 'Riḍván 1996',
+        "A community is of course more than the sum of its membership; it is a
         comprehensive unit of civilization composed of individuals, families and
         institutions that are originators and encouragers of systems, agencies
         and organizations working together with a common purpose for the welfare
         of people both within and beyond its own borders; it is a composition of
         diverse, interacting participants that are achieving unity in an
-        unremitting quest for spiritual and social progress.”",
+        unremitting quest for spiritual and social progress.",
       ],
       [
         "To explore the concept in more depth, bring to mind your own community.
@@ -888,15 +897,15 @@
           "What are some examples you have seen of ways in which the community
           can lend support to the establishment of the programme? What form has
           it taken in:",
-          [
-            : list,
-            ["The formation of groups"],
-            ["Identifying animators"],
-            ["Training animators"],
-            ["Sustaining animators in their service"],
-            ["Supporting youth in various aspects of their lives"],
-            ["The sustainability of the programme"],
-          ],
+        ],
+        [
+          : list,
+          ["The formation of groups"],
+          ["Identifying animators"],
+          ["Training animators"],
+          ["Sustaining animators in their service"],
+          ["Supporting youth in various aspects of their lives"],
+          ["The sustainability of the programme"],
         ],
         [
           "What are some steps that have been taken to enhance consciousness
@@ -932,7 +941,7 @@
     ],
   ],
   [
-    group:
+    title:
       'Some considerations for supporting the development of the programme in a number of clusters'
     ,
     [
@@ -1158,19 +1167,19 @@
       [
         "Let us take the example of the capacity to collaborate with a team of
         friends focused on raising animators from the wider society.",
+      ],
+      [
+        : list,
         [
-          : list,
-          [
-            "What might an initial seminar to help coordinators develop this
-            capacity look like? What are some things you would want to take into
-            consideration when planning this seminar?",
-          ],
-          [
-            "Once a number of coordinators have had considerable experience with
-            this process, what might a seminar to systematize learning look
-            like? What are some things that the regional coordinator should keep
-            in mind when planning this seminar?",
-          ],
+          "What might an initial seminar to help coordinators develop this
+          capacity look like? What are some things you would want to take into
+          consideration when planning this seminar?",
+        ],
+        [
+          "Once a number of coordinators have had considerable experience with
+          this process, what might a seminar to systematize learning look like?
+          What are some things that the regional coordinator should keep in mind
+          when planning this seminar?",
         ],
       ],
       [
@@ -1290,17 +1299,17 @@
         and disseminating learning and how these can be used in an appropriate
         and effective way. Below are just a few examples; feel free to discuss
         other instruments as well:",
+      ],
+      [
+        : list,
+        ["Regular spaces for consultation and reflection"],
+        ["Visits of regional coordinators to clusters"],
+        ["Visits of friends to a more advanced cluster"],
         [
-          : list,
-          ["Regular spaces for consultation and reflection"],
-          ["Visits of regional coordinators to clusters"],
-          ["Visits of friends to a more advanced cluster"],
-          [
-            "Short case studies or descriptions of certain experiences in a
-            region",
-          ],
-          ["Community gatherings"],
+          "Short case studies or descriptions of certain experiences in a
+          region",
         ],
+        ["Community gatherings"],
       ],
       [
         "What are some of the fundamental qualities and attitudes that
