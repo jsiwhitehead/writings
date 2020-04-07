@@ -1,11 +1,10 @@
 [
   [
-    group: 'The Development of Capacity to Collect and Utilize Statistics',
+    title: 'The Development of Capacity to Collect and Utilize Statistics',
     author: 'The Department of Statistics',
     type: Learning,
     date: 'February 2016',
     [
-      group: true,
       [
         "The Universal House of Justice has provided guidance over the years
         about the gathering of accurate statistics and the careful analysis of
@@ -21,7 +20,7 @@
       ],
     ],
     [
-      group: 'An emerging programme of growth',
+      title: 'An emerging programme of growth',
       [
         "In their earliest efforts within a cluster, the friends generally
         utilize informal methods of keeping track of information. Sooner or
@@ -37,7 +36,7 @@
       ],
     ],
     [
-      group: 'Clusters where a programme of growth is being strengthened',
+      title: 'Clusters where a programme of growth is being strengthened',
       [
         "Institutions at the national and regional levels play a vital role in
         assisting agencies at the cluster level to be systematic in their
@@ -105,7 +104,7 @@
       ],
     ],
     [
-      group:
+      title:
         'Clusters learning to embrace large numbers and manage increasing complexity'
       ,
       [
@@ -152,7 +151,7 @@
       ],
     ],
     [
-      group:
+      title:
         'Strengthening the network of individuals involved in collecting and utilizing statistics'
       ,
       [

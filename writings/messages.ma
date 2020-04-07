@@ -1,12 +1,12 @@
 [
   : documents,
   [
-    group: 'The expanding nucleus in Harkesh Nagar, Delhi',
+    title: 'The expanding nucleus in Harkesh Nagar, Delhi',
     author: 'International Teaching Centre',
     type: Learning,
     date: 'July 2015',
     [
-      group: 'The Delhi cluster',
+      title: 'The Delhi cluster',
       [
         "The Delhi cluster, which consists of the city of Delhi, has a
         population of some 16 million. The Bahá’í community falls under the
@@ -45,7 +45,7 @@
       ],
     ],
     [
-      group: 'The initial nucleus in Harkesh Nagar',
+      title: 'The initial nucleus in Harkesh Nagar',
       [
         "Around March 2010, a small group of friends involved in the process in
         Harkesh Nagar started meeting on a daily basis to talk about the process
@@ -70,7 +70,7 @@
       ],
     ],
     [
-      group: 'Expanding the nucleus',
+      title: 'Expanding the nucleus',
       [
         "The friends in the initial nucleus recognized that, in order to
         register 50 youth for the intensive training, they would also need to
@@ -97,7 +97,7 @@
       ],
     ],
     [
-      group: 'Initial training',
+      title: 'Initial training',
       [
         "The initial training took place in the first two weeks of October 2010
         at the facility at the House of Worship. Having the youth stay at this
@@ -146,7 +146,7 @@
       ],
     ],
     [
-      group: 'Accompanying the youth',
+      title: 'Accompanying the youth',
       [
         "The tutors at the institute campaign were those in the initial nucleus.
         As such, they were committed to fostering the community-building process
@@ -168,7 +168,7 @@
       ],
     ],
     [
-      group: 'Fostering community life',
+      title: 'Fostering community life',
       [
         "In the weeks following the initial institute campaign, the
         nucleus—which now included the youth— worked to engage families in the
@@ -190,7 +190,7 @@
       ],
     ],
     [
-      group: 'Establishing a rhythm of training and accompanying',
+      title: 'Establishing a rhythm of training and accompanying',
       [
         "A second institute campaign was held during the next school break, in
         December 2010. Again, 50 youth were registered to participate in the
@@ -215,7 +215,7 @@
       ],
     ],
     [
-      group: 'An ever-expanding nucleus',
+      title: 'An ever-expanding nucleus',
       [
         "By establishing a rhythm of training and accompanying youth, while
         engaging their families through devotional meetings and Holy Days, the
@@ -267,7 +267,7 @@
     ],
   ],
   [
-    group: 'Regarding the bicentenary of the Birth of the Báb',
+    title: 'Regarding the bicentenary of the Birth of the Báb',
     author: 'The Universal House of Justice',
     addressed: 'To the followers of Bahá’u’lláh in the sacred land of Iran',
     date: '24 October 2019',
@@ -424,14 +424,13 @@
     ["[signed: The Universal House of Justice]"],
   ],
   [
-    group: 'Regarding the global plans of the Bahá’í community',
+    title: 'Regarding the global plans of the Bahá’í community',
     author: 'The International Teaching Centre',
     addressed: 'To all Continental Counsellors',
     date: '3 May 2018',
     key: '20180503_001',
     type: Message,
     [
-      group: true,
       ["Dearly loved Co-workers,"],
       [
         "The efforts before, during, and after the bicentenary celebrations of
@@ -474,7 +473,7 @@
       ],
     ],
     [
-      group: 'Facilitating the movement of clusters in a region or country',
+      title: 'Facilitating the movement of clusters in a region or country',
       [
         "Arranging adjoining clusters into groups has assisted institutions and
         agencies serving at the regional or national level to systematize the
@@ -586,7 +585,7 @@
       ],
     ],
     [
-      group: 'Nurturing the capacities of the cluster agencies',
+      title: 'Nurturing the capacities of the cluster agencies',
       [
         "In each cluster approaching the second milestone, identifying,
         orienting, and nurturing a group of friends to serve as cluster
@@ -625,7 +624,7 @@
       ],
     ],
     [
-      group:
+      title:
         'Systematizing efforts to nurture endeavours undertaken by believers across the cluster'
       ,
       [
@@ -682,7 +681,7 @@
       ],
     ],
     [
-      group: 'Fostering an expanding nucleus in a neighbourhood',
+      title: 'Fostering an expanding nucleus in a neighbourhood',
       ["In its Riḍván 2018 message, the House of Justice wrote:"],
       [
         : block,
@@ -744,7 +743,7 @@
       ],
     ],
     [
-      group: 'Extending the process in village after village',
+      title: 'Extending the process in village after village',
       [
         "A similar process unfolds in rural settings, but with its own dynamics.
         The centre of intense activity may be a single village or, in
@@ -778,7 +777,7 @@
       ],
     ],
     [
-      group:
+      title:
         'Establishing a regular rhythm of youth gatherings and institute campaigns'
       ,
       [
@@ -837,7 +836,7 @@
       ],
     ],
     [
-      group: 'Increasing the flow of youth entering the sequence of courses',
+      title: 'Increasing the flow of youth entering the sequence of courses',
       [
         "In many clusters, while the pattern of youth gatherings and institute
         campaigns may be well established and sizeable numbers of youth may be
@@ -874,7 +873,7 @@
       ],
     ],
     [
-      group: 'Accelerating the pace',
+      title: 'Accelerating the pace',
       [
         "Dear friends, the consultations in the Holy Land provide an opportunity
         to review the pace of the movement of clusters in each geographic

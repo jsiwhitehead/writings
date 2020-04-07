@@ -5,23 +5,39 @@ const toIndex = (v: string) => {
   const n = parseFloat(v);
   return !isNaN(v as any) && !isNaN(n) && n === Math.floor(n) && n > 0 && n;
 };
-const toJson = (data) => {
+const toJson = (data, simple = false) => {
   if (data.type === 'value') return data.value;
   const result = { indices: [] as any[], values: {} };
   for (const { key, value } of data.value.toPairs()) {
     if (key.type === 'value') {
-      const v = toJson(value);
-      if (!key.value) for (const t of v.split(' ')) result.values[t] = 1;
-      else if (toIndex(key.value)) result.indices.push(v);
-      else result.values[key.value] = v;
+      if (!key.value) {
+        const v = toJson(value);
+        if (typeof v === 'string') {
+          for (const t of v.split(' ')) result.values[t] = 1;
+        }
+      } else if (toIndex(key.value)) {
+        result.indices.push(toJson(value));
+      } else {
+        result.values[key.value] = toJson(value, true);
+      }
     }
+  }
+  if (simple) {
+    if (result.indices.length === 0) return result.values;
+    if (Object.keys(result.values).length === 0) return result.indices;
   }
   return result;
 };
 
 (async () => {
   // const files = (await fs.readdir('./src/books')).map((f) => f.slice(0, -3));
-  const files = ['50-100'];
+  const files = [
+    '50-100',
+    'additional-abdul-baha',
+    'additional-bahaullah',
+    'frontiers-learning',
+    'higher-functioning',
+  ];
   await fs.ensureDir('./data/flattened');
   await Promise.all(
     files.map(async (f) => {

@@ -1,12 +1,11 @@
 [
-  group: 'Promoting a Discourse on Science, Religion, and Development',
+  title: 'Promoting a Discourse on Science, Religion, and Development',
   author: 'Farzam Arbab',
   type: Learning,
   date: 'December 2000',
   [
-    group: 'On Personal Experience',
+    title: 'On Personal Experience',
     [
-      group: true,
       [
         "It seems to me essential that, at the outset of a research program on
         the theme of science, religion, and development, one should acknowledge
@@ -112,7 +111,7 @@
       ],
     ],
     [
-      group: 'My Introduction To Development',
+      title: 'My Introduction To Development',
       [
         "I was first introduced to the field of development in 1971, when I was
         invited to join the deliberations of an interdisciplinary group
@@ -194,10 +193,10 @@
       ],
     ],
     [
-      group: 'The Inside-Outside Dichotomy',
+      title: 'The Inside-Outside Dichotomy',
       [
         "The first question was cast, initially, in the language of the previous
-        group: What was the role of the villagers themselves in
+        title: What was the role of the villagers themselves in
         interdisciplinary, multi-institutional development intervention? The
         analyses we found in the literature on participation, though thought
         provoking, were not entirely satisfactory. No matter how hard we tried,
@@ -282,7 +281,7 @@
       ],
     ],
     [
-      group: 'How The Poor Are Perceived',
+      title: 'How The Poor Are Perceived',
       [
         "The second of our questions — which remains as relevant today as it was
         to us in the early 1970s — had to do with the way development programs
@@ -369,7 +368,7 @@
       ],
     ],
     [
-      group: 'Conceptions Of Human Nature',
+      title: 'Conceptions Of Human Nature',
       [
         "So much of what I will present in the following sections is based on my
         view of human nature that I should make a few comments on the subject.
@@ -439,7 +438,7 @@
       ],
     ],
     [
-      group: 'The Urge To Be Scientific',
+      title: 'The Urge To Be Scientific',
       [
         "Another set of issues to which my colleagues and I at FUNDAEC gave a
         great deal of attention — one that again is highly relevant to the
@@ -514,7 +513,7 @@
       ],
     ],
     [
-      group: 'The Rural-Urban Balance',
+      title: 'The Rural-Urban Balance',
       [
         "My experience in development began with intense involvement in the life
         of a relatively small rural population and only gradually grew to
@@ -585,7 +584,7 @@
       ],
     ],
     [
-      group: 'The Direction Of Development',
+      title: 'The Direction Of Development',
       [
         "Throughout the years, my colleagues and I in FUNDAEC participated in
         numerous deliberations on the nature and purpose of development and
@@ -681,7 +680,7 @@
       ],
     ],
     [
-      group: 'Technique, Power, Spirituality, And Knowledge',
+      title: 'Technique, Power, Spirituality, And Knowledge',
       [
         "Finally, in my attempt to make explicit certain elements of personal
         belief and experience that influence my treatment of our theme of
@@ -750,9 +749,8 @@
       ],
     ],
     [
-      group: 'Further Comments',
+      title: 'Further Comments',
       [
-        group: true,
         [
           "In the remainder of this section, I address a number of points with
           direct bearing on the arguments of the preceding pages. These comments
@@ -761,7 +759,7 @@
         ],
       ],
       [
-        group: 'Definitions of science',
+        title: 'Definitions of science',
         [
           "In writing this document, I have tried to avoid explicit definitions
           of science. The literature of various fields is, of course, replete
@@ -821,7 +819,7 @@
         ],
       ],
       [
-        group: 'Religion and development',
+        title: 'Religion and development',
         [
           "The limitations of a discourse on development restricted by narrow
           definitions of the “scientific method,” to which I have alluded, are
@@ -953,7 +951,7 @@
         ],
       ],
       [
-        group: 'The field of development',
+        title: 'The field of development',
         [
           "The word <: i, "development"/> — which spans an enormous range of
           meaning in the English language — is used in this paper chiefly to
@@ -1133,7 +1131,7 @@
         ],
       ],
       [
-        group: 'Development intervention',
+        title: 'Development intervention',
         [
           "The ideas expressed earlier, under the heading “The inside–outside
           dichotomy,” are elements of a broader category of consideration that
@@ -1231,7 +1229,7 @@
         ],
       ],
       [
-        group: 'Human dignity',
+        title: 'Human dignity',
         [
           "The following passage from Robert L. Heilbroner’s
           <
@@ -1423,7 +1421,7 @@
         ],
       ],
       [
-        group: 'The state and the market',
+        title: 'The state and the market',
         [
           "The two ideologies that dominated the social and economic life of the
           planet after World War II held in opposition the state and the market,
@@ -1518,7 +1516,7 @@
         ],
       ],
       [
-        group: Nobility,
+        title: Nobility,
         [
           "A striking aspect of Bahá’í belief is the extraordinary optimism it
           displays about humanity’s future. Such hopefulness would be untenable
@@ -1620,9 +1618,8 @@
     ],
   ],
   [
-    group: 'Faith And Reason',
+    title: 'Faith And Reason',
     [
-      group: true,
       [
         "Our eagerness to promote a discourse on the triple theme of science,
         religion, and development arises from the conviction that development
@@ -1705,7 +1702,7 @@
       ],
     ],
     [
-      group: 'Scientific Truth',
+      title: 'Scientific Truth',
       [
         "We live in a time when science is blindly adored or rashly attacked by
         those who have an inadequate understanding of it. Many see science
@@ -1900,7 +1897,7 @@
       ],
     ],
     [
-      group: 'Religious Truth',
+      title: 'Religious Truth',
       [
         "With this perspective on science, let us now turn to religion. In doing
         so, we confront at the outset the question of whether scientific
@@ -2015,7 +2012,7 @@
       ],
     ],
     [
-      group: 'Harmony Between Science And Religion',
+      title: 'Harmony Between Science And Religion',
       [
         "A note of caution is in order. Efforts to describe religion as a system
         of knowledge are always in danger of going too far by advancing
@@ -2147,16 +2144,15 @@
       ],
     ],
     [
-      group: 'Further Comments',
+      title: 'Further Comments',
       [
-        group: true,
         [
           "The following comments expand and elaborate on the arguments
           presented in the foregoing pages.",
         ],
       ],
       [
-        group: 'The purpose of religion',
+        title: 'The purpose of religion',
         [
           "The passage quoted in the opening of this section on faith and reason
           comes from <: i, "The Promise of World Peace"/> (BPT 1995b), a
@@ -2205,7 +2201,7 @@
         ],
       ],
       [
-        group: 'The crisis of science',
+        title: 'The crisis of science',
         [
           "Most readers of these pages will readily accept that, as is the case
           with much of civilization, religion is in crisis. But there are many
@@ -2257,7 +2253,7 @@
         ],
       ],
       [
-        group: 'Scientific facts',
+        title: 'Scientific facts',
         [
           "Reflections on the nature of scientific truth in the context of an
           emerging dialogue between religion and science can benefit from a
@@ -2369,7 +2365,7 @@
         ],
       ],
       [
-        group: Beauty,
+        title: Beauty,
         [
           "Examining the role played in his or her research by a scientific
           inquirer’s attraction to beauty can open invaluable insights into the
@@ -2461,7 +2457,7 @@
         ],
       ],
       [
-        group: Rationality,
+        title: Rationality,
         [
           "All too often, rationality is identified with one or another specific
           way of thinking. The rational soul is a unique characteristic of the
@@ -2506,7 +2502,7 @@
         ],
       ],
       [
-        group: Complementarity,
+        title: Complementarity,
         [
           "Attempts to apply the principle of complementarity to areas other
           than physics do not enjoy every scientist’s blessing. For one thing,
@@ -2545,7 +2541,7 @@
         ],
       ],
       [
-        group: Duality,
+        title: Duality,
         [
           "There is a vast difference between the duality of quantum mechanics
           and the dichotomies on which the mechanistic worldview seems to have
@@ -2626,9 +2622,8 @@
     ],
   ],
   [
-    group: 'Spiritual Principles And The Role Of Knowledge',
+    title: 'Spiritual Principles And The Role Of Knowledge',
     [
-      group: true,
       [
         "Development programs will continue to be relevant to the life of
         society only to the extent that they are formulated and carried out in
@@ -2724,9 +2719,8 @@
       ],
     ],
     [
-      group: 'Spiritual Principles',
+      title: 'Spiritual Principles',
       [
-        group: true,
         [
           "Clearly, the relationship between spiritual and material
           civilization, introduced above, is not a simple one. Matter and spirit
@@ -2781,7 +2775,7 @@
         ],
       ],
       [
-        group: 'The oneness of humankind',
+        title: 'The oneness of humankind',
         [
           "The hallmark of the age of maturity will be the unification of the
           human race. The principle of the oneness of humankind is not a mere
@@ -2877,7 +2871,7 @@
         ],
       ],
       [
-        group: Justice,
+        title: Justice,
         [
           "To say that justice must be a fundamental concern of development
           strategy is to express a truism. There is, however, little agreement
@@ -2939,7 +2933,7 @@
         ],
       ],
       [
-        group: 'Equality of men and women',
+        title: 'Equality of men and women',
         [
           "There can be no doubt that the equality of men and women will be a
           distinguishing characteristic of the civilization destined to emerge
@@ -3013,7 +3007,7 @@
         ],
       ],
       [
-        group: 'Stewardship of nature',
+        title: 'Stewardship of nature',
         [
           "The modern scientific era has witnessed a well-justified rebellion
           against religious views that preach the abandonment of this world in
@@ -3066,7 +3060,7 @@
         ],
       ],
       [
-        group: 'Work and wealth',
+        title: 'Work and wealth',
         [
           "As has been the case with nature, wealth has received contradictory
           treatment in every period of social evolution. Repeatedly, the
@@ -3113,7 +3107,7 @@
         ],
       ],
       [
-        group: 'Freedom and empowerment',
+        title: 'Freedom and empowerment',
         [
           "At the heart of spirituality is the yearning of the human soul for
           freedom from the chains and struggles of material existence.
@@ -3158,7 +3152,7 @@
       ],
     ],
     [
-      group: 'The Role Of Knowledge',
+      title: 'The Role Of Knowledge',
       [
         "If development practice is to be governed by spiritual principles, the
         role it assigns to the generation and application of knowledge must be
@@ -3265,16 +3259,15 @@
       ],
     ],
     [
-      group: 'Further Comments',
+      title: 'Further Comments',
       [
-        group: true,
         [
           "The following two comments seem necessary to clarify the nature of
           the principles I have attempted to describe here.",
         ],
       ],
       [
-        group: 'Relation to Bahá’í text',
+        title: 'Relation to Bahá’í text',
         [
           "As mentioned earlier in the paper, the methodology adopted for this
           research project invites each participant to make explicit the
@@ -3398,7 +3391,7 @@
         ],
       ],
       [
-        group: 'Knowledge, love, faith',
+        title: 'Knowledge, love, faith',
         [
           "The principles briefly analyzed in this section of the paper
           represent the convictions of a growing number of people from many
@@ -3446,9 +3439,8 @@
     ],
   ],
   [
-    group: 'Capacity-Building',
+    title: 'Capacity-Building',
     [
-      group: true,
       [
         "In an attempt to explore the characteristics of a development theory
         that takes into account the spiritual dimension of human existence, I
@@ -3534,7 +3526,7 @@
       ],
     ],
     [
-      group: 'Power And Authority',
+      title: 'Power And Authority',
       [
         "In the opening section of this paper, I expressed certain misgivings
         about the way power has been perceived and used throughout humanity’s
@@ -3610,7 +3602,7 @@
       ],
     ],
     [
-      group: 'Decision-Making And Implementation',
+      title: 'Decision-Making And Implementation',
       [
         "Capacity-building, as proposed here, entails the enabling of the
         individual to manifest innate powers in a creative and disciplined way,
@@ -3795,7 +3787,7 @@
       ],
     ],
     [
-      group: 'The University',
+      title: 'The University',
       [
         "For development efforts to operate entirely in a learning mode,
         something more than the experiential learning of communities and
@@ -3832,7 +3824,7 @@
       ],
     ],
     [
-      group: 'Development, Transfer, And Adoption Of Technology',
+      title: 'Development, Transfer, And Adoption Of Technology',
       [
         "One of the most demanding tasks before the people of our region, a task
         that will claim the constant attention of the university and
@@ -4030,7 +4022,7 @@
       ],
     ],
     [
-      group: 'The Education Of Children And Youth',
+      title: 'The Education Of Children And Youth',
       [
         "From the beginning, enhancing the ability of the world’s governments to
         impart education to their citizens has been a major component of
@@ -4247,7 +4239,7 @@
       ],
     ],
     [
-      group: 'Material Means',
+      title: 'Material Means',
       [
         "To illustrate the challenge of building the capacity of a population to
         set the direction of its own development, I have presented a brief
@@ -4379,16 +4371,15 @@
       ],
     ],
     [
-      group: 'Further Comments',
+      title: 'Further Comments',
       [
-        group: true,
         [
           "Capacity-building is a vast subject that I have only touched upon in
           these pages. The following comments offer further insights.",
         ],
       ],
       [
-        group: 'The concept of the university',
+        title: 'The concept of the university',
         [
           "In my references to the university, I have drawn upon my own
           experience at FUNDAEC, where the conceptual framework and mode of
@@ -4420,7 +4411,7 @@
         ],
       ],
       [
-        group: 'Autonomous technology',
+        title: 'Autonomous technology',
         [
           "As I was reflecting on the theme of the present project — science,
           religion, and development — I revisited a book that had significantly
@@ -4528,7 +4519,7 @@
         ],
       ],
       [
-        group: 'The purpose of education',
+        title: 'The purpose of education',
         [
           "Some of the comments made earlier may seem overly critical of the
           world’s educational systems. But it is difficult to assume a detached

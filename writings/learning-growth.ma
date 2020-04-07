@@ -1,8 +1,7 @@
 [
-  group: 'Learning About Growth',
+  title: 'Learning About Growth',
   date: 'July 1991',
   [
-    group: true,
     author: 'Farzam Arbab',
     type: Foreword,
     [
@@ -114,7 +113,6 @@
     ],
   ],
   [
-    group: true,
     author: 'The Ruhi Institute',
     type: Preface,
     [
@@ -128,11 +126,10 @@
     ],
   ],
   [
-    group: true,
     author: 'The International Teaching Centre',
     type: Learning,
     [
-      group: 'Initial Impulse',
+      title: 'Initial Impulse',
       [
         "During the latter years of the Nine Year Plan, large-scale teaching
         among the masses was gaining momentum in an increasing number of Latin
@@ -262,7 +259,7 @@
       ],
     ],
     [
-      group: 'In Search of Unifying Principles',
+      title: 'In Search of Unifying Principles',
       [
         "The remarkable increase in the number of believers from a few hundred
         to about three thousand, the ensuing confusion, and unity of purpose
@@ -534,7 +531,7 @@
       ],
     ],
     [
-      group: 'Learning: Action Accompanied by Reflection and Consultation',
+      title: 'Learning: Action Accompanied by Reflection and Consultation',
       [
         "With a well-established unity of purpose to teach the masses and a
         newly achieved unity of thought on the nature of expansion and
@@ -606,7 +603,7 @@
       ],
     ],
     [
-      group: 'The Unique Attributes of Large-scale Expansion',
+      title: 'The Unique Attributes of Large-scale Expansion',
       [
         "Yet another important conclusion reached during this period had to do
         with the very nature of teaching campaigns. The friends agreed that what
@@ -654,7 +651,7 @@
       ],
     ],
     [
-      group: 'The Quality of the First Contact and the Role of the Teacher',
+      title: 'The Quality of the First Contact and the Role of the Teacher',
       [
         "The ongoing analysis of experiences showed clearly that success, both
         in large-scale expansion and in the subsequent deepening of new
@@ -854,7 +851,7 @@
       ],
     ],
     [
-      group: 'The Content of the First Message',
+      title: 'The Content of the First Message',
       [
         "While they were deliberating on the spiritual qualities which would be
         essential to the growth of the teachers, the Colombian friends were also
@@ -910,7 +907,7 @@
       ],
     ],
     [
-      group: 'The Second Wave of Expansion: Joy and Sorrow',
+      title: 'The Second Wave of Expansion: Joy and Sorrow',
       [
         "Having witnessed a new level of consensus emerge among its small band
         of teachers, who now numbered about 30, the National Spiritual Assembly
@@ -995,7 +992,7 @@
       ],
     ],
     [
-      group: 'Shifting from the Individual to the Community',
+      title: 'Shifting from the Individual to the Community',
       [
         "A series of meetings of consultation shed new light on the challenges
         of developing communities and increasing the number of teachers, and
@@ -1097,7 +1094,7 @@
       ],
     ],
     [
-      group: 'Back to the Individual: Deepening Booklets',
+      title: 'Back to the Individual: Deepening Booklets',
       [
         spans: [[start: 538, end: 1485, types: ["i"]]],
         "Insights did not come easily when the friends examined the
@@ -1271,7 +1268,7 @@
       ],
     ],
     [
-      group: 'Elements of a Framework for the Creation of the Ruhi Institute',
+      title: 'Elements of a Framework for the Creation of the Ruhi Institute',
       [
         "Although the failure of the new plan of action to greatly increase the
         number of dedicated teachers was disconcerting, there was little reason
@@ -1439,7 +1436,7 @@
       ],
     ],
     [
-      group: 'The Educational Programs: Paths of Service',
+      title: 'The Educational Programs: Paths of Service',
       [
         "Any retrospective account of a long-term developmental process, such as
         the present document, is likely to project a false impression of order.
@@ -1496,7 +1493,7 @@
       ],
     ],
     [
-      group: 'Understanding the Bahá\'í Writings',
+      title: 'Understanding the Bahá\'í Writings',
       [
         "The first course in the path of Basic Deepening requires only about
         eight hours of study and discussion. Its purpose is to develop the
@@ -1643,7 +1640,7 @@
       ],
     ],
     [
-      group: Prayer,
+      title: Prayer,
       [
         "The second course in the path of Basic Deepening also requires about
         eight hours of study and discussion. Its purpose is to help the
@@ -1720,7 +1717,7 @@
       ],
     ],
     [
-      group: 'Life and Death',
+      title: 'Life and Death',
       [
         "The course entitled “Life and Death” has been included in the path of
         Basic Deepening because an understanding of the purpose of life is
@@ -1854,7 +1851,7 @@
       ],
     ],
     [
-      group: 'Principles of Bahá\'í Education',
+      title: 'Principles of Bahá\'í Education',
       [
         "Yet another course associated with the first act of service in the
         Basic Deepening path is “Principles of Bahá’í Education”. The following
@@ -1917,7 +1914,7 @@
       ],
     ],
     [
-      group: 'Children\'s Classes',
+      title: 'Children\'s Classes',
       [
         "The course called “Children’s Classes, Age 6” helps the participants
         develop the ability to carry out the first act of service, that of
@@ -2072,7 +2069,7 @@
       ],
     ],
     [
-      group: 'Further Development of the Basic Deepening Path',
+      title: 'Further Development of the Basic Deepening Path',
       [
         "During the early stages of the development of the Ruhi Institute, two
         more acts of service were identified which operate at a level of
@@ -2122,7 +2119,7 @@
       ],
     ],
     [
-      group: 'The First Specialized Path: Education of Children',
+      title: 'The First Specialized Path: Education of Children',
       [
         "Early in the 1980s, one of the Auxiliary Board members in Colombia
         entered into a process of consultation with several rural communities
@@ -2185,7 +2182,7 @@
       ],
     ],
     [
-      group: 'The Second Specialized Path: Community Development',
+      title: 'The Second Specialized Path: Community Development',
       [
         "A goal of the Ruhi Institute, from its inception, has been to increase
         the national community’s capacity to meet the perennial challenge of
@@ -2275,7 +2272,7 @@
       ],
     ],
     [
-      group: 'The “General Studies” Path',
+      title: 'The “General Studies” Path',
       [
         "In addition to the courses of the three paths of service already
         mentioned, the Ruhi Institute offers to its participants, according to
@@ -2291,9 +2288,8 @@
       ],
     ],
     [
-      group: 'Important Characteristics of the Ruhi Institute',
+      title: 'Important Characteristics of the Ruhi Institute',
       [
-        group: true,
         [
           "The material presented up to this point will have given a general
           impression of the Ruhi Institute, the setting in which it developed,
@@ -2303,7 +2299,6 @@
         ],
       ],
       [
-        group: true,
         [
           "Deepening programs may be founded on any of several concepts which
           offer equally valid approaches to the organization of knowledge and
@@ -2350,7 +2345,6 @@
         ],
       ],
       [
-        group: true,
         [
           "In all the courses of the Ruhi Institute the principal approach to
           learning is through study of the Bahá’í Writings. For courses which
@@ -2482,7 +2476,6 @@
         ],
       ],
       [
-        group: true,
         [
           "The Ruhi Institute has not subscribed to a particular educational
           theory, nor has it pretended to contribute to the formulation of a
@@ -2545,7 +2538,7 @@
       ],
     ],
     [
-      group: 'Presenting the Institute to Those Outside the Bahá\'í Community',
+      title: 'Presenting the Institute to Those Outside the Bahá\'í Community',
       [
         "In 1988 the National Spiritual Assembly of the Bahá’ís of Colombia
         decided to seek legal recognition for the Ruhi Institute by
@@ -2845,7 +2838,7 @@
       ],
     ],
     [
-      group: 'Lost Momentum',
+      title: 'Lost Momentum',
       [
         "This brief analysis of the conceptual framework and programs of the
         Ruhi Institute began with a description of the history of large-scale
@@ -3020,7 +3013,7 @@
       ],
     ],
     [
-      group: 'Commitment and Intensity',
+      title: 'Commitment and Intensity',
       [
         "By now it will be clear that throughout its short history the Colombian
         community, like every other Bahá’í community in the world, has been
@@ -3179,7 +3172,7 @@
       ],
     ],
     [
-      group: Conclusions,
+      title: Conclusions,
       [
         "The story of large-scale teaching endeavors is certainly not unique to
         Colombia. Numerous communities throughout the world have responded
