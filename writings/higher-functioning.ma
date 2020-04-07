@@ -182,9 +182,15 @@
         [
           [
             "In its Riḍván 2010 message, the Universal House of Justice observed
-            that the worldwide Bahá’í community has “succeeded in developing a
-            culture which promotes a way of thinking, studying, and acting, in
-            which all consider themselves as treading a common path of service”,
+            that the worldwide Bahá’í community has
+            <
+              q:
+                'Riḍván 2010 message written by the Universal House of Justice to the Bahá’ís of the world.'
+              ,
+              "succeeded in developing a culture which promotes a way of
+              thinking, studying, and acting, in which all consider themselves
+              as treading a common path of service",
+            />,
             and has
             <
               q:
@@ -458,41 +464,38 @@
       [
         title:
           'Learning to nurture the participation of youth in institute courses',
-        [
-          "It is clear from the foregoing that much of the progress of a cluster
-          depends on the ability of the friends to engage a population in
-          diverse and weighty conversations on the Bahá’í teachings and then to
-          draw its members into an educational process that multiplies their
-          powers to contribute to the building of a new society. It is natural,
-          then, that at any point in this process the friends would encounter
-          certain particularly receptive segments of that population. As the
-          House of Justice has stated, the youth represent
-          <
-            q: 'Message dated 29 December 2015.',
-            "a most responsive element of every receptive population to which
-            the friends have sought to reach out",
-          />.
-          Initial endeavours to open a particular channel for the entry of youth
-          into the sequence of courses in a cluster are necessarily modest.
-          Effort is made—sometimes through specially organized gatherings—to
-          reach out to a group of youth, engage them in discussions that open
-          before their eyes
-          <
-            q: 'Message dated 29 December 2015.',
-            "a compelling vision of how they can contribute to building a new
-            world",
-          />,
-          invite them to study the institute courses, and then assist them to
-          move swiftly into the arena of service. Often this involves the
-          intensive study of a set of courses such as Book 1, 3, and 5, since
-          the acts of service to which they are first introduced are usually
-          teaching children’s classes and helping groups of junior youth. As the
-          process of growth advances, the manner in which the young people study
-          institute courses gradually comes to conform for the most part to the
-          sequence in which the courses are arranged. The institute might,
-          however, from time to time offer some youth a selected number of
-          courses in order to accelerate the multiplication of activities.",
-        ],
+        "It is clear from the foregoing that much of the progress of a cluster
+        depends on the ability of the friends to engage a population in diverse
+        and weighty conversations on the Bahá’í teachings and then to draw its
+        members into an educational process that multiplies their powers to
+        contribute to the building of a new society. It is natural, then, that
+        at any point in this process the friends would encounter certain
+        particularly receptive segments of that population. As the House of
+        Justice has stated, the youth represent
+        <
+          q: 'Message dated 29 December 2015.',
+          "a most responsive element of every receptive population to which the
+          friends have sought to reach out",
+        />.
+        Initial endeavours to open a particular channel for the entry of youth
+        into the sequence of courses in a cluster are necessarily modest. Effort
+        is made—sometimes through specially organized gatherings—to reach out to
+        a group of youth, engage them in discussions that open before their eyes
+        <
+          q: 'Message dated 29 December 2015.',
+          "a compelling vision of how they can contribute to building a new
+          world",
+        />,
+        invite them to study the institute courses, and then assist them to move
+        swiftly into the arena of service. Often this involves the intensive
+        study of a set of courses such as Book 1, 3, and 5, since the acts of
+        service to which they are first introduced are usually teaching
+        children’s classes and helping groups of junior youth. As the process of
+        growth advances, the manner in which the young people study institute
+        courses gradually comes to conform for the most part to the sequence in
+        which the courses are arranged. The institute might, however, from time
+        to time offer some youth a selected number of courses in order to
+        accelerate the multiplication of activities.",
       ],
       [
         title: 'A flow from junior youth groups into the main sequence',
@@ -1319,44 +1322,41 @@
     ],
     [
       title: 'Learning and the Ability to Disseminate the Accruing Knowledge',
-      [
-        "The members of the institute board collaborate with the coordinators,
-        the Auxiliary Board members, and other experienced individuals in
-        <
-          q: 'Message dated 29 December 2015.',
-          "a systematic and concentrated effort ... to gather and apply insights
-          emerging from the grassroots regarding the promotion of children’s
-          classes, junior youth groups, and study circles",
-        />.
-        On their part, regional or national coordinators labour in the field
-        together with cluster coordinators, converse with them on their
-        experiences, and observe first hand the emerging strengths and
-        challenges. Regular reflection gatherings that are informed by what is
-        happening at the grassroots allow for a deep exploration of the
-        unfolding experience in the region or country. The deliberations and
-        endeavours of coordinators might for a period of time concentrate on
-        particular sets of questions that are critical to achieving continued
-        progress. The insights obtained from such focused efforts are then
-        appropriately analysed and shared with others. A cluster in which
-        significant experience is gained may in this regard be used to host
-        gatherings of coordinators from other clusters and dispatch experienced
-        individuals to other clusters to work with local friends in the field.
-        This is an approach to disseminating learning that has worked well with
-        learning sites for the junior youth programme, and it is now being
-        applied in some form in the context of groups of adjoining clusters that
-        are organized around one or more which can offer
-        <
-          q: 'Message dated 29 December 2015.',
-          "a valuable source of knowledge and experience and represent a
-          reservoir of human resources",
-        />.
-        Further, some institutes are also capturing lessons learned by creating
-        documents that serve as dynamic records of efforts to address some key
-        questions. With some of the knowledge generated globally about learning
-        as a mode of operation now presented in Book 10, it is hoped that the
-        study of that course will help training institutes themselves achieve
-        even more notable advances in this capacity.",
-      ],
+      "The members of the institute board collaborate with the coordinators, the
+      Auxiliary Board members, and other experienced individuals in
+      <
+        q: 'Message dated 29 December 2015.',
+        "a systematic and concentrated effort ... to gather and apply insights
+        emerging from the grassroots regarding the promotion of children’s
+        classes, junior youth groups, and study circles",
+      />.
+      On their part, regional or national coordinators labour in the field
+      together with cluster coordinators, converse with them on their
+      experiences, and observe first hand the emerging strengths and challenges.
+      Regular reflection gatherings that are informed by what is happening at
+      the grassroots allow for a deep exploration of the unfolding experience in
+      the region or country. The deliberations and endeavours of coordinators
+      might for a period of time concentrate on particular sets of questions
+      that are critical to achieving continued progress. The insights obtained
+      from such focused efforts are then appropriately analysed and shared with
+      others. A cluster in which significant experience is gained may in this
+      regard be used to host gatherings of coordinators from other clusters and
+      dispatch experienced individuals to other clusters to work with local
+      friends in the field. This is an approach to disseminating learning that
+      has worked well with learning sites for the junior youth programme, and it
+      is now being applied in some form in the context of groups of adjoining
+      clusters that are organized around one or more which can offer
+      <
+        q: 'Message dated 29 December 2015.',
+        "a valuable source of knowledge and experience and represent a reservoir
+        of human resources",
+      />.
+      Further, some institutes are also capturing lessons learned by creating
+      documents that serve as dynamic records of efforts to address some key
+      questions. With some of the knowledge generated globally about learning as
+      a mode of operation now presented in Book 10, it is hoped that the study
+      of that course will help training institutes themselves achieve even more
+      notable advances in this capacity.",
     ],
     [
       title: 'The Evolution of Organizational Schemes',
@@ -1465,72 +1465,67 @@
       title: 'Some Administrative Aspects',
       [
         title: 'Remuneration of institute staff',
-        [
-          "An important aspect of the management of financial resources is the
-          remuneration of institute staff. As the number of study circles,
-          children’s classes, and junior youth groups expands in a country or
-          region, more and more people deepen their sense of ownership and
-          desire to contribute to the betterment of society, and some among them
-          dedicate a substantial amount of their time to the work of the
-          institute. From among those serving as coordinators, some might
-          require financial assistance for a period of time. There are a number
-          of principles to be considered by institutes in this regard. Of
-          course, capacity for coordination cannot be built by simply
-          multiplying the number of coordinators serving full time and receiving
-          remuneration. At the cluster level, the remuneration offered to some
-          coordinators is essentially a short-term arrangement that is arrived
-          at through conversation with each individual being invited to serve in
-          this manner and requiring such assistance. Based on determined needs,
-          factors that could be taken into consideration include
-          <
-            q: 'Message dated 28 December 2010.',
-            "whether the person resides in a rural or urban area, is required to
-            change residence, has a family, or intends to pursue further
-            education",
-          />.
-          While decisions made will differ from one person to another, the
-          system will reflect an overall consistency. Additional considerations
-          may be necessary at the regional or national level. Some of the
-          friends serving full time and receiving remuneration might, for
-          instance, need to continue receiving such assistance for an extended
-          period in order to ensure that the learning processes across the
-          entire region or country are sustained. In any case, it can be
-          expected that whether at the cluster, regional, or national level, the
-          needs of some individuals might sometimes
-          <
-            q: 'Message dated 28 December 2010.',
-            "exceed what can reasonably be met by the funds of the Faith",
-          />.
-          A realistic range of remuneration can be established. In creating a
-          framework for offering remuneration to the friends, a National
-          Spiritual Assembly, in consultation with the Counsellors and the
-          institute board, determines what would, in general, constitute a
-          reasonable period during which an individual serving as a cluster
-          coordinator or as a regional or national coordinator may be provided
-          with remuneration.",
-        ],
+        "An important aspect of the management of financial resources is the
+        remuneration of institute staff. As the number of study circles,
+        children’s classes, and junior youth groups expands in a country or
+        region, more and more people deepen their sense of ownership and desire
+        to contribute to the betterment of society, and some among them dedicate
+        a substantial amount of their time to the work of the institute. From
+        among those serving as coordinators, some might require financial
+        assistance for a period of time. There are a number of principles to be
+        considered by institutes in this regard. Of course, capacity for
+        coordination cannot be built by simply multiplying the number of
+        coordinators serving full time and receiving remuneration. At the
+        cluster level, the remuneration offered to some coordinators is
+        essentially a short-term arrangement that is arrived at through
+        conversation with each individual being invited to serve in this manner
+        and requiring such assistance. Based on determined needs, factors that
+        could be taken into consideration include
+        <
+          q: 'Message dated 28 December 2010.',
+          "whether the person resides in a rural or urban area, is required to
+          change residence, has a family, or intends to pursue further
+          education",
+        />.
+        While decisions made will differ from one person to another, the system
+        will reflect an overall consistency. Additional considerations may be
+        necessary at the regional or national level. Some of the friends serving
+        full time and receiving remuneration might, for instance, need to
+        continue receiving such assistance for an extended period in order to
+        ensure that the learning processes across the entire region or country
+        are sustained. In any case, it can be expected that whether at the
+        cluster, regional, or national level, the needs of some individuals
+        might sometimes
+        <
+          q: 'Message dated 28 December 2010.',
+          "exceed what can reasonably be met by the funds of the Faith",
+        />.
+        A realistic range of remuneration can be established. In creating a
+        framework for offering remuneration to the friends, a National Spiritual
+        Assembly, in consultation with the Counsellors and the institute board,
+        determines what would, in general, constitute a reasonable period during
+        which an individual serving as a cluster coordinator or as a regional or
+        national coordinator may be provided with remuneration.",
       ],
       [
         title: 'Managing statistics',
-        [
-          "The availability of accurate and up-to-date statistical information
-          helps the friends overseeing the work of the training institute to
-          <
-            q: 'Message dated 29 December 2015.',
-            "remain fully acquainted with developments at the grassroots and
-            what is being learned in the clusters whose progress they oversee",
-          />.
-          The information is, of course, essential in the institute’s planning
-          and decision-making processes. A proper system for gathering and
-          analysing statistical information requires that effective instruments
-          are put in place for this purpose, and the Statistical Report Program
-          (SRP) is helpful in this regard. A new version of this tool—combining
-          its earlier versions and the Cluster Growth Profile—is already being
-          used in many regions and clusters. Ultimately, effective management
-          and use of statistics depends on close collaboration between cluster
-          coordinators and Area Teaching Committees, as well as between national
-          or regional coordinators and Regional Bahá’í Councils.",
-        ],
+        "The availability of accurate and up-to-date statistical information
+        helps the friends overseeing the work of the training institute to
+        <
+          q: 'Message dated 29 December 2015.',
+          "remain fully acquainted with developments at the grassroots and what
+          is being learned in the clusters whose progress they oversee",
+        />.
+        The information is, of course, essential in the institute’s planning and
+        decision-making processes. A proper system for gathering and analysing
+        statistical information requires that effective instruments are put in
+        place for this purpose, and the Statistical Report Program (SRP) is
+        helpful in this regard. A new version of this tool—combining its earlier
+        versions and the Cluster Growth Profile—is already being used in many
+        regions and clusters. Ultimately, effective management and use of
+        statistics depends on close collaboration between cluster coordinators
+        and Area Teaching Committees, as well as between national or regional
+        coordinators and Regional Bahá’í Councils.",
       ],
     ],
     [
