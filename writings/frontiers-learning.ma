@@ -209,7 +209,7 @@
           stands out as particularly pressing: how to mobilize sufficient
           numbers of children’s class teachers for successive grades and, by
           extension, tutors who can form groups to study the requisite courses."
-        ,
+          ,
         />
         The immensity of the challenge involved in achieving this is recognized.
         Not only are courses being held to train teachers for the first three
@@ -611,7 +611,7 @@
         advanced home clusters. A majority arose as short-term pioneers, and
         because they often were able to serve full-time for one or two years,
         progress in growth and community development proceeded at a rapid pace."
-      ,
+        ,
       ],
       [
         title: 'Visiting Teams',

@@ -398,7 +398,7 @@
           spiritual truths can be translated into sustained practical action;
           and, above all, to converse not only about the teachings that will
           build the world anew, but about the One Who taught them: Bahá’u’lláh."
-        ,
+          ,
         />
         With the first two years of the Plan behind us, we are greatly
         encouraged by the healthy trend observable in some regions of the world
@@ -527,7 +527,7 @@
       coordinating teams and Area Teaching committees in specific sub-regions or
       groups of clusters. In some instances, an individual might be required to
       serve full-time to coordinate the movement of tens of homefront pioneers."
-    ,
+      ,
     ],
     [
       title: 'Nurturing the capacities of the cluster agencies',
@@ -823,7 +823,7 @@
         countries, capitals, islands, assemblies and churches to enter the Abhá
         Kingdom. The scope of your exertions must needs be extended. The wider
         its range, the more striking will be the evidence of divine assistance."
-      ,
+        ,
       ],
       [
         quote: 'Tablets of the Divine Plan',

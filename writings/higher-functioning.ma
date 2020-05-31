@@ -1063,7 +1063,7 @@
               'Riḍván 1996 message written by the Universal House of Justice to the followers of Bahá’u’lláh in Western and Central Asia.'
             ,
             "the value of Bahá’í education and of a proper spiritual upbringing"
-          ,
+            ,
           />
           is being set in motion; the parents and teachers are establishing a
           collaborative relationship; and the classes themselves are becoming a

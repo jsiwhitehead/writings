@@ -1239,7 +1239,7 @@
     overview of these courses.",
   ],
   [
-    title: 'Understanding the Bahá\'í Writings',
+    title: 'Understanding the Bahá’í Writings',
     "The first course in the path of Basic Deepening requires only about eight
     hours of study and discussion. Its purpose is to develop the capacity to
     read the Bahá’í Writings and to meditate on their meaning in order to
@@ -1529,7 +1529,7 @@
     ],
   ],
   [
-    title: 'Principles of Bahá\'í Education',
+    title: 'Principles of Bahá’í Education',
     "Yet another course associated with the first act of service in the Basic
     Deepening path is “Principles of Bahá’í Education”. The following paragraphs
     from the introduction to this course describe its aims and content:",
@@ -1578,7 +1578,7 @@
     simply checked later by the tutor.",
   ],
   [
-    title: 'Children\'s Classes',
+    title: 'Children’s Classes',
     "The course called “Children’s Classes, Age 6” helps the participants
     develop the ability to carry out the first act of service, that of teaching
     classes, under very simple conditions, to a small group of children. The
@@ -2097,7 +2097,7 @@
     ],
   ],
   [
-    title: 'Presenting the Institute to Those Outside the Bahá\'í Community',
+    title: 'Presenting the Institute to Those Outside the Bahá’í Community',
     "In 1988 the National Spiritual Assembly of the Bahá’ís of Colombia decided
     to seek legal recognition for the Ruhi Institute by incorporating it as a
     non-profit organization with its own Board of Directors appointed by the
