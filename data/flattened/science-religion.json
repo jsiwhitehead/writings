@@ -1,61 +1,165 @@
 {
-  "author": "Farzam Arbab",
-  "date": "December 2000",
   "title": "Promoting a Discourse on Science, Religion, and Development",
+  "author": "Farzam Arbab",
   "type": "Learning",
+  "date": "December 2000",
   "titles": {
-    "1": "On Personal Experience",
-    "2": "Faith And Reason",
-    "3": "Spiritual Principles And The Role Of Knowledge",
-    "4": "Capacity-Building",
-    "1.2": "My Introduction To Development",
-    "1.3": "The Inside-Outside Dichotomy",
-    "1.4": "How The Poor Are Perceived",
-    "1.5": "Conceptions Of Human Nature",
-    "1.6": "The Urge To Be Scientific",
-    "1.7": "The Rural-Urban Balance",
-    "1.8": "The Direction Of Development",
-    "1.9": "Technique, Power, Spirituality, And Knowledge",
-    "1.10": "Further Comments",
-    "1.10.2": "Definitions of science",
-    "1.10.3": "Religion and development",
-    "1.10.4": "The field of development",
-    "1.10.5": "Development intervention",
-    "1.10.6": "Human dignity",
-    "1.10.7": "The state and the market",
-    "1.10.8": "Nobility",
-    "2.2": "Scientific Truth",
-    "2.3": "Religious Truth",
-    "2.4": "Harmony Between Science And Religion",
-    "2.5": "Further Comments",
-    "2.5.2": "The purpose of religion",
-    "2.5.3": "The crisis of science",
-    "2.5.4": "Scientific facts",
-    "2.5.5": "Beauty",
-    "2.5.6": "Rationality",
-    "2.5.7": "Complementarity",
-    "2.5.8": "Duality",
-    "3.2": "Spiritual Principles",
-    "3.2.2": "The oneness of humankind",
-    "3.2.3": "Justice",
-    "3.2.4": "Equality of men and women",
-    "3.2.5": "Stewardship of nature",
-    "3.2.6": "Work and wealth",
-    "3.2.7": "Freedom and empowerment",
-    "3.3": "The Role Of Knowledge",
-    "3.4": "Further Comments",
-    "3.4.2": "Relation to Bahá’í text",
-    "3.4.3": "Knowledge, love, faith",
-    "4.2": "Power And Authority",
-    "4.3": "Decision-Making And Implementation",
-    "4.4": "The University",
-    "4.5": "Development, Transfer, And Adoption Of Technology",
-    "4.6": "The Education Of Children And Youth",
-    "4.7": "Material Means",
-    "4.8": "Further Comments",
-    "4.8.2": "The concept of the university",
-    "4.8.3": "Autonomous technology",
-    "4.8.4": "The purpose of education"
+    "1": {
+      "content": "On Personal Experience"
+    },
+    "2": {
+      "content": "Faith And Reason"
+    },
+    "3": {
+      "content": "Spiritual Principles And The Role Of Knowledge"
+    },
+    "4": {
+      "content": "Capacity-Building"
+    },
+    "1.2": {
+      "content": "My Introduction To Development"
+    },
+    "1.3": {
+      "content": "The Inside-Outside Dichotomy"
+    },
+    "1.4": {
+      "content": "How The Poor Are Perceived"
+    },
+    "1.5": {
+      "content": "Conceptions Of Human Nature"
+    },
+    "1.6": {
+      "content": "The Urge To Be Scientific"
+    },
+    "1.7": {
+      "content": "The Rural-Urban Balance"
+    },
+    "1.8": {
+      "content": "The Direction Of Development"
+    },
+    "1.9": {
+      "content": "Technique, Power, Spirituality, And Knowledge"
+    },
+    "1.10": {
+      "content": "Further Comments"
+    },
+    "1.10.2": {
+      "content": "Definitions of science"
+    },
+    "1.10.3": {
+      "content": "Religion and development"
+    },
+    "1.10.4": {
+      "content": "The field of development"
+    },
+    "1.10.5": {
+      "content": "Development intervention"
+    },
+    "1.10.6": {
+      "content": "Human dignity"
+    },
+    "1.10.7": {
+      "content": "The state and the market"
+    },
+    "1.10.8": {
+      "content": "Nobility"
+    },
+    "2.2": {
+      "content": "Scientific Truth"
+    },
+    "2.3": {
+      "content": "Religious Truth"
+    },
+    "2.4": {
+      "content": "Harmony Between Science And Religion"
+    },
+    "2.5": {
+      "content": "Further Comments"
+    },
+    "2.5.2": {
+      "content": "The purpose of religion"
+    },
+    "2.5.3": {
+      "content": "The crisis of science"
+    },
+    "2.5.4": {
+      "content": "Scientific facts"
+    },
+    "2.5.5": {
+      "content": "Beauty"
+    },
+    "2.5.6": {
+      "content": "Rationality"
+    },
+    "2.5.7": {
+      "content": "Complementarity"
+    },
+    "2.5.8": {
+      "content": "Duality"
+    },
+    "3.2": {
+      "content": "Spiritual Principles"
+    },
+    "3.2.2": {
+      "content": "The oneness of humankind"
+    },
+    "3.2.3": {
+      "content": "Justice"
+    },
+    "3.2.4": {
+      "content": "Equality of men and women"
+    },
+    "3.2.5": {
+      "content": "Stewardship of nature"
+    },
+    "3.2.6": {
+      "content": "Work and wealth"
+    },
+    "3.2.7": {
+      "content": "Freedom and empowerment"
+    },
+    "3.3": {
+      "content": "The Role Of Knowledge"
+    },
+    "3.4": {
+      "content": "Further Comments"
+    },
+    "3.4.2": {
+      "content": "Relation to Bahá’í text"
+    },
+    "3.4.3": {
+      "content": "Knowledge, love, faith"
+    },
+    "4.2": {
+      "content": "Power And Authority"
+    },
+    "4.3": {
+      "content": "Decision-Making And Implementation"
+    },
+    "4.4": {
+      "content": "The University"
+    },
+    "4.5": {
+      "content": "Development, Transfer, And Adoption Of Technology"
+    },
+    "4.6": {
+      "content": "The Education Of Children And Youth"
+    },
+    "4.7": {
+      "content": "Material Means"
+    },
+    "4.8": {
+      "content": "Further Comments"
+    },
+    "4.8.2": {
+      "content": "The concept of the university"
+    },
+    "4.8.3": {
+      "content": "Autonomous technology"
+    },
+    "4.8.4": {
+      "content": "The purpose of education"
+    }
   },
   "items": [
     {

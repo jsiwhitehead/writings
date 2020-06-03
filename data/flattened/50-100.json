@@ -1,14 +1,27 @@
 {
-  "author": "The Office Of Social And Economic Development",
-  "date": "January 2016",
   "title": "Developing the capacity to engage 50 to 100 junior youth in a programme for their spiritual empowerment: some considerations",
+  "author": "The Office Of Social And Economic Development",
   "type": "Learning",
+  "date": "January 2016",
   "titles": {
-    "3": "Some considerations for supporting the development of the programme in a number of clusters",
-    "2.2": "Engaging youth in an ongoing conversation about service to their communities",
-    "2.3": "Assisting youth to receive training to serve as animators",
-    "2.4": "Accompanying youth along a path of service and nurturing the development of the programme",
-    "2.5": "Enhancing the involvement of the community"
+    "1": {
+      "content": "Developing the capacity to engage 50 to 100 junior youth in a programme for their spiritual empowerment: some considerations"
+    },
+    "3": {
+      "content": "Some considerations for supporting the development of the programme in a number of clusters"
+    },
+    "2.2": {
+      "content": "Engaging youth in an ongoing conversation about service to their communities"
+    },
+    "2.3": {
+      "content": "Assisting youth to receive training to serve as animators"
+    },
+    "2.4": {
+      "content": "Accompanying youth along a path of service and nurturing the development of the programme"
+    },
+    "2.5": {
+      "content": "Enhancing the involvement of the community"
+    }
   },
   "items": [
     {

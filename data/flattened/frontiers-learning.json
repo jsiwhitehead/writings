@@ -1,33 +1,84 @@
 {
-  "author": "The International Teaching Centre",
-  "date": "April 2013",
   "title": "Insights from the Frontiers of Learning",
+  "author": "The International Teaching Centre",
   "type": "Learning",
+  "date": "April 2013",
   "titles": {
-    "2": "Clusters at the Frontiers of Learning",
-    "3": "Emerging Programmes of Growth",
-    "4": "Increasing Intensity",
-    "5": "Enhancing Institutional Capacity to Support the Movement of Clusters",
-    "6": "Society-Building Power of the Faith",
-    "2.2": "A Sustained Rhythm of Expansion and Consolidation",
-    "2.3": "Emergence of a Well-Grounded Educational Process",
-    "2.4": "Advances in Community Building",
-    "2.5": "An Effective Organizational Scheme",
-    "2.6": "Greater Involvement in the Life of Society",
-    "3.2": "Establishing a Basis for Building Capacity",
-    "3.2.2": "Pioneering",
-    "3.2.3": "Visiting Teams",
-    "3.2.4": "Institutional Support",
-    "3.3": "Expanding the Reach of Core Activities",
-    "4.2": "Enhancing the Quality of the Institute Process",
-    "4.3": "Providing Greater Structure as Complexity Rises",
-    "4.4": "Intensifying Community-Building Efforts in Neighbourhoods and Villages",
-    "4.5": "Identifying and Overcoming Obstacles to Sustained Progress",
-    "4.6": "Reaching Out to Youth in Receptive Populations",
-    "4.7": "Enduring Fellowship",
-    "5.2": "Training Institutes",
-    "5.3": "Learning Sites for the Junior Youth Spiritual Empowerment Programme",
-    "5.4": "Regional Bahá’í Councils"
+    "1": {
+      "content": "Insights from the Frontiers of Learning"
+    },
+    "2": {
+      "content": "Clusters at the Frontiers of Learning"
+    },
+    "3": {
+      "content": "Emerging Programmes of Growth"
+    },
+    "4": {
+      "content": "Increasing Intensity"
+    },
+    "5": {
+      "content": "Enhancing Institutional Capacity to Support the Movement of Clusters"
+    },
+    "6": {
+      "content": "Society-Building Power of the Faith"
+    },
+    "2.2": {
+      "content": "A Sustained Rhythm of Expansion and Consolidation"
+    },
+    "2.3": {
+      "content": "Emergence of a Well-Grounded Educational Process"
+    },
+    "2.4": {
+      "content": "Advances in Community Building"
+    },
+    "2.5": {
+      "content": "An Effective Organizational Scheme"
+    },
+    "2.6": {
+      "content": "Greater Involvement in the Life of Society"
+    },
+    "3.2": {
+      "content": "Establishing a Basis for Building Capacity"
+    },
+    "3.2.2": {
+      "content": "Pioneering"
+    },
+    "3.2.3": {
+      "content": "Visiting Teams"
+    },
+    "3.2.4": {
+      "content": "Institutional Support"
+    },
+    "3.3": {
+      "content": "Expanding the Reach of Core Activities"
+    },
+    "4.2": {
+      "content": "Enhancing the Quality of the Institute Process"
+    },
+    "4.3": {
+      "content": "Providing Greater Structure as Complexity Rises"
+    },
+    "4.4": {
+      "content": "Intensifying Community-Building Efforts in Neighbourhoods and Villages"
+    },
+    "4.5": {
+      "content": "Identifying and Overcoming Obstacles to Sustained Progress"
+    },
+    "4.6": {
+      "content": "Reaching Out to Youth in Receptive Populations"
+    },
+    "4.7": {
+      "content": "Enduring Fellowship"
+    },
+    "5.2": {
+      "content": "Training Institutes"
+    },
+    "5.3": {
+      "content": "Learning Sites for the Junior Youth Spiritual Empowerment Programme"
+    },
+    "5.4": {
+      "content": "Regional Bahá’í Councils"
+    }
   },
   "items": [
     {

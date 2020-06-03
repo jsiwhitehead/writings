@@ -1,9 +1,13 @@
 {
-  "author": "‘Abdu’l-Bahá",
-  "source": "https://www.bahai.org/library/authoritative-texts/abdul-baha/additional-prayers-revealed-abdul-baha/additional-prayers-revealed-abdul-baha.pdf",
   "title": "Additional Prayers Revealed by ‘Abdu’l-Bahá",
+  "author": "‘Abdu’l-Bahá",
   "type": "Prayer",
-  "titles": {},
+  "source": "https://www.bahai.org/library/authoritative-texts/abdul-baha/additional-prayers-revealed-abdul-baha/additional-prayers-revealed-abdul-baha.pdf",
+  "titles": {
+    "1": {
+      "content": "Additional Prayers Revealed by ‘Abdu’l-Bahá"
+    }
+  },
   "items": [
     {
       "content": "O Lord!",

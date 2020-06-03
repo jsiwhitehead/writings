@@ -1,27 +1,21 @@
 import * as fs from 'fs-extra';
 import maraca from 'maraca';
 
-const toIndex = (v: string) => {
-  const n = parseFloat(v);
-  return !isNaN(v as any) && !isNaN(n) && n === Math.floor(n) && n > 0 && n;
-};
 const toJson = (data, simple = false) => {
   if (data.type === 'value') return data.value;
-  const result = { indices: [] as any[], values: {} };
-  for (const { key, value } of data.value.toPairs()) {
-    if (key.type === 'value') {
-      if (!key.value) {
-        const v = toJson(value);
-        if (typeof v === 'string') {
-          for (const t of v.split(' ')) result.values[t] = 1;
-        }
-      } else if (toIndex(key.value)) {
-        result.indices.push(toJson(value));
-      } else {
-        result.values[key.value] = toJson(value, true);
+  const values = {};
+  Object.keys(data.value.values).forEach((k) => {
+    const { key, value } = data.value.values[k];
+    if (!k) {
+      const v = toJson(value);
+      if (typeof v === 'string') {
+        for (const t of v.split(' ')) values[t] = 1;
       }
+    } else {
+      values[key.value] = toJson(value, true);
     }
-  }
+  });
+  const result = { indices: data.value.indices.map((d) => toJson(d)), values };
   if (simple) {
     if (result.indices.length === 0) return result.values;
     if (Object.keys(result.values).length === 0) return result.indices;
@@ -31,7 +25,7 @@ const toJson = (data, simple = false) => {
 
 const flattenDocument = (data) => {
   const items = [] as any[];
-  const titles = {};
+  const titles = { 1: { content: data.values.title } };
   const walk = (
     data,
     index = 0,
@@ -69,7 +63,9 @@ const flattenDocument = (data) => {
         };
         delete newBase.title;
         if (!newBase.list) delete newBase.list;
-        if (values.title) titles[newBase.index.join('.')] = values.title;
+        if (values.title) {
+          titles[newBase.index.join('.')] = { content: values.title };
+        }
         const newContent =
           indices.every(
             (d) =>

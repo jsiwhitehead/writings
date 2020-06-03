@@ -1,45 +1,120 @@
 {
-  "author": "The International Teaching Centre",
-  "date": "January 2017",
   "title": "Training Institutes: Attaining a Higher Level of Functioning",
+  "author": "The International Teaching Centre",
   "type": "Learning",
+  "date": "January 2017",
   "titles": {
-    "2": "The Main Sequence Of Courses",
-    "3": "The Junior Youth Spiritual Empowerment Programme",
-    "4": "The Programme For The Spiritual Education Of Children",
-    "5": "Institutional Capacity",
-    "2.2": "Raising the Number and Enhancing the Capacity of Tutors",
-    "2.2.2": "The initial cadre of tutors",
-    "2.2.3": "An expanding body of tutors",
-    "2.2.4": "Raising the effectiveness of those serving as tutors",
-    "2.2.4.2": "Mutual support and assistance",
-    "2.2.4.3": "Working alongside tutors and organizing gatherings for reflection",
-    "2.3": "Ensuring a Steady Flow of Participants through the Sequence of Courses",
-    "2.3.2": "Fostering conversations on the teachings of the Faith",
-    "2.3.3": "Learning to nurture the participation of youth in institute courses",
-    "2.3.4": "A flow from junior youth groups into the main sequence",
-    "2.3.5": "Progression along the sequence of courses",
-    "2.3.6": "The delivery of institute courses",
-    "2.4": "Coordination of the Main Sequence of Courses",
-    "3.2": "Clusters Where the Friends are Establishing an Intensive Programme of Growth",
-    "3.3": "Clusters Where the Friends are Learning to Embrace Large Numbers",
-    "3.4": "Coordination of Junior Youth Groups",
-    "4.2": "Clusters Where the Friends are Establishing an Intensive Programme of Growth",
-    "4.2.2": "Raising the first contingent of teachers",
-    "4.2.3": "Operation of the classes",
-    "4.3": "Clusters Where the Friends are Learning to Embrace Large Numbers",
-    "4.3.2": "The training of teachers and progression of children from grade to grade",
-    "4.3.3": "Further formalization of the classes",
-    "4.4": "Coordination of Children’s Classes",
-    "5.2": "Formulating a Vision",
-    "5.3": "Learning and the Ability to Disseminate the Accruing Knowledge",
-    "5.4": "The Evolution of Organizational Schemes",
-    "5.5": "Enhancing the Capacity of the Institute Itself",
-    "5.6": "Managing Effectively the Financial and Material Resources",
-    "5.7": "Some Administrative Aspects",
-    "5.7.1": "Remuneration of institute staff",
-    "5.7.2": "Managing statistics",
-    "5.8": "The Training Institute Board"
+    "1": {
+      "content": "Training Institutes: Attaining a Higher Level of Functioning"
+    },
+    "2": {
+      "content": "The Main Sequence Of Courses"
+    },
+    "3": {
+      "content": "The Junior Youth Spiritual Empowerment Programme"
+    },
+    "4": {
+      "content": "The Programme For The Spiritual Education Of Children"
+    },
+    "5": {
+      "content": "Institutional Capacity"
+    },
+    "2.2": {
+      "content": "Raising the Number and Enhancing the Capacity of Tutors"
+    },
+    "2.2.2": {
+      "content": "The initial cadre of tutors"
+    },
+    "2.2.3": {
+      "content": "An expanding body of tutors"
+    },
+    "2.2.4": {
+      "content": "Raising the effectiveness of those serving as tutors"
+    },
+    "2.2.4.2": {
+      "content": "Mutual support and assistance"
+    },
+    "2.2.4.3": {
+      "content": "Working alongside tutors and organizing gatherings for reflection"
+    },
+    "2.3": {
+      "content": "Ensuring a Steady Flow of Participants through the Sequence of Courses"
+    },
+    "2.3.2": {
+      "content": "Fostering conversations on the teachings of the Faith"
+    },
+    "2.3.3": {
+      "content": "Learning to nurture the participation of youth in institute courses"
+    },
+    "2.3.4": {
+      "content": "A flow from junior youth groups into the main sequence"
+    },
+    "2.3.5": {
+      "content": "Progression along the sequence of courses"
+    },
+    "2.3.6": {
+      "content": "The delivery of institute courses"
+    },
+    "2.4": {
+      "content": "Coordination of the Main Sequence of Courses"
+    },
+    "3.2": {
+      "content": "Clusters Where the Friends are Establishing an Intensive Programme of Growth"
+    },
+    "3.3": {
+      "content": "Clusters Where the Friends are Learning to Embrace Large Numbers"
+    },
+    "3.4": {
+      "content": "Coordination of Junior Youth Groups"
+    },
+    "4.2": {
+      "content": "Clusters Where the Friends are Establishing an Intensive Programme of Growth"
+    },
+    "4.2.2": {
+      "content": "Raising the first contingent of teachers"
+    },
+    "4.2.3": {
+      "content": "Operation of the classes"
+    },
+    "4.3": {
+      "content": "Clusters Where the Friends are Learning to Embrace Large Numbers"
+    },
+    "4.3.2": {
+      "content": "The training of teachers and progression of children from grade to grade"
+    },
+    "4.3.3": {
+      "content": "Further formalization of the classes"
+    },
+    "4.4": {
+      "content": "Coordination of Children’s Classes"
+    },
+    "5.2": {
+      "content": "Formulating a Vision"
+    },
+    "5.3": {
+      "content": "Learning and the Ability to Disseminate the Accruing Knowledge"
+    },
+    "5.4": {
+      "content": "The Evolution of Organizational Schemes"
+    },
+    "5.5": {
+      "content": "Enhancing the Capacity of the Institute Itself"
+    },
+    "5.6": {
+      "content": "Managing Effectively the Financial and Material Resources"
+    },
+    "5.7": {
+      "content": "Some Administrative Aspects"
+    },
+    "5.7.1": {
+      "content": "Remuneration of institute staff"
+    },
+    "5.7.2": {
+      "content": "Managing statistics"
+    },
+    "5.8": {
+      "content": "The Training Institute Board"
+    }
   },
   "items": [
     {

@@ -1,18 +1,34 @@
 [
   {
-    "author": "International Teaching Centre",
-    "date": "July 2015",
     "title": "The expanding nucleus in Harkesh Nagar, Delhi",
+    "author": "International Teaching Centre",
     "type": "Learning",
+    "date": "July 2015",
     "titles": {
-      "1": "The Delhi cluster",
-      "2": "The initial nucleus in Harkesh Nagar",
-      "3": "Expanding the nucleus",
-      "4": "Initial training",
-      "5": "Accompanying the youth",
-      "6": "Fostering community life",
-      "7": "Establishing a rhythm of training and accompanying",
-      "8": "An ever-expanding nucleus"
+      "1": {
+        "content": "The Delhi cluster"
+      },
+      "2": {
+        "content": "The initial nucleus in Harkesh Nagar"
+      },
+      "3": {
+        "content": "Expanding the nucleus"
+      },
+      "4": {
+        "content": "Initial training"
+      },
+      "5": {
+        "content": "Accompanying the youth"
+      },
+      "6": {
+        "content": "Fostering community life"
+      },
+      "7": {
+        "content": "Establishing a rhythm of training and accompanying"
+      },
+      "8": {
+        "content": "An ever-expanding nucleus"
+      }
     },
     "items": [
       {
@@ -85,13 +101,17 @@
     ]
   },
   {
-    "addressed": "To the followers of Bahá’u’lláh in the sacred land of Iran",
+    "title": "Regarding the bicentenary of the Birth of the Báb",
     "author": "The Universal House of Justice",
+    "addressed": "To the followers of Bahá’u’lláh in the sacred land of Iran",
     "date": "24 October 2019",
     "key": "20191024_001",
-    "title": "Regarding the bicentenary of the Birth of the Báb",
     "type": "Message",
-    "titles": {},
+    "titles": {
+      "1": {
+        "content": "Regarding the bicentenary of the Birth of the Báb"
+      }
+    },
     "items": [
       {
         "content": "The Bahá’í world is astir and the lovers of God are in a state of joy and excitement. As we draw nearer to the commemoration of the Twin Birthdays of the Manifestations of God, the signs of the unprecedented flourishing of that blessed tree which those two Sacred Beings planted in the world become daily more evident, and the people of the world benefit more and more from its limitless fruits. Hearts are being transformed, thoughts are being illumined, children are learning the lessons of unity and equality, adults are walking the path of service, morals are being refined, deeds are becoming purified, societies are progressing, material life is advancing under the influence of spiritual principles, souls are becoming a new creation, and the call of divine civilization resounds louder at every turn.",
@@ -132,21 +152,40 @@
     ]
   },
   {
-    "addressed": "To all Continental Counsellors",
+    "title": "Regarding the global plans of the Bahá’í community",
     "author": "The International Teaching Centre",
+    "addressed": "To all Continental Counsellors",
     "date": "3 May 2018",
     "key": "20180503_001",
-    "title": "Regarding the global plans of the Bahá’í community",
     "type": "Message",
     "titles": {
-      "2": "Facilitating the movement of clusters in a region or country",
-      "3": "Nurturing the capacities of the cluster agencies",
-      "4": "Systematizing efforts to nurture endeavours undertaken by believers across the cluster",
-      "5": "Fostering an expanding nucleus in a neighbourhood",
-      "6": "Extending the process in village after village",
-      "7": "Establishing a regular rhythm of youth gatherings and institute campaigns",
-      "8": "Increasing the flow of youth entering the sequence of courses",
-      "9": "Accelerating the pace"
+      "1": {
+        "content": "Regarding the global plans of the Bahá’í community"
+      },
+      "2": {
+        "content": "Facilitating the movement of clusters in a region or country"
+      },
+      "3": {
+        "content": "Nurturing the capacities of the cluster agencies"
+      },
+      "4": {
+        "content": "Systematizing efforts to nurture endeavours undertaken by believers across the cluster"
+      },
+      "5": {
+        "content": "Fostering an expanding nucleus in a neighbourhood"
+      },
+      "6": {
+        "content": "Extending the process in village after village"
+      },
+      "7": {
+        "content": "Establishing a regular rhythm of youth gatherings and institute campaigns"
+      },
+      "8": {
+        "content": "Increasing the flow of youth entering the sequence of courses"
+      },
+      "9": {
+        "content": "Accelerating the pace"
+      }
     },
     "items": [
       {

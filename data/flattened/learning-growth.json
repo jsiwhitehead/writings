@@ -1,34 +1,87 @@
 {
-  "author": "The Ruhi Institute",
-  "date": "July 1991",
   "title": "Learning About Growth",
+  "author": "The Ruhi Institute",
   "type": "Learning",
+  "date": "July 1991",
   "titles": {
-    "3": "Initial Impulse",
-    "4": "In Search of Unifying Principles",
-    "5": "Learning: Action Accompanied by Reflection and Consultation",
-    "6": "The Unique Attributes of Large-scale Expansion",
-    "7": "The Quality of the First Contact and the Role of the Teacher",
-    "8": "The Content of the First Message",
-    "9": "The Second Wave of Expansion: Joy and Sorrow",
-    "10": "Shifting from the Individual to the Community",
-    "11": "Back to the Individual: Deepening Booklets",
-    "12": "Elements of a Framework for the Creation of the Ruhi Institute",
-    "13": "The Educational Programs: Paths of Service",
-    "14": "Understanding the Bahá’í Writings",
-    "15": "Prayer",
-    "16": "Life and Death",
-    "17": "Principles of Bahá’í Education",
-    "18": "Children’s Classes",
-    "19": "Further Development of the Basic Deepening Path",
-    "20": "The First Specialized Path: Education of Children",
-    "21": "The Second Specialized Path: Community Development",
-    "22": "The “General Studies” Path",
-    "23": "Important Characteristics of the Ruhi Institute",
-    "24": "Presenting the Institute to Those Outside the Bahá’í Community",
-    "25": "Lost Momentum",
-    "26": "Commitment and Intensity",
-    "27": "Conclusions"
+    "1": {
+      "content": "Learning About Growth"
+    },
+    "3": {
+      "content": "Initial Impulse"
+    },
+    "4": {
+      "content": "In Search of Unifying Principles"
+    },
+    "5": {
+      "content": "Learning: Action Accompanied by Reflection and Consultation"
+    },
+    "6": {
+      "content": "The Unique Attributes of Large-scale Expansion"
+    },
+    "7": {
+      "content": "The Quality of the First Contact and the Role of the Teacher"
+    },
+    "8": {
+      "content": "The Content of the First Message"
+    },
+    "9": {
+      "content": "The Second Wave of Expansion: Joy and Sorrow"
+    },
+    "10": {
+      "content": "Shifting from the Individual to the Community"
+    },
+    "11": {
+      "content": "Back to the Individual: Deepening Booklets"
+    },
+    "12": {
+      "content": "Elements of a Framework for the Creation of the Ruhi Institute"
+    },
+    "13": {
+      "content": "The Educational Programs: Paths of Service"
+    },
+    "14": {
+      "content": "Understanding the Bahá’í Writings"
+    },
+    "15": {
+      "content": "Prayer"
+    },
+    "16": {
+      "content": "Life and Death"
+    },
+    "17": {
+      "content": "Principles of Bahá’í Education"
+    },
+    "18": {
+      "content": "Children’s Classes"
+    },
+    "19": {
+      "content": "Further Development of the Basic Deepening Path"
+    },
+    "20": {
+      "content": "The First Specialized Path: Education of Children"
+    },
+    "21": {
+      "content": "The Second Specialized Path: Community Development"
+    },
+    "22": {
+      "content": "The “General Studies” Path"
+    },
+    "23": {
+      "content": "Important Characteristics of the Ruhi Institute"
+    },
+    "24": {
+      "content": "Presenting the Institute to Those Outside the Bahá’í Community"
+    },
+    "25": {
+      "content": "Lost Momentum"
+    },
+    "26": {
+      "content": "Commitment and Intensity"
+    },
+    "27": {
+      "content": "Conclusions"
+    }
   },
   "items": [
     {

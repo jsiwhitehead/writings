@@ -9,8 +9,9 @@
               style:
                 [
                   'font-size':
-                    (@item.title, {16 * 1.4 ^ (2 - #(@item.index))}px),
-                  'text-align': (@item.title, #(@item.index) = 1, center),
+                    (@item.title, {16 * '1.2' ^ (3 - #(@item.index))}px),
+                  'text-align':
+                    {@item.align, (@item.title, #(@item.index) = 1, center)},
                   'text-indent':
                     (! {@item.title, @item.quote, @item.list}, 40px),
                   'font-weight': ({@item.title, @item.quote}, bold),
@@ -21,7 +22,25 @@
                   'list-style-type': (@item.list, disc),
                   'padding-left': (@item.list, 5px),
                 ],
-              (@item.quote, \“){@item.content}(@item.quote, \”),
+              (@item.quote, \“),
+              :
+                @item
+                .content
+                .[
+                  c=>>
+                    [
+                      : span,
+                      style:
+                        [
+                          'font-weight': ({@c.q, @c.b}, bold),
+                          'font-style': (@c.i, italic),
+                        ],
+                      (@c.q, \“),
+                      @c.content,
+                      (@c.q, \”),
+                    ],
+                ],
+              (@item.quote, \”),
             ],
           (@item.list, [: ul, @inner], => @inner),
         },
