@@ -9,12 +9,13 @@
               style:
                 [
                   'font-size':
-                    (@item.title, {16 * '1.2' ^ (3 - #(@item.index))}px),
-                  'text-align':
-                    {@item.align, (@item.title, #(@item.index) = 1, center)},
+                    (@item.title, {16 * '1.12' ^ (3 - #(@item.index))}px),
+                  'text-align': (@item.center, center),
                   'text-indent':
                     (! {@item.title, @item.quote, @item.list}, 40px),
                   'font-weight': ({@item.title, @item.quote}, bold),
+                  'font-style': (@item.italic, italic),
+                  'font-variant': (@item.caps, 'small-caps'),
                   'margin-left':
                     {(@item.quote, 40px), (@item.list, (@item.list * 40 - 5)px)}
                   ,
