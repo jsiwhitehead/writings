@@ -1,4 +1,4 @@
-import { fromJs, resolve, streamMap } from 'maraca';
+import { fromJs, resolve, streamMap, toJs } from 'maraca';
 import * as webfont from 'webfontloader';
 import { arabToRoman } from 'roman-numbers';
 
@@ -8,32 +8,34 @@ webfont.load({
   google: { families: ['PT+Serif:400,700'] },
 });
 
-const config = {
-  file: '50-100',
-  title: (index, change) => {
-    if (change === 0) return arabToRoman(index[0]);
-    if (index[0] === 1 && change === 1) return '⭑';
+const configs = [
+  {
+    file: '50-100',
+    title: (index, change) => {
+      if (change === 0) return arabToRoman(index[0]);
+      if (index[0] === 1 && change === 1) return '⭑';
+    },
+    format: (level) => ({ center: level === 0 }),
   },
-  format: (level) => ({ center: level === 0 }),
-};
-// const config = {
-//   file: 'frontiers-learning',
-//   numbers: 2,
-//   format: (level) => ({
-//     center: level === 0,
-//     caps: level <= 1,
-//     italic: level >= 3,
-//   }),
-// };
-// const config = {
-//   file: 'learning-growth',
-//   title: (index, change) => {
-//     if (change === 0 && index[0] > 2) return arabToRoman(index[0] - 2);
-//   },
-//   format: (level) => ({
-//     center: level <= 1,
-//   }),
-// };
+  {
+    file: 'frontiers-learning',
+    numbers: 2,
+    format: (level) => ({
+      center: level === 0,
+      caps: level <= 1,
+      italic: level >= 3,
+    }),
+  },
+  {
+    file: 'learning-growth',
+    title: (index, change) => {
+      if (change === 0 && index[0] > 2) return arabToRoman(index[0] - 2);
+    },
+    format: (level) => ({
+      center: level <= 1,
+    }),
+  },
+];
 
 const getIndexChange = (prev, next) => {
   if (!prev) return 0;
@@ -120,6 +122,9 @@ const map = (func) =>
   fromJs((x) => streamMap((get) => fromJs(func(resolve(x, get)))));
 
 export default {
-  data: fromJs(process(config)),
+  data: fromJs(configs.map((c) => process(c))),
   hcl: map((color) => parseColor(color.type === 'value' ? color.value : '')),
+  simple: map((s) =>
+    (toJs(s, 'string') || '').replace(/\s+/g, '-').toLowerCase(),
+  ),
 };
