@@ -2,6 +2,21 @@ import * as fs from 'fs-extra';
 import * as unified from 'unified';
 import * as rehype from 'rehype-parse';
 
+const stringify = (x = null as any) => {
+  if (Array.isArray(x)) return `[${x.map(stringify).join(', ')}]`;
+  if (x === null || typeof x !== 'object') return JSON.stringify(x);
+  const keys = [
+    ...Object.keys(x)
+      .filter((k) => k !== 'content')
+      .sort(),
+    'content',
+  ];
+  return `{ ${keys
+    .filter((k) => x[k] !== undefined)
+    .map((k) => `${JSON.stringify(k)}: ${stringify(x[k])}`)
+    .join(', ')} }`;
+};
+
 const elements = {
   tags: {
     p: 'p',
@@ -22,7 +37,7 @@ const elements = {
     sup: 'n',
   },
   classes: {
-    'brl-margin-2': 'q',
+    'brl-margin-2': 'block',
     'brl-title': 'h2',
     'brl-head': 'h3',
     'brl-italic': 'i',
@@ -71,6 +86,18 @@ const getGaps = (node) => {
   return result;
 };
 
+const spellings = require('./spellings.json');
+const spellKeys = Object.keys(spellings);
+const capitalize = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+const correctSpelling = (s) =>
+  spellKeys.reduce(
+    (res, k) =>
+      res.replace(new RegExp(`\\b${k}\\b`, 'ig'), (m) =>
+        m[0].toUpperCase() === m[0] ? capitalize(spellings[k]) : spellings[k],
+      ),
+    s,
+  );
+
 const parse = (data) => {
   const notes = {};
   const walk = (items, children, output) =>
@@ -84,7 +111,6 @@ const parse = (data) => {
         const note = getNoteId(node);
         if (note) {
           notes[note] = walkFull(node.children, {
-            type: 'p',
             gap: 0,
             content: [{ content: '' }],
           });
@@ -97,8 +123,15 @@ const parse = (data) => {
           if (type !== 'ignore') {
             const gaps = getGaps(node);
             if (gaps.above) items[items.length - 1].gap += gaps.above;
-            if (['p', 'q', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'].includes(type)) {
-              items.push({ type, gap: 0, content: [{ content: '' }] });
+            if (['p', 'block'].includes(type) || type?.startsWith('h')) {
+              const item = { gap: 0, content: [{ content: '' }] } as any;
+              if (type.startsWith('h')) {
+                item.type = 'header';
+                item.level = parseInt(type.slice(1), 10);
+              } else if (type !== 'p') {
+                item.type = type;
+              }
+              items.push(item);
               walk(items, node.children, true);
             } else if (type === 'n') {
               items[items.length - 1].content.push(
@@ -139,11 +172,17 @@ const parse = (data) => {
             content.length - 1
           ].content.trimRight();
         }
-        return { ...x, content };
+        return {
+          ...x,
+          content: content.map((c) => ({
+            ...c,
+            content: correctSpelling(c.content),
+          })),
+        };
       })
       .filter((x) => x.type === 'divide' || x.content.length);
   };
-  return { items: walkFull(data), notes };
+  return { data: walkFull(data), notes };
 };
 
 (async () => {
@@ -155,10 +194,7 @@ const parse = (data) => {
       const data = parse(
         unified().use(rehype, { footnotes: true }).parse(html).children,
       );
-      await fs.writeFile(
-        `./data/parsed/${f}.json`,
-        JSON.stringify(data, null, 2),
-      );
+      await fs.writeFile(`./data/parsed/${f}.json`, stringify(data));
     }),
   );
 })();
