@@ -1,6 +1,10 @@
 [
   { "level": 1, "type": "header", "content": "The Call of the Divine Beloved" },
-  { "content": "Selected Mystical Works of Bahá’u’lláh" },
+  {
+    "level": 3,
+    "type": "header",
+    "content": "Selected Mystical Works of Bahá’u’lláh"
+  },
   { "level": 2, "type": "header", "content": "Preface" },
   {
     "notes": [
@@ -77,6 +81,7 @@
         "content": [{ "content": "From a previously untranslated Tablet." }]
       }
     ],
+    "type": "block",
     "content": "This treatise was revealed in the language of the people, in the days prior to Our Declaration. The occasion for its revelation was the receipt of a letter addressed to the Most Holy Court in ‘Iráq from a man of Sunní persuasion, who was both a scholar and a mystic. This treatise was therefore revealed, in accordance with divine wisdom, in the manner that was current amongst the people. However, in this day, every soul who hath fixed his gaze upon the Supreme Horizon, and hath recognised the one true God, hath verily attained unto every one of the seven valleys or seven stations mentioned therein."
   },
   {

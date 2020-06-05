@@ -19,36 +19,43 @@ const stringify = (x = null as any) => {
     .join(', ')} }`;
 };
 
-const elements = {
-  tags: {
-    p: 'p',
-    blockquote: 'p',
-    hr: 'p',
-    h1: 'h1',
-    h2: 'h2',
-    h3: 'h3',
-    h4: 'h4',
-    h5: 'h5',
-    h6: 'h6',
-    u: 'u',
-    em: 'i',
-    i: 'i',
-    strong: 'b',
-    b: 'b',
-    a: 'ignore',
-    sup: 'n',
+const elements = [
+  {
+    tags: {
+      h1: 'h1',
+      h2: 'h2',
+      h3: 'h3',
+      h4: 'h4',
+      h5: 'h5',
+      h6: 'h6',
+      a: 'ignore',
+      sup: 'n',
+    },
+    classes: {
+      'brl-global-gloss-definition': 'block',
+      'brl-subtitle': 'h3',
+    },
   },
-  classes: {
-    'brl-margin-2': 'block',
-    'brl-title': 'h2',
-    'brl-head': 'h3',
-    'brl-italic': 'i',
-    'brl-align-center': 'c',
-    'brl-align-right': 'r',
-    'brl-linegroup': 'p',
-    'brl-linegroupline': 'l',
+  {
+    tags: {
+      p: 'p',
+      blockquote: 'p',
+      hr: 'p',
+      u: 'u',
+      em: 'i',
+      i: 'i',
+      strong: 'b',
+      b: 'b',
+    },
+    classes: {
+      'brl-italic': 'i',
+      'brl-align-center': 'c',
+      'brl-align-right': 'r',
+      'brl-linegroup': 'p',
+      'brl-linegroupline': 'l',
+    },
   },
-};
+];
 
 const findChild = (node, test) => {
   if (node.type !== 'element') return null;
@@ -111,11 +118,15 @@ const parse = (data) => {
             content: [{ content: '' }],
           });
         } else {
-          const type =
-            elements.tags[node.tagName] ||
-            (node.properties.className || [])
-              .map((c) => elements.classes[c])
-              .filter((x) => x)[0];
+          const type = elements
+            .map(
+              ({ tags, classes }) =>
+                tags[node.tagName] ||
+                (node.properties.className || [])
+                  .map((c) => classes[c])
+                  .filter((x) => x)[0],
+            )
+            .filter((x) => x)[0];
           if (type !== 'ignore') {
             const gaps = getGaps(node);
             if (gaps.above) last(items).gap += gaps.above;
