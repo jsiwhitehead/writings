@@ -2,6 +2,8 @@ import * as fs from 'fs-extra';
 import * as unified from 'unified';
 import * as rehype from 'rehype-parse';
 
+const last = (x) => x[x.length - 1];
+
 const stringify = (x = null as any) => {
   if (Array.isArray(x)) return `[${x.map(stringify).join(', ')}]`;
   if (x === null || typeof x !== 'object') return JSON.stringify(x);
@@ -77,12 +79,9 @@ const getNoteId = (node) => {
 
 const getGaps = (node) => {
   const result = { above: node.tagName === 'hr' ? 5 : 0, below: 0 };
-  if ((node.properties.className || []).includes('brl-topmargin')) {
-    result.above += 1;
-  }
-  if ((node.properties.className || []).includes('brl-btmmargin')) {
-    result.below += 1;
-  }
+  const classes = node.properties.className || [];
+  if (classes.includes('brl-topmargin')) result.above += 1;
+  if (classes.includes('brl-btmmargin')) result.below += 1;
   return result;
 };
 
@@ -103,10 +102,7 @@ const parse = (data) => {
   const walk = (items, children, output) =>
     children.forEach((node) => {
       if (node.type === 'text') {
-        if (output) {
-          const last = items[items.length - 1].content;
-          last[last.length - 1].content += node.value.replace(/\s+/g, ' ');
-        }
+        if (output) last(last(items).content).content += node.value;
       } else if (node.type === 'element') {
         const note = getNoteId(node);
         if (note) {
@@ -122,7 +118,7 @@ const parse = (data) => {
               .filter((x) => x)[0];
           if (type !== 'ignore') {
             const gaps = getGaps(node);
-            if (gaps.above) items[items.length - 1].gap += gaps.above;
+            if (gaps.above) last(items).gap += gaps.above;
             if (['p', 'block'].includes(type) || type?.startsWith('h')) {
               const item = { gap: 0, content: [{ content: '' }] } as any;
               if (type.startsWith('h')) {
@@ -134,21 +130,18 @@ const parse = (data) => {
               items.push(item);
               walk(items, node.children, true);
             } else if (type === 'n') {
-              items[items.length - 1].content.push(
-                {
-                  type,
-                  content: node.children[0].properties.href.slice(1),
-                },
+              last(items).content.push(
+                { type, content: node.children[0].properties.href.slice(1) },
                 { content: '' },
               );
             } else if (type) {
-              items[items.length - 1].content.push({ type, content: '' });
+              last(items).content.push({ type, content: '' });
               walk(items, node.children, output);
-              items[items.length - 1].content.push({ content: '' });
+              last(items).content.push({ content: '' });
             } else {
               walk(items, node.children, output);
             }
-            if (gaps.below) items[items.length - 1].gap += gaps.below;
+            if (gaps.below) last(items).gap += gaps.below;
           }
         }
       }
@@ -165,24 +158,37 @@ const parse = (data) => {
     return items
       .map((x) => {
         if (x.type === 'divide') return x;
-        const content = x.content.filter((y) => y.content.trim());
-        if (content.length) {
-          content[0].content = content[0].content.trimLeft();
-          content[content.length - 1].content = content[
-            content.length - 1
-          ].content.trimRight();
-        }
-        return {
-          ...x,
-          content: content.map((c) => ({
-            ...c,
-            content: correctSpelling(c.content),
-          })),
-        };
+        const result = { ...x, spans: [], notes: [], content: '' };
+        x.content.forEach((c) => {
+          const start = result.content.length;
+          if (c.type === 'n') {
+            result.notes.push({ position: start, id: c.content });
+          } else {
+            result.content += correctSpelling(c.content).replace(/\-/g, '‑');
+            result.content = result.content.replace(/\s+/g, ' ').trimLeft();
+            if (c.type) {
+              const end = result.content.length;
+              result.spans.push({ start, end, type: c.type });
+            }
+          }
+        });
+        if (!result.spans.length) delete result.spans;
+        if (!result.notes.length) delete result.notes;
+        return result;
       })
-      .filter((x) => x.type === 'divide' || x.content.length);
+      .filter((x) => x.type === 'divide' || x.content);
   };
-  return { data: walkFull(data), notes };
+  return walkFull(data).map((x) =>
+    x.notes
+      ? {
+          ...x,
+          notes: x.notes.map(({ position, id }) => ({
+            position,
+            content: notes[id],
+          })),
+        }
+      : x,
+  );
 };
 
 (async () => {
