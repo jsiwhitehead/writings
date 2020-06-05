@@ -172,6 +172,16 @@ const parse = (data) => {
             }
           }
         });
+        result.content = result.content.trimRight();
+        result.spans = result.spans.map(({ start, end, type }) => ({
+          start: Math.min(start, result.content.length),
+          end: Math.min(end, result.content.length),
+          type,
+        }));
+        result.notes = result.notes.map(({ position, id }) => ({
+          position: Math.min(position, result.content.length),
+          id,
+        }));
         if (!result.spans.length) delete result.spans;
         if (!result.notes.length) delete result.notes;
         return result;
