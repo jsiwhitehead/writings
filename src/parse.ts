@@ -19,43 +19,35 @@ const stringify = (x = null as any) => {
     .join(', ')} }`;
 };
 
-const elements = [
-  {
-    tags: {
-      h1: 'h1',
-      h2: 'h2',
-      h3: 'h3',
-      h4: 'h4',
-      h5: 'h5',
-      h6: 'h6',
-      a: 'ignore',
-      sup: 'n',
-    },
-    classes: {
-      'brl-global-gloss-definition': 'block',
-      'brl-subtitle': 'h3',
-    },
+const elements = {
+  tags: {
+    h1: 'header',
+    h2: 'header',
+    h3: 'header',
+    h4: 'header',
+    h5: 'header',
+    h6: 'header',
+    a: 'ignore',
+    sup: 'note',
+    p: 'p',
+    blockquote: 'p',
+    hr: 'p',
+    u: 'u',
+    em: 'i',
+    i: 'i',
+    strong: 'b',
+    b: 'b',
   },
-  {
-    tags: {
-      p: 'p',
-      blockquote: 'p',
-      hr: 'p',
-      u: 'u',
-      em: 'i',
-      i: 'i',
-      strong: 'b',
-      b: 'b',
-    },
-    classes: {
-      'brl-italic': 'i',
-      'brl-align-center': 'c',
-      'brl-align-right': 'r',
-      'brl-linegroup': 'p',
-      'brl-linegroupline': 'l',
-    },
+  classes: {
+    'brl-global-gloss-definition': 'block',
+    'brl-subtitle': 'header',
+    'brl-italic': 'i',
+    'brl-align-center': 'c',
+    'brl-align-right': 'r',
+    'brl-linegroup': 'p',
+    'brl-linegroupline': 'l',
   },
-];
+};
 
 const findChild = (node, test) => {
   if (node.type !== 'element') return null;
@@ -118,29 +110,23 @@ const parse = (data) => {
             content: [{ content: '' }],
           });
         } else {
-          const type = elements
-            .map(
-              ({ tags, classes }) =>
-                tags[node.tagName] ||
-                (node.properties.className || [])
-                  .map((c) => classes[c])
-                  .filter((x) => x)[0],
-            )
-            .filter((x) => x)[0];
+          const type = [
+            elements.tags[node.tagName],
+            ...(node.properties.className || []).map(
+              (c) => elements.classes[c],
+            ),
+          ]
+            .filter((x) => x)
+            .sort((a, b) => b.length - a.length)[0];
           if (type !== 'ignore') {
             const gaps = getGaps(node);
             if (gaps.above) last(items).gap += gaps.above;
-            if (['p', 'block'].includes(type) || type?.startsWith('h')) {
+            if (['p', 'block', 'header'].includes(type)) {
               const item = { gap: 0, content: [{ content: '' }] } as any;
-              if (type.startsWith('h')) {
-                item.type = 'header';
-                item.level = parseInt(type.slice(1), 10);
-              } else if (type !== 'p') {
-                item.type = type;
-              }
+              if (type !== 'p') item.type = type;
               items.push(item);
               walk(items, node.children, true);
-            } else if (type === 'n') {
+            } else if (type === 'note') {
               last(items).content.push(
                 { type, content: node.children[0].properties.href.slice(1) },
                 { content: '' },
@@ -162,17 +148,17 @@ const parse = (data) => {
     walk(items, children, false);
     for (let i = items.length - 1; i >= 0; i--) {
       if (items[i].gap > 1) {
-        items.splice(i + 1, 0, { type: 'divide' });
+        items.splice(i + 1, 0, { type: 'header' });
       }
       delete items[i].gap;
     }
     return items
       .map((x) => {
-        if (x.type === 'divide') return x;
+        if (!x.content) return x;
         const result = { ...x, spans: [], notes: [], content: '' };
         x.content.forEach((c) => {
           const start = result.content.length;
-          if (c.type === 'n') {
+          if (c.type === 'note') {
             result.notes.push({ position: start, id: c.content });
           } else {
             result.content += correctSpelling(c.content).replace(/\-/g, '‑');
@@ -197,7 +183,7 @@ const parse = (data) => {
         if (!result.notes.length) delete result.notes;
         return result;
       })
-      .filter((x) => x.type === 'divide' || x.content);
+      .filter((x) => x.content !== '');
   };
   return walkFull(data).map((x) =>
     x.notes

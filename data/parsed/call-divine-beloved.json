@@ -1,11 +1,7 @@
 [
-  { "level": 1, "type": "header", "content": "The Call of the Divine Beloved" },
-  {
-    "level": 3,
-    "type": "header",
-    "content": "Selected Mystical Works of Bahá’u’lláh"
-  },
-  { "level": 2, "type": "header", "content": "Preface" },
+  { "type": "header", "content": "The Call of the Divine Beloved" },
+  { "type": "header", "content": "Selected Mystical Works of Bahá’u’lláh" },
+  { "type": "header", "content": "Preface" },
   {
     "notes": [
       {
@@ -107,18 +103,13 @@
     ],
     "content": "May the publication of this volume contribute to a deeper appreciation of the mystical dimensions of Bahá’u’lláh’s Message and inspire a greater zeal and fervour in raising the celestial call of the Divine Beloved: “For whereas in days past every lover besought and searched after his Beloved, it is the Beloved Himself Who now is calling His lovers and is inviting them to attain His presence.”"
   },
-  { "level": 3, "type": "header", "content": "1" },
+  { "type": "header", "content": "1" },
   {
-    "level": 2,
     "spans": [{ "end": 4, "start": 2, "type": "u" }],
     "type": "header",
     "content": "Rashḥ‑i‑‘Amá"
   },
-  {
-    "level": 3,
-    "type": "header",
-    "content": "(The Clouds of the Realms Above)"
-  },
+  { "type": "header", "content": "(The Clouds of the Realms Above)" },
   {
     "notes": [
       {
@@ -269,8 +260,8 @@
     ],
     "content": "The vessel of the Advent this, the clouds of limpid waters these; The trill of songbirds this, from Our fleeting Wellspring raining down."
   },
-  { "level": 3, "type": "header", "content": "2" },
-  { "level": 2, "type": "header", "content": "The Seven Valleys" },
+  { "type": "header", "content": "2" },
+  { "type": "header", "content": "The Seven Valleys" },
   {
     "content": "An exposition of the mysteries enshrined in the stages of ascent for them that seek to journey unto God, the Almighty, the Ever‑Forgiving"
   },
@@ -944,7 +935,7 @@
     ],
     "content": "Shattered was the pen at once, Rent and torn in twain the page, When the pen did reach the point Of depicting such a stage."
   },
-  { "type": "divide" },
+  { "type": "header" },
   {
     "content": "O My friend! Many a hound hunteth this gazelle of the desert of oneness; many an eagle pursueth this nightingale of the garden of eternity. Ravens of hatred lie in wait for this bird of the heavens of God, and the huntsman of envy stalketh this deer of the meadow of love."
   },
@@ -984,12 +975,8 @@
   {
     "content": "Wert thou to hearken unto the melodies of this mortal Bird, then wouldst thou seek out the eternal and undying chalice and renounce every fleeting and perishable cup. Peace be upon him who followeth the way of guidance!"
   },
-  { "level": 3, "type": "header", "content": "3" },
-  {
-    "level": 2,
-    "type": "header",
-    "content": "From the Letter Bá’ to the Letter Há’"
-  },
+  { "type": "header", "content": "3" },
+  { "type": "header", "content": "From the Letter Bá’ to the Letter Há’" },
   { "content": "In the name of our Lord, the Most Exalted, the Most High!" },
   {
     "notes": [
@@ -1045,8 +1032,8 @@
   {
     "content": "I swear by God! Whoso faileth to obey the commandments of God can in no wise be numbered among His loved ones, for among the conditions of His love is to follow His commandments and observe His prohibitions. But since these are the days of concealment, and the Sun of eternity remaineth hidden beneath the horizon of being, one must gather together everyone with love and protect them. The time for the completion of the commandments and the perfection of deeds will assuredly come."
   },
-  { "level": 2, "type": "header", "content": "Three Other Tablets" },
-  { "level": 3, "type": "header", "content": "4" },
+  { "type": "header", "content": "Three Other Tablets" },
+  { "type": "header", "content": "4" },
   { "content": "In the name of our Lord, the Most Exalted, the Most High!" },
   {
     "content": "O friend! Many a day hath passed, and still the sweet fragrance of thy faithfulness hath failed to reach Us. Hast thou forgotten the One Who forgetteth thee not, and forsaketh thee not, and neglecteth thee not, even as thou hast forgotten, forsaken, and neglected Him?"
@@ -1084,7 +1071,7 @@
   {
     "content": "Know thou, moreover, that in the sight of God thou holdest a lofty rank and an exalted station. Remove not thyself from the company of His servants; rather do thou gather them together in the Cause of God and admonish them in His days. Rely upon God in all thine affairs. He, verily, shall suffice thee in all things, shall protect thee from the followers of the Evil One, and shall cause thee to enter the everlasting Paradise, wherein thou shalt be numbered with the blessed. Convey, then, Our greetings unto those who follow thee in the Cause of thy Lord, and summon them unto the Straight Path."
   },
-  { "level": 3, "type": "header", "content": "5" },
+  { "type": "header", "content": "5" },
   { "content": "In the name of the peerless and ever‑loving Lord!" },
   {
     "spans": [{ "end": 4, "start": 2, "type": "u" }],
@@ -1102,7 +1089,7 @@
   {
     "content": "No melody remaineth that was not intoned upon this branch; no song remaineth that this Nightingale hath not warbled. A thousand Arabian ears are powerless to fathom this Persian lament—nay, none but an embodiment of divine virtues can grasp this subtle mystery. Well it is, then, with the one who attaineth this ocean and drinketh therefrom the draught of life!"
   },
-  { "level": 3, "type": "header", "content": "6" },
+  { "type": "header", "content": "6" },
   {
     "notes": [{ "position": 105, "content": [{ "content": "Rúmí." }] }],
     "spans": [
@@ -1185,8 +1172,8 @@
   {
     "content": "A myriad names and attributes have been ascribed to these degrees and stations, which I am disinclined to mention here. It is, indeed, solely because of thy longing and devotion that I have engaged in such ephemeral and limited topics. And this, notwithstanding that speech is the greatest evidence of the worth of the speaker and guideth unto the recognition of the source of guidance, for no more complete and enduring proof hath been or will be vouchsafed unto man from the empyrean of everlasting glory than words and utterance. This, verily, is a self‑evident truth, for the braying of the donkey can never compare with the cooing of the dove. Never wilt thou hear from the raven the melodies of the nightingale, nor inhale from the abject beetle the fragrance of eternity."
   },
-  { "level": 3, "type": "header", "content": "7" },
-  { "level": 2, "type": "header", "content": "The Four Valleys" },
+  { "type": "header", "content": "7" },
+  { "type": "header", "content": "The Four Valleys" },
   { "content": "He is the Ever‑Living." },
   {
     "notes": [
@@ -1648,7 +1635,7 @@
   {
     "content": "And now the hand can write no more, and pleadeth that this is enough. Wherefore do I say: Far from the glory of my Lord, the All‑Glorious, be that which His creatures affirm of Him!"
   },
-  { "level": 2, "type": "header", "content": "Notes" },
+  { "type": "header", "content": "Notes" },
   {
     "content": "This document has been downloaded from the . You are free to use its content subject to the terms of use found at"
   }

@@ -17,7 +17,7 @@ const findTable = (n) => {
   await fs.ensureDir('./data/downloaded');
   await Promise.all(
     files.map(async (f) => {
-      const config = require(`./books/${f}`).config;
+      const config = require(`./books/${f}`).url;
       if (config.url.endsWith('.pdf')) {
         const pdf = await (await fetch(config.url)).arrayBuffer();
         await fs.writeFile(`./data/downloaded/${f}.pdf`, Buffer.from(pdf));
