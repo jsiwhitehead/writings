@@ -954,8 +954,9 @@
       { "end": 104, "start": 69, "type": "l" },
       { "end": 139, "start": 105, "type": "l" }
     ],
-    "content": "Live free of love, for its peace Is grief and sorrow at each breath. It starteth but with ache and pain; It endeth but with loss and death. Peace be upon him who followeth the way of guidance!"
+    "content": "Live free of love, for its peace Is grief and sorrow at each breath. It starteth but with ache and pain; It endeth but with loss and death."
   },
+  { "content": "Peace be upon him who followeth the way of guidance!" },
   {
     "notes": [
       {
@@ -1281,8 +1282,9 @@
       { "end": 54, "start": 0, "type": "l" },
       { "end": 99, "start": 54, "type": "l" }
     ],
-    "content": "O Abraham of the Spirit and God’s Friend in this day! Slay! Slay these four thieving birds of prey! that after death the mystery of life may be unravelled."
+    "content": "O Abraham of the Spirit and God’s Friend in this day! Slay! Slay these four thieving birds of prey!"
   },
+  { "content": "that after death the mystery of life may be unravelled." },
   {
     "notes": [
       { "position": 134, "content": [{ "content": "Qur’án 89: 29–30." }] }
@@ -1510,7 +1512,10 @@
       { "end": 102, "start": 66, "type": "l" },
       { "end": 138, "start": 103, "type": "l" }
     ],
-    "content": "None may approach that well‑belov’d Who harboreth his own desire; None may embrace that beauteous form Who’s burdened with his own attire. For this is the realm of God and is sanctified above every allusion of His creatures."
+    "content": "None may approach that well‑belov’d Who harboreth his own desire; None may embrace that beauteous form Who’s burdened with his own attire."
+  },
+  {
+    "content": "For this is the realm of God and is sanctified above every allusion of His creatures."
   },
   {
     "notes": [{ "position": 476, "content": [{ "content": "Qur’án 76:13." }] }],
@@ -1620,7 +1625,10 @@
       { "end": 170, "start": 151, "type": "l" },
       { "end": 172, "start": 170, "type": "u" }
     ],
-    "content": "Let us tell, some other day This parting hurt and woe; Let us write, some other way, Love’s secrets—better so. Leave blood and noise and all of these, And say no more of Shams‑i‑Tabríz. Peace be upon thee, and upon them who circle round thee and attain thy presence."
+    "content": "Let us tell, some other day This parting hurt and woe; Let us write, some other way, Love’s secrets—better so. Leave blood and noise and all of these, And say no more of Shams‑i‑Tabríz."
+  },
+  {
+    "content": "Peace be upon thee, and upon them who circle round thee and attain thy presence."
   },
   {
     "content": "That which I had written ere this hath been eaten by the flies, so rich was the ink to their taste, even as Sa‘dí hath said:"

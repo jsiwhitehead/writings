@@ -17,20 +17,12 @@ const findTable = (n) => {
   await fs.ensureDir('./data/downloaded');
   await Promise.all(
     files.map(async (f) => {
-      const config = require(`./books/${f}`).url;
-      if (config.url.endsWith('.pdf')) {
-        const pdf = await (await fetch(config.url)).arrayBuffer();
-        await fs.writeFile(`./data/downloaded/${f}.pdf`, Buffer.from(pdf));
-      } else {
-        const html = await (await fetch(config.url)).text();
-        await fs.writeFile(
-          `./data/downloaded/${f}.html`,
-          (config.replace || []).reduce(
-            (res, [a, b]) => res.replace(a, b),
-            html,
-          ),
-        );
-      }
+      const { url, replace = [] } = require(`./books/${f}`);
+      const html = await (await fetch(url)).text();
+      await fs.writeFile(
+        `./data/downloaded/${f}.html`,
+        replace.reduce((res, [a, b]) => res.replace(a, b), html),
+      );
     }),
   );
 

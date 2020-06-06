@@ -5,7 +5,7 @@
     "prettier": "prettier --write \"{app,src}/**/*.{ts,json}\"",
     "d": "rimraf data/downloaded && ts-node src/download && prettier --write \"data/downloaded/**/*.json\"",
     "p": "rimraf data/parsed && ts-node src/parse && prettier --write \"data/parsed/**/*.json\"",
-    "e": "rimraf data/extracted && rimraf data/extracted.json && ts-node src/extract && prettier --write \"data/extracted**/*.json\" && prettier --write \"data/extracted.json\"",
+    "e": "rimraf data/extracted && rimraf data/extracted.json && ts-node src/extract && prettier --write \"data/extracted**/*.json\"",
     "c": "rimraf data/data.json && ts-node src/clean && prettier --write \"data/data.json\"",
     "f": "rimraf data/flattened && ts-node src/flatten && prettier --write \"data/flattened/**/*.json\""
   },

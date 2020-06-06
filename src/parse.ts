@@ -2,22 +2,7 @@ import * as fs from 'fs-extra';
 import * as unified from 'unified';
 import * as rehype from 'rehype-parse';
 
-const last = (x) => x[x.length - 1];
-
-const stringify = (x = null as any) => {
-  if (Array.isArray(x)) return `[${x.map(stringify).join(', ')}]`;
-  if (x === null || typeof x !== 'object') return JSON.stringify(x);
-  const keys = [
-    ...Object.keys(x)
-      .filter((k) => k !== 'content')
-      .sort(),
-    'content',
-  ];
-  return `{ ${keys
-    .filter((k) => x[k] !== undefined)
-    .map((k) => `${JSON.stringify(k)}: ${stringify(x[k])}`)
-    .join(', ')} }`;
-};
+import { capitalise, last, stringify } from './utils';
 
 const elements = {
   tags: {
@@ -86,12 +71,11 @@ const getGaps = (node) => {
 
 const spellings = require('./spellings.json');
 const spellKeys = Object.keys(spellings);
-const capitalize = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 const correctSpelling = (s) =>
   spellKeys.reduce(
     (res, k) =>
       res.replace(new RegExp(`\\b${k}\\b`, 'ig'), (m) =>
-        m[0].toUpperCase() === m[0] ? capitalize(spellings[k]) : spellings[k],
+        m[0].toUpperCase() === m[0] ? capitalise(spellings[k]) : spellings[k],
       ),
     s,
   );
@@ -126,6 +110,7 @@ const parse = (data) => {
               if (type !== 'p') item.type = type;
               items.push(item);
               walk(items, node.children, true);
+              items.push({ gap: 0, content: [{ content: '' }] });
             } else if (type === 'note') {
               last(items).content.push(
                 { type, content: node.children[0].properties.href.slice(1) },
