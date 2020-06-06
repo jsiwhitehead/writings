@@ -1,4 +1,4 @@
-import { capitalise, last } from '../utils';
+import { capitalise, last, sortMultiple } from '../utils';
 
 export const url =
   'https://www.bahai.org/library/authoritative-texts/bahaullah/call-divine-beloved/call-divine-beloved.xhtml';
@@ -21,7 +21,19 @@ export const url =
 //   "7"
 //   "The Four Valleys"
 
-const isNumber = (v: string) => !isNaN(v as any) && !isNaN(parseFloat(v));
+const hash = (s) => {
+  let hash = 0;
+  let i;
+  let chr;
+  for (i = 0; i < s.length; i++) {
+    chr = s.charCodeAt(i);
+    hash = (hash << 5) - hash + chr;
+    hash |= 0;
+  }
+  return hash;
+};
+
+// const isNumber = (v: string) => !isNaN(v as any) && !isNaN(parseFloat(v));
 
 const sliceContent = ({ content, spans }, start, end?) => ({
   content: content.slice(start, end),
@@ -46,11 +58,12 @@ const joinContent = (...contents) => {
   return result;
 };
 
-const structure = (data, levels, ignore) => {
+const structure = (data, levels, ignore?) => {
   let header = 0;
   let index = [];
   let inHeader = false;
   const titles = {};
+  const chunks = {};
   const content = data
     .map((d) => {
       const level =
@@ -65,17 +78,34 @@ const structure = (data, levels, ignore) => {
         index = index.slice(0, level + 1);
         index[level]++;
       }
-      if (d.type === 'header' && d.content && !ignore(d.content)) {
-        titles[index.join('.')] = [
-          ...(titles[index.join('.')] || []),
-          { ...d, type: undefined },
-        ];
+      const chunk = hash(url + index.slice(0, -1).join('.'));
+      if (d.type === 'header') {
+        if (d.content && !ignore?.(d.content)) {
+          titles[index.join('.')] = [
+            ...(titles[index.join('.')] || []),
+            { ...d, type: undefined },
+          ];
+        }
+      } else {
+        chunks[index.slice(0, -1).join('.')] = chunk;
       }
       inHeader = d.type === 'header';
-      return { ...d, index: [...index] };
+      return { ...d, index: index.join('.'), chunk, item: last(index) };
     })
     .filter((x) => x.type !== 'header');
-  return { content, titles };
+  const outline = [
+    ...Object.keys(titles).map((k) => [
+      k.split('.').map((x) => parseInt(x, 10)),
+      titles[k],
+    ]),
+    ...Object.keys(chunks).map((k) => [
+      k.split('.').map((x) => parseInt(x, 10)),
+      chunks[k],
+    ]),
+  ]
+    .sort((a, b) => sortMultiple(a[0], b[0], (a, b) => a - b))
+    .map(([k, v]) => [k.length, v]);
+  return { content, outline };
 };
 
 const extractQuotes = (data, infos) =>
@@ -97,7 +127,7 @@ const extractQuotes = (data, infos) =>
     const notes = d.notes.filter((n) => {
       const i = quoteSpans.findIndex((x) => Math.abs(n.position - x.end) <= 1);
       if (i === -1) return true;
-      const info = infos[d.index.join('.')]?.[i];
+      const info = infos[d.index]?.[i];
       if (info === null) return true;
       const split = info?.split && n.content[0].content.indexOf(info.split);
       spans.push(
@@ -131,13 +161,13 @@ const extractQuotes = (data, infos) =>
   });
 
 export default (data) => {
-  const { content, titles } = structure(
+  const { content, outline } = structure(
     data.slice(
       0,
       data.findIndex((d) => d.content === 'Notes'),
     ),
     [0, 0, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 2, 2, 2, 1, 1],
-    (t) => isNumber(t),
+    // (t) => isNumber(t),
   );
   return {
     content: extractQuotes(content, {
@@ -155,6 +185,6 @@ export default (data) => {
       '1.6.37': { 0: { split: '.' } },
       '1.6.68': { 0: { split: '.' } },
     }),
-    titles,
+    outline,
   };
 };
