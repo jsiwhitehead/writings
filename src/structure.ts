@@ -1,66 +1,79 @@
-import { last, sortMultiple } from './utils';
+import process from './process';
+import { last } from './utils';
 
-const hash = (s) => {
-  let hash = 0;
-  let i;
-  let chr;
-  for (i = 0; i < s.length; i++) {
-    chr = s.charCodeAt(i);
-    hash = (hash << 5) - hash + chr;
-    hash |= 0;
-  }
-  return hash;
-};
-
-export default (hashBase, data, getLevel, ignore?) => {
-  let header = 0;
-  let index = [];
-  let inHeader = false;
-  const titles = {};
-  const chunks = {};
-  const levels = data
-    .filter((d) => d.type === 'header')
-    .map((h, i) => getLevel(h.content, i));
-  const content = data
-    .map((d) => {
-      const level =
-        d.type === 'header'
-          ? levels[header++]
-          : Math.max(levels[header - 1] || 0, levels[header] || 0) + 1;
-      if (level + 1 > index.length) {
-        Array.from({ length: level + 1 }).forEach((_, i) => {
-          index[i] = index[i] || 1;
-        });
-      } else if (!(inHeader && index.length === level + 1)) {
-        index = index.slice(0, level + 1);
-        index[level]++;
-      }
-      const chunk = hash(hashBase + index.slice(0, -1).join('.'));
-      if (d.type === 'header') {
-        if (d.content && !ignore?.(d.content)) {
-          titles[index.join('.')] = [
-            ...(titles[index.join('.')] || []),
-            { ...d, type: undefined },
-          ];
+process('parsed', 'structured', (data, fullConfig) => {
+  let quoteCount = 0;
+  const structureQuotes = (spans, config = {}) => {
+    const result = [] as any[];
+    let quoteRun = 0;
+    spans.forEach((s) => {
+      if (s.type === 'note') {
+        const content = s.content.map((c) => ({
+          ...c,
+          spans: structureQuotes(c.spans, config),
+        }));
+        result.push({ ...s, content });
+      } else if (s.type === 'quote') {
+        quoteCount++;
+        if (quoteRun > 0) {
+          last(result).content.push(...s.content);
+        } else {
+          quoteRun = config[quoteCount] || 0;
+          if (quoteRun > 0) {
+            result.push(s);
+          } else {
+            result.push(
+              {
+                type: s.content[0].type,
+                text: '“',
+              },
+              ...s.content,
+              {
+                type: last(s.content).type,
+                text: '”',
+              },
+            );
+          }
         }
+        quoteRun--;
       } else {
-        chunks[index.slice(0, -1).join('.')] = chunk;
+        if (quoteRun > 0) {
+          const c = last(result).content;
+          if (last(c).type !== 'join') c.push({ type: 'join', content: [] });
+          last(c).content.push(s);
+        } else {
+          result.push(s);
+        }
       }
-      inHeader = d.type === 'header';
-      return { ...d, index: index.join('.'), chunk, item: last(index) };
-    })
-    .filter((x) => x.type !== 'header');
-  const outline = [
-    ...Object.keys(titles).map((k) => [
-      k.split('.').map((x) => parseInt(x, 10)),
-      titles[k],
-    ]),
-    ...Object.keys(chunks).map((k) => [
-      k.split('.').map((x) => parseInt(x, 10)),
-      chunks[k],
-    ]),
-  ]
-    .sort((a, b) => sortMultiple(a[0], b[0], (a, b) => a - b))
-    .map(([k, v]) => [k.length, v]);
-  return { content, outline };
-};
+    });
+    return result;
+  };
+
+  const structureNotes = (spans) => {
+    const result = [] as any[];
+    spans.forEach((s, i) => {
+      if (s.type !== 'note') {
+        result.push(s);
+      } else {
+        const q = spans
+          .slice(i - 2, i)
+          .reverse()
+          .find((s) => s.type === 'quote');
+        if (q) {
+          q.source = s.content;
+        } else {
+          result.push(s);
+        }
+      }
+    });
+    return result;
+  };
+
+  return data.map((x) => {
+    if (!x.spans) return x;
+    return {
+      ...x,
+      spans: structureNotes(structureQuotes(x.spans, fullConfig.quotes)),
+    };
+  });
+});

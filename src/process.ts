@@ -24,13 +24,20 @@ export default async (read, write, map) => {
   await fs.emptyDir(`./data/${write}`);
   await Promise.all(
     files.map(async (f) => {
+      const config = require(`./books/${f}`);
       const data = await fs.readFile(
         `./data/${read}/${f}.${read === 'downloaded' ? 'html' : 'json'}`,
         'utf8',
       );
       await fs.writeFile(
         `./data/${write}/${f}.json`,
-        stringify(map(data), 'spans', 'text', 'content'),
+        stringify(
+          map(read === 'downloaded' ? data : JSON.parse(data), config),
+          'spans',
+          'text',
+          'content',
+          'source',
+        ),
       );
     }),
   );

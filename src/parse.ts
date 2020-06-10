@@ -164,7 +164,7 @@ const parse = (data) => {
                 if (++quoteLevel === 1) {
                   spans.push(
                     { ...s, text: text.slice(start, match.index) },
-                    { type: 'q', content: [] },
+                    { type: 'quote', content: [] },
                   );
                   start = match.index + 1;
                 }
@@ -187,7 +187,10 @@ const parse = (data) => {
               spans.push({ ...s, text: text.slice(start) });
             }
           });
-        return { ...x, spans: spans.filter((s) => s.type === 'q' || s.text) };
+        return {
+          ...x,
+          spans: spans.filter((s) => s.type === 'quote' || s.text),
+        };
       })
       .filter((s) => s.spans?.length !== 0);
   };
@@ -197,7 +200,7 @@ const parse = (data) => {
       ...x,
       spans: x.spans.map((s) => {
         if (s.type !== 'note') return s;
-        return { type: 'note', start: s.start, content: notes[s.id] };
+        return { type: 'note', start: s.start, content: notes[s.text] };
       }),
     };
   });
