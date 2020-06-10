@@ -82,26 +82,6 @@ const correctSpelling = (s) =>
     s,
   );
 
-const flatten = (spans, result) => {
-  spans.forEach((s) => {
-    const start = result.content.length;
-    if (s.type === 'note') {
-      result.spans.push({ type: 'note', start, id: s.text });
-    } else {
-      if (s.type === 'q') {
-        flatten(s.content, result);
-      } else {
-        result.content += correctSpelling(s.text).replace(/\-/g, '‑');
-        result.content = result.content.replace(/\s+/g, ' ').trimLeft();
-      }
-      if (s.type) {
-        const end = result.content.length;
-        result.spans.push({ start, end, type: s.type });
-      }
-    }
-  });
-};
-
 const parse = (data) => {
   const notes = {};
   const walk = (items, children, paragraph?) =>
@@ -173,14 +153,17 @@ const parse = (data) => {
         x.spans
           .filter((c) => c.text)
           .forEach((s) => {
+            const text = correctSpelling(s.text)
+              .replace(/\-/g, '‑')
+              .replace(/\s+/g, ' ');
             let start = 0;
             let match;
             const regex = /“|”/g;
-            while ((match = regex.exec(s.text)) !== null) {
+            while ((match = regex.exec(text)) !== null) {
               if (match[0] === '“') {
                 if (++quoteLevel === 1) {
                   spans.push(
-                    { ...s, text: s.text.slice(start, match.index) },
+                    { ...s, text: text.slice(start, match.index) },
                     { type: 'q', content: [] },
                   );
                   start = match.index + 1;
@@ -189,7 +172,7 @@ const parse = (data) => {
                 if (quoteLevel-- === 1) {
                   last(spans).content.push({
                     ...s,
-                    text: s.text.slice(start, match.index),
+                    text: text.slice(start, match.index),
                   });
                   start = match.index + 1;
                 }
@@ -198,28 +181,15 @@ const parse = (data) => {
             if (quoteLevel === 1) {
               last(spans).content.push({
                 ...s,
-                text: s.text.slice(start),
+                text: text.slice(start),
               });
             } else {
-              spans.push({ ...s, text: s.text.slice(start) });
+              spans.push({ ...s, text: text.slice(start) });
             }
           });
         return { ...x, spans: spans.filter((s) => s.type === 'q' || s.text) };
       })
-      .map((x) => {
-        if (!x.spans) return x;
-        const result = { type: x.type, content: '', spans: [] as any[] };
-        flatten(x.spans, result);
-        result.content = result.content.trimRight();
-        result.spans = result.spans.map(({ start, end, ...other }) => ({
-          start: Math.min(start, result.content.length),
-          end: end && Math.min(end, result.content.length),
-          ...other,
-        }));
-        if (!result.spans.length) delete result.spans;
-        return result;
-      })
-      .filter((x) => x.content !== '');
+      .filter((s) => s.spans?.length !== 0);
   };
   return walkFull(data).map((x) => {
     if (!x.spans) return x;
@@ -242,7 +212,10 @@ const parse = (data) => {
       const data = parse(
         unified().use(rehype, { footnotes: true }).parse(html).children,
       );
-      await fs.writeFile(`./data/parsed/${f}.json`, stringify(data, 'content'));
+      await fs.writeFile(
+        `./data/parsed/${f}.json`,
+        stringify(data, 'spans', 'text', 'content'),
+      );
     }),
   );
 })();
