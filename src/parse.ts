@@ -82,18 +82,38 @@ const correctSpelling = (s) =>
     s,
   );
 
+const flatten = (spans, result) => {
+  spans.forEach((s) => {
+    const start = result.content.length;
+    if (s.type === 'note') {
+      result.spans.push({ type: 'note', start, id: s.text });
+    } else {
+      if (s.type === 'q') {
+        flatten(s.content, result);
+      } else {
+        result.content += correctSpelling(s.text).replace(/\-/g, '‑');
+        result.content = result.content.replace(/\s+/g, ' ').trimLeft();
+      }
+      if (s.type) {
+        const end = result.content.length;
+        result.spans.push({ start, end, type: s.type });
+      }
+    }
+  });
+};
+
 const parse = (data) => {
   const notes = {};
   const walk = (items, children, paragraph?) =>
     children.forEach((node) => {
       if (node.type === 'text') {
-        if (paragraph) last(last(items).content).content += node.value;
+        if (paragraph) last(last(items).spans).text += node.value;
       } else if (node.type === 'element') {
         const note = getNoteId(node);
         if (note) {
           notes[note] = walkFull(node.children, {
             gap: 0,
-            content: [{ content: '' }],
+            spans: [{ text: '' }],
           });
         } else {
           const type = [
@@ -109,7 +129,7 @@ const parse = (data) => {
             if (gaps.above) last(items).gap += gaps.above;
             if (['p', 'block', 'header'].includes(type)) {
               if (!paragraph || paragraph === 'p' || type !== 'p') {
-                const item = { gap: 0, content: [{ content: '' }] } as any;
+                const item = { gap: 0, spans: [{ text: '' }] } as any;
                 if (type !== 'p') item.type = type;
                 items.push(item);
               }
@@ -118,16 +138,16 @@ const parse = (data) => {
                 node.children,
                 type !== 'p' ? type : paragraph || type,
               );
-              items.push({ gap: 0, content: [{ content: '' }] });
+              items.push({ gap: 0, spans: [{ text: '' }] });
             } else if (type === 'note') {
-              last(items).content.push(
-                { type, content: node.children[0].properties.href.slice(1) },
-                { content: '' },
+              last(items).spans.push(
+                { type, text: node.children[0].properties.href.slice(1) },
+                { text: '' },
               );
             } else if (type) {
-              last(items).content.push({ type, content: '' });
+              last(items).spans.push({ type, text: '' });
               walk(items, node.children, paragraph);
-              last(items).content.push({ content: '' });
+              last(items).spans.push({ text: '' });
             } else {
               walk(items, node.children, paragraph);
             }
@@ -147,48 +167,70 @@ const parse = (data) => {
     }
     return items
       .map((x) => {
-        if (!x.content) return x;
-        const result = { ...x, spans: [], notes: [], content: '' };
-        x.content.forEach((c) => {
-          const start = result.content.length;
-          if (c.type === 'note') {
-            result.notes.push({ position: start, id: c.content });
-          } else {
-            result.content += correctSpelling(c.content).replace(/\-/g, '‑');
-            result.content = result.content.replace(/\s+/g, ' ').trimLeft();
-            if (c.type) {
-              const end = result.content.length;
-              result.spans.push({ start, end, type: c.type });
+        if (!x.spans) return x;
+        const spans = [] as any[];
+        let quoteLevel = 0;
+        x.spans
+          .filter((c) => c.text)
+          .forEach((s) => {
+            let start = 0;
+            let match;
+            const regex = /“|”/g;
+            while ((match = regex.exec(s.text)) !== null) {
+              if (match[0] === '“') {
+                if (++quoteLevel === 1) {
+                  spans.push(
+                    { ...s, text: s.text.slice(start, match.index) },
+                    { type: 'q', content: [] },
+                  );
+                  start = match.index + 1;
+                }
+              } else {
+                if (quoteLevel-- === 1) {
+                  last(spans).content.push({
+                    ...s,
+                    text: s.text.slice(start, match.index),
+                  });
+                  start = match.index + 1;
+                }
+              }
             }
-          }
-        });
+            if (quoteLevel === 1) {
+              last(spans).content.push({
+                ...s,
+                text: s.text.slice(start),
+              });
+            } else {
+              spans.push({ ...s, text: s.text.slice(start) });
+            }
+          });
+        return { ...x, spans: spans.filter((s) => s.type === 'q' || s.text) };
+      })
+      .map((x) => {
+        if (!x.spans) return x;
+        const result = { type: x.type, content: '', spans: [] as any[] };
+        flatten(x.spans, result);
         result.content = result.content.trimRight();
-        result.spans = result.spans.map(({ start, end, type }) => ({
+        result.spans = result.spans.map(({ start, end, ...other }) => ({
           start: Math.min(start, result.content.length),
-          end: Math.min(end, result.content.length),
-          type,
-        }));
-        result.notes = result.notes.map(({ position, id }) => ({
-          position: Math.min(position, result.content.length),
-          id,
+          end: end && Math.min(end, result.content.length),
+          ...other,
         }));
         if (!result.spans.length) delete result.spans;
-        if (!result.notes.length) delete result.notes;
         return result;
       })
       .filter((x) => x.content !== '');
   };
-  return walkFull(data).map((x) =>
-    x.notes
-      ? {
-          ...x,
-          notes: x.notes.map(({ position, id }) => ({
-            position,
-            content: notes[id],
-          })),
-        }
-      : x,
-  );
+  return walkFull(data).map((x) => {
+    if (!x.spans) return x;
+    return {
+      ...x,
+      spans: x.spans.map((s) => {
+        if (s.type !== 'note') return s;
+        return { type: 'note', start: s.start, content: notes[s.id] };
+      }),
+    };
+  });
 };
 
 (async () => {
@@ -200,14 +242,7 @@ const parse = (data) => {
       const data = parse(
         unified().use(rehype, { footnotes: true }).parse(html).children,
       );
-      // console.log(
-      //   JSON.stringify(
-      //     data.filter((x) => x.type === 'header').map((x) => x.content),
-      //     null,
-      //     2,
-      //   ),
-      // );
-      await fs.writeFile(`./data/parsed/${f}.json`, stringify(data));
+      await fs.writeFile(`./data/parsed/${f}.json`, stringify(data, 'content'));
     }),
   );
 })();
