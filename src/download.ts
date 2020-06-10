@@ -14,7 +14,7 @@ const findTable = (n) => {
 
 (async () => {
   const files = (await fs.readdir('./src/books')).map((f) => f.slice(0, -3));
-  await fs.ensureDir('./data/downloaded');
+  await fs.emptyDir('./data/downloaded');
   await Promise.all(
     files.map(async (f) => {
       const { url, replace = [] } = require(`./books/${f}`);

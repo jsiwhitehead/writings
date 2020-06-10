@@ -1,8 +1,8 @@
-import * as fs from 'fs-extra';
 import * as unified from 'unified';
 import * as rehype from 'rehype-parse';
 
-import { capitalise, last, stringify } from './utils';
+import process from './process';
+import { capitalise, last } from './utils';
 
 const elements = {
   tags: {
@@ -203,19 +203,6 @@ const parse = (data) => {
   });
 };
 
-(async () => {
-  const files = (await fs.readdir('./src/books')).map((f) => f.slice(0, -3));
-  await fs.ensureDir('./data/parsed');
-  await Promise.all(
-    files.map(async (f) => {
-      const html = await fs.readFile(`./data/downloaded/${f}.html`, 'utf8');
-      const data = parse(
-        unified().use(rehype, { footnotes: true }).parse(html).children,
-      );
-      await fs.writeFile(
-        `./data/parsed/${f}.json`,
-        stringify(data, 'spans', 'text', 'content'),
-      );
-    }),
-  );
-})();
+process('downloaded', 'parsed', (html) =>
+  parse(unified().use(rehype, { footnotes: true }).parse(html).children),
+);
