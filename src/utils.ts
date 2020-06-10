@@ -1,3 +1,6 @@
+export const isNumber = (v: string) =>
+  !isNaN(v as any) && !isNaN(parseFloat(v));
+
 export const last = (x) => x[x.length - 1];
 
 export const capitalise = (s) => s.charAt(0).toUpperCase() + s.slice(1);

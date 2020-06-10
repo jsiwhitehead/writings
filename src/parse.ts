@@ -25,6 +25,8 @@ const elements = {
   },
   classes: {
     'brl-global-gloss-definition': 'block',
+    'brl-margin-2': 'block',
+    'brl-head': 'header',
     'brl-subtitle': 'header',
     'brl-italic': 'i',
     'brl-align-center': 'c',
@@ -82,10 +84,10 @@ const correctSpelling = (s) =>
 
 const parse = (data) => {
   const notes = {};
-  const walk = (items, children, output) =>
+  const walk = (items, children, paragraph?) =>
     children.forEach((node) => {
       if (node.type === 'text') {
-        if (output) last(last(items).content).content += node.value;
+        if (paragraph) last(last(items).content).content += node.value;
       } else if (node.type === 'element') {
         const note = getNoteId(node);
         if (note) {
@@ -106,10 +108,16 @@ const parse = (data) => {
             const gaps = getGaps(node);
             if (gaps.above) last(items).gap += gaps.above;
             if (['p', 'block', 'header'].includes(type)) {
-              const item = { gap: 0, content: [{ content: '' }] } as any;
-              if (type !== 'p') item.type = type;
-              items.push(item);
-              walk(items, node.children, true);
+              if (!paragraph || paragraph === 'p' || type !== 'p') {
+                const item = { gap: 0, content: [{ content: '' }] } as any;
+                if (type !== 'p') item.type = type;
+                items.push(item);
+              }
+              walk(
+                items,
+                node.children,
+                type !== 'p' ? type : paragraph || type,
+              );
               items.push({ gap: 0, content: [{ content: '' }] });
             } else if (type === 'note') {
               last(items).content.push(
@@ -118,10 +126,10 @@ const parse = (data) => {
               );
             } else if (type) {
               last(items).content.push({ type, content: '' });
-              walk(items, node.children, output);
+              walk(items, node.children, paragraph);
               last(items).content.push({ content: '' });
             } else {
-              walk(items, node.children, output);
+              walk(items, node.children, paragraph);
             }
             if (gaps.below) last(items).gap += gaps.below;
           }
@@ -130,7 +138,7 @@ const parse = (data) => {
     });
   const walkFull = (children, first?) => {
     const items = first ? [first] : [];
-    walk(items, children, false);
+    walk(items, children);
     for (let i = items.length - 1; i >= 0; i--) {
       if (items[i].gap > 1) {
         items.splice(i + 1, 0, { type: 'header' });
@@ -192,6 +200,13 @@ const parse = (data) => {
       const data = parse(
         unified().use(rehype, { footnotes: true }).parse(html).children,
       );
+      // console.log(
+      //   JSON.stringify(
+      //     data.filter((x) => x.type === 'header').map((x) => x.content),
+      //     null,
+      //     2,
+      //   ),
+      // );
       await fs.writeFile(`./data/parsed/${f}.json`, stringify(data));
     }),
   );
