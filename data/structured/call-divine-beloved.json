@@ -10,10 +10,9 @@
   { "type": "header", "spans": [{ "text": " Preface " }] },
   {
     "spans": [
-      { "text": " " },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           { "text": "At one time We spoke in the language of the lawgiver" },
           {
             "type": "join",
@@ -58,7 +57,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "During the days I lay in the prison of Ṭihrán, though the galling weight of the chains and the stench‑filled air allowed Me but little sleep, still in those infrequent moments of slumber I felt as if something flowed from the crown of My head over My breast, even as a mighty torrent that precipitateth itself upon the earth from the summit of a lofty mountain. Every limb of My body would, as a result, be set afire. At such moments My tongue recited what no man could bear to hear."
           }
@@ -93,7 +92,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           { "text": "Through His numerous discourses and epistles" },
           {
             "type": "join",
@@ -112,8 +111,7 @@
             ]
           }
         ]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -136,7 +134,7 @@
       { "text": " This period, Shoghi Effendi tells us, saw an " },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "enormous expansion in the scope and volume of Bahá’u’lláh’s writings ... The verses that streamed during those years from His pen, described as ‘a copious rain’ by Himself, whether in the form of epistles, exhortations, commentaries, apologies, dissertations, prophecies, prayers, odes or specific Tablets"
           },
@@ -153,8 +151,7 @@
           }
         ],
         "source": [{ "spans": [{ "text": " God Passes By, p. 216. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -162,7 +159,7 @@
       { "text": " Among the " },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "priceless treasures cast forth from the billowing ocean of Bahá’u’lláh’s Revelation"
           },
@@ -191,14 +188,10 @@
     "spans": [
       {
         "text": " This treatise was revealed in the language of the people, in the days prior to Our Declaration. The occasion for its revelation was the receipt of a letter addressed to the Most Holy Court in ‘Iráq from a man of Sunní persuasion, who was both a scholar and a mystic. This treatise was therefore revealed, in accordance with divine wisdom, in the manner that was current amongst the people. However, in this day, every soul who hath fixed his gaze upon the Supreme Horizon, and hath recognised the one true God, hath verily attained unto every one of the seven valleys or seven stations mentioned therein."
-      },
-      {
-        "type": "note",
-        "content": [
-          { "spans": [{ "text": " From a previously untranslated Tablet. " }] }
-        ]
-      },
-      { "text": " " }
+      }
+    ],
+    "source": [
+      { "spans": [{ "text": " From a previously untranslated Tablet. " }] }
     ]
   },
   {
@@ -231,7 +224,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "For whereas in days past every lover besought and searched after his Beloved, it is the Beloved Himself Who now is calling His lovers and is inviting them to attain His presence."
           }
@@ -245,8 +238,7 @@
             ]
           }
         ]
-      },
-      { "text": " " }
+      }
     ]
   },
   { "type": "header", "spans": [{ "text": " 1 " }] },
@@ -263,6 +255,7 @@
     "spans": [{ "text": " (The Clouds of the Realms Above) " }]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " ’Tis from Our rapture that the clouds of realms above are raining down;"
@@ -272,7 +265,6 @@
         "content": [
           {
             "spans": [
-              { "text": " " },
               { "text": "“" },
               {
                 "text": "‘Amá’ is defined as an extremely thin and subtle cloud, seen and then not seen. For shouldst thou gaze with the utmost care, thou wouldst discern something, but as soon as thou dost look again, it ceaseth to be seen. For this reason, in the usage of mystics who seek after truth, ‘Amá’ signifieth the Universal Reality without individuations as such, for these individuations exist in the mode of uncompounded simplicity and oneness and are not differentiated from the Divine Essence. Thus they are individuated and not individuated. This is the station alluded to by the terms Aḥadíyyih [Absolute Oneness] and ‘Amá’. This is the station of the “Hidden Treasure” mentioned in the Ḥadíth. The divine attributes, therefore, are individuations that exist in the Essence but are not differentiated therefrom. They are seen and then not seen. This, in brief, is what is meant by ‘Amá’."
@@ -289,23 +281,21 @@
       { "type": "break" },
       {
         "text": " ’Tis from Our anthem that the mysteries of faith are raining down. "
-      },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " Upon the Eastern wind Cathay’s entrancing musk doth waft; " },
       { "type": "break" },
       {
         "text": " This sweetly scented breeze from Our curling locks is raining down. "
-      },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " The day‑star of adornment hath dawned forth above the face of God; "
@@ -313,12 +303,11 @@
       { "type": "break" },
       {
         "text": " Behold that mystic truth which from His Countenance is raining down. "
-      },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " The sea of purity hath from the wave of true reunion surged; "
@@ -326,12 +315,11 @@
       { "type": "break" },
       {
         "text": " This precious, rare bestowal from Our rapture is raining down. "
-      },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " The treasuries of love lay hid within the very heart of Fárs; "
@@ -339,12 +327,11 @@
       { "type": "break" },
       {
         "text": " From out this treasure trove the pearls of faithfulness are raining down. "
-      },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " The splendour of the rose doth bring the ecstasy of choicest wine; "
@@ -352,12 +339,11 @@
       { "type": "break" },
       {
         "text": " This subtle music from the ringing tones of Lordship is raining down. "
-      },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " The trumpet‑blast of Judgement Day, the joyful bliss of heaven’s call— "
@@ -365,12 +351,11 @@
       { "type": "break" },
       {
         "text": " Both at a single breath are from the firmament now raining down. "
-      },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " The Day of " },
       { "text": "“" },
@@ -382,12 +367,11 @@
       { "text": "“" },
       { "text": "He is He" },
       { "text": "”" },
-      { "text": " from out Our flowing cup is raining down. " },
-      { "type": "break" },
-      { "text": " " }
+      { "text": " from out Our flowing cup is raining down. " }
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " From out the fountain of Our heart hath God’s celestial river flowed; "
@@ -395,12 +379,11 @@
       { "type": "break" },
       {
         "text": " This cup of honeyed nectar from Our ruby lips is raining down. "
-      },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " The Day of God hath been fulfilled, for lo, the Lord hath been unveiled; "
@@ -408,12 +391,11 @@
       { "type": "break" },
       {
         "text": " This wondrous message from the melody of Ṭá’ is raining down. "
-      },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " Behold Bahá’s outpouring grace, the bounty of the clouds above, "
@@ -421,12 +403,11 @@
       { "type": "break" },
       {
         "text": " Which, merged into a single song, in God’s own voice is raining down. "
-      },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " Behold the Lord’s leviathan, behold His sacred countenance; "
@@ -434,12 +415,11 @@
       { "type": "break" },
       {
         "text": " Behold the blessings of the heart that from His throne are raining down. "
-      },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " Behold the Palm of Paradise, behold the warbling of the Dove; "
@@ -447,12 +427,11 @@
       { "type": "break" },
       {
         "text": " Behold the glorious hymns that in the purest light are raining down. "
-      },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " Behold the soul‑entrancing song, behold the beating of the drum, "
@@ -460,12 +439,11 @@
       { "type": "break" },
       {
         "text": " Behold the sacred rhythms that from Our hand are raining down. "
-      },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " Behold the Countenance Divine! Behold the Maid of Paradise! "
@@ -473,12 +451,11 @@
       { "type": "break" },
       {
         "text": " Behold the grace upon the world from Our own presence raining down. "
-      },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " Behold the everlasting Face! Behold the chalice‑bearer’s charm! "
@@ -486,23 +463,21 @@
       { "type": "break" },
       {
         "text": " Behold the crystal draught that from Our brimming cup is raining down. "
-      },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " Behold the fire of Moses, see His hand that shineth white; "
       },
       { "type": "break" },
-      { "text": " Behold the heart of Sinai—from Our hand all raining down. " },
-      { "type": "break" },
-      { "text": " " }
+      { "text": " Behold the heart of Sinai—from Our hand all raining down. " }
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " Hear ye the sotted lovers’ sighs, behold the garden blooming fair; "
@@ -510,25 +485,21 @@
       { "type": "break" },
       {
         "text": " Behold the bliss that from His presence in your midst is raining down. "
-      },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " Behold the radiant face of Há’, behold the beauteous robe of Bá’; "
       },
       { "type": "break" },
-      {
-        "text": " Behold the Lordly grace that from Our Pen is raining down. "
-      },
-      { "type": "break" },
-      { "text": " " }
+      { "text": " Behold the Lordly grace that from Our Pen is raining down. " }
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " The vessel of the Advent this, the clouds of limpid waters these; "
@@ -536,9 +507,7 @@
       { "type": "break" },
       {
         "text": " The trill of songbirds this, from Our fleeting Wellspring raining down. "
-      },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
   { "type": "header", "spans": [{ "text": " 2 " }] },
@@ -569,14 +538,13 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "No vision taketh in Him, but He taketh in all vision; He is the Subtile, the All‑Perceiving."
           }
         ],
         "source": [{ "spans": [{ "text": " Qur’án 6:103. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -592,13 +560,10 @@
       { "text": "Muḥammad" },
       { "text": "”" },
       { "text": " amongst the concourse of the favoured ones, and " },
-      { "text": "“" },
-      { "text": "Maḥmúd" },
-      { "text": "”" },
-      { "text": " in the realm of the sincere;" },
       {
-        "type": "note",
-        "content": [
+        "type": "quote",
+        "spans": [{ "text": "Maḥmúd" }],
+        "source": [
           {
             "spans": [
               {
@@ -616,13 +581,14 @@
           }
         ]
       },
+      { "text": " in the realm of the sincere;" },
       { "text": " and in the hearts of the knowing, " },
+      { "text": "“" },
+      { "text": "whichsoever ye call upon, most beauteous are His names." },
+      { "text": "”" },
       {
-        "type": "quote",
-        "content": [
-          { "text": "whichsoever ye call upon, most beauteous are His names." }
-        ],
-        "source": [{ "spans": [{ "text": " Qur’án 17:110. " }] }]
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Qur’án 17:110. " }] }]
       },
       {
         "text": " And upon His kindred and His companions be abundant, abiding, and eternal peace! "
@@ -637,8 +603,7 @@
       {
         "type": "note",
         "content": [{ "spans": [{ "text": " Cf. Qur’án 76:1. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -665,14 +630,13 @@
       { "text": " saying, " },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "And there shall appear upon the tablet of thine heart an inscription of the subtle mysteries of the verse ‘Fear ye God; God will teach you’, and the bird of thy spirit shall recall the sanctuaries of ancient splendour, and soar upon the wings of longing into the heaven of the command ‘Walk the beaten paths of thy Lord’, and partake of the choice fruits of communion in the gardens of the utterance ‘Feed, moreover, on every kind of fruit.’"
           }
         ],
         "source": [{ "spans": [{ "text": " Qur’án 2:282, 16:69. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -683,8 +647,7 @@
       {
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 20:47. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -720,7 +683,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           { "text": "for Us" },
           {
             "type": "join",
@@ -791,8 +754,7 @@
       { "text": " He said, " },
       { "text": "“" },
       { "text": "I seek her everywhere; haply somewhere I shall find her." },
-      { "text": "”" },
-      { "text": " " }
+      { "text": "”" }
     ]
   },
   {
@@ -802,14 +764,13 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "Whoso seeketh out a thing and persisteth with zeal shall find it."
           }
         ],
         "source": [{ "spans": [{ "text": " Arabic proverb. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -819,7 +780,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           { "text": "no God is there" },
           {
             "type": "join",
@@ -839,8 +800,7 @@
               {
                 "text": "No God is there but God, and Muḥammad is the Messenger of God."
               },
-              { "text": "”" },
-              { "text": " " }
+              { "text": "”" }
             ]
           }
         ]
@@ -873,15 +833,13 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " For the infidel, error—for the faithful, faith;" },
       { "type": "break" },
-      { "text": " For ‘Aṭṭár’s heart, an atom of thy pain." },
-      { "type": "break" },
-      { "text": " " }
+      { "text": " For ‘Aṭṭár’s heart, an atom of thy pain." }
     ]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -904,20 +862,14 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " A lover is he who is chill in hellfire;" },
       { "type": "break" },
-      { "text": " A knower is he who is dry in the sea." },
-      {
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Saná’í (ca. 1045–1131). " }] }]
-      },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " A knower is he who is dry in the sea." }
+    ],
+    "source": [{ "spans": [{ "text": " Saná’í (ca. 1045–1131). " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -926,26 +878,25 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " Ne’er will love allow a living soul to tread its way; " },
       { "type": "break" },
-      { "text": " Ne’er will the falcon deign to seize a lifeless prey." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Saná’í. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " Ne’er will the falcon deign to seize a lifeless prey." }
+    ],
+    "source": [{ "spans": [{ "text": " Saná’í. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
         "text": " Love setteth a world aflame at every turn and layeth waste every land wherein it raiseth its banner. Being hath no existence in its kingdom; the wise wield no command within its realm. The leviathan of love swalloweth the master of reason and slayeth the lord of knowledge. It drinketh the seven seas, but its heart’s thirst is still unquenched and it asketh, "
       },
+      { "text": "“" },
+      { "text": "Is there yet any more?" },
+      { "text": "”" },
       {
-        "type": "quote",
-        "content": [{ "text": "Is there yet any more?" }],
-        "source": [{ "spans": [{ "text": " Qur’án 50:30. " }] }]
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Qur’án 50:30. " }] }]
       },
       {
         "text": " It shunneth its own self and draweth away from all on earth. "
@@ -953,17 +904,14 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " Love’s a stranger to earth and heaven too;" },
       { "type": "break" },
-      { "text": " In him are lunacies seventy and two." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " In him are lunacies seventy and two." }
+    ],
+    "source": [{ "spans": [{ "text": " Rúmí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -986,30 +934,22 @@
               },
               { "text": "“" },
               { "text": "But for Thee, I would not have created the spheres." },
-              { "text": "”" },
-              { "text": " " }
+              { "text": "”" }
             ]
           }
         ]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " Kindle the fire of love and burn away all things;" },
       { "type": "break" },
-      { "text": " Then set thy foot into the land of the lovers." },
-      {
-        "type": "note",
-        "content": [{ "spans": [{ "text": " From a poem of Bahá’u’lláh. " }] }]
-      },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " Then set thy foot into the land of the lovers." }
+    ],
+    "source": [{ "spans": [{ "text": " From a poem of Bahá’u’lláh. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -1018,20 +958,14 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " Split the atom’s heart, and lo!" },
       { "type": "break" },
-      { "text": " Within it thou wilt find a sun." },
-      {
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Hátif‑i‑Iṣfahání (d.1783). " }] }]
-      },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " Within it thou wilt find a sun." }
+    ],
+    "source": [{ "spans": [{ "text": " Hátif‑i‑Iṣfahání (d.1783). " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -1039,7 +973,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "No defect canst thou see in the creation of the God of mercy. Repeat the gaze: Seest thou a single flaw?"
           }
@@ -1051,7 +985,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "We will surely show them Our signs in the world and within themselves"
           },
@@ -1100,8 +1034,7 @@
       {
         "text": "O God! Bestow honour upon the watchman, and riches and long life. For the watchman was Gabriel, guiding this poor one; or he was Isráfíl, bringing life to this wretched one!"
       },
-      { "text": "”" },
-      { "text": " " }
+      { "text": "”" }
     ]
   },
   {
@@ -1149,7 +1082,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "The perfection of belief in Divine Unity is to deny Him any attributes."
           }
@@ -1171,7 +1104,6 @@
         "content": [
           {
             "spans": [
-              { "text": " " },
               { "type": "u", "text": "Sh" },
               { "text": "ay" },
               { "type": "u", "text": "kh" },
@@ -1187,20 +1119,16 @@
       },
       {
         "type": "quote",
-        "content": [{ "text": "Guide Thou us on the straight path" }],
+        "spans": [{ "text": "Guide Thou us on the straight path" }],
         "source": [{ "spans": [{ "text": " Qur’án 1:6. " }] }]
       },
       { "text": "," },
       { "text": " which is: " },
+      { "text": "“" },
       {
-        "type": "quote",
-        "content": [
-          {
-            "text": "Show us the right way; that is, honour us with the love of Thine Essence, that we may be freed from occupation with ourselves and aught else save Thee, and may become wholly Thine; that we may know only Thee, and see only Thee, and think of none save Thee."
-          }
-        ]
+        "text": "Show us the right way; that is, honour us with the love of Thine Essence, that we may be freed from occupation with ourselves and aught else save Thee, and may become wholly Thine; that we may know only Thee, and see only Thee, and think of none save Thee."
       },
-      { "text": " " }
+      { "text": "”" }
     ]
   },
   {
@@ -1214,8 +1142,7 @@
       { "text": " " },
       { "text": "“" },
       { "text": "More than this I am not permitted to tell." },
-      { "text": "”" },
-      { "text": " " }
+      { "text": "”" }
     ]
   },
   {
@@ -1226,6 +1153,7 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " Veiled from this was Moses too," },
       { "type": "break" },
@@ -1233,14 +1161,10 @@
       { "type": "break" },
       { "text": " Then thou who hast no wings at all," },
       { "type": "break" },
-      { "text": " Abandon any hope of flight!" },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " Abandon any hope of flight!" }
+    ],
+    "source": [{ "spans": [{ "text": " Rúmí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -1248,12 +1172,11 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           { "text": "Verily, we are God’s, and to Him shall we return." }
         ],
         "source": [{ "spans": [{ "text": " Qur’án 2:156. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -1263,7 +1186,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           { "text": "all songs are from that sovereign King" },
           {
             "type": "join",
@@ -1280,7 +1203,7 @@
       { "text": " and reclineth upon the seat of " },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           { "text": "There is no power nor strength but in God alone." }
         ],
         "source": [{ "spans": [{ "text": " Qur’án 18:39. " }] }]
@@ -1333,17 +1256,14 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " Cleanse thou the rheum from out thine head" },
       { "type": "break" },
-      { "text": " And breathe the breath of God instead." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " And breathe the breath of God instead." }
+    ],
+    "source": [{ "spans": [{ "text": " Rúmí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -1358,14 +1278,13 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "If God should chastise men for their perverse doings, He would not leave upon the earth a moving thing! But to an appointed time doth He respite them."
           }
         ],
         "source": [{ "spans": [{ "text": " Qur’án 16:61. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -1375,7 +1294,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "Earth and heaven cannot contain Me; what can alone contain Me is the heart of him that believeth in Me."
           }
@@ -1394,7 +1313,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "A servant is drawn unto Me in prayer until I answer him, and when I have answered him, I become the ear wherewith he heareth …"
           }
@@ -1406,13 +1325,12 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           { "text": "A fount whereof they who draw nigh to God shall drink" }
         ],
         "source": [{ "spans": [{ "text": " Qur’án 83:28. " }] }]
       },
-      { "text": "." },
-      { "text": " " }
+      { "text": "." }
     ]
   },
   {
@@ -1422,14 +1340,13 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "The way is barred and all seeking rejected. His proof is His signs, His evidence His being."
           }
         ],
         "source": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -1439,7 +1356,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "O Thou Whose Essence alone can lead to His Essence, and Who transcendeth all likeness to His creatures"
           }
@@ -1452,7 +1369,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           { "text": "But for Thee" },
           { "type": "join", "content": [{ "text": " hath said, " }] },
           { "text": "We have failed to know Thee" },
@@ -1469,7 +1386,6 @@
         "source": [
           {
             "spans": [
-              { "text": " " },
               { "text": "“" },
               { "text": "But for Thee" },
               { "text": "”" },
@@ -1494,8 +1410,7 @@
           }
         ]
       },
-      { "text": "." },
-      { "text": " " }
+      { "text": "." }
     ]
   },
   {
@@ -1520,28 +1435,22 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " How can a curtain part the lover from his love," },
       { "type": "break" },
-      { "text": " When Alexander’s wall cannot keep them apart?" },
+      { "text": " When Alexander’s wall cannot keep them apart?" }
+    ],
+    "source": [
       {
-        "type": "note",
-        "content": [
+        "spans": [
           {
-            "spans": [
-              {
-                "text": " Sa‘dí (ca. 1213–1292), author of the Gulistán and other poetical works. "
-              }
-            ]
+            "text": " Sa‘dí (ca. 1213–1292), author of the Gulistán and other poetical works. "
           }
         ]
-      },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -1549,14 +1458,13 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "Knowledge is one point, which the foolish have multiplied."
           }
         ],
         "source": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -1581,24 +1489,18 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " If " },
       { "type": "u", "text": "Kh" },
       { "text": "iḍr did wreck the vessel on the sea," },
       { "type": "break" },
-      { "text": " A thousand rights are in this wrong concealed." },
-      {
-        "type": "note",
-        "content": [
-          { "spans": [{ "text": " Rúmí; a reference to Qur’án 18:71. " }] }
-        ]
-      },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
+      { "text": " A thousand rights are in this wrong concealed." }
+    ],
+    "source": [
+      { "spans": [{ "text": " Rúmí; a reference to Qur’án 18:71. " }] }
     ]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -1613,12 +1515,11 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           { "text": "He is the First and the Last, the Seen and the Hidden!" }
         ],
         "source": [{ "spans": [{ "text": " Qur’án 57:3. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -1639,17 +1540,14 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " In thy soul, of love build thou a fire" },
       { "type": "break" },
-      { "text": " And burn all thoughts and words entire." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " And burn all thoughts and words entire." }
+    ],
+    "source": [{ "spans": [{ "text": " Rúmí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -1672,6 +1570,7 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " If I speak forth, many a mind will shatter," },
       { "type": "break" },
@@ -1687,13 +1586,9 @@
             ]
           }
         ]
-      },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -1708,7 +1603,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           { "text": "God will satisfy everyone out of His abundance." }
         ],
         "source": [{ "spans": [{ "text": " Qur’án 4:130. " }] }]
@@ -1733,23 +1628,18 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " The bliss of mystic knowers can be only told from heart to heart, "
       },
       { "type": "break" },
-      { "text": " A bliss no messenger can bear and no missive dare impart." },
-      {
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Cf. ‘Aṭṭár. " }] }]
-      },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " A bliss no messenger can bear and no missive dare impart." }
+    ],
+    "source": [{ "spans": [{ "text": " Cf. ‘Aṭṭár. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
+    "type": "block",
     "spans": [
       {
         "text": " How many are the matters I have out of weakness left unsaid; "
@@ -1757,17 +1647,10 @@
       { "type": "break" },
       {
         "text": " For my words would fail to reckon them and mine every effort would fall short."
-      },
-      {
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Ibn‑i‑Fáriḍ (1181–1235). " }] }]
-      },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      }
+    ],
+    "source": [{ "spans": [{ "text": " Ibn‑i‑Fáriḍ (1181–1235). " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -1779,7 +1662,7 @@
       { "text": " that thou needst forget: " },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           { "text": "God was alone; there was none else besides Him." }
         ],
         "source": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
@@ -1789,7 +1672,7 @@
       },
       {
         "type": "quote",
-        "content": [{ "text": "And we have made thy sight sharp in this day" }],
+        "spans": [{ "text": "And we have made thy sight sharp in this day" }],
         "source": [{ "spans": [{ "text": " Cf. Qur’án 50:21. " }] }]
       },
       {
@@ -1826,17 +1709,14 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " How can feeble reason embrace the Qur’án" },
       { "type": "break" },
-      { "text": " Or the spider snare a phoenix in its web?" },
-      { "type": "note", "content": [{ "spans": [{ "text": " Saná’í. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " Or the spider snare a phoenix in its web?" }
+    ],
+    "source": [{ "spans": [{ "text": " Saná’í. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -1849,14 +1729,13 @@
       {
         "text": " in setting forth the grades of contemplation and expressing bewilderment, hath said: "
       },
+      { "text": "“" },
+      { "text": "Increase my wonder and amazement at Thee, O God!" },
+      { "text": "”" },
       {
-        "type": "quote",
-        "content": [
-          { "text": "Increase my wonder and amazement at Thee, O God!" }
-        ],
-        "source": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
-      },
-      { "text": " " }
+        "type": "note",
+        "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
+      }
     ]
   },
   {
@@ -1867,15 +1746,13 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " Dost thou deem thyself a small and puny form," },
       { "type": "break" },
-      { "text": " When thou foldest within thyself the greater world? " },
-      { "type": "break" },
-      { "text": " " }
+      { "text": " When thou foldest within thyself the greater world? " }
     ]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -1892,8 +1769,7 @@
       {
         "text": "O son, if thou art able not to sleep, then thou art able not to die. And if thou art able not to waken after sleep, then thou shalt be able not to rise after death."
       },
-      { "text": "”" },
-      { "text": " " }
+      { "text": "”" }
     ]
   },
   {
@@ -1911,17 +1787,14 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " The tale remaineth yet unfinished and untold;" },
       { "type": "break" },
-      { "text": " Forgive me, then, for weariness hath taken hold." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " Forgive me, then, for weariness hath taken hold." }
+    ],
+    "source": [{ "spans": [{ "text": " Rúmí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -1929,7 +1802,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           { "text": "Nothing can befall us but what God hath destined for us." }
         ],
         "source": [{ "spans": [{ "text": " Qur’án 9:51. " }] }]
@@ -1945,6 +1818,7 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " When once shone forth the attributes" },
       { "type": "break" },
@@ -1952,14 +1826,10 @@
       { "type": "break" },
       { "text": " All mention Moses burned away" },
       { "type": "break" },
-      { "text": " Of every fleeting, transient thing." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " Of every fleeting, transient thing." }
+    ],
+    "source": [{ "spans": [{ "text": " Rúmí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -1967,7 +1837,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "Verily the righteous shall drink of a cup tempered at the camphor fountain."
           }
@@ -1986,7 +1856,7 @@
       { "text": " This station is that poverty of which it is said, " },
       {
         "type": "quote",
-        "content": [{ "text": "Poverty is My glory." }],
+        "spans": [{ "text": "Poverty is My glory." }],
         "source": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
       },
       {
@@ -2001,15 +1871,14 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "All on the earth shall pass away, but the face of thy Lord"
           }
         ],
         "source": [{ "spans": [{ "text": " Qur’án 28:88. " }] }]
       },
-      { "text": " is made manifest." },
-      { "text": " " }
+      { "text": " is made manifest." }
     ]
   },
   {
@@ -2019,7 +1888,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "And no one thing is there, but with Us are its storehouses; and We send it not down but in settled measure."
           }
@@ -2039,22 +1908,16 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " The Friend, unveiled, doth shed the splendour of His light "
       },
       { "type": "break" },
-      { "text": " Through every door and wall, O ye endued with sight!" },
-      {
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Hátif‑i‑Iṣfahání. " }] }]
-      },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " Through every door and wall, O ye endued with sight!" }
+    ],
+    "source": [{ "spans": [{ "text": " Hátif‑i‑Iṣfahání. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -2069,7 +1932,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "His beauty hath no veiling save light, His countenance no covering save revelation."
           }
@@ -2082,6 +1945,7 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " Even as the noontide sun" },
       { "type": "break" },
@@ -2089,17 +1953,10 @@
       { "type": "break" },
       { "text": " But alas that He hath come" },
       { "type": "break" },
-      { "text": " To the city of the blind!" },
-      {
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Attributed to Rúmí. " }] }]
-      },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " To the city of the blind!" }
+    ],
+    "source": [{ "spans": [{ "text": " Attributed to Rúmí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -2109,15 +1966,10 @@
       { "text": "unity of existence" },
       { "text": "”" },
       { "text": " and the " },
-      { "text": "“" },
-      { "text": "unity of appearance" },
-      { "text": "”" },
       {
-        "text": " and reacheth a unity that is sanctified above both of these stations."
-      },
-      {
-        "type": "note",
-        "content": [
+        "type": "quote",
+        "spans": [{ "text": "unity of appearance" }],
+        "source": [
           {
             "spans": [
               {
@@ -2126,6 +1978,9 @@
             ]
           }
         ]
+      },
+      {
+        "text": " and reacheth a unity that is sanctified above both of these stations."
       },
       {
         "text": " Ecstasy alone can encompass this theme, not utterance nor argument; and whosoever hath dwelt at this stage of the journey, or caught a breath from this garden, knoweth whereof We speak. "
@@ -2146,7 +2001,7 @@
       },
       {
         "type": "quote",
-        "content": [{ "text": "Glorious Station" }],
+        "spans": [{ "text": "Glorious Station" }],
         "source": [
           {
             "spans": [
@@ -2157,8 +2012,7 @@
           }
         ]
       },
-      { "text": "." },
-      { "text": " " }
+      { "text": "." }
     ]
   },
   {
@@ -2171,7 +2025,6 @@
         "content": [
           {
             "spans": [
-              { "text": " " },
               { "text": "“" },
               {
                 "text": "The word ‘Guardian’ in the Seven Valleys has no connexion with the Bahá’í Guardianship."
@@ -2189,14 +2042,13 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "a token of His grace vouchsafed unto whomsoever He pleaseth."
           }
         ],
         "source": [{ "spans": [{ "text": " Qur’án 2:90. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -2207,6 +2059,7 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " Shattered was the pen at once," },
       { "type": "break" },
@@ -2214,14 +2067,10 @@
       { "type": "break" },
       { "text": " When the pen did reach the point" },
       { "type": "break" },
-      { "text": " Of depicting such a stage." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " Of depicting such a stage." }
+    ],
+    "source": [{ "spans": [{ "text": " Rúmí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   { "type": "header" },
   {
     "spans": [
@@ -2242,6 +2091,7 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " Live free of love, for its peace" },
       { "type": "break" },
@@ -2249,15 +2099,9 @@
       { "type": "break" },
       { "text": " It starteth but with ache and pain;" },
       { "type": "break" },
-      { "text": " It endeth but with loss and death." },
-      {
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Ibn‑i‑Fáriḍ. " }] }]
-      },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " It endeth but with loss and death." }
+    ],
+    "source": [{ "spans": [{ "text": " Ibn‑i‑Fáriḍ. " }] }]
   },
   {
     "spans": [
@@ -2269,13 +2113,10 @@
       {
         "text": " The novel thoughts thou hast expressed as to the symbolism contained in the word "
       },
-      { "text": "“" },
-      { "text": "sparrow" },
-      { "text": "”" },
-      { "text": " were considered." },
       {
-        "type": "note",
-        "content": [
+        "type": "quote",
+        "spans": [{ "text": "sparrow" }],
+        "source": [
           {
             "spans": [
               {
@@ -2289,6 +2130,7 @@
           }
         ]
       },
+      { "text": " were considered." },
       {
         "text": " Thou appearest to be well grounded in mystic truth. However, in each realm, to every letter a meaning is allotted which pertaineth to that realm. Indeed, the wayfarer findeth a secret in every name and a mystery in every letter. "
       }
@@ -2327,8 +2169,7 @@
       {
         "text": "Remove from thine eyes the veils of limitation, that thou mayest learn that which thou knewest not of the stations of holiness."
       },
-      { "text": "”" },
-      { "text": " " }
+      { "text": "”" }
     ]
   },
   {
@@ -2377,7 +2218,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           { "text": "no God is there" },
           {
             "type": "join",
@@ -2404,17 +2245,14 @@
   {
     "spans": [
       { "text": " Others, without receiving the least intimation of " },
+      { "text": "“" },
+      { "text": "no God is there" },
       {
-        "type": "quote",
-        "content": [
-          { "text": "no God is there" },
-          {
-            "type": "join",
-            "content": [{ "text": ", pass beyond the highest horizon of " }]
-          },
-          { "text": "but God" }
-        ]
+        "type": "join",
+        "content": [{ "text": ", pass beyond the highest horizon of " }]
       },
+      { "text": "but God" },
+      { "text": "”" },
       {
         "text": "; without even tasting a dewdrop of the degrees of self‑surrender ascend unto the kingdom of life everlasting; and without partaking from the wellspring of utter abnegation quaff the wine of the Ancient of Days. These souls, as they traverse the stages of wayfaring and ascend unto the stations of reunion, walk a different path and occupy a different rank. "
       }
@@ -2543,12 +2381,11 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           { "text": "Increase my wonder and amazement at Thee, O God!" }
         ],
         "source": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -2621,8 +2458,8 @@
     ]
   },
   { "type": "header", "spans": [{ "text": " 6 " }] },
-  { "spans": [{ "text": " " }] },
   {
+    "type": "block",
     "spans": [
       { "text": " O thou lion‑hearted soul," },
       { "type": "break" },
@@ -2630,14 +2467,10 @@
       { "type": "break" },
       { "text": " That thy roaring may perchance" },
       { "type": "break" },
-      { "text": " To the seventh heaven soar!" },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " To the seventh heaven soar!" }
+    ],
+    "source": [{ "spans": [{ "text": " Rúmí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -2652,14 +2485,13 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "The righteous shall drink of a cup tempered at the camphor fountain."
           }
         ],
         "source": [{ "spans": [{ "text": " Qur’án 76:5. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -2669,7 +2501,7 @@
       },
       {
         "type": "quote",
-        "content": [{ "text": "coolness and safety" }],
+        "spans": [{ "text": "coolness and safety" }],
         "source": [{ "spans": [{ "text": " Qur’án 21:69. " }] }]
       },
       { "text": "." },
@@ -2678,7 +2510,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "No defect canst thou see in the creation of the God of mercy"
           },
@@ -2700,6 +2532,7 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " Thy faithlessness I cherish more" },
       { "type": "break" },
@@ -2707,14 +2540,10 @@
       { "type": "break" },
       { "text": " To suffer at thy vengeful hand—" },
       { "type": "break" },
-      { "text": " How much dearer than to live!" },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " How much dearer than to live!" }
+    ],
+    "source": [{ "spans": [{ "text": " Rúmí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -2730,8 +2559,8 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
-      { "text": " " },
       { "text": "“" },
       { "text": "O for a drop to drink!" },
       { "text": "”" },
@@ -2741,14 +2570,10 @@
       { "text": "“" },
       { "text": "O for a thirsty soul!" },
       { "text": "”" },
-      { "text": " the spring in turn doth moan." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " the spring in turn doth moan." }
+    ],
+    "source": [{ "spans": [{ "text": " Rúmí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -2756,7 +2581,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           { "text": "How can the lover from the loved one ever part?" }
         ],
         "source": [{ "spans": [{ "text": " Rúmí. " }] }]
@@ -2766,7 +2591,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           { "text": "Say: All things are of God" },
           {
             "type": "join",
@@ -2777,8 +2602,7 @@
           { "text": "It is from thyself." }
         ],
         "source": [{ "spans": [{ "text": " Qur’án 4:78–79. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -2796,15 +2620,10 @@
       { "text": "the eye of certitude" },
       { "text": "”" },
       { "text": " and " },
-      { "text": "“" },
-      { "text": "the truth of certitude" },
-      { "text": "”" },
       {
-        "text": " as being exalted above and sanctified beyond these realms and all that pertaineth unto them, even as hath been clearly affirmed by that mystic knower."
-      },
-      {
-        "type": "note",
-        "content": [
+        "type": "quote",
+        "spans": [{ "text": "the truth of certitude" }],
+        "source": [
           {
             "spans": [
               {
@@ -2815,11 +2634,14 @@
         ]
       },
       {
+        "text": " as being exalted above and sanctified beyond these realms and all that pertaineth unto them, even as hath been clearly affirmed by that mystic knower."
+      },
+      {
         "text": " For in all these stages the mirror of the wayfarer’s heart may bear the reflection of shadowy desires, wayward thoughts, and worldly attachments. Wherefore hath it been said that, in these stations, at one time the hosts of reason are triumphant and, at another, the armies of love prevail. At one time, the clouds of affliction and sorrow conceal the heavens of gladness and joy; at another, the eternal leviathan of love devoureth, in one fleeting moment, all manifestations of sadness, anguish, grief, and dejection, and the morn of divine guidance dawneth forth with the joyful tidings of "
       },
       {
         "type": "quote",
-        "content": [{ "text": "despair not of God’s mercy" }],
+        "spans": [{ "text": "despair not of God’s mercy" }],
         "source": [{ "spans": [{ "text": " Qur’án 39:53. " }] }]
       },
       { "text": "," },
@@ -2835,7 +2657,7 @@
       },
       {
         "type": "quote",
-        "content": [{ "text": "and verily Our host shall conquer" }],
+        "spans": [{ "text": "and verily Our host shall conquer" }],
         "source": [{ "spans": [{ "text": " Cf. Qur’án 37:173. " }] }]
       },
       {
@@ -2873,12 +2695,9 @@
       {
         "text": ". So clearly will they witness in this stage God’s all‑encompassing mercy that in every created thing, both in the world and in the souls of men, they will behold Him Who hath been interpreted as the Holy Outpouring. No longer will they close their eyes to any beauty, nor stop their ears from hearkening to any voice. For there is no prohibition in this stage and no debarment, inasmuch as in all things they will discern, with both their outer and inner eyes, the revelation of the signs of Him Who is the King of all names and attributes, and in every atom they will find a door that leadeth to the garden of Divine Unity and the city of pure abstraction. "
       },
-      {
-        "type": "quote",
-        "content": [
-          { "text": "Where’er I turn my gaze, ’tis Thee Whom I behold." }
-        ]
-      },
+      { "text": "“" },
+      { "text": "Where’er I turn my gaze, ’tis Thee Whom I behold." },
+      { "text": "”" },
       {
         "text": " So entirely will the hearts of the wayfarers be transported by longing for the ecstasies of this station that they will come to conceive no stage apart from this stage, to see themselves as abiding within the court of the Beloved and circling round His sanctuary, and to consider it as the ultimate abode of them that search and the uttermost station of such as have attained. "
       }
@@ -2894,8 +2713,8 @@
   { "type": "header", "spans": [{ "text": " 7 " }] },
   { "type": "header", "spans": [{ "text": "The Four Valleys " }] },
   { "spans": [{ "text": " He is the Ever‑Living. " }] },
-  { "spans": [{ "text": " " }] },
   {
+    "type": "block",
     "spans": [
       { "text": " O light of truth and sword of faith" },
       { "type": "break" },
@@ -2903,33 +2722,24 @@
       { "type": "break" },
       { "text": " No prince hath sky or earth begot" },
       { "type": "break" },
-      { "text": " Who fain could hope to rival thee!" },
+      { "text": " Who fain could hope to rival thee!" }
+    ],
+    "source": [
       {
-        "type": "note",
-        "content": [
+        "spans": [
+          { "text": " Rúmí. Bahá’u’lláh is here comparing " },
+          { "type": "u", "text": "Sh" },
+          { "text": "ay" },
+          { "type": "u", "text": "kh" },
           {
-            "spans": [
-              { "text": " Rúmí. Bahá’u’lláh is here comparing " },
-              { "type": "u", "text": "Sh" },
-              { "text": "ay" },
-              { "type": "u", "text": "kh" },
-              {
-                "text": " ‘Abdu’r‑Raḥmán, the recipient of the Tablet, with Ḥusámu’d‑Dín Chalabí, to whom Rúmí dedicated his Mathnaví. Ḥusámu’d‑Dín means "
-              },
-              { "text": "“" },
-              { "text": "sword of faith" },
-              { "text": "”" },
-              { "text": ". " }
-            ]
-          }
+            "text": " ‘Abdu’r‑Raḥmán, the recipient of the Tablet, with Ḥusámu’d‑Dín Chalabí, to whom Rúmí dedicated his Mathnaví. Ḥusámu’d‑Dín means "
+          },
+          { "type": "quote", "spans": [{ "text": "sword of faith" }] },
+          { "text": ". " }
         ]
-      },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -2938,6 +2748,7 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " What fault didst thou observe in me" },
       { "type": "break" },
@@ -2945,14 +2756,10 @@
       { "type": "break" },
       { "text": " Is it that poverty’s our lot" },
       { "type": "break" },
-      { "text": " And wealth and pageantry thy share?" },
-      { "type": "note", "content": [{ "spans": [{ "text": " Sa‘dí. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " And wealth and pageantry thy share?" }
+    ],
+    "source": [{ "spans": [{ "text": " Sa‘dí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -2960,14 +2767,13 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "They that say ‘Our Lord is God’, and continue steadfast in His way, upon them, verily, shall the angels descend."
           }
         ],
         "source": [{ "spans": [{ "text": " Qur’án 41:30. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -2975,7 +2781,7 @@
       { "text": " Likewise He saith, " },
       {
         "type": "quote",
-        "content": [{ "text": "Be thou steadfast as thou hast been bidden." }],
+        "spans": [{ "text": "Be thou steadfast as thou hast been bidden." }],
         "source": [{ "spans": [{ "text": " Qur’án 11:112. " }] }]
       },
       {
@@ -2984,17 +2790,14 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " I do as bidden and convey the message," },
       { "type": "break" },
-      { "text": " Whether it give thee counsel or offence." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Sa‘dí. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " Whether it give thee counsel or offence." }
+    ],
+    "source": [{ "spans": [{ "text": " Sa‘dí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -3003,6 +2806,7 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " Tell us not the tale of Laylí, nor speak of Majnún’s woe— " },
       { "type": "break" },
@@ -3014,18 +2818,15 @@
         "text": " When once thy name was on the tongue, it reached the lovers’ ears "
       },
       { "type": "break" },
-      { "text": " And set the speakers and the hearers dancing to and fro." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Sa‘dí. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " And set the speakers and the hearers dancing to and fro." }
+    ],
+    "source": [{ "spans": [{ "text": " Sa‘dí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [{ "text": " And as to divine wisdom and heavenly admonitions: " }]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " Each moon, O my belov’d," },
       { "type": "break" },
@@ -3033,14 +2834,10 @@
       { "type": "break" },
       { "text": " Today’s the first of these—" },
       { "type": "break" },
-      { "text": " ’Tis why thou seest me glad." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " ’Tis why thou seest me glad." }
+    ],
+    "source": [{ "spans": [{ "text": " Rúmí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -3062,7 +2859,7 @@
       },
       {
         "type": "quote",
-        "content": [{ "text": "the Self of God that pervadeth all His laws" }],
+        "spans": [{ "text": "the Self of God that pervadeth all His laws" }],
         "source": [
           { "spans": [{ "text": " From a prayer attributed to Imám ‘Alí. " }] }
         ]
@@ -3074,25 +2871,20 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " O Abraham of the Spirit and God’s Friend in this day! " },
       { "type": "break" },
-      { "text": " Slay! Slay these four thieving birds of prey!" },
+      { "text": " Slay! Slay these four thieving birds of prey!" }
+    ],
+    "source": [
       {
-        "type": "note",
-        "content": [
+        "spans": [
           {
-            "spans": [
-              {
-                "text": " Cf. Rúmí. Here Rúmí tells a storey of four evil birds which, when put to death, changed into four birds of goodness. The allegory refers to subduing evil qualities and replacing them with good. "
-              }
-            ]
+            "text": " Cf. Rúmí. Here Rúmí tells a storey of four evil birds which, when put to death, changed into four birds of goodness. The allegory refers to subduing evil qualities and replacing them with good. "
           }
         ]
-      },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -3107,14 +2899,13 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "Enter thou among My servants, and enter thou My Paradise."
           }
         ],
         "source": [{ "spans": [{ "text": " Qur’án 89: 29–30. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -3124,14 +2915,13 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "We will surely show them Our signs in the world and within themselves, until it become plain to them that there is no God save Him."
           }
         ],
         "source": [{ "spans": [{ "text": " Cf. Qur’án 41:53. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -3139,16 +2929,15 @@
       {
         "text": " One must, then, read the book of one’s own self, rather than the treatise of some grammarian. Wherefore He hath said, "
       },
+      { "text": "“" },
       {
-        "type": "quote",
-        "content": [
-          {
-            "text": "Read thy Book: There needeth none but thyself to make out an account against thee this day."
-          }
-        ],
-        "source": [{ "spans": [{ "text": " Qur’án 17:14. " }] }]
+        "text": "Read thy Book: There needeth none but thyself to make out an account against thee this day."
       },
-      { "text": " " }
+      { "text": "”" },
+      {
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Qur’án 17:14. " }] }]
+      }
     ]
   },
   {
@@ -3166,47 +2955,42 @@
       },
       { "text": "”" },
       { "text": " Then the mystic cried, " },
-      { "text": "“" },
       {
-        "text": "Cast aside what thou hast learned from Síbavayh and Qawlavayh, from Ibn‑i‑Ḥájib and Ibn‑i‑Málik, and cross the water!"
-      },
-      { "text": "”" },
-      {
-        "type": "note",
-        "content": [
+        "type": "quote",
+        "spans": [
+          {
+            "text": "Cast aside what thou hast learned from Síbavayh and Qawlavayh, from Ibn‑i‑Ḥájib and Ibn‑i‑Málik, and cross the water!"
+          }
+        ],
+        "source": [
           { "spans": [{ "text": " Famed writers on grammar and rhetoric. " }] }
         ]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " With renunciation, not with grammar’s rules, one must be armed: "
       },
       { "type": "break" },
-      { "text": " Be nothing, then, and cross this sea unharmed." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " Be nothing, then, and cross this sea unharmed." }
+    ],
+    "source": [{ "spans": [{ "text": " Rúmí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       { "text": " Likewise He saith, " },
+      { "text": "“" },
       {
-        "type": "quote",
-        "content": [
-          {
-            "text": "And be ye not like those who forget God, and whom He hath therefore caused to forget their own selves. Such men are the evil doers."
-          }
-        ],
-        "source": [{ "spans": [{ "text": " Qur’án 59:19. " }] }]
+        "text": "And be ye not like those who forget God, and whom He hath therefore caused to forget their own selves. Such men are the evil doers."
       },
-      { "text": " " }
+      { "text": "”" },
+      {
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Qur’án 59:19. " }] }]
+      }
     ]
   },
   {
@@ -3217,6 +3001,7 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " How can meagre reason comprehend the Book," },
       { "type": "break" },
@@ -3224,38 +3009,31 @@
       { "type": "break" },
       { "text": " Wouldst thou that the mind not hold thee in its snare? " },
       { "type": "break" },
-      { "text": " Seize it and enrol it in the school of God instead! " },
-      { "type": "break" },
-      { "text": " " }
+      { "text": " Seize it and enrol it in the school of God instead! " }
     ]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
         "text": " On this plane, the traveller meeteth with many a trial and reverse. Now is he lifted up to heaven, now is he cast into the depths. As it hath been said: "
       },
+      { "text": "“" },
       {
-        "type": "quote",
-        "content": [
-          {
-            "text": "Now Thou drawest me to the throne of the realms above, again Thou scorchest me in the fire of hell."
-          }
-        ]
+        "text": "Now Thou drawest me to the throne of the realms above, again Thou scorchest me in the fire of hell."
       },
+      { "text": "”" },
       {
         "text": " The hidden mystery of this station is divulged in the following blessed verse from the Súrih of the Cave: "
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "And thou mightest have seen the sun when it arose, pass on the right of their cave, and when it set, leave them on the left, while they were in its spacious chamber. This is one of the signs of God. Guided indeed is he whom God guideth; but for him whom He misleadeth, thou shalt by no means find a guardian and guide."
           }
         ],
         "source": [{ "spans": [{ "text": " Qur’án 18:17. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -3265,15 +3043,14 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "men whom neither merchandise nor traffic beguile from the remembrance of God"
           }
         ],
         "source": [{ "spans": [{ "text": " Qur’án 24:37. " }] }]
       },
-      { "text": "." },
-      { "text": " " }
+      { "text": "." }
     ]
   },
   {
@@ -3283,21 +3060,20 @@
       },
       {
         "type": "quote",
-        "content": [{ "text": "Fear ye God; God will teach you" }],
+        "spans": [{ "text": "Fear ye God; God will teach you" }],
         "source": [{ "spans": [{ "text": " Qur’án 2:282. " }] }]
       },
       { "text": "," },
       { "text": " and again, " },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "Knowledge is a light which God casteth into the heart of whomsoever He willeth."
           }
         ],
         "source": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -3307,18 +3083,17 @@
       },
       {
         "type": "quote",
-        "content": [{ "text": "For this let the striving strive!" }],
+        "spans": [{ "text": "For this let the striving strive!" }],
         "source": [{ "spans": [{ "text": " Qur’án 83:26. " }] }]
       },
       { "text": " And now do I say, " },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           { "text": "Verily, we are God’s, and to Him shall we return." }
         ],
         "source": [{ "spans": [{ "text": " Qur’án 2:156. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -3329,6 +3104,7 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " Love shunneth this world and that world too;" },
       { "type": "break" },
@@ -3336,14 +3112,10 @@
       { "type": "break" },
       { "text": " The minstrel of love harpeth this lay:" },
       { "type": "break" },
-      { "text": " Servitude enslaveth, lordship doth betray." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " Servitude enslaveth, lordship doth betray." }
+    ],
+    "source": [{ "spans": [{ "text": " Rúmí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -3351,14 +3123,13 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "They speak not till He hath spoken, and act according to His commandment."
           }
         ],
         "source": [{ "spans": [{ "text": " Qur’án 21:27. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -3372,8 +3143,7 @@
       { "text": " And the answer came: " },
       { "text": "“" },
       { "text": "Leave thy self behind, and then approach Me." },
-      { "text": "”" },
-      { "text": " " }
+      { "text": "”" }
     ]
   },
   {
@@ -3391,6 +3161,7 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " The storey of Thy beauty reached the hermit’s dell; " },
       { "type": "break" },
@@ -3402,14 +3173,10 @@
       { "type": "break" },
       {
         "text": " The pain of Thee hath firmly barred the gate of hope as well."
-      },
-      { "type": "note", "content": [{ "spans": [{ "text": " Sa‘dí. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      }
+    ],
+    "source": [{ "spans": [{ "text": " Sa‘dí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -3418,6 +3185,7 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " The lovers’ teacher is the Loved One’s beauty," },
       { "type": "break" },
@@ -3429,25 +3197,18 @@
       { "type": "break" },
       { "text": " The chains that bind them are His musky hair;" },
       { "type": "break" },
-      { "text": " The Cyclic Scheme, to them, is but to Him a stair." },
+      { "text": " The Cyclic Scheme, to them, is but to Him a stair." }
+    ],
+    "source": [
       {
-        "type": "note",
-        "content": [
+        "spans": [
           {
-            "spans": [
-              {
-                "text": " Rúmí. A reference to the Cyclic Theory of Avicenna (Abu‑‘Alí Síná [980–1037]). "
-              }
-            ]
+            "text": " Rúmí. A reference to the Cyclic Theory of Avicenna (Abu‑‘Alí Síná [980–1037]). "
           }
         ]
-      },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -3456,6 +3217,7 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " O Lord, O Thou Whose grace fulfilleth every need!" },
       { "type": "break" },
@@ -3467,14 +3229,10 @@
       { "type": "break" },
       { "text": " And grant this drop of wisdom that" },
       { "type": "break" },
-      { "text": " Thou gavest me To be at last united with Thy mighty sea." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " Thou gavest me To be at last united with Thy mighty sea." }
+    ],
+    "source": [{ "spans": [{ "text": " Rúmí " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -3487,34 +3245,25 @@
       {
         "text": " If the mystic knowers be among them that have attained the beauty of the Beloved, this station is the throne of the inmost heart and the secret of divine guidance. This is the seat of the mystery "
       },
-      {
-        "type": "quote",
-        "content": [
-          {
-            "text": "He doeth what He willeth, and ordaineth what He pleaseth."
-          }
-        ]
-      },
+      { "text": "“" },
+      { "text": "He doeth what He willeth, and ordaineth what He pleaseth." },
+      { "text": "”" },
       {
         "text": " Should all that are in heaven and on earth attempt to unravel this exalted allusion and subtle mystery, from now until the Day whereon the Trumpet shall sound, yet would they fail to comprehend even a letter thereof, for this is the station of God’s immutable decree and His foreordained mystery. Hence, when asked regarding this matter, He made reply: "
       },
+      { "text": "“" },
+      { "text": "It is a bottomless sea that none shall ever fathom." },
+      { "text": "”" },
+      { "text": " And when the question was repeated, He answered: " },
       {
         "type": "quote",
-        "content": [
-          { "text": "It is a bottomless sea that none shall ever fathom." },
-          {
-            "type": "join",
-            "content": [
-              { "text": " And when the question was repeated, He answered: " }
-            ]
-          },
+        "spans": [
           {
             "text": "It is the blackest of nights through which none can find his way."
           }
         ],
         "source": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -3524,14 +3273,13 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "Love is a distinction never conferred upon a heart possessed by fear and dread."
           }
         ],
         "source": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -3539,37 +3287,31 @@
       {
         "text": " In truth, the wayfarer who journeyeth unto God, who treadeth the snow‑white Path and turneth towards the Crimson Pillar, will never reach his heavenly home unless his hands are empty of such worldly things as are cherished by men. "
       },
+      { "text": "“" },
       {
-        "type": "quote",
-        "content": [
-          {
-            "text": "And he that feareth not God, God shall make him to fear all things; whereas all things fear him who feareth God."
-          }
-        ]
+        "text": "And he that feareth not God, God shall make him to fear all things; whereas all things fear him who feareth God."
       },
-      { "text": " " }
+      { "text": "”" }
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " Speak the Persian tongue, though the Arabian pleaseth more: "
       },
       { "type": "break" },
-      { "text": " Love indeed doth have a hundred other tongues in store." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " Love indeed doth have a hundred other tongues in store." }
+    ],
+    "source": [{ "spans": [{ "text": " Rúmí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       { "text": " How sweet in this connexion is the following couplet: " }
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " Our hearts will be as open shells" },
       { "type": "break" },
@@ -3577,12 +3319,9 @@
       { "type": "break" },
       { "text": " Our lives will ready targets be" },
       { "type": "break" },
-      { "text": " Were He to hurl the darts of woe." },
-      { "type": "break" },
-      { "text": " " }
+      { "text": " Were He to hurl the darts of woe." }
     ]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -3606,11 +3345,11 @@
             ]
           }
         ]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " My soul doth sense the fragrant breath" },
       { "type": "break" },
@@ -3618,13 +3357,11 @@
       { "type": "break" },
       { "text": " The fragrance of that kindly friend" },
       { "type": "break" },
-      { "text": " Who’s my heart’s desire and goal." },
-      { "type": "break" },
-      { "text": " " }
+      { "text": " Who’s my heart’s desire and goal." }
     ]
   },
-  { "spans": [{ "text": " " }] },
   {
+    "type": "block",
     "spans": [
       { "text": " The duty of long years of love obey," },
       { "type": "break" },
@@ -3632,31 +3369,25 @@
       { "type": "break" },
       { "text": " That land and sky may laugh aloud today," },
       { "type": "break" },
-      { "text": " And it may gladden mind and heart and eye." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " And it may gladden mind and heart and eye." }
+    ],
+    "source": [{ "spans": [{ "text": " Rúmí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
         "text": " This is the realm of pure awareness and utter self‑effacement. Not even love can find a way to this plane, nor doth affection have a place therein. Wherefore is it said: "
       },
-      {
-        "type": "quote",
-        "content": [
-          { "text": "Love is a veil betwixt the lover and the beloved." }
-        ]
-      },
+      { "text": "“" },
+      { "text": "Love is a veil betwixt the lover and the beloved." },
+      { "text": "”" },
       {
         "text": " Here love becometh but an obstructing veil, and aught save the Friend but a curtain. Thus the wise Saná’í hath written: "
       }
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " None may approach that well‑belov’d" },
       { "type": "break" },
@@ -3664,9 +3395,7 @@
       { "type": "break" },
       { "text": " None may embrace that beauteous form" },
       { "type": "break" },
-      { "text": " Who’s burdened with his own attire." },
-      { "type": "break" },
-      { "text": " " }
+      { "text": " Who’s burdened with his own attire." }
     ]
   },
   {
@@ -3683,11 +3412,10 @@
       },
       {
         "type": "quote",
-        "content": [{ "text": "know neither sun nor piercing cold" }],
+        "spans": [{ "text": "know neither sun nor piercing cold" }],
         "source": [{ "spans": [{ "text": " Qur’án 76:13. " }] }]
       },
-      { "text": "." },
-      { "text": " " }
+      { "text": "." }
     ]
   },
   {
@@ -3695,14 +3423,14 @@
       {
         "text": " On this plane the highest heavens are neither opposed to, nor distinguished from, the lowly earth, for this is the realm of divine favours, not the arena of worldly contraries. Albeit at every moment a new condition be displayed, yet that condition is ever the same. Wherefore He saith in one instance, "
       },
+      { "text": "“" },
       {
-        "type": "quote",
+        "text": "Nothing whatsoever keepeth Him from being occupied with any other thing."
+      },
+      { "text": "”" },
+      {
+        "type": "note",
         "content": [
-          {
-            "text": "Nothing whatsoever keepeth Him from being occupied with any other thing."
-          }
-        ],
-        "source": [
           {
             "spans": [
               { "text": " A famous adage cited in many Islamic sources. " }
@@ -3713,10 +3441,9 @@
       { "text": " And in another He saith, " },
       {
         "type": "quote",
-        "content": [{ "text": "Verily, His ways differ every day." }],
+        "spans": [{ "text": "Verily, His ways differ every day." }],
         "source": [{ "spans": [{ "text": " Qur’án 55:29. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -3726,7 +3453,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "I have turned my face to Him Who hath created the heavens and the earth, following the right religion and submissive before God. I am not one of those who add gods to God."
           }
@@ -3734,14 +3461,14 @@
         "source": [{ "spans": [{ "text": " Cf. Qur’án 6:79. " }] }]
       },
       { "text": " " },
+      { "text": "“" },
       {
-        "type": "quote",
-        "content": [
-          {
-            "text": "And thus did We show Abraham the kingdom of the heavens and of the earth, that he might be stablished in knowledge."
-          }
-        ],
-        "source": [{ "spans": [{ "text": " Qur’án 6:75. " }] }]
+        "text": "And thus did We show Abraham the kingdom of the heavens and of the earth, that he might be stablished in knowledge."
+      },
+      { "text": "”" },
+      {
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Qur’án 6:75. " }] }]
       },
       {
         "text": " Wherefore, put thy hand into thy bosom, then stretch it forth with power, and behold, thou shalt find it a light unto all the world. "
@@ -3756,17 +3483,14 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " No more than this will I impart to thee:" },
       { "type": "break" },
-      { "text": " The riverbed can never hold the sea." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
-    ]
+      { "text": " The riverbed can never hold the sea." }
+    ],
+    "source": [{ "spans": [{ "text": " Rúmí. " }] }]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -3781,13 +3505,13 @@
       },
       {
         "type": "quote",
-        "content": [{ "text": "Poverty is My pride." }],
+        "spans": [{ "text": "Poverty is My pride." }],
         "source": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
       },
       { "text": " And again: " },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "God hath a people beneath the canopy of grandeur, whom He hath concealed in the garment of poverty to exalt in rank."
           }
@@ -3800,8 +3524,7 @@
       {
         "type": "note",
         "content": [{ "spans": [{ "text": " See the Seven Valleys, ¶ 44. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -3814,24 +3537,17 @@
   {
     "spans": [
       { "text": " The first is His statement " },
+      { "text": "“" },
       {
-        "type": "quote",
-        "content": [
-          {
-            "text": "O My servant! Obey Me, that I may make thee like unto Myself. For I say ‘Be’, and it is, and thou shalt say ‘Be’, and it shall be."
-          }
-        ]
+        "text": "O My servant! Obey Me, that I may make thee like unto Myself. For I say ‘Be’, and it is, and thou shalt say ‘Be’, and it shall be."
       },
+      { "text": "”" },
       { "text": " And the second: " },
+      { "text": "“" },
       {
-        "type": "quote",
-        "content": [
-          {
-            "text": "O son of Adam! Seek fellowship with none until thou hast found Me, and whensoever thou shalt long for Me, thou shalt find Me nigh unto thee."
-          }
-        ]
+        "text": "O son of Adam! Seek fellowship with none until thou hast found Me, and whensoever thou shalt long for Me, thou shalt find Me nigh unto thee."
       },
-      { "text": " " }
+      { "text": "”" }
     ]
   },
   {
@@ -3842,8 +3558,7 @@
       {
         "type": "note",
         "content": [{ "spans": [{ "text": " Cf. Qur’án 35:43, 48:23. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -3853,10 +3568,9 @@
       },
       {
         "type": "quote",
-        "content": [{ "text": "Sufficient witness is God unto us." }],
+        "spans": [{ "text": "Sufficient witness is God unto us." }],
         "source": [{ "spans": [{ "text": " Qur’án 4:166. " }] }]
-      },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -3871,17 +3585,15 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       {
         "text": " I seek thy nearness, more desired than heaven in mine eyes; "
       },
       { "type": "break" },
-      { "text": " I see thy visage, fairer than the bowers of Paradise. " },
-      { "type": "break" },
-      { "text": " " }
+      { "text": " I see thy visage, fairer than the bowers of Paradise. " }
     ]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {
@@ -3889,7 +3601,7 @@
       },
       {
         "type": "quote",
-        "content": [
+        "spans": [
           {
             "text": "Glory be to Thee! To Thee do I turn in penitence, and I am the first of them that implore Thy pardon."
           }
@@ -3900,6 +3612,7 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " Let us tell, some other day" },
       { "type": "break" },
@@ -3913,24 +3626,18 @@
       { "type": "break" },
       { "text": " And say no more of " },
       { "type": "u", "text": "Sh" },
-      { "text": "ams‑i‑Tabríz." },
+      { "text": "ams‑i‑Tabríz." }
+    ],
+    "source": [
       {
-        "type": "note",
-        "content": [
+        "spans": [
+          { "text": " Rúmí. " },
+          { "type": "u", "text": "Sh" },
           {
-            "spans": [
-              { "text": " Rúmí. " },
-              { "type": "u", "text": "Sh" },
-              {
-                "text": "ams‑i‑Tabríz was the Ṣúfí who exerted a powerful influence on Rúmí, diverting his attention from science to mysticism. A great part of Rúmí’s works are dedicated to him. "
-              }
-            ]
+            "text": "ams‑i‑Tabríz was the Ṣúfí who exerted a powerful influence on Rúmí, diverting his attention from science to mysticism. A great part of Rúmí’s works are dedicated to him. "
           }
         ]
-      },
-      { "text": " " },
-      { "type": "break" },
-      { "text": " " }
+      }
     ]
   },
   {
@@ -3948,15 +3655,13 @@
     ]
   },
   {
+    "type": "block",
     "spans": [
       { "text": " I write no more, beleaguered by the flies" },
       { "type": "break" },
-      { "text": " That my sweet words have drawn about the page." },
-      { "type": "break" },
-      { "text": " " }
+      { "text": " That my sweet words have drawn about the page." }
     ]
   },
-  { "spans": [{ "text": " " }] },
   {
     "spans": [
       {

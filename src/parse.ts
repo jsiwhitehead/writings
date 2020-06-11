@@ -126,6 +126,7 @@ const parse = (data) => {
               );
             } else if (type === 'l') {
               walk(items, node.children, paragraph);
+              last(items).type = 'block';
               last(items).spans.push({ type: 'break' }, { text: '' });
             } else if (type) {
               last(items).spans.push({ type, text: '' });
@@ -170,13 +171,13 @@ const parse = (data) => {
                   if (++quoteLevel === 1) {
                     spans.push(
                       { ...s, text: text.slice(start, match.index) },
-                      { type: 'quote', content: [] },
+                      { type: 'quote', spans: [] },
                     );
                     start = match.index + 1;
                   }
                 } else {
                   if (quoteLevel-- === 1) {
-                    last(spans).content.push({
+                    last(spans).spans.push({
                       ...s,
                       text: text.slice(start, match.index),
                     });
@@ -185,7 +186,7 @@ const parse = (data) => {
                 }
               }
               if (quoteLevel === 1) {
-                last(spans).content.push({
+                last(spans).spans.push({
                   ...s,
                   text: text.slice(start),
                 });
@@ -194,9 +195,15 @@ const parse = (data) => {
               }
             }
           });
+        const filtered = spans.filter(
+          (s) => s.type === 'quote' || s.text !== '',
+        );
+        const indices: any = filtered
+          .map((s, i) => (s.type === 'break' || s.text === ' ' ? null : i))
+          .filter((x) => x !== null);
         return {
           ...x,
-          spans: spans.filter((s) => s.type === 'quote' || s.text !== ''),
+          spans: filtered.slice(indices[0], last(indices) + 1),
         };
       })
       .filter((s) => s.spans?.length !== 0);
