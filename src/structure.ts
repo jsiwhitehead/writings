@@ -19,21 +19,8 @@ process('parsed', 'structured', (data, fullConfig) => {
           last(result).content.push(...s.content);
         } else {
           quoteRun = config[quoteCount] || 0;
-          if (quoteRun > 0) {
-            result.push(s);
-          } else {
-            result.push(
-              {
-                type: s.content[0].type,
-                text: '“',
-              },
-              ...s.content,
-              {
-                type: last(s.content).type,
-                text: '”',
-              },
-            );
-          }
+          if (quoteRun > 0) result.push(s);
+          else result.push({ text: '“' }, ...s.content, { text: '”' });
         }
         quoteRun--;
       } else {

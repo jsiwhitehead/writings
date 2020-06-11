@@ -124,6 +124,9 @@ const parse = (data) => {
                 { type, text: node.children[0].properties.href.slice(1) },
                 { text: '' },
               );
+            } else if (type === 'l') {
+              walk(items, node.children, paragraph);
+              last(items).spans.push({ type: 'break' }, { text: '' });
             } else if (type) {
               last(items).spans.push({ type, text: '' });
               walk(items, node.children, paragraph);
@@ -151,45 +154,49 @@ const parse = (data) => {
         const spans = [] as any[];
         let quoteLevel = 0;
         x.spans
-          .filter((c) => c.text)
+          .filter((c) => c.text !== '')
           .forEach((s) => {
-            const text = correctSpelling(s.text)
-              .replace(/\-/g, '‑')
-              .replace(/\s+/g, ' ');
-            let start = 0;
-            let match;
-            const regex = /“|”/g;
-            while ((match = regex.exec(text)) !== null) {
-              if (match[0] === '“') {
-                if (++quoteLevel === 1) {
-                  spans.push(
-                    { ...s, text: text.slice(start, match.index) },
-                    { type: 'quote', content: [] },
-                  );
-                  start = match.index + 1;
-                }
-              } else {
-                if (quoteLevel-- === 1) {
-                  last(spans).content.push({
-                    ...s,
-                    text: text.slice(start, match.index),
-                  });
-                  start = match.index + 1;
+            if (!s.text) {
+              spans.push(s);
+            } else {
+              const text = correctSpelling(s.text)
+                .replace(/\-/g, '‑')
+                .replace(/\s+/g, ' ');
+              let start = 0;
+              let match;
+              const regex = /“|”/g;
+              while ((match = regex.exec(text)) !== null) {
+                if (match[0] === '“') {
+                  if (++quoteLevel === 1) {
+                    spans.push(
+                      { ...s, text: text.slice(start, match.index) },
+                      { type: 'quote', content: [] },
+                    );
+                    start = match.index + 1;
+                  }
+                } else {
+                  if (quoteLevel-- === 1) {
+                    last(spans).content.push({
+                      ...s,
+                      text: text.slice(start, match.index),
+                    });
+                    start = match.index + 1;
+                  }
                 }
               }
-            }
-            if (quoteLevel === 1) {
-              last(spans).content.push({
-                ...s,
-                text: text.slice(start),
-              });
-            } else {
-              spans.push({ ...s, text: text.slice(start) });
+              if (quoteLevel === 1) {
+                last(spans).content.push({
+                  ...s,
+                  text: text.slice(start),
+                });
+              } else {
+                spans.push({ ...s, text: text.slice(start) });
+              }
             }
           });
         return {
           ...x,
-          spans: spans.filter((s) => s.type === 'quote' || s.text),
+          spans: spans.filter((s) => s.type === 'quote' || s.text !== ''),
         };
       })
       .filter((s) => s.spans?.length !== 0);

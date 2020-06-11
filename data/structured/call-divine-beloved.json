@@ -264,9 +264,7 @@
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
         "text": " ’Tis from Our rapture that the clouds of realms above are raining down;"
       },
       {
@@ -288,298 +286,258 @@
         ]
       },
       { "text": " " },
-      { "text": " " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "’Tis from Our anthem that the mysteries of faith are raining down. "
+        "text": " ’Tis from Our anthem that the mysteries of faith are raining down. "
       },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   {
     "spans": [
-      { "text": " " },
+      { "text": " Upon the Eastern wind Cathay’s entrancing musk doth waft; " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "Upon the Eastern wind Cathay’s entrancing musk doth waft; "
+        "text": " This sweetly scented breeze from Our curling locks is raining down. "
       },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "This sweetly scented breeze from Our curling locks is raining down. "
-      },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "The day‑star of adornment hath dawned forth above the face of God; "
+        "text": " The day‑star of adornment hath dawned forth above the face of God; "
       },
-      { "text": " " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "Behold that mystic truth which from His Countenance is raining down. "
+        "text": " Behold that mystic truth which from His Countenance is raining down. "
       },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "The sea of purity hath from the wave of true reunion surged; "
+        "text": " The sea of purity hath from the wave of true reunion surged; "
       },
-      { "text": " " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "This precious, rare bestowal from Our rapture is raining down. "
+        "text": " This precious, rare bestowal from Our rapture is raining down. "
       },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "The treasuries of love lay hid within the very heart of Fárs; "
+        "text": " The treasuries of love lay hid within the very heart of Fárs; "
       },
-      { "text": " " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "From out this treasure trove the pearls of faithfulness are raining down. "
+        "text": " From out this treasure trove the pearls of faithfulness are raining down. "
       },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "The splendour of the rose doth bring the ecstasy of choicest wine; "
+        "text": " The splendour of the rose doth bring the ecstasy of choicest wine; "
       },
-      { "text": " " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "This subtle music from the ringing tones of Lordship is raining down. "
+        "text": " This subtle music from the ringing tones of Lordship is raining down. "
       },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "The trumpet‑blast of Judgement Day, the joyful bliss of heaven’s call— "
+        "text": " The trumpet‑blast of Judgement Day, the joyful bliss of heaven’s call— "
       },
-      { "text": " " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "Both at a single breath are from the firmament now raining down. "
+        "text": " Both at a single breath are from the firmament now raining down. "
       },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "The Day of " },
-      { "type": "l", "text": "“" },
-      { "type": "l", "text": "I am He" },
-      { "type": "l", "text": "”" },
-      { "type": "l", "text": " is made to shine resplendent from Our face; " },
-      { "text": " " },
-      { "type": "l", "text": "The Age of " },
-      { "type": "l", "text": "“" },
-      { "type": "l", "text": "He is He" },
-      { "type": "l", "text": "”" },
-      { "type": "l", "text": " from out Our flowing cup is raining down. " },
+      { "text": " The Day of " },
+      { "text": "“" },
+      { "text": "I am He" },
+      { "text": "”" },
+      { "text": " is made to shine resplendent from Our face; " },
+      { "type": "break" },
+      { "text": " The Age of " },
+      { "text": "“" },
+      { "text": "He is He" },
+      { "text": "”" },
+      { "text": " from out Our flowing cup is raining down. " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "From out the fountain of Our heart hath God’s celestial river flowed; "
+        "text": " From out the fountain of Our heart hath God’s celestial river flowed; "
       },
-      { "text": " " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "This cup of honeyed nectar from Our ruby lips is raining down. "
+        "text": " This cup of honeyed nectar from Our ruby lips is raining down. "
       },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "The Day of God hath been fulfilled, for lo, the Lord hath been unveiled; "
+        "text": " The Day of God hath been fulfilled, for lo, the Lord hath been unveiled; "
       },
-      { "text": " " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "This wondrous message from the melody of Ṭá’ is raining down. "
+        "text": " This wondrous message from the melody of Ṭá’ is raining down. "
       },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "Behold Bahá’s outpouring grace, the bounty of the clouds above, "
+        "text": " Behold Bahá’s outpouring grace, the bounty of the clouds above, "
       },
-      { "text": " " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "Which, merged into a single song, in God’s own voice is raining down. "
+        "text": " Which, merged into a single song, in God’s own voice is raining down. "
       },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "Behold the Lord’s leviathan, behold His sacred countenance; "
+        "text": " Behold the Lord’s leviathan, behold His sacred countenance; "
       },
-      { "text": " " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "Behold the blessings of the heart that from His throne are raining down. "
+        "text": " Behold the blessings of the heart that from His throne are raining down. "
       },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "Behold the Palm of Paradise, behold the warbling of the Dove; "
+        "text": " Behold the Palm of Paradise, behold the warbling of the Dove; "
       },
-      { "text": " " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "Behold the glorious hymns that in the purest light are raining down. "
+        "text": " Behold the glorious hymns that in the purest light are raining down. "
       },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "Behold the soul‑entrancing song, behold the beating of the drum, "
+        "text": " Behold the soul‑entrancing song, behold the beating of the drum, "
       },
-      { "text": " " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "Behold the sacred rhythms that from Our hand are raining down. "
+        "text": " Behold the sacred rhythms that from Our hand are raining down. "
       },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "Behold the Countenance Divine! Behold the Maid of Paradise! "
+        "text": " Behold the Countenance Divine! Behold the Maid of Paradise! "
       },
-      { "text": " " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "Behold the grace upon the world from Our own presence raining down. "
+        "text": " Behold the grace upon the world from Our own presence raining down. "
       },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "Behold the everlasting Face! Behold the chalice‑bearer’s charm! "
+        "text": " Behold the everlasting Face! Behold the chalice‑bearer’s charm! "
       },
-      { "text": " " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "Behold the crystal draught that from Our brimming cup is raining down. "
+        "text": " Behold the crystal draught that from Our brimming cup is raining down. "
       },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "Behold the fire of Moses, see His hand that shineth white; "
+        "text": " Behold the fire of Moses, see His hand that shineth white; "
       },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "Behold the heart of Sinai—from Our hand all raining down. "
-      },
+      { "type": "break" },
+      { "text": " Behold the heart of Sinai—from Our hand all raining down. " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "Hear ye the sotted lovers’ sighs, behold the garden blooming fair; "
+        "text": " Hear ye the sotted lovers’ sighs, behold the garden blooming fair; "
       },
-      { "text": " " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "Behold the bliss that from His presence in your midst is raining down. "
+        "text": " Behold the bliss that from His presence in your midst is raining down. "
       },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "Behold the radiant face of Há’, behold the beauteous robe of Bá’; "
+        "text": " Behold the radiant face of Há’, behold the beauteous robe of Bá’; "
       },
-      { "text": " " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "Behold the Lordly grace that from Our Pen is raining down. "
+        "text": " Behold the Lordly grace that from Our Pen is raining down. "
       },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "The vessel of the Advent this, the clouds of limpid waters these; "
+        "text": " The vessel of the Advent this, the clouds of limpid waters these; "
       },
-      { "text": " " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "The trill of songbirds this, from Our fleeting Wellspring raining down. "
+        "text": " The trill of songbirds this, from Our fleeting Wellspring raining down. "
       },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -916,13 +874,10 @@
   },
   {
     "spans": [
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "For the infidel, error—for the faithful, faith;"
-      },
-      { "text": " " },
-      { "type": "l", "text": "For ‘Aṭṭár’s heart, an atom of thy pain." },
+      { "text": " For the infidel, error—for the faithful, faith;" },
+      { "type": "break" },
+      { "text": " For ‘Aṭṭár’s heart, an atom of thy pain." },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -950,15 +905,15 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "A lover is he who is chill in hellfire;" },
-      { "text": " " },
-      { "type": "l", "text": "A knower is he who is dry in the sea." },
+      { "text": " A lover is he who is chill in hellfire;" },
+      { "type": "break" },
+      { "text": " A knower is he who is dry in the sea." },
       {
         "type": "note",
         "content": [{ "spans": [{ "text": " Saná’í (ca. 1045–1131). " }] }]
       },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -972,18 +927,12 @@
   },
   {
     "spans": [
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "Ne’er will love allow a living soul to tread its way; "
-      },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "Ne’er will the falcon deign to seize a lifeless prey."
-      },
+      { "text": " Ne’er will love allow a living soul to tread its way; " },
+      { "type": "break" },
+      { "text": " Ne’er will the falcon deign to seize a lifeless prey." },
       { "type": "note", "content": [{ "spans": [{ "text": " Saná’í. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -1005,12 +954,12 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "Love’s a stranger to earth and heaven too;" },
-      { "text": " " },
-      { "type": "l", "text": "In him are lunacies seventy and two." },
+      { "text": " Love’s a stranger to earth and heaven too;" },
+      { "type": "break" },
+      { "text": " In him are lunacies seventy and two." },
       { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -1048,18 +997,15 @@
   },
   {
     "spans": [
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "Kindle the fire of love and burn away all things;"
-      },
-      { "text": " " },
-      { "type": "l", "text": "Then set thy foot into the land of the lovers." },
+      { "text": " Kindle the fire of love and burn away all things;" },
+      { "type": "break" },
+      { "text": " Then set thy foot into the land of the lovers." },
       {
         "type": "note",
         "content": [{ "spans": [{ "text": " From a poem of Bahá’u’lláh. " }] }]
       },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -1073,15 +1019,15 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "Split the atom’s heart, and lo!" },
-      { "text": " " },
-      { "type": "l", "text": "Within it thou wilt find a sun." },
+      { "text": " Split the atom’s heart, and lo!" },
+      { "type": "break" },
+      { "text": " Within it thou wilt find a sun." },
       {
         "type": "note",
         "content": [{ "spans": [{ "text": " Hátif‑i‑Iṣfahání (d.1783). " }] }]
       },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -1281,16 +1227,16 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "Veiled from this was Moses too," },
-      { "text": " " },
-      { "type": "l", "text": "Despite His virtue and His light." },
-      { "text": " " },
-      { "type": "l", "text": "Then thou who hast no wings at all," },
-      { "text": " " },
-      { "type": "l", "text": "Abandon any hope of flight!" },
+      { "text": " Veiled from this was Moses too," },
+      { "type": "break" },
+      { "text": " Despite His virtue and His light." },
+      { "type": "break" },
+      { "text": " Then thou who hast no wings at all," },
+      { "type": "break" },
+      { "text": " Abandon any hope of flight!" },
       { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -1388,12 +1334,12 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "Cleanse thou the rheum from out thine head" },
-      { "text": " " },
-      { "type": "l", "text": "And breathe the breath of God instead." },
+      { "text": " Cleanse thou the rheum from out thine head" },
+      { "type": "break" },
+      { "text": " And breathe the breath of God instead." },
       { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -1575,13 +1521,9 @@
   },
   {
     "spans": [
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "How can a curtain part the lover from his love,"
-      },
-      { "text": " " },
-      { "type": "l", "text": "When Alexander’s wall cannot keep them apart?" },
+      { "text": " How can a curtain part the lover from his love," },
+      { "type": "break" },
+      { "text": " When Alexander’s wall cannot keep them apart?" },
       {
         "type": "note",
         "content": [
@@ -1595,6 +1537,7 @@
         ]
       },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -1639,12 +1582,11 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "If " },
+      { "text": " If " },
       { "type": "u", "text": "Kh" },
       { "text": "iḍr did wreck the vessel on the sea," },
-      { "text": " " },
-      { "type": "l", "text": "A thousand rights are in this wrong concealed." },
+      { "type": "break" },
+      { "text": " A thousand rights are in this wrong concealed." },
       {
         "type": "note",
         "content": [
@@ -1652,6 +1594,7 @@
         ]
       },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -1697,12 +1640,12 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "In thy soul, of love build thou a fire" },
-      { "text": " " },
-      { "type": "l", "text": "And burn all thoughts and words entire." },
+      { "text": " In thy soul, of love build thou a fire" },
+      { "type": "break" },
+      { "text": " And burn all thoughts and words entire." },
       { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -1730,10 +1673,9 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "If I speak forth, many a mind will shatter," },
-      { "text": " " },
-      { "type": "l", "text": "And if I write, many a pen will break." },
+      { "text": " If I speak forth, many a mind will shatter," },
+      { "type": "break" },
+      { "text": " And if I write, many a pen will break." },
       {
         "type": "note",
         "content": [
@@ -1747,6 +1689,7 @@
         ]
       },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -1791,42 +1734,36 @@
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "The bliss of mystic knowers can be only told from heart to heart, "
+        "text": " The bliss of mystic knowers can be only told from heart to heart, "
       },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "A bliss no messenger can bear and no missive dare impart."
-      },
+      { "type": "break" },
+      { "text": " A bliss no messenger can bear and no missive dare impart." },
       {
         "type": "note",
         "content": [{ "spans": [{ "text": " Cf. ‘Aṭṭár. " }] }]
       },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   { "spans": [{ "text": " " }] },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "How many are the matters I have out of weakness left unsaid; "
+        "text": " How many are the matters I have out of weakness left unsaid; "
       },
-      { "text": " " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "For my words would fail to reckon them and mine every effort would fall short."
+        "text": " For my words would fail to reckon them and mine every effort would fall short."
       },
       {
         "type": "note",
         "content": [{ "spans": [{ "text": " Ibn‑i‑Fáriḍ (1181–1235). " }] }]
       },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -1890,12 +1827,12 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "How can feeble reason embrace the Qur’án" },
-      { "text": " " },
-      { "type": "l", "text": "Or the spider snare a phoenix in its web?" },
+      { "text": " How can feeble reason embrace the Qur’án" },
+      { "type": "break" },
+      { "text": " Or the spider snare a phoenix in its web?" },
       { "type": "note", "content": [{ "spans": [{ "text": " Saná’í. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -1931,13 +1868,10 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "Dost thou deem thyself a small and puny form," },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "When thou foldest within thyself the greater world? "
-      },
+      { "text": " Dost thou deem thyself a small and puny form," },
+      { "type": "break" },
+      { "text": " When thou foldest within thyself the greater world? " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -1978,15 +1912,12 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "The tale remaineth yet unfinished and untold;" },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "Forgive me, then, for weariness hath taken hold."
-      },
+      { "text": " The tale remaineth yet unfinished and untold;" },
+      { "type": "break" },
+      { "text": " Forgive me, then, for weariness hath taken hold." },
       { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -2015,16 +1946,16 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "When once shone forth the attributes" },
-      { "text": " " },
-      { "type": "l", "text": "Of Him Who is the ancient King," },
-      { "text": " " },
-      { "type": "l", "text": "All mention Moses burned away" },
-      { "text": " " },
-      { "type": "l", "text": "Of every fleeting, transient thing." },
+      { "text": " When once shone forth the attributes" },
+      { "type": "break" },
+      { "text": " Of Him Who is the ancient King," },
+      { "type": "break" },
+      { "text": " All mention Moses burned away" },
+      { "type": "break" },
+      { "text": " Of every fleeting, transient thing." },
       { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -2109,21 +2040,17 @@
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "The Friend, unveiled, doth shed the splendour of His light "
+        "text": " The Friend, unveiled, doth shed the splendour of His light "
       },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "Through every door and wall, O ye endued with sight!"
-      },
+      { "type": "break" },
+      { "text": " Through every door and wall, O ye endued with sight!" },
       {
         "type": "note",
         "content": [{ "spans": [{ "text": " Hátif‑i‑Iṣfahání. " }] }]
       },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -2156,19 +2083,19 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "Even as the noontide sun" },
-      { "text": " " },
-      { "type": "l", "text": "Hath the True One brightly shined," },
-      { "text": " " },
-      { "type": "l", "text": "But alas that He hath come" },
-      { "text": " " },
-      { "type": "l", "text": "To the city of the blind!" },
+      { "text": " Even as the noontide sun" },
+      { "type": "break" },
+      { "text": " Hath the True One brightly shined," },
+      { "type": "break" },
+      { "text": " But alas that He hath come" },
+      { "type": "break" },
+      { "text": " To the city of the blind!" },
       {
         "type": "note",
         "content": [{ "spans": [{ "text": " Attributed to Rúmí. " }] }]
       },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -2281,16 +2208,16 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "Shattered was the pen at once," },
-      { "text": " " },
-      { "type": "l", "text": "Rent and torn in twain the page," },
-      { "text": " " },
-      { "type": "l", "text": "When the pen did reach the point" },
-      { "text": " " },
-      { "type": "l", "text": "Of depicting such a stage." },
+      { "text": " Shattered was the pen at once," },
+      { "type": "break" },
+      { "text": " Rent and torn in twain the page," },
+      { "type": "break" },
+      { "text": " When the pen did reach the point" },
+      { "type": "break" },
+      { "text": " Of depicting such a stage." },
       { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -2316,19 +2243,19 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "Live free of love, for its peace" },
-      { "text": " " },
-      { "type": "l", "text": "Is grief and sorrow at each breath." },
-      { "text": " " },
-      { "type": "l", "text": "It starteth but with ache and pain;" },
-      { "text": " " },
-      { "type": "l", "text": "It endeth but with loss and death." },
+      { "text": " Live free of love, for its peace" },
+      { "type": "break" },
+      { "text": " Is grief and sorrow at each breath." },
+      { "type": "break" },
+      { "text": " It starteth but with ache and pain;" },
+      { "type": "break" },
+      { "text": " It endeth but with loss and death." },
       {
         "type": "note",
         "content": [{ "spans": [{ "text": " Ibn‑i‑Fáriḍ. " }] }]
       },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -2697,16 +2624,16 @@
   { "spans": [{ "text": " " }] },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "O thou lion‑hearted soul," },
-      { "text": " " },
-      { "type": "l", "text": "Even as a lion roar," },
-      { "text": " " },
-      { "type": "l", "text": "That thy roaring may perchance" },
-      { "text": " " },
-      { "type": "l", "text": "To the seventh heaven soar!" },
+      { "text": " O thou lion‑hearted soul," },
+      { "type": "break" },
+      { "text": " Even as a lion roar," },
+      { "type": "break" },
+      { "text": " That thy roaring may perchance" },
+      { "type": "break" },
+      { "text": " To the seventh heaven soar!" },
       { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -2774,16 +2701,16 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "Thy faithlessness I cherish more" },
-      { "text": " " },
-      { "type": "l", "text": "Than every gift that life can give." },
-      { "text": " " },
-      { "type": "l", "text": "To suffer at thy vengeful hand—" },
-      { "text": " " },
-      { "type": "l", "text": "How much dearer than to live!" },
+      { "text": " Thy faithlessness I cherish more" },
+      { "type": "break" },
+      { "text": " Than every gift that life can give." },
+      { "type": "break" },
+      { "text": " To suffer at thy vengeful hand—" },
+      { "type": "break" },
+      { "text": " How much dearer than to live!" },
       { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -2805,17 +2732,19 @@
   {
     "spans": [
       { "text": " " },
-      { "type": "l", "text": "“" },
-      { "type": "l", "text": "O for a drop to drink!" },
-      { "type": "l", "text": "”" },
-      { "type": "l", "text": " the thirsty soul doth groan; " },
+      { "text": "“" },
+      { "text": "O for a drop to drink!" },
+      { "text": "”" },
+      { "text": " the thirsty soul doth groan; " },
+      { "type": "break" },
       { "text": " " },
-      { "type": "l", "text": "“" },
-      { "type": "l", "text": "O for a thirsty soul!" },
-      { "type": "l", "text": "”" },
-      { "type": "l", "text": " the spring in turn doth moan." },
+      { "text": "“" },
+      { "text": "O for a thirsty soul!" },
+      { "text": "”" },
+      { "text": " the spring in turn doth moan." },
       { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -2968,14 +2897,13 @@
   { "spans": [{ "text": " " }] },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "O light of truth and sword of faith" },
-      { "text": " " },
-      { "type": "l", "text": "And soul of generosity!" },
-      { "text": " " },
-      { "type": "l", "text": "No prince hath sky or earth begot" },
-      { "text": " " },
-      { "type": "l", "text": "Who fain could hope to rival thee!" },
+      { "text": " O light of truth and sword of faith" },
+      { "type": "break" },
+      { "text": " And soul of generosity!" },
+      { "type": "break" },
+      { "text": " No prince hath sky or earth begot" },
+      { "type": "break" },
+      { "text": " Who fain could hope to rival thee!" },
       {
         "type": "note",
         "content": [
@@ -2997,6 +2925,7 @@
         ]
       },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -3010,16 +2939,16 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "What fault didst thou observe in me" },
-      { "text": " " },
-      { "type": "l", "text": "That made thee cease thy tender care?" },
-      { "text": " " },
-      { "type": "l", "text": "Is it that poverty’s our lot" },
-      { "text": " " },
-      { "type": "l", "text": "And wealth and pageantry thy share?" },
+      { "text": " What fault didst thou observe in me" },
+      { "type": "break" },
+      { "text": " That made thee cease thy tender care?" },
+      { "type": "break" },
+      { "text": " Is it that poverty’s our lot" },
+      { "type": "break" },
+      { "text": " And wealth and pageantry thy share?" },
       { "type": "note", "content": [{ "spans": [{ "text": " Sa‘dí. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -3056,12 +2985,12 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "I do as bidden and convey the message," },
-      { "text": " " },
-      { "type": "l", "text": "Whether it give thee counsel or offence." },
+      { "text": " I do as bidden and convey the message," },
+      { "type": "break" },
+      { "text": " Whether it give thee counsel or offence." },
       { "type": "note", "content": [{ "spans": [{ "text": " Sa‘dí. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -3075,28 +3004,20 @@
   },
   {
     "spans": [
-      { "text": " " },
+      { "text": " Tell us not the tale of Laylí, nor speak of Majnún’s woe— " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "Tell us not the tale of Laylí, nor speak of Majnún’s woe— "
+        "text": " Thy love hath made the world forget the loves of long ago. "
       },
-      { "text": " " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "Thy love hath made the world forget the loves of long ago. "
+        "text": " When once thy name was on the tongue, it reached the lovers’ ears "
       },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "When once thy name was on the tongue, it reached the lovers’ ears "
-      },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "And set the speakers and the hearers dancing to and fro."
-      },
+      { "type": "break" },
+      { "text": " And set the speakers and the hearers dancing to and fro." },
       { "type": "note", "content": [{ "spans": [{ "text": " Sa‘dí. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -3106,16 +3027,16 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "Each moon, O my belov’d," },
-      { "text": " " },
-      { "type": "l", "text": "For three days I go mad;" },
-      { "text": " " },
-      { "type": "l", "text": "Today’s the first of these—" },
-      { "text": " " },
-      { "type": "l", "text": "’Tis why thou seest me glad." },
+      { "text": " Each moon, O my belov’d," },
+      { "type": "break" },
+      { "text": " For three days I go mad;" },
+      { "type": "break" },
+      { "text": " Today’s the first of these—" },
+      { "type": "break" },
+      { "text": " ’Tis why thou seest me glad." },
       { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -3154,13 +3075,9 @@
   },
   {
     "spans": [
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "O Abraham of the Spirit and God’s Friend in this day! "
-      },
-      { "text": " " },
-      { "type": "l", "text": "Slay! Slay these four thieving birds of prey!" },
+      { "text": " O Abraham of the Spirit and God’s Friend in this day! " },
+      { "type": "break" },
+      { "text": " Slay! Slay these four thieving birds of prey!" },
       {
         "type": "note",
         "content": [
@@ -3174,6 +3091,7 @@
         ]
       },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -3264,15 +3182,14 @@
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "With renunciation, not with grammar’s rules, one must be armed: "
+        "text": " With renunciation, not with grammar’s rules, one must be armed: "
       },
-      { "text": " " },
-      { "type": "l", "text": "Be nothing, then, and cross this sea unharmed." },
+      { "type": "break" },
+      { "text": " Be nothing, then, and cross this sea unharmed." },
       { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -3301,20 +3218,14 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "How can meagre reason comprehend the Book," },
-      { "text": " " },
-      { "type": "l", "text": "Or the spider trap a phoenix in its web?" },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "Wouldst thou that the mind not hold thee in its snare? "
-      },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "Seize it and enrol it in the school of God instead! "
-      },
+      { "text": " How can meagre reason comprehend the Book," },
+      { "type": "break" },
+      { "text": " Or the spider trap a phoenix in its web?" },
+      { "type": "break" },
+      { "text": " Wouldst thou that the mind not hold thee in its snare? " },
+      { "type": "break" },
+      { "text": " Seize it and enrol it in the school of God instead! " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -3419,16 +3330,16 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "Love shunneth this world and that world too;" },
-      { "text": " " },
-      { "type": "l", "text": "In him are lunacies seventy‑and‑two." },
-      { "text": " " },
-      { "type": "l", "text": "The minstrel of love harpeth this lay:" },
-      { "text": " " },
-      { "type": "l", "text": "Servitude enslaveth, lordship doth betray." },
+      { "text": " Love shunneth this world and that world too;" },
+      { "type": "break" },
+      { "text": " In him are lunacies seventy‑and‑two." },
+      { "type": "break" },
+      { "text": " The minstrel of love harpeth this lay:" },
+      { "type": "break" },
+      { "text": " Servitude enslaveth, lordship doth betray." },
       { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -3481,28 +3392,20 @@
   },
   {
     "spans": [
-      { "text": " " },
+      { "text": " The storey of Thy beauty reached the hermit’s dell; " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "The storey of Thy beauty reached the hermit’s dell; "
+        "text": " Crazed, he sought the Tavern where the wine they buy and sell. "
       },
-      { "text": " " },
+      { "type": "break" },
+      { "text": " The love of Thee hath levelled down the fort of patience; " },
+      { "type": "break" },
       {
-        "type": "l",
-        "text": "Crazed, he sought the Tavern where the wine they buy and sell. "
-      },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "The love of Thee hath levelled down the fort of patience; "
-      },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "The pain of Thee hath firmly barred the gate of hope as well."
+        "text": " The pain of Thee hath firmly barred the gate of hope as well."
       },
       { "type": "note", "content": [{ "spans": [{ "text": " Sa‘dí. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -3516,27 +3419,17 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "The lovers’ teacher is the Loved One’s beauty," },
-      { "text": " " },
-      { "type": "l", "text": "His face their lesson and their only book." },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "Learning of wonderment, of longing love their duty; "
-      },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "Not on learned chapters and dull themes they look. "
-      },
-      { "text": " " },
-      { "type": "l", "text": "The chains that bind them are His musky hair;" },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "The Cyclic Scheme, to them, is but to Him a stair."
-      },
+      { "text": " The lovers’ teacher is the Loved One’s beauty," },
+      { "type": "break" },
+      { "text": " His face their lesson and their only book." },
+      { "type": "break" },
+      { "text": " Learning of wonderment, of longing love their duty; " },
+      { "type": "break" },
+      { "text": " Not on learned chapters and dull themes they look. " },
+      { "type": "break" },
+      { "text": " The chains that bind them are His musky hair;" },
+      { "type": "break" },
+      { "text": " The Cyclic Scheme, to them, is but to Him a stair." },
       {
         "type": "note",
         "content": [
@@ -3550,6 +3443,7 @@
         ]
       },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -3563,32 +3457,20 @@
   },
   {
     "spans": [
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "O Lord, O Thou Whose grace fulfilleth every need!"
-      },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "To mention aught before Thee would be sin indeed."
-      },
-      { "text": " " },
-      { "type": "l", "text": "Allow this mote of knowledge hidden in my soul" },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "To free itself of lowly clay and reach its goal."
-      },
-      { "text": " " },
-      { "type": "l", "text": "And grant this drop of wisdom that" },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "Thou gavest me To be at last united with Thy mighty sea."
-      },
+      { "text": " O Lord, O Thou Whose grace fulfilleth every need!" },
+      { "type": "break" },
+      { "text": " To mention aught before Thee would be sin indeed." },
+      { "type": "break" },
+      { "text": " Allow this mote of knowledge hidden in my soul" },
+      { "type": "break" },
+      { "text": " To free itself of lowly clay and reach its goal." },
+      { "type": "break" },
+      { "text": " And grant this drop of wisdom that" },
+      { "type": "break" },
+      { "text": " Thou gavest me To be at last united with Thy mighty sea." },
       { "type": "note", "content": [{ "spans": [{ "text": " Rúmí " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -3670,18 +3552,14 @@
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "Speak the Persian tongue, though the Arabian pleaseth more: "
+        "text": " Speak the Persian tongue, though the Arabian pleaseth more: "
       },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "Love indeed doth have a hundred other tongues in store."
-      },
+      { "type": "break" },
+      { "text": " Love indeed doth have a hundred other tongues in store." },
       { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -3693,14 +3571,14 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "Our hearts will be as open shells" },
-      { "text": " " },
-      { "type": "l", "text": "Should He the pearls of grace bestow;" },
-      { "text": " " },
-      { "type": "l", "text": "Our lives will ready targets be" },
-      { "text": " " },
-      { "type": "l", "text": "Were He to hurl the darts of woe." },
+      { "text": " Our hearts will be as open shells" },
+      { "type": "break" },
+      { "text": " Should He the pearls of grace bestow;" },
+      { "type": "break" },
+      { "text": " Our lives will ready targets be" },
+      { "type": "break" },
+      { "text": " Were He to hurl the darts of woe." },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -3734,30 +3612,30 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "My soul doth sense the fragrant breath" },
-      { "text": " " },
-      { "type": "l", "text": "Of a well‑beloved soul:" },
-      { "text": " " },
-      { "type": "l", "text": "The fragrance of that kindly friend" },
-      { "text": " " },
-      { "type": "l", "text": "Who’s my heart’s desire and goal." },
+      { "text": " My soul doth sense the fragrant breath" },
+      { "type": "break" },
+      { "text": " Of a well‑beloved soul:" },
+      { "type": "break" },
+      { "text": " The fragrance of that kindly friend" },
+      { "type": "break" },
+      { "text": " Who’s my heart’s desire and goal." },
+      { "type": "break" },
       { "text": " " }
     ]
   },
   { "spans": [{ "text": " " }] },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "The duty of long years of love obey," },
-      { "text": " " },
-      { "type": "l", "text": "And tell the tale of blissful days gone by," },
-      { "text": " " },
-      { "type": "l", "text": "That land and sky may laugh aloud today," },
-      { "text": " " },
-      { "type": "l", "text": "And it may gladden mind and heart and eye." },
+      { "text": " The duty of long years of love obey," },
+      { "type": "break" },
+      { "text": " And tell the tale of blissful days gone by," },
+      { "type": "break" },
+      { "text": " That land and sky may laugh aloud today," },
+      { "type": "break" },
+      { "text": " And it may gladden mind and heart and eye." },
       { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -3780,14 +3658,14 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "None may approach that well‑belov’d" },
-      { "text": " " },
-      { "type": "l", "text": "Who harboreth his own desire;" },
-      { "text": " " },
-      { "type": "l", "text": "None may embrace that beauteous form" },
-      { "text": " " },
-      { "type": "l", "text": "Who’s burdened with his own attire." },
+      { "text": " None may approach that well‑belov’d" },
+      { "type": "break" },
+      { "text": " Who harboreth his own desire;" },
+      { "type": "break" },
+      { "text": " None may embrace that beauteous form" },
+      { "type": "break" },
+      { "text": " Who’s burdened with his own attire." },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -3879,12 +3757,12 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "No more than this will I impart to thee:" },
-      { "text": " " },
-      { "type": "l", "text": "The riverbed can never hold the sea." },
+      { "text": " No more than this will I impart to thee:" },
+      { "type": "break" },
+      { "text": " The riverbed can never hold the sea." },
       { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -3994,16 +3872,12 @@
   },
   {
     "spans": [
-      { "text": " " },
       {
-        "type": "l",
-        "text": "I seek thy nearness, more desired than heaven in mine eyes; "
+        "text": " I seek thy nearness, more desired than heaven in mine eyes; "
       },
-      { "text": " " },
-      {
-        "type": "l",
-        "text": "I see thy visage, fairer than the bowers of Paradise. "
-      },
+      { "type": "break" },
+      { "text": " I see thy visage, fairer than the bowers of Paradise. " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -4027,18 +3901,17 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "Let us tell, some other day" },
-      { "text": " " },
-      { "type": "l", "text": "This parting hurt and woe;" },
-      { "text": " " },
-      { "type": "l", "text": "Let us write, some other way," },
-      { "text": " " },
-      { "type": "l", "text": "Love’s secrets—better so." },
-      { "text": " " },
-      { "type": "l", "text": "Leave blood and noise and all of these," },
-      { "text": " " },
-      { "type": "l", "text": "And say no more of " },
+      { "text": " Let us tell, some other day" },
+      { "type": "break" },
+      { "text": " This parting hurt and woe;" },
+      { "type": "break" },
+      { "text": " Let us write, some other way," },
+      { "type": "break" },
+      { "text": " Love’s secrets—better so." },
+      { "type": "break" },
+      { "text": " Leave blood and noise and all of these," },
+      { "type": "break" },
+      { "text": " And say no more of " },
       { "type": "u", "text": "Sh" },
       { "text": "ams‑i‑Tabríz." },
       {
@@ -4056,6 +3929,7 @@
         ]
       },
       { "text": " " },
+      { "type": "break" },
       { "text": " " }
     ]
   },
@@ -4075,10 +3949,10 @@
   },
   {
     "spans": [
-      { "text": " " },
-      { "type": "l", "text": "I write no more, beleaguered by the flies" },
-      { "text": " " },
-      { "type": "l", "text": "That my sweet words have drawn about the page." },
+      { "text": " I write no more, beleaguered by the flies" },
+      { "type": "break" },
+      { "text": " That my sweet words have drawn about the page." },
+      { "type": "break" },
       { "text": " " }
     ]
   },
