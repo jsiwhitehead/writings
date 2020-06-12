@@ -16,7 +16,7 @@
           { "text": "At one time We spoke in the language of the lawgiver" },
           {
             "type": "join",
-            "content": [
+            "spans": [
               {
                 "text": ", Bahá’u’lláh writes in the Epistle to the Son of the Wolf, "
               }
@@ -96,7 +96,7 @@
           { "text": "Through His numerous discourses and epistles" },
           {
             "type": "join",
-            "content": [{ "text": ", Shoghi Effendi writes, " }]
+            "spans": [{ "text": ", Shoghi Effendi writes, " }]
           },
           {
             "text": "He disclosed new vistas to their eyes, resolved the perplexities that agitated their minds, unfolded the inner meaning of many hitherto obscure passages in the writings of various commentators, poets and theologians ... ‘In a short time,’ is ‘Abdu’l‑Bahá’s own testimony, ‘Kurdistán was magnetised with His love. During this period Bahá’u’lláh lived in poverty. His garments were those of the poor and needy. His food was that of the indigent and lowly. An atmosphere of majesty haloed Him as the sun at midday. Everywhere He was greatly revered and loved.’ "
@@ -140,7 +140,7 @@
           },
           {
             "type": "join",
-            "content": [
+            "spans": [
               {
                 "text": " revivified and transformed the Bábí community. It was a period so prolific that, on average, the unrecorded verses He would reveal in a single day and night equalled in number those of the Qur’án. "
               }
@@ -165,12 +165,12 @@
           },
           {
             "type": "join",
-            "content": [{ "text": " in those days is Bahá’u’lláh’s " }]
+            "spans": [{ "text": " in those days is Bahá’u’lláh’s " }]
           },
           { "text": "greatest mystical composition" },
           {
             "type": "join",
-            "content": [{ "text": ", the Seven Valleys, which " }]
+            "spans": [{ "text": ", the Seven Valleys, which " }]
           },
           {
             "text": "describes the seven stages which the soul of the seeker must needs traverse ere it can attain the object of its existence."
@@ -265,13 +265,8 @@
         "content": [
           {
             "spans": [
-              { "text": "“" },
               {
-                "text": "‘Amá’ is defined as an extremely thin and subtle cloud, seen and then not seen. For shouldst thou gaze with the utmost care, thou wouldst discern something, but as soon as thou dost look again, it ceaseth to be seen. For this reason, in the usage of mystics who seek after truth, ‘Amá’ signifieth the Universal Reality without individuations as such, for these individuations exist in the mode of uncompounded simplicity and oneness and are not differentiated from the Divine Essence. Thus they are individuated and not individuated. This is the station alluded to by the terms Aḥadíyyih [Absolute Oneness] and ‘Amá’. This is the station of the “Hidden Treasure” mentioned in the Ḥadíth. The divine attributes, therefore, are individuations that exist in the Essence but are not differentiated therefrom. They are seen and then not seen. This, in brief, is what is meant by ‘Amá’."
-              },
-              { "text": "”" },
-              {
-                "text": " (From a previously untranslated Tablet of ‘Abdu’l‑Bahá.) "
+                "text": " “‘Amá’ is defined as an extremely thin and subtle cloud, seen and then not seen. For shouldst thou gaze with the utmost care, thou wouldst discern something, but as soon as thou dost look again, it ceaseth to be seen. For this reason, in the usage of mystics who seek after truth, ‘Amá’ signifieth the Universal Reality without individuations as such, for these individuations exist in the mode of uncompounded simplicity and oneness and are not differentiated from the Divine Essence. Thus they are individuated and not individuated. This is the station alluded to by the terms Aḥadíyyih [Absolute Oneness] and ‘Amá’. This is the station of the “Hidden Treasure” mentioned in the Ḥadíth. The divine attributes, therefore, are individuations that exist in the Essence but are not differentiated therefrom. They are seen and then not seen. This, in brief, is what is meant by ‘Amá’.” (From a previously untranslated Tablet of ‘Abdu’l‑Bahá.) "
               }
             ]
           }
@@ -560,35 +555,29 @@
       { "text": "Muḥammad" },
       { "text": "”" },
       { "text": " amongst the concourse of the favoured ones, and " },
+      { "text": "“" },
+      { "text": "Maḥmúd" },
+      { "text": "”" },
+      { "text": " in the realm of the sincere;" },
       {
-        "type": "quote",
-        "spans": [{ "text": "Maḥmúd" }],
-        "source": [
+        "type": "note",
+        "content": [
           {
             "spans": [
               {
-                "text": " Aḥmad, Muḥammad, and Maḥmúd are names and titles of the Prophet derived from the verb "
-              },
-              { "text": "“" },
-              { "text": "to praise" },
-              { "text": "”" },
-              { "text": ", " },
-              { "text": "“" },
-              { "text": "to extol" },
-              { "text": "”" },
-              { "text": ". " }
+                "text": " Aḥmad, Muḥammad, and Maḥmúd are names and titles of the Prophet derived from the verb “to praise”, “to extol”. "
+              }
             ]
           }
         ]
       },
-      { "text": " in the realm of the sincere;" },
       { "text": " and in the hearts of the knowing, " },
-      { "text": "“" },
-      { "text": "whichsoever ye call upon, most beauteous are His names." },
-      { "text": "”" },
       {
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 17:110. " }] }]
+        "type": "quote",
+        "spans": [
+          { "text": "whichsoever ye call upon, most beauteous are His names." }
+        ],
+        "source": [{ "spans": [{ "text": " Qur’án 17:110. " }] }]
       },
       {
         "text": " And upon His kindred and His companions be abundant, abiding, and eternal peace! "
@@ -616,12 +605,8 @@
         "content": [
           {
             "spans": [
-              { "text": " Literally, " },
-              { "text": "“" },
-              { "text": "in the garden of Ghawthíyyih" },
-              { "text": "”" },
               {
-                "text": ". The Risáliy‑i‑Ghawthíyyih is a mystical treatise by ‘Abdu’l‑Qádir‑i‑Gílání (ca. 1077–1166). The sentence that follows is a quotation from this work. "
+                "text": " Literally, “in the garden of Ghawthíyyih”. The Risáliy‑i‑Ghawthíyyih is a mystical treatise by ‘Abdu’l‑Qádir‑i‑Gílání (ca. 1077–1166). The sentence that follows is a quotation from this work. "
               }
             ]
           }
@@ -661,12 +646,8 @@
           {
             "spans": [
               {
-                "text": " ‘Aṭṭár (ca. 1119–1230) in his Manṭiqu’ṭ‑Ṭayr (The Conference of the Birds) has elaborated seven valleys through which the birds pass in search of their king. Bahá’u’lláh refers to ‘Aṭṭár’s scheme of the valleys. Rúmí (1207–1273) alludes to the "
-              },
-              { "text": "“" },
-              { "text": "seven cities of love" },
-              { "text": "”" },
-              { "text": " crossed by ‘Aṭṭár. " }
+                "text": " ‘Aṭṭár (ca. 1119–1230) in his Manṭiqu’ṭ‑Ṭayr (The Conference of the Birds) has elaborated seven valleys through which the birds pass in search of their king. Bahá’u’lláh refers to ‘Aṭṭár’s scheme of the valleys. Rúmí (1207–1273) alludes to the “seven cities of love” crossed by ‘Aṭṭár. "
+              }
             ]
           }
         ]
@@ -685,10 +666,7 @@
         "type": "quote",
         "spans": [
           { "text": "for Us" },
-          {
-            "type": "join",
-            "content": [{ "text": " rejoice in the tidings " }]
-          },
+          { "type": "join", "spans": [{ "text": " rejoice in the tidings " }] },
           { "text": "In Our ways shall We assuredly guide them." }
         ],
         "source": [{ "spans": [{ "text": " Qur’án 29:69. " }] }]
@@ -722,12 +700,8 @@
         "content": [
           {
             "spans": [
-              { "text": " Majnún means " },
-              { "text": "“" },
-              { "text": "madman" },
-              { "text": "”" },
               {
-                "text": ". This is the title of the celebrated lover of ancient Persian and Arabian lore whose beloved was Laylí. Symbolising true human love bordering on the divine, the storey has been the theme of many Persian romantic poems, most famously that of Niẓámí, written in 1188. "
+                "text": " Majnún means “madman”. This is the title of the celebrated lover of ancient Persian and Arabian lore whose beloved was Laylí. Symbolising true human love bordering on the divine, the storey has been the theme of many Persian romantic poems, most famously that of Niẓámí, written in 1188. "
               }
             ]
           }
@@ -778,34 +752,31 @@
       {
         "text": " The true seeker hunteth naught but the object of his quest, and the sincere lover hath no desire save reunion with his beloved. Nor shall the seeker reach his goal unless he sacrifice all things. That is, whatever he hath seen, and heard, and understood—all he must set at naught with "
       },
+      { "text": "“" },
+      { "text": "no God is there" },
       {
-        "type": "quote",
+        "type": "join",
         "spans": [
-          { "text": "no God is there" },
           {
-            "type": "join",
-            "content": [
-              {
-                "text": ", that he may enter into the realm of the spirit, which is the city of "
-              }
-            ]
-          },
-          { "text": "but God" }
-        ],
-        "source": [
+            "text": ", that he may enter into the realm of the spirit, which is the city of "
+          }
+        ]
+      },
+      { "text": "but God" },
+      { "text": "”" },
+      { "text": "." },
+      {
+        "type": "note",
+        "content": [
           {
             "spans": [
-              { "text": " A reference to the Islamic profession of faith: " },
-              { "text": "“" },
               {
-                "text": "No God is there but God, and Muḥammad is the Messenger of God."
-              },
-              { "text": "”" }
+                "text": " A reference to the Islamic profession of faith: “No God is there but God, and Muḥammad is the Messenger of God.” "
+              }
             ]
           }
         ]
       },
-      { "text": "." },
       {
         "text": " Labour is needed, if we are to seek Him; ardour is needed, if we are to drink the nectar of reunion with Him; and if we taste of this cup, we shall cast away the world. "
       }
@@ -891,12 +862,10 @@
       {
         "text": " Love setteth a world aflame at every turn and layeth waste every land wherein it raiseth its banner. Being hath no existence in its kingdom; the wise wield no command within its realm. The leviathan of love swalloweth the master of reason and slayeth the lord of knowledge. It drinketh the seven seas, but its heart’s thirst is still unquenched and it asketh, "
       },
-      { "text": "“" },
-      { "text": "Is there yet any more?" },
-      { "text": "”" },
       {
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 50:30. " }] }]
+        "type": "quote",
+        "spans": [{ "text": "Is there yet any more?" }],
+        "source": [{ "spans": [{ "text": " Qur’án 50:30. " }] }]
       },
       {
         "text": " It shunneth its own self and draweth away from all on earth. "
@@ -930,11 +899,8 @@
           {
             "spans": [
               {
-                "text": " An allusion to the Ḥadíth in which God is said to address the Prophet Muhammad in these words: "
-              },
-              { "text": "“" },
-              { "text": "But for Thee, I would not have created the spheres." },
-              { "text": "”" }
+                "text": " An allusion to the Ḥadíth in which God is said to address the Prophet Muhammad in these words: “But for Thee, I would not have created the spheres.” "
+              }
             ]
           }
         ]
@@ -991,7 +957,7 @@
           },
           {
             "type": "join",
-            "content": [{ "text": ", and saileth upon the sea of " }]
+            "spans": [{ "text": ", and saileth upon the sea of " }]
           },
           { "text": "until it become plain to them that it is the truth" }
         ],
@@ -1190,7 +1156,7 @@
           { "text": "all songs are from that sovereign King" },
           {
             "type": "join",
-            "content": [
+            "spans": [
               {
                 "text": " and every melody from Him. He sitteth on the throne of "
               }
@@ -1367,50 +1333,31 @@
       {
         "text": " How can utter nothingness spur its charger in the arena of eternity, or a fleeting shadow reach to the everlasting sun? The Friend addressed by the words "
       },
+      { "text": "“" },
+      { "text": "But for Thee" },
+      { "type": "join", "spans": [{ "text": " hath said, " }] },
+      { "text": "We have failed to know Thee" },
       {
-        "type": "quote",
-        "spans": [
-          { "text": "But for Thee" },
-          { "type": "join", "content": [{ "text": " hath said, " }] },
-          { "text": "We have failed to know Thee" },
-          {
-            "type": "join",
-            "content": [
-              { "text": "; and the Beloved alluded to by the words " }
-            ]
-          },
-          { "text": "or even closer" },
-          { "type": "join", "content": [{ "text": " hath said, " }] },
-          { "text": "nor attained Thy presence" }
-        ],
-        "source": [
+        "type": "join",
+        "spans": [{ "text": "; and the Beloved alluded to by the words " }]
+      },
+      { "text": "or even closer" },
+      { "type": "join", "spans": [{ "text": " hath said, " }] },
+      { "text": "nor attained Thy presence" },
+      { "text": "”" },
+      { "text": "." },
+      {
+        "type": "note",
+        "content": [
           {
             "spans": [
-              { "text": "“" },
-              { "text": "But for Thee" },
-              { "text": "”" },
-              { "text": " refers to the Ḥadíth quoted in note 26. " },
-              { "text": "“" },
-              { "text": "We have failed to know Thee" },
-              { "text": "”" },
               {
-                "text": " alludes to a prayer attributed to Muḥammad that says, "
-              },
-              { "text": "“" },
-              {
-                "text": "We have not known Thee, O God, as Thou oughtest to be known."
-              },
-              { "text": "”" },
-              { "text": " " },
-              { "text": "“" },
-              { "text": "Or even closer" },
-              { "text": "”" },
-              { "text": " alludes to Qur’án 53:9. " }
+                "text": " “But for Thee” refers to the Ḥadíth quoted in note 26. “We have failed to know Thee” alludes to a prayer attributed to Muḥammad that says, “We have not known Thee, O God, as Thou oughtest to be known.” “Or even closer” alludes to Qur’án 53:9. "
+              }
             ]
           }
         ]
-      },
-      { "text": "." }
+      }
     ]
   },
   {
@@ -1729,12 +1676,12 @@
       {
         "text": " in setting forth the grades of contemplation and expressing bewilderment, hath said: "
       },
-      { "text": "“" },
-      { "text": "Increase my wonder and amazement at Thee, O God!" },
-      { "text": "”" },
       {
-        "type": "note",
-        "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
+        "type": "quote",
+        "spans": [
+          { "text": "Increase my wonder and amazement at Thee, O God!" }
+        ],
+        "source": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
       }
     ]
   },
@@ -1966,10 +1913,15 @@
       { "text": "unity of existence" },
       { "text": "”" },
       { "text": " and the " },
+      { "text": "“" },
+      { "text": "unity of appearance" },
+      { "text": "”" },
       {
-        "type": "quote",
-        "spans": [{ "text": "unity of appearance" }],
-        "source": [
+        "text": " and reacheth a unity that is sanctified above both of these stations."
+      },
+      {
+        "type": "note",
+        "content": [
           {
             "spans": [
               {
@@ -1978,9 +1930,6 @@
             ]
           }
         ]
-      },
-      {
-        "text": " and reacheth a unity that is sanctified above both of these stations."
       },
       {
         "text": " Ecstasy alone can encompass this theme, not utterance nor argument; and whosoever hath dwelt at this stage of the journey, or caught a breath from this garden, knoweth whereof We speak. "
@@ -2025,13 +1974,8 @@
         "content": [
           {
             "spans": [
-              { "text": "“" },
               {
-                "text": "The word ‘Guardian’ in the Seven Valleys has no connexion with the Bahá’í Guardianship."
-              },
-              { "text": "”" },
-              {
-                "text": " (From a letter dated 8 January 1949 written on behalf of Shoghi Effendi.) "
+                "text": " “The word ‘Guardian’ in the Seven Valleys has no connexion with the Bahá’í Guardianship.” (From a letter dated 8 January 1949 written on behalf of Shoghi Effendi.) "
               }
             ]
           }
@@ -2113,24 +2057,22 @@
       {
         "text": " The novel thoughts thou hast expressed as to the symbolism contained in the word "
       },
+      { "text": "“" },
+      { "text": "sparrow" },
+      { "text": "”" },
+      { "text": " were considered." },
       {
-        "type": "quote",
-        "spans": [{ "text": "sparrow" }],
-        "source": [
+        "type": "note",
+        "content": [
           {
             "spans": [
               {
-                "text": " In what follows, Bahá’u’lláh interprets the meaning of each of the five letters comprising the word "
-              },
-              { "text": "“" },
-              { "text": "sparrow" },
-              { "text": "”" },
-              { "text": " (gunjishk) in Persian. " }
+                "text": " In what follows, Bahá’u’lláh interprets the meaning of each of the five letters comprising the word “sparrow” (gunjishk) in Persian. "
+              }
             ]
           }
         ]
       },
-      { "text": " were considered." },
       {
         "text": " Thou appearest to be well grounded in mystic truth. However, in each realm, to every letter a meaning is allotted which pertaineth to that realm. Indeed, the wayfarer findeth a secret in every name and a mystery in every letter. "
       }
@@ -2216,17 +2158,15 @@
       {
         "text": " To continue: It is clear that the wayfarers in the wilderness of search and longing, of attainment and reunion, have numerous degrees and countless stations. Some, after spiritual struggle and physical toil, ascend from the lower reaches of "
       },
+      { "text": "“" },
+      { "text": "no God is there" },
+      { "type": "join", "spans": [{ "text": " to the lofty bowers of " }] },
+      { "text": "but God" },
+      { "text": "”" },
+      { "text": "," },
       {
-        "type": "quote",
-        "spans": [
-          { "text": "no God is there" },
-          {
-            "type": "join",
-            "content": [{ "text": " to the lofty bowers of " }]
-          },
-          { "text": "but God" }
-        ],
-        "source": [
+        "type": "note",
+        "content": [
           {
             "spans": [
               {
@@ -2236,7 +2176,6 @@
           }
         ]
       },
-      { "text": "," },
       {
         "text": " flee from the shadow of negation to abide in the limitless realm of affirmation, and abandon the privation of a transient existence for the bountiful assemblage of reunion. This is the uttermost limit of the realm of effort and striving. "
       }
@@ -2249,7 +2188,7 @@
       { "text": "no God is there" },
       {
         "type": "join",
-        "content": [{ "text": ", pass beyond the highest horizon of " }]
+        "spans": [{ "text": ", pass beyond the highest horizon of " }]
       },
       { "text": "but God" },
       { "text": "”" },
@@ -2516,7 +2455,7 @@
           },
           {
             "type": "join",
-            "content": [
+            "spans": [
               {
                 "text": ", and at every moment he heareth with his inner ear the tongue of the Holy Spirit uttering the words "
               }
@@ -2595,9 +2534,7 @@
           { "text": "Say: All things are of God" },
           {
             "type": "join",
-            "content": [
-              { "text": ", while, at others, they raise the call of " }
-            ]
+            "spans": [{ "text": ", while, at others, they raise the call of " }]
           },
           { "text": "It is from thyself." }
         ],
@@ -2620,10 +2557,15 @@
       { "text": "the eye of certitude" },
       { "text": "”" },
       { "text": " and " },
+      { "text": "“" },
+      { "text": "the truth of certitude" },
+      { "text": "”" },
       {
-        "type": "quote",
-        "spans": [{ "text": "the truth of certitude" }],
-        "source": [
+        "text": " as being exalted above and sanctified beyond these realms and all that pertaineth unto them, even as hath been clearly affirmed by that mystic knower."
+      },
+      {
+        "type": "note",
+        "content": [
           {
             "spans": [
               {
@@ -2632,9 +2574,6 @@
             ]
           }
         ]
-      },
-      {
-        "text": " as being exalted above and sanctified beyond these realms and all that pertaineth unto them, even as hath been clearly affirmed by that mystic knower."
       },
       {
         "text": " For in all these stages the mirror of the wayfarer’s heart may bear the reflection of shadowy desires, wayward thoughts, and worldly attachments. Wherefore hath it been said that, in these stations, at one time the hosts of reason are triumphant and, at another, the armies of love prevail. At one time, the clouds of affliction and sorrow conceal the heavens of gladness and joy; at another, the eternal leviathan of love devoureth, in one fleeting moment, all manifestations of sadness, anguish, grief, and dejection, and the morn of divine guidance dawneth forth with the joyful tidings of "
@@ -2732,10 +2671,8 @@
           { "text": "ay" },
           { "type": "u", "text": "kh" },
           {
-            "text": " ‘Abdu’r‑Raḥmán, the recipient of the Tablet, with Ḥusámu’d‑Dín Chalabí, to whom Rúmí dedicated his Mathnaví. Ḥusámu’d‑Dín means "
-          },
-          { "type": "quote", "spans": [{ "text": "sword of faith" }] },
-          { "text": ". " }
+            "text": " ‘Abdu’r‑Raḥmán, the recipient of the Tablet, with Ḥusámu’d‑Dín Chalabí, to whom Rúmí dedicated his Mathnaví. Ḥusámu’d‑Dín means “sword of faith”. "
+          }
         ]
       }
     ]
@@ -2929,14 +2866,14 @@
       {
         "text": " One must, then, read the book of one’s own self, rather than the treatise of some grammarian. Wherefore He hath said, "
       },
-      { "text": "“" },
       {
-        "text": "Read thy Book: There needeth none but thyself to make out an account against thee this day."
-      },
-      { "text": "”" },
-      {
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 17:14. " }] }]
+        "type": "quote",
+        "spans": [
+          {
+            "text": "Read thy Book: There needeth none but thyself to make out an account against thee this day."
+          }
+        ],
+        "source": [{ "spans": [{ "text": " Qur’án 17:14. " }] }]
       }
     ]
   },
@@ -2955,14 +2892,14 @@
       },
       { "text": "”" },
       { "text": " Then the mystic cried, " },
+      { "text": "“" },
       {
-        "type": "quote",
-        "spans": [
-          {
-            "text": "Cast aside what thou hast learned from Síbavayh and Qawlavayh, from Ibn‑i‑Ḥájib and Ibn‑i‑Málik, and cross the water!"
-          }
-        ],
-        "source": [
+        "text": "Cast aside what thou hast learned from Síbavayh and Qawlavayh, from Ibn‑i‑Ḥájib and Ibn‑i‑Málik, and cross the water!"
+      },
+      { "text": "”" },
+      {
+        "type": "note",
+        "content": [
           { "spans": [{ "text": " Famed writers on grammar and rhetoric. " }] }
         ]
       }
@@ -2982,14 +2919,14 @@
   {
     "spans": [
       { "text": " Likewise He saith, " },
-      { "text": "“" },
       {
-        "text": "And be ye not like those who forget God, and whom He hath therefore caused to forget their own selves. Such men are the evil doers."
-      },
-      { "text": "”" },
-      {
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 59:19. " }] }]
+        "type": "quote",
+        "spans": [
+          {
+            "text": "And be ye not like those who forget God, and whom He hath therefore caused to forget their own selves. Such men are the evil doers."
+          }
+        ],
+        "source": [{ "spans": [{ "text": " Qur’án 59:19. " }] }]
       }
     ]
   },
@@ -3251,13 +3188,16 @@
       {
         "text": " Should all that are in heaven and on earth attempt to unravel this exalted allusion and subtle mystery, from now until the Day whereon the Trumpet shall sound, yet would they fail to comprehend even a letter thereof, for this is the station of God’s immutable decree and His foreordained mystery. Hence, when asked regarding this matter, He made reply: "
       },
-      { "text": "“" },
-      { "text": "It is a bottomless sea that none shall ever fathom." },
-      { "text": "”" },
-      { "text": " And when the question was repeated, He answered: " },
       {
         "type": "quote",
         "spans": [
+          { "text": "It is a bottomless sea that none shall ever fathom." },
+          {
+            "type": "join",
+            "spans": [
+              { "text": " And when the question was repeated, He answered: " }
+            ]
+          },
           {
             "text": "It is the blackest of nights through which none can find his way."
           }
@@ -3461,14 +3401,14 @@
         "source": [{ "spans": [{ "text": " Cf. Qur’án 6:79. " }] }]
       },
       { "text": " " },
-      { "text": "“" },
       {
-        "text": "And thus did We show Abraham the kingdom of the heavens and of the earth, that he might be stablished in knowledge."
-      },
-      { "text": "”" },
-      {
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 6:75. " }] }]
+        "type": "quote",
+        "spans": [
+          {
+            "text": "And thus did We show Abraham the kingdom of the heavens and of the earth, that he might be stablished in knowledge."
+          }
+        ],
+        "source": [{ "spans": [{ "text": " Qur’án 6:75. " }] }]
       },
       {
         "text": " Wherefore, put thy hand into thy bosom, then stretch it forth with power, and behold, thou shalt find it a light unto all the world. "

@@ -292,15 +292,7 @@
           {
             "spans": [
               {
-                "type": "quote",
-                "spans": [
-                  {
-                    "text": "‘Amá’ is defined as an extremely thin and subtle cloud, seen and then not seen. For shouldst thou gaze with the utmost care, thou wouldst discern something, but as soon as thou dost look again, it ceaseth to be seen. For this reason, in the usage of mystics who seek after truth, ‘Amá’ signifieth the Universal Reality without individuations as such, for these individuations exist in the mode of uncompounded simplicity and oneness and are not differentiated from the Divine Essence. Thus they are individuated and not individuated. This is the station alluded to by the terms Aḥadíyyih [Absolute Oneness] and ‘Amá’. This is the station of the “Hidden Treasure” mentioned in the Ḥadíth. The divine attributes, therefore, are individuations that exist in the Essence but are not differentiated therefrom. They are seen and then not seen. This, in brief, is what is meant by ‘Amá’."
-                  }
-                ]
-              },
-              {
-                "text": " (From a previously untranslated Tablet of ‘Abdu’l‑Bahá.) "
+                "text": " “‘Amá’ is defined as an extremely thin and subtle cloud, seen and then not seen. For shouldst thou gaze with the utmost care, thou wouldst discern something, but as soon as thou dost look again, it ceaseth to be seen. For this reason, in the usage of mystics who seek after truth, ‘Amá’ signifieth the Universal Reality without individuations as such, for these individuations exist in the mode of uncompounded simplicity and oneness and are not differentiated from the Divine Essence. Thus they are individuated and not individuated. This is the station alluded to by the terms Aḥadíyyih [Absolute Oneness] and ‘Amá’. This is the station of the “Hidden Treasure” mentioned in the Ḥadíth. The divine attributes, therefore, are individuations that exist in the Essence but are not differentiated therefrom. They are seen and then not seen. This, in brief, is what is meant by ‘Amá’.” (From a previously untranslated Tablet of ‘Abdu’l‑Bahá.) "
               }
             ]
           }
@@ -592,12 +584,8 @@
           {
             "spans": [
               {
-                "text": " Aḥmad, Muḥammad, and Maḥmúd are names and titles of the Prophet derived from the verb "
-              },
-              { "type": "quote", "spans": [{ "text": "to praise" }] },
-              { "text": ", " },
-              { "type": "quote", "spans": [{ "text": "to extol" }] },
-              { "text": ". " }
+                "text": " Aḥmad, Muḥammad, and Maḥmúd are names and titles of the Prophet derived from the verb “to praise”, “to extol”. "
+              }
             ]
           }
         ]
@@ -639,13 +627,8 @@
         "content": [
           {
             "spans": [
-              { "text": " Literally, " },
               {
-                "type": "quote",
-                "spans": [{ "text": "in the garden of Ghawthíyyih" }]
-              },
-              {
-                "text": ". The Risáliy‑i‑Ghawthíyyih is a mystical treatise by ‘Abdu’l‑Qádir‑i‑Gílání (ca. 1077–1166). The sentence that follows is a quotation from this work. "
+                "text": " Literally, “in the garden of Ghawthíyyih”. The Risáliy‑i‑Ghawthíyyih is a mystical treatise by ‘Abdu’l‑Qádir‑i‑Gílání (ca. 1077–1166). The sentence that follows is a quotation from this work. "
               }
             ]
           }
@@ -688,13 +671,8 @@
           {
             "spans": [
               {
-                "text": " ‘Aṭṭár (ca. 1119–1230) in his Manṭiqu’ṭ‑Ṭayr (The Conference of the Birds) has elaborated seven valleys through which the birds pass in search of their king. Bahá’u’lláh refers to ‘Aṭṭár’s scheme of the valleys. Rúmí (1207–1273) alludes to the "
-              },
-              {
-                "type": "quote",
-                "spans": [{ "text": "seven cities of love" }]
-              },
-              { "text": " crossed by ‘Aṭṭár. " }
+                "text": " ‘Aṭṭár (ca. 1119–1230) in his Manṭiqu’ṭ‑Ṭayr (The Conference of the Birds) has elaborated seven valleys through which the birds pass in search of their king. Bahá’u’lláh refers to ‘Aṭṭár’s scheme of the valleys. Rúmí (1207–1273) alludes to the “seven cities of love” crossed by ‘Aṭṭár. "
+              }
             ]
           }
         ]
@@ -748,10 +726,8 @@
         "content": [
           {
             "spans": [
-              { "text": " Majnún means " },
-              { "type": "quote", "spans": [{ "text": "madman" }] },
               {
-                "text": ". This is the title of the celebrated lover of ancient Persian and Arabian lore whose beloved was Laylí. Symbolising true human love bordering on the divine, the storey has been the theme of many Persian romantic poems, most famously that of Niẓámí, written in 1188. "
+                "text": " Majnún means “madman”. This is the title of the celebrated lover of ancient Persian and Arabian lore whose beloved was Laylí. Symbolising true human love bordering on the divine, the storey has been the theme of many Persian romantic poems, most famously that of Niẓámí, written in 1188. "
               }
             ]
           }
@@ -818,14 +794,8 @@
         "content": [
           {
             "spans": [
-              { "text": " A reference to the Islamic profession of faith: " },
               {
-                "type": "quote",
-                "spans": [
-                  {
-                    "text": "No God is there but God, and Muḥammad is the Messenger of God."
-                  }
-                ]
+                "text": " A reference to the Islamic profession of faith: “No God is there but God, and Muḥammad is the Messenger of God.” "
               }
             ]
           }
@@ -956,15 +926,7 @@
           {
             "spans": [
               {
-                "text": " An allusion to the Ḥadíth in which God is said to address the Prophet Muhammad in these words: "
-              },
-              {
-                "type": "quote",
-                "spans": [
-                  {
-                    "text": "But for Thee, I would not have created the spheres."
-                  }
-                ]
+                "text": " An allusion to the Ḥadíth in which God is said to address the Prophet Muhammad in these words: “But for Thee, I would not have created the spheres.” "
               }
             ]
           }
@@ -1450,26 +1412,9 @@
         "content": [
           {
             "spans": [
-              { "type": "quote", "spans": [{ "text": "But for Thee" }] },
-              { "text": " refers to the Ḥadíth quoted in note 26. " },
               {
-                "type": "quote",
-                "spans": [{ "text": "We have failed to know Thee" }]
-              },
-              {
-                "text": " alludes to a prayer attributed to Muḥammad that says, "
-              },
-              {
-                "type": "quote",
-                "spans": [
-                  {
-                    "text": "We have not known Thee, O God, as Thou oughtest to be known."
-                  }
-                ]
-              },
-              { "text": " " },
-              { "type": "quote", "spans": [{ "text": "Or even closer" }] },
-              { "text": " alludes to Qur’án 53:9. " }
+                "text": " “But for Thee” refers to the Ḥadíth quoted in note 26. “We have failed to know Thee” alludes to a prayer attributed to Muḥammad that says, “We have not known Thee, O God, as Thou oughtest to be known.” “Or even closer” alludes to Qur’án 53:9. "
+              }
             ]
           }
         ]
@@ -2129,15 +2074,7 @@
           {
             "spans": [
               {
-                "type": "quote",
-                "spans": [
-                  {
-                    "text": "The word ‘Guardian’ in the Seven Valleys has no connexion with the Bahá’í Guardianship."
-                  }
-                ]
-              },
-              {
-                "text": " (From a letter dated 8 January 1949 written on behalf of Shoghi Effendi.) "
+                "text": " “The word ‘Guardian’ in the Seven Valleys has no connexion with the Bahá’í Guardianship.” (From a letter dated 8 January 1949 written on behalf of Shoghi Effendi.) "
               }
             ]
           }
@@ -2233,10 +2170,8 @@
           {
             "spans": [
               {
-                "text": " In what follows, Bahá’u’lláh interprets the meaning of each of the five letters comprising the word "
-              },
-              { "type": "quote", "spans": [{ "text": "sparrow" }] },
-              { "text": " (gunjishk) in Persian. " }
+                "text": " In what follows, Bahá’u’lláh interprets the meaning of each of the five letters comprising the word “sparrow” (gunjishk) in Persian. "
+              }
             ]
           }
         ]
@@ -2834,10 +2769,8 @@
               { "text": "ay" },
               { "type": "u", "text": "kh" },
               {
-                "text": " ‘Abdu’r‑Raḥmán, the recipient of the Tablet, with Ḥusámu’d‑Dín Chalabí, to whom Rúmí dedicated his Mathnaví. Ḥusámu’d‑Dín means "
-              },
-              { "type": "quote", "spans": [{ "text": "sword of faith" }] },
-              { "text": ". " }
+                "text": " ‘Abdu’r‑Raḥmán, the recipient of the Tablet, with Ḥusámu’d‑Dín Chalabí, to whom Rúmí dedicated his Mathnaví. Ḥusámu’d‑Dín means “sword of faith”. "
+              }
             ]
           }
         ]

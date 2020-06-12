@@ -2571,12 +2571,8 @@
           {
             "spans": [
               {
-                "text": " In the Tafsír‑i‑Hú Bahá’u’lláh explains that the name "
+                "text": " In the Tafsír‑i‑Hú Bahá’u’lláh explains that the name “He” (or "
               },
-              { "text": "“" },
-              { "text": "He" },
-              { "text": "”" },
-              { "text": " (or " },
               { "type": "i", "text": "Huva" },
               {
                 "text": ", consisting of the letters Há’ and Váv) is God’s Most Great Name, for it is a mirror in which all of God’s names and attributes are reflected together. "
@@ -2643,15 +2639,7 @@
         "content": [
           {
             "spans": [
-              { "text": " That is, the letter " },
-              { "text": "“" },
-              { "text": "B" },
-              { "text": "”" },
-              { "text": " in the name " },
-              { "text": "“" },
-              { "text": "Bahá" },
-              { "text": "”" },
-              { "text": ". " }
+              { "text": " That is, the letter “B” in the name “Bahá”. " }
             ]
           }
         ]
@@ -3629,24 +3617,9 @@
         "content": [
           {
             "spans": [
-              { "text": "“" },
-              { "text": "Deadly foes" },
-              { "text": "”" },
-              { "text": " (lit., " },
-              { "text": "“" },
-              { "text": "" },
+              { "text": " “Deadly foes” (lit., “" },
               { "type": "u", "text": "Sh" },
-              { "text": "imrs" },
-              { "text": "”" },
-              { "text": ") and " },
-              { "text": "“" },
-              { "text": "tyrant kings" },
-              { "text": "”" },
-              { "text": " (lit., " },
-              { "text": "“" },
-              { "text": "Nimrods" },
-              { "text": "”" },
-              { "text": "): " },
+              { "text": "imrs”) and “tyrant kings” (lit., “Nimrods”): " },
               { "type": "u", "text": "Sh" },
               {
                 "text": "imr dealt the blow that killed Imám Ḥusayn, and Nimrod was the persecutor of Abraham. "
@@ -4505,12 +4478,8 @@
             "spans": [
               { "text": " The numerical value of the letters of the word " },
               { "type": "i", "text": "Ḥín" },
-              { "text": " is 68. " },
-              { "text": "“" },
-              { "text": "After Ḥín" },
-              { "text": "”" },
               {
-                "text": " is thus an allusion to the year after A.H. 1268, which was 1269 (A.D. 1852–3), the year that marked the birth of the Bahá’í Revelation. "
+                "text": " is 68. “After Ḥín” is thus an allusion to the year after A.H. 1268, which was 1269 (A.D. 1852–3), the year that marked the birth of the Bahá’í Revelation. "
               }
             ]
           }

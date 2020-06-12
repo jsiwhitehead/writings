@@ -2,29 +2,13 @@ import process from './process';
 import { last } from './utils';
 
 process('parsed', 'structured', (data, fullConfig) => {
-  const removePlainQuotes = (spans) => {
-    const result = [] as any[];
-    spans.forEach((s) => {
-      if (s.type === 'quote' && !s.source) {
-        result.push({ text: '“' }, ...s.spans, { text: '”' });
-      } else {
-        result.push(s);
-      }
-    });
-    return result;
-  };
-
   let quoteCount = 0;
   const combineQuotes = (spans, config = {}) => {
     const result = [] as any[];
     let quoteRun = 0;
     spans.forEach((s) => {
       if (s.type === 'note') {
-        const content = s.content.map((c) => ({
-          ...c,
-          spans: removePlainQuotes(combineQuotes(c.spans, config)),
-        }));
-        result.push({ ...s, content });
+        result.push(s);
       } else if (s.type === 'quote') {
         quoteCount++;
         if (quoteRun > 0) {
@@ -37,8 +21,8 @@ process('parsed', 'structured', (data, fullConfig) => {
       } else {
         if (quoteRun > 0) {
           const c = last(result).spans;
-          if (last(c).type !== 'join') c.push({ type: 'join', content: [] });
-          last(c).content.push(s);
+          if (last(c).type !== 'join') c.push({ type: 'join', spans: [] });
+          last(c).spans.push(s);
         } else {
           result.push(s);
         }
@@ -48,7 +32,7 @@ process('parsed', 'structured', (data, fullConfig) => {
   };
 
   let noteCount = 0;
-  const addSources = (spans, config = [] as any[]) => {
+  const addSources = (spans, skipLast, config = [] as any[]) => {
     const result = [] as any[];
     spans.forEach((s, i) => {
       if (s.type !== 'note') {
@@ -56,6 +40,7 @@ process('parsed', 'structured', (data, fullConfig) => {
       } else {
         noteCount++;
         const q =
+          !(skipLast && i === spans.length - 1) &&
           !config.includes(noteCount) &&
           spans
             .slice(i - 2, i)
@@ -68,25 +53,35 @@ process('parsed', 'structured', (data, fullConfig) => {
     return result;
   };
 
-  let blockCount = 0;
+  const removePlainQuotes = (spans) => {
+    const result = [] as any[];
+    spans.forEach((s) => {
+      if (s.type === 'quote' && !s.source) {
+        result.push({ text: '“' }, ...s.spans, { text: '”' });
+      } else {
+        result.push(s);
+      }
+    });
+    return result;
+  };
+
   return data.map((x) => {
     if (!x.spans) return x;
-    if (x.type === 'block') {
-      blockCount++;
-      if (
-        last(x.spans).type === 'note' &&
-        !(fullConfig.skipBlocks || []).includes(blockCount)
-      ) {
-        x.source = x.spans.pop().content;
-        // removePlainQuotes on source!
-      }
-    }
     const spans = removePlainQuotes(
       addSources(
         combineQuotes(x.spans, fullConfig.quotes),
+        x.type === 'block',
         fullConfig.skipNotes,
       ),
     );
+    if (x.type === 'block') {
+      if (
+        last(spans).type === 'note' &&
+        !(fullConfig.skipNotes || []).includes(noteCount)
+      ) {
+        x.source = spans.pop().content;
+      }
+    }
     return { ...x, spans };
   });
 });

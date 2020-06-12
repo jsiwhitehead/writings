@@ -91,7 +91,7 @@ const parse = (data) => {
       } else if (node.type === 'element') {
         const note = getNoteId(node);
         if (note) {
-          notes[note] = walkFull(node.children, {
+          notes[note] = walkFull(node.children, false, {
             gap: 0,
             spans: [{ text: '' }],
           });
@@ -140,7 +140,7 @@ const parse = (data) => {
         }
       }
     });
-  const walkFull = (children, first?) => {
+  const walkFull = (children, withQuotes, first?) => {
     const items = first ? [first] : [];
     walk(items, children);
     for (let i = items.length - 1; i >= 0; i--) {
@@ -164,24 +164,26 @@ const parse = (data) => {
                 .replace(/\-/g, '‑')
                 .replace(/\s+/g, ' ');
               let start = 0;
-              let match;
-              const regex = /“|”/g;
-              while ((match = regex.exec(text)) !== null) {
-                if (match[0] === '“') {
-                  if (++quoteLevel === 1) {
-                    spans.push(
-                      { ...s, text: text.slice(start, match.index) },
-                      { type: 'quote', spans: [] },
-                    );
-                    start = match.index + 1;
-                  }
-                } else {
-                  if (quoteLevel-- === 1) {
-                    last(spans).spans.push({
-                      ...s,
-                      text: text.slice(start, match.index),
-                    });
-                    start = match.index + 1;
+              if (withQuotes) {
+                let match;
+                const regex = /“|”/g;
+                while ((match = regex.exec(text)) !== null) {
+                  if (match[0] === '“') {
+                    if (++quoteLevel === 1) {
+                      spans.push(
+                        { ...s, text: text.slice(start, match.index) },
+                        { type: 'quote', spans: [] },
+                      );
+                      start = match.index + 1;
+                    }
+                  } else {
+                    if (quoteLevel-- === 1) {
+                      last(spans).spans.push({
+                        ...s,
+                        text: text.slice(start, match.index),
+                      });
+                      start = match.index + 1;
+                    }
                   }
                 }
               }
@@ -208,7 +210,7 @@ const parse = (data) => {
       })
       .filter((s) => s.spans?.length !== 0);
   };
-  return walkFull(data).map((x) => {
+  return walkFull(data, true).map((x) => {
     if (!x.spans) return x;
     return {
       ...x,
