@@ -1020,7 +1020,18 @@
       },
       { "text": "“" },
       { "text": "O Isráfíl!" },
-      { "type": "note", "text": "219194772" },
+      {
+        "type": "note",
+        "content": [
+          {
+            "spans": [
+              {
+                "text": " The angel who will sound the trumpet on the Day of Resurrection. "
+              }
+            ]
+          }
+        ]
+      },
       {
         "text": " By the righteousness of God, thou wert created for this day. Wherefore, sound thy trumpet to proclaim the advent of this Manifestation, that every mouldering bone may be quickened thereby!"
       },

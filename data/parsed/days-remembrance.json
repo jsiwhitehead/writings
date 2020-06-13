@@ -21,11 +21,20 @@
       {
         "text": " The coming of each Manifestation of God brings renewal and revitalization: "
       },
-      { "type": "quote", "spans": [{ "text": "old things are passed away" }] },
+      {
+        "number": 1,
+        "type": "quote",
+        "spans": [{ "text": "old things are passed away" }]
+      },
       { "text": " and " },
-      { "type": "quote", "spans": [{ "text": "all things are become new" }] },
+      {
+        "number": 2,
+        "type": "quote",
+        "spans": [{ "text": "all things are become new" }]
+      },
       { "text": "." },
       {
+        "number": 1,
         "type": "note",
         "content": [{ "spans": [{ "text": " 2 Corinthians 5:17. " }] }]
       },
@@ -41,6 +50,7 @@
         "text": " Reflect thou, how, in one hand, He hath, by His mighty grasp, turned the earth of knowledge and understanding, previously unfolded, into a mere handful, and, on the other, spread out a new and highly exalted earth in the hearts of men, thus causing the freshest and loveliest blossoms, and the mightiest and loftiest trees to spring forth from the illumined bosom of man."
       },
       {
+        "number": 2,
         "type": "note",
         "content": [{ "spans": [{ "text": " Kitáb‑i‑Íqán ¶51. " }] }]
       }
@@ -58,9 +68,17 @@
       {
         "text": " The Bahá’í calendar, known as the Badí‘ calendar, was introduced by the Báb and subsequently confirmed by Bahá’u’lláh, Who fixed its commencement at the year of the Báb’s declaration, 1844 (A.H. 1260). As the Bahá’í Era was inaugurated by twin Founders, the Bahá’í Holy Days include events pertaining to the birth, declaration, and passing of both Bahá’u’lláh and the Báb. In the Kitáb‑i‑Aqdas, the principal repository of the laws of His Revelation, Bahá’u’lláh designates the two "
       },
-      { "type": "quote", "spans": [{ "text": "Most Great Festivals" }] },
+      {
+        "number": 3,
+        "type": "quote",
+        "spans": [{ "text": "Most Great Festivals" }]
+      },
       { "text": ": Riḍván, " },
-      { "type": "quote", "spans": [{ "text": "the King of Festivals" }] },
+      {
+        "number": 4,
+        "type": "quote",
+        "spans": [{ "text": "the King of Festivals" }]
+      },
       {
         "text": ", commemorating the declaration of His prophetic mission during a period of twelve days, three of which are observed as Holy Days, and the Declaration of the Báb, the event that initiates the Bahá’í Era. Also named as festivals in that same Book are Naw‑Rúz and the anniversaries of the Birth of the Báb and of Bahá’u’lláh. The anniversary of the Martyrdom of the Báb was commemorated as a Holy Day during the lifetime of Bahá’u’lláh, and ‘Abdu’l‑Bahá added the observance of the Ascension of Bahá’u’lláh. "
       }
@@ -72,6 +90,7 @@
         "text": " The present volume offers forty‑five selections from the Writings of Bahá’u’lláh revealed specifically for, or otherwise relating to, these nine Holy Days. The selections represent different revelatory modes, each reflecting facets of the greatness, the preciousness, and the peerless nature of this Day in which all the promises and prophecies of the past have been fulfilled—this sacred Day "
       },
       {
+        "number": 5,
         "type": "quote",
         "spans": [
           {
@@ -125,11 +144,13 @@
     "spans": [
       { "text": " Thou art He through Whom the ensign " },
       {
+        "number": 6,
         "type": "quote",
         "spans": [{ "text": "Praiseworthy art Thou in Thy works" }]
       },
       { "text": " hath been lifted up, and the standard " },
       {
+        "number": 7,
         "type": "quote",
         "spans": [{ "text": "Obeyed art Thou in Thy behest" }]
       },
@@ -137,6 +158,7 @@
         "text": " hath been unfurled. Make known this Thy station, O my God, unto Thy servants, that they may be made aware that the excellence of all things is dependent upon Thy bidding and Thy word, and the virtue of every act is conditioned by Thy leave and the good‑pleasure of Thy will, and may recognise that the reins of men’s doings are within the grasp of Thine acceptance and Thy commandment. Make this known unto them, that nothing whatsoever may shut them out from Thy Beauty, in these days whereon the Christ exclaimeth: "
       },
       {
+        "number": 8,
         "type": "quote",
         "spans": [
           {
@@ -146,6 +168,7 @@
       },
       { "text": " and Thy Friend (Muḥammad) crieth out: " },
       {
+        "number": 9,
         "type": "quote",
         "spans": [
           {
@@ -234,6 +257,7 @@
         "text": " Exalted be this blessed and glorious day which Thou hast designated by that beloved Name which is both hidden and manifest, and which, when it shone forth above the horizon of eternity, the Divine Lote‑Tree called out, saying: "
       },
       {
+        "number": 10,
         "type": "quote",
         "spans": [
           {
@@ -245,6 +269,7 @@
         "text": " Whereupon Paradise was set astir and proclaimed with joy and fervour: "
       },
       {
+        "number": 11,
         "type": "quote",
         "spans": [
           {
@@ -254,6 +279,7 @@
       },
       { "text": " And all things cried aloud: " },
       {
+        "number": 12,
         "type": "quote",
         "spans": [
           {
@@ -272,6 +298,7 @@
         "text": " By God! This is the Day whereon from the murmur of the waters can be heard: "
       },
       {
+        "number": 13,
         "type": "quote",
         "spans": [
           {
@@ -281,6 +308,7 @@
       },
       { "text": ", and from the whispering of whose breezes can be heard: " },
       {
+        "number": 14,
         "type": "quote",
         "spans": [
           { "text": "No God is there but Him, the Almighty, the Best‑Beloved" }
@@ -288,6 +316,7 @@
       },
       { "text": ", and from the rustling of whose trees can be heard: " },
       {
+        "number": 15,
         "type": "quote",
         "spans": [
           {
@@ -299,6 +328,7 @@
         "text": ", and beyond them, from the Tongue of Grandeur can be heard: "
       },
       {
+        "number": 16,
         "type": "quote",
         "spans": [
           {
@@ -534,6 +564,7 @@
     "spans": [
       { "text": " This is the Day whereon the unseen world crieth out: " },
       {
+        "number": 17,
         "type": "quote",
         "spans": [
           {
@@ -543,6 +574,7 @@
       },
       { "text": " The realm of glory exclaimeth: " },
       {
+        "number": 18,
         "type": "quote",
         "spans": [
           {
@@ -589,6 +621,7 @@
         "text": " Say: This is the Paradise on whose foliage the wine of utterance hath imprinted the testimony: "
       },
       {
+        "number": 19,
         "type": "quote",
         "spans": [
           {
@@ -600,6 +633,7 @@
         "text": " This is the Paradise the rustling of whose leaves proclaimeth: "
       },
       {
+        "number": 20,
         "type": "quote",
         "spans": [
           {
@@ -611,6 +645,7 @@
         "text": " From the whispering breeze that wafteth amidst its branches there cometh the cry: "
       },
       {
+        "number": 21,
         "type": "quote",
         "spans": [
           {
@@ -620,6 +655,7 @@
       },
       { "text": " while from its streaming waters can be heard the murmur: " },
       {
+        "number": 22,
         "type": "quote",
         "spans": [
           {
@@ -635,6 +671,7 @@
         "text": " Within this Paradise, and from the heights of its loftiest chambers, the Maids of Heaven have cried out and shouted: "
       },
       {
+        "number": 23,
         "type": "quote",
         "spans": [
           {
@@ -650,6 +687,7 @@
         "text": " This is the Day whereon He Who is the Revealer of the names of God hath stepped out of the Tabernacle of glory, and proclaimed unto all who are in the heavens and all who are on the earth: "
       },
       {
+        "number": 24,
         "type": "quote",
         "spans": [
           {
@@ -672,6 +710,7 @@
         "text": " Look not upon the creatures of God except with the eye of kindliness and of mercy, for Our loving providence hath pervaded all created things, and Our grace encompassed the earth and the heavens. This is the Day whereon the true servants of God partake of the life‑giving waters of reunion, the Day whereon those that are nigh unto Him are able to drink of the soft‑flowing river of immortality, and they who believe in His unity, the wine of His Presence, through their recognition of Him Who is the Highest and Last End of all, in Whom the Tongue of Majesty and Glory voiceth the call: "
       },
       {
+        "number": 25,
         "type": "quote",
         "spans": [
           {
@@ -694,6 +733,7 @@
         "text": " The Best‑Beloved is come. In His right hand is the sealed Wine of His name. Happy is the man that turneth unto Him, and drinketh his fill, and exclaimeth: "
       },
       {
+        "number": 26,
         "type": "quote",
         "spans": [
           { "text": "Praise be to Thee, O Revealer of the signs of God!" }
@@ -710,6 +750,7 @@
         "text": " Blessed are they that have soared on the wings of detachment and attained the station which, as ordained by God, overshadoweth the entire creation, whom neither the vain imaginations of the learned, nor the multitude of the hosts of the earth have succeeded in deflecting from His Cause. Who is there among you, O people, who will renounce the world, and draw nigh unto God, the Lord of all names? Where is he to be found who, through the power of My name that transcendeth all created things, will cast away the things that men possess, and cling, with all his might, to the things which God, the Knower of the unseen and of the seen, hath bidden him observe? Thus hath His bounty been sent down unto men, His testimony fulfilled, and His proof shone forth above the Horizon of mercy. Rich is the prize that shall be won by him who hath believed and exclaimed: "
       },
       {
+        "number": 27,
         "type": "quote",
         "spans": [
           {
@@ -867,13 +908,14 @@
         "text": " On the first day that the Ancient Beauty ascended His Most Great Throne in the garden named Riḍván, the Tongue of Glory gave utterance to three blessed words. First, that in this Revelation the law of the sword hath been annulled."
       },
       {
+        "number": 3,
         "type": "note",
         "content": [{ "spans": [{ "text": " That is, jihad. " }] }]
       },
       {
         "text": " Second, that ere the expiration of one thousand years whosoever advanceth a prophetic claim is false. By "
       },
-      { "type": "quote", "spans": [{ "text": "year" }] },
+      { "number": 28, "type": "quote", "spans": [{ "text": "year" }] },
       {
         "text": " a full year is intended, and no exegesis or interpretation is permitted in this matter. And third, that at that very hour God, exalted be His Glory, shed the full splendour of all His names upon all creation. "
       }
@@ -900,6 +942,7 @@
         "text": " God, the Most Powerful, the Most Exalted, the Most Great, addresseth the holy Beings created through the Primal Word that proceeded from His mouth, and beyond them the Concourse on high, and beyond them those whom He hath sanctified above the comprehension of all who are on earth and in heaven and whom He hath raised up through His hidden and inscrutable Will, saying: "
       },
       {
+        "number": 29,
         "type": "quote",
         "spans": [
           {
@@ -992,6 +1035,7 @@
         "text": " Then the Most Great Spirit raised a call that resounded through the entire creation, saying: "
       },
       {
+        "number": 30,
         "type": "quote",
         "spans": [
           {
@@ -1010,6 +1054,7 @@
         "text": " This is the Day whereon the most grievous veil was torn asunder and the Scene of transcendent purity was made manifest; the Day whereon the face of God smiled with the joy of reunion, and the gates of His presence were flung open to the embodiments of His beauty and majesty and to them that had pierced the veils of glory through the power born of God, the Almighty, the All‑Knowing, the All‑Wise; the Day whereon all things visible and invisible cried out: "
       },
       {
+        "number": 31,
         "type": "quote",
         "spans": [
           {
@@ -1039,6 +1084,7 @@
         "text": " And then another herald called out from the Scene of transcendent glory: "
       },
       {
+        "number": 32,
         "type": "quote",
         "spans": [
           {
@@ -1064,6 +1110,7 @@
         "text": " When that joy born of God had taken hold of all else besides Him, the Most Great Spirit called out once more, proclaiming: "
       },
       {
+        "number": 33,
         "type": "quote",
         "spans": [
           {
@@ -1078,9 +1125,9 @@
       {
         "text": " At this announcement the dwellers of earth and heaven were filled with dismay. Such was their weeping and wailing that they fell prostrate upon the dust, consumed with sorrow. How strange that grievous and sore‑trying separation! All things visible and invisible were bewildered by this call. Such was their plight that the letter "
       },
-      { "type": "quote", "spans": [{ "text": "B" }] },
+      { "number": 34, "type": "quote", "spans": [{ "text": "B" }] },
       { "text": " became oblivious of the letter " },
-      { "type": "quote", "spans": [{ "text": "E" }] },
+      { "number": 35, "type": "quote", "spans": [{ "text": "E" }] },
       {
         "text": ", and the lovers forsook the face of their Beloved, the Almighty, the All‑Praised. How woeful was that manifest and irrevocable decree! "
       }
@@ -1091,20 +1138,30 @@
       {
         "text": " When matters came to such a pass, the Ancient Beauty bestirred Himself, and all things were inwardly and outwardly set in motion. Then He arose, and through His arising the Most Great Resurrection was ushered in betwixt earth and heaven. Whereupon the Spirit called out once again, before His presence: "
       },
+      { "text": "“" },
+      { "text": "O Isráfíl!" },
       {
-        "type": "quote",
-        "spans": [
-          { "text": "O Isráfíl!" },
-          { "type": "note", "text": "219194772" },
+        "number": 4,
+        "type": "note",
+        "content": [
           {
-            "text": " By the righteousness of God, thou wert created for this day. Wherefore, sound thy trumpet to proclaim the advent of this Manifestation, that every mouldering bone may be quickened thereby!"
+            "spans": [
+              {
+                "text": " The angel who will sound the trumpet on the Day of Resurrection. "
+              }
+            ]
           }
         ]
       },
       {
+        "text": " By the righteousness of God, thou wert created for this day. Wherefore, sound thy trumpet to proclaim the advent of this Manifestation, that every mouldering bone may be quickened thereby!"
+      },
+      { "text": "”" },
+      {
         "text": " As bidden, the angel sounded his trumpet, causing all who dwell in heaven and on earth to swoon away. Then he sounded his trumpet anew; they arose and, fixing their gaze upon this glorious Vision, cried out: "
       },
       {
+        "number": 37,
         "type": "quote",
         "spans": [
           {
@@ -1148,6 +1205,7 @@
         "text": " The Hand of Power then parted the veil of grandeur, whence the Beauty of the All‑Glorious emerged with supreme sovereignty. When He Who is the Self of God, the Almighty, the All‑Bountiful, purposed to pass through the gate, the Most Great Spirit made its final proclamation: "
       },
       {
+        "number": 38,
         "type": "quote",
         "spans": [
           {
@@ -1163,6 +1221,7 @@
         "text": " He then wept within Himself with such a weeping that the dwellers of earth and heaven, and those suspended in the air before Him, and those circling round the Countenance of grandeur, wept with Him. And He spoke unto them, saying: "
       },
       {
+        "number": 39,
         "type": "quote",
         "spans": [
           {
@@ -1328,7 +1387,11 @@
       {
         "text": " I implore Thee, O my God, by the appearance of Him Whom Thou hast manifested in these days through Thy Name "
       },
-      { "type": "quote", "spans": [{ "text": "He Who is Invoked" }] },
+      {
+        "number": 40,
+        "type": "quote",
+        "spans": [{ "text": "He Who is Invoked" }]
+      },
       {
         "text": ", and by His beauty, and His majesty, and the afflictions He hath been made to suffer, and His divine fragrances, and His sweet accents, and His grandeur, and His might, to grant that the eyes of Thy loved ones may be freed from the veils of ignorance and blindness and from the obscuring mists of doubt and wretchedness. Perchance they may fix their gaze upon the Tree of Thy Revelation and upon that which appeareth thereon of the wondrous leaves of Thine ancient eternity and the precious fruits of Thy holy unity, may take delight in them and in that which they contain of Thy hidden gifts and concealed knowledge, and may rid themselves thereby of attachment to aught else. This, verily, is but perfect grace and unalloyed blessing, and the very essence, origin, and ultimate abode thereof, for within the compass of Thy knowledge there is naught higher than this grace nor sweeter than this blessing. Thou, verily, art the King, the Omniscient, the Omnipotent, the Almighty, the All‑Knowing, the All‑Wise. "
       }
@@ -1518,6 +1581,7 @@
   {
     "spans": [
       {
+        "number": 41,
         "type": "quote",
         "spans": [{ "text": "Why do ye gainsay Me, O people of the Book?" }]
       },
@@ -1527,6 +1591,7 @@
   {
     "spans": [
       {
+        "number": 42,
         "type": "quote",
         "spans": [
           {
@@ -1539,15 +1604,20 @@
   },
   {
     "spans": [
-      { "type": "quote", "spans": [{ "text": "O my friends," }] },
+      { "number": 43, "type": "quote", "spans": [{ "text": "O my friends," }] },
       { "text": " She said, " },
-      { "type": "quote", "spans": [{ "text": "We shall not come again," }] },
+      {
+        "number": 44,
+        "type": "quote",
+        "spans": [{ "text": "We shall not come again," }]
+      },
       { "text": "—how wondrous a return, how wondrous indeed!— " }
     ]
   },
   {
     "spans": [
       {
+        "number": 45,
         "type": "quote",
         "spans": [
           {
@@ -1561,6 +1631,7 @@
   {
     "spans": [
       {
+        "number": 46,
         "type": "quote",
         "spans": [
           {
@@ -1658,6 +1729,7 @@
         "text": " Praise be to Thee, O my God, for having cast in this Day the radiance of all Thy names upon all created things, O Thou Who art the Lord of glory, majesty, and grandeur; of power, might, and blessings! This is the Day whereon He Who is the Mouthpiece of God, the All‑Possessing, the Inaccessible, the Most High, hath called out from the realm of eternity, saying: "
       },
       {
+        "number": 47,
         "type": "quote",
         "spans": [
           {
@@ -1673,6 +1745,7 @@
         "text": " Lauded be Thy name, O Thou Who causest the winds to blow and the dawn to break, Who revealest the verses and unveilest the proofs! All things proclaim that Thou art God, and that there is none other God but Thee, the Sovereign, the All‑Powerful, the Most Exalted, the Most Great. Magnified be Thy name, O Thou Who art the Fashioner of the heavens and the Creator of all names, Who sheddest Thy splendour upon all things through the power of Thy Most Great Name. This, verily, is the name whereby the Mystic Dove hath warbled upon the celestial bough, proclaiming: "
       },
       {
+        "number": 48,
         "type": "quote",
         "spans": [
           {
@@ -1780,6 +1853,7 @@
         "text": " Verily God hath testified, in Himself and by Himself, and in His inmost Essence, that there is none other God but Him and that He Who is come through the power of truth is the Manifestation of His most excellent names and the Dawning‑Place of His most exalted attributes. Through Him the voice of the mystic Morn rang out from the horizon of eternity and the Most Great Spirit spoke forth before the Divine Lote‑Tree, saying: "
       },
       {
+        "number": 49,
         "type": "quote",
         "spans": [
           {
@@ -1802,6 +1876,7 @@
         "text": " We verily behold, at this hour and from His realm, all the denizens of earth and heaven, and summon them to this Beauty that hath solaced the eyes of the inmates of Paradise and the dwellers of the tabernacle of holiness, them that have fixed their gaze on this Scene of resplendent glory and whom the veils of human limitations have failed to debar from beholding the countenance of God, the Almighty, the Most Wondrous. He it is Who proclaimeth within all things: "
       },
       {
+        "number": 50,
         "type": "quote",
         "spans": [
           {
@@ -1817,6 +1892,7 @@
         "text": " By My life! The Day is come which from all eternity was concealed in the treasuries of the might of your Lord. Rejoice in this blessed, this glorious and sublime Day. For He verily is Mine own Appearance amongst you, and whoso maketh the slightest distinction between Him and Me hath indeed strayed far from the straight path of truth. He it is Who hath caused the Mystic Dove to warble upon the twigs of the Tree of glory, saying: "
       },
       {
+        "number": 51,
         "type": "quote",
         "spans": [
           {
@@ -1853,6 +1929,7 @@
         "text": " This is the Day whereon Muḥammad, the Apostle of God, cried out from the midmost heart of Paradise, saying: "
       },
       {
+        "number": 52,
         "type": "quote",
         "spans": [
           {
@@ -1865,9 +1942,14 @@
   {
     "spans": [
       { "text": " This is the Day whereon the Spirit" },
-      { "type": "note", "content": [{ "spans": [{ "text": " Jesus. " }] }] },
+      {
+        "number": 5,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Jesus. " }] }]
+      },
       { "text": " proclaimed from the midmost heart of heaven: " },
       {
+        "number": 53,
         "type": "quote",
         "spans": [
           {
@@ -1880,6 +1962,7 @@
   {
     "spans": [
       {
+        "number": 54,
         "type": "quote",
         "spans": [
           {
@@ -1892,6 +1975,7 @@
   {
     "spans": [
       {
+        "number": 55,
         "type": "quote",
         "spans": [
           {
@@ -1904,6 +1988,7 @@
   {
     "spans": [
       {
+        "number": 56,
         "type": "quote",
         "spans": [
           {
@@ -1916,6 +2001,7 @@
   {
     "spans": [
       {
+        "number": 57,
         "type": "quote",
         "spans": [
           {
@@ -1928,6 +2014,7 @@
   {
     "spans": [
       {
+        "number": 58,
         "type": "quote",
         "spans": [
           {
@@ -1943,6 +2030,7 @@
         "text": " This is the Day whereon Moses lifted up His voice from the Sinai of Our name, the Almighty, saying: "
       },
       {
+        "number": 59,
         "type": "quote",
         "spans": [
           {
@@ -1955,9 +2043,14 @@
   {
     "spans": [
       { "text": " This is the Day whereon the Point of the Bayán" },
-      { "type": "note", "content": [{ "spans": [{ "text": " The Báb. " }] }] },
+      {
+        "number": 6,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " The Báb. " }] }]
+      },
       { "text": " called out from the midmost heart of Paradise, saying: " },
       {
+        "number": 60,
         "type": "quote",
         "spans": [
           {
@@ -1980,6 +2073,7 @@
         "text": " O Lord, my God! I beseech Thee by this Day, and by Thy most consummate Name through which the Most Great Ocean hath surged, to protect the people of Bahá from them that have disbelieved in Thy mighty signs. Make them then, O my God, to be the exponents of Thine ascendancy and Thy might, that they may arise to glorify Thee and to celebrate Thy praise amidst Thy servants, in such wise that neither the veils of the people of the earth, nor their insinuations, nor the onslaught of them that have arisen to put out Thy light, may keep them back from Thee. O God! Deprive them not of the gentle breezes that are wafting in this Day, a Day whereon every atom proclaimeth: "
       },
       {
+        "number": 61,
         "type": "quote",
         "spans": [{ "text": "Verily, Thou art God; no God is there but Thee!" }]
       },
@@ -2035,6 +2129,7 @@
         "text": " Thou well knowest, O Lord, that it hath been the desire of all that circle round Thee to receive Thee during the days of Riḍván. A few have been enabled, in accordance with their means, to attain this honour, while others, through its want, have been prevented therefrom. These have contented themselves with passing round in white vessels that crimson‑coloured wine that is brewed from the leaves of China."
       },
       {
+        "number": 7,
         "type": "note",
         "content": [{ "spans": [{ "text": " A reference to tea. " }] }]
       },
@@ -2055,7 +2150,11 @@
       {
         "text": " Look Thou moreover, O my God, with the glances of the eye of Thy mercy, upon Thy loved ones who are scattered in the land of Ḥá."
       },
-      { "type": "note", "content": [{ "spans": [{ "text": " Haifa. " }] }] },
+      {
+        "number": 8,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Haifa. " }] }]
+      },
       {
         "text": " They have tarried there ever since they were prevented from seeking shelter beneath the shade of the Tree of Thy oneness. O Lord, deny them not the things Thou dost possess. Verily, Thou art the Ruler of the heavens and of the earth. No God is there but Thee, the Almighty, the All‑Wise. Praise be to Thee, O Lord of the worlds and Desire of all them that have recognised Thee! "
       }
@@ -2163,6 +2262,7 @@
         "text": " Release yourselves, O nightingales of God, from the thorns and brambles of wretchedness and misery, and wing your flight to the rose‑garden of unfading splendour. O My friends that dwell upon the dust! Haste forth unto your celestial habitation. Announce unto yourselves the joyful tidings: "
       },
       {
+        "number": 62,
         "type": "quote",
         "spans": [
           {
@@ -2174,6 +2274,7 @@
         "text": " Let all eyes rejoice, and let every ear be gladdened, for now is the time to gaze on His beauty, now is the fit time to hearken to His voice. Proclaim unto every longing lover: "
       },
       {
+        "number": 63,
         "type": "quote",
         "spans": [{ "text": "Behold, your Well‑Beloved hath come among men!" }]
       },
@@ -2181,6 +2282,7 @@
         "text": " and to the messengers of the Monarch of love impart the tidings: "
       },
       {
+        "number": 64,
         "type": "quote",
         "spans": [
           {
@@ -2239,7 +2341,7 @@
       {
         "text": " Divest, then, Thy servants, O my God, of the garments of self and desire, or grant that the eyes of Thy people may be lifted up to such heights that they will discern in their desires naught except the stirring of the gentle winds of Thine eternal glory, and may recognise in their own selves nothing but the revelation of Thine own merciful Self, that the earth and all that is therein may be cleansed of whatever is alien to Thee, or anything that manifesteth aught save Thy Self. All this can be fulfilled throughout Thy dominion by Thy word of command, "
       },
-      { "type": "quote", "spans": [{ "text": "Be," }] },
+      { "number": 65, "type": "quote", "spans": [{ "text": "Be," }] },
       {
         "text": " and it is! Nay, even swifter than this, and yet the people understand not. "
       }
@@ -2293,6 +2395,7 @@
         "text": " Praise be to Thee, O my God, that Thou hast revealed Thy favours and Thy bounties; and glory be to Thee, O my Beloved, that Thou hast manifested the Day‑Star of Thy loving‑kindness and Thy tender mercies. I yield Thee such thanks as can direct the steps of the wayward towards the splendours of the morning light of Thy guidance, and enable those who yearn towards Thee to attain the seat of the revelation of the effulgence of Thy beauty. I yield Thee such thanks as can cause the sick to draw nigh unto the waters of Thy healing, and can help those who are far from Thee to approach the living fountain of Thy presence. I yield Thee such thanks as can divest the bodies of Thy servants of the garments of mortality and abasement, and attire them in the robes of Thine eternity and Thy glory, and lead the poor unto the shores of Thy holiness and all sufficient riches. I yield Thee such thanks as can enable the Heavenly Dove to warble forth, upon the branches of the Lote‑Tree of Immortality, her song: "
       },
       {
+        "number": 66,
         "type": "quote",
         "spans": [
           {
@@ -2304,6 +2407,7 @@
         "text": " I yield Thee such thanks as can cause the Nightingale of Glory to pour forth its melody in the highest heaven: "
       },
       {
+        "number": 67,
         "type": "quote",
         "spans": [
           {
@@ -2484,6 +2588,7 @@
         "text": " O denizens of earth and heaven! Abandon your couches and undertake the Most Great Pilgrimage for the sake of this pure and refulgent Beauty. Should God witness your inability to do so, He will exempt you therefrom and command you instead to approach Him with heart and soul. And they alone shall attain this who behold all that is in the heavens and on the earth as a day wherein none was deemed worthy of mention."
       },
       {
+        "number": 9,
         "type": "note",
         "content": [{ "spans": [{ "text": " Cf. Qur’án 76:1. " }] }]
       },
@@ -2505,6 +2610,7 @@
         "text": " Say: This is a Day whereon God hath made His own Self known and revealed it unto all who are in the heavens and on earth, a day whereon He hath established His sovereign ascendancy over the kingdoms of revelation and creation. How exalted, then, is this holy, this most blessed and best‑beloved grace! This is a Day, moreover, whereon the Ancient Beauty hath appeared with such an adorning as to cause the veils to be rent asunder, and the mysteries to be revealed, and the fruits to spring forth, and all things to utter the praise of their Lord, the Unconstrained—a Day whereon the earth and all that it holdeth, and the heavens and all that they contain, and the mountains and all that they conceal, and the oceans and all that they treasure in their depths, have laid bare their secrets, though the people remain veiled therefrom. This is a day whereon the idols of misbelief and worldly desire have been shattered and the Ancient Beauty hath ascended His mighty throne. The Spirit of glory hath called out from the precincts of eternity, and the Most Holy Spirit from the Divine Lote‑Tree, and the Spirit of command from the Tree beyond which there is no passing, and the Spirit of might from the exalted dominion, and the faithful Spirit from the right hand of the Burning Bush, saying: "
       },
       {
+        "number": 68,
         "type": "quote",
         "spans": [
           {
@@ -2535,6 +2641,7 @@
     "spans": [
       { "text": " O Pen! Announce unto the Maid of Paradise:" },
       {
+        "number": 10,
         "type": "note",
         "content": [
           {
@@ -2548,6 +2655,7 @@
       },
       { "text": " " },
       {
+        "number": 69,
         "type": "quote",
         "spans": [
           {
@@ -2560,6 +2668,7 @@
   {
     "spans": [
       {
+        "number": 70,
         "type": "quote",
         "spans": [
           {
@@ -2572,6 +2681,7 @@
   {
     "spans": [
       {
+        "number": 71,
         "type": "quote",
         "spans": [
           {
@@ -2584,6 +2694,7 @@
   {
     "spans": [
       {
+        "number": 72,
         "type": "quote",
         "spans": [
           {
@@ -2596,6 +2707,7 @@
   {
     "spans": [
       {
+        "number": 73,
         "type": "quote",
         "spans": [
           {
@@ -2658,6 +2770,7 @@
     "spans": [
       { "text": " This servant" },
       {
+        "number": 11,
         "type": "note",
         "content": [
           {
@@ -2673,6 +2786,7 @@
         "text": " besought his Lord to write down for His chosen ones the recompense of this Day and of that which shone forth thereon above the horizon of the will of our Lord, the All‑Knowing, the All‑Wise. Upon perusing thy letter, I presented myself before His throne and read it in its entirety in His presence. He graciously heard it and said, blessed and exalted be His utterance: "
       },
       {
+        "number": 74,
         "type": "quote",
         "spans": [
           {
@@ -2685,6 +2799,7 @@
   {
     "spans": [
       {
+        "number": 75,
         "type": "quote",
         "spans": [
           {
@@ -2697,6 +2812,7 @@
   {
     "spans": [
       {
+        "number": 76,
         "type": "quote",
         "spans": [
           {
@@ -2709,6 +2825,7 @@
   {
     "spans": [
       {
+        "number": 77,
         "type": "quote",
         "spans": [
           {
@@ -2733,13 +2850,14 @@
   {
     "spans": [
       { "text": " By Thy name " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 78, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! Verily Thou art " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 79, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou Who art " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 80, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "!" },
       {
+        "number": 12,
         "type": "note",
         "content": [
           {
@@ -2762,9 +2880,9 @@
       {
         "text": " O Monk of the Divine Unity! Ring out the bell, for the Day of the Lord is come and the Beauty of the All‑Glorious hath ascended His blessed and resplendent throne. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 81, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 82, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -2773,9 +2891,9 @@
       {
         "text": " O Húd, Prophet of the Divine Decree! Sound the clarion in the name of God, the All‑Glorious, the Most Bountiful, for the Temple of holiness hath been established upon the seat of supernal glory. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 83, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 84, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -2784,9 +2902,9 @@
       {
         "text": " O Countenance of immortality! Pluck with the fingers of the spirit the sacred and wondrous strings, for the Beauty of the Divine Essence hath appeared, arrayed in a silken vesture of light. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 85, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 86, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -2796,6 +2914,7 @@
         "text": " O Angel of light! Sound a blast upon the trumpet at the advent of this Revelation, for the letter Há’ hath been joined to the letter of ancient glory."
       },
       {
+        "number": 13,
         "type": "note",
         "content": [
           {
@@ -2806,9 +2925,9 @@
         ]
       },
       { "text": " Praise be to Thee, O Thou Who art " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 87, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 88, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -2817,9 +2936,9 @@
       {
         "text": " O Nightingale of heaven! Warble upon the boughs of this celestial garden in the name of the Beloved, for the beauty of the Rose hath appeared from behind an impenetrable veil. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 89, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 90, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -2828,9 +2947,9 @@
       {
         "text": " O Songster of Paradise! Trill out upon the twigs in these wondrous days, for God hath cast His effulgent rays upon all created things. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 91, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 92, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -2839,9 +2958,9 @@
       {
         "text": " O Bird of eternity! Soar aloft in these heights, for the Bird of faithfulness hath soared in the atmosphere of divine nearness. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 93, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 94, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -2850,9 +2969,9 @@
       {
         "text": " O denizens of Paradise! Sing out and chant in the sweetest of tones, for the melody of God hath been raised within the Tabernacle of matchless sanctity. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 95, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 96, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -2861,9 +2980,9 @@
       {
         "text": " O inmates of the Kingdom! Intone the name of the Beloved, for the beauty of His Cause hath shone forth from behind the veils, adorned with a luminous spirit. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 97, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 98, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -2872,9 +2991,9 @@
       {
         "text": " O dwellers of the kingdom of names! Bedeck the furthest reaches of heaven, for the Most Great Name is come, riding upon the clouds of transcendent majesty. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 99, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 100, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -2883,9 +3002,9 @@
       {
         "text": " O inhabitants of the Dominion of divine attributes in the Realm of Glory! Make ready to enter the presence of God, for the soft breezes of holiness have wafted from the sanctuary of the Divine Essence, and this, verily, is a conspicuous bounty. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 101, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 102, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -2894,9 +3013,9 @@
       {
         "text": " O paradise of the Divine Unity! Rejoice within thyself, for the paradise of God, the Most Exalted, the All‑Powerful, the All‑Knowing, hath appeared. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 103, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 104, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -2905,9 +3024,9 @@
       {
         "text": " O heaven of grandeur! Render thanks unto God within thine inmost being, for the heaven of holiness hath been upraised in the firmament of a heart of stainless purity. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 105, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 106, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -2916,9 +3035,9 @@
       {
         "text": " O sun of worldly dominion! Eclipse thy face, for above the horizon of a resplendent morn there have shone the rays of the Day‑Star of eternity. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 107, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 108, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -2927,9 +3046,9 @@
       {
         "text": " O earth of knowledge! Swallow up thy learning, for the Earth of true knowledge hath been outspread through Him Who is the Self of God, the All‑Glorious, the All‑Bountiful, the Most High. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 109, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 110, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -2938,9 +3057,9 @@
       {
         "text": " O lamp of earthly sovereignty! Put out thy light, for the Lamp of God hath been lit within the niche of eternity and hath illumined all that are in heaven and all that are on earth. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 111, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 112, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -2949,9 +3068,9 @@
       {
         "text": " O seas of the world! Still the pounding of your waves, for a most wondrous Cause hath made to surge the Crimson Sea. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 113, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 114, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -2960,9 +3079,9 @@
       {
         "text": " O Peacock of the Divine Unity! Utter thy plaintive cry amidst the thickets of the celestial world, for the melody of God hath sounded near on every side. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 115, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 116, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -2971,9 +3090,9 @@
       {
         "text": " O Cockerel of eternity! Sound thy call in the forests of the empyrean heaven, for the Summoner of God hath cried out from every lofty height. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 117, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 118, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -2982,9 +3101,9 @@
       {
         "text": " O concourse of ardent lovers! Rejoice in your souls, for the day of separation hath ended, and the Covenant hath been fulfilled, and the Beloved hath appeared arrayed in sublime and majestic beauty. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 119, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 120, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -2993,9 +3112,9 @@
       {
         "text": " O assemblage of mystic knowers! Let your hearts be filled with joy, for the time of remoteness hath passed, and the spirit of certitude hath appeared, and the countenance of the celestial Youth hath beamed forth, adorned with the ornament of holiness in the paradise of His name, the Almighty. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 121, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 122, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -3004,9 +3123,9 @@
       {
         "text": " Glorified art Thou, O Lord, my God! I beseech Thee by Thy Day through which Thou didst bring forth all other days, and in a single moment whereof Thou didst reckon up the appointed time of all that have been and all that shall be—Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 123, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 124, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "!— " }
     ]
   },
@@ -3015,9 +3134,9 @@
       {
         "text": " And by Thy Name which Thou hast made the sovereign of the kingdom of names and the ruler of all who are in heaven and all who are on earth—Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 125, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 126, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "!— " }
     ]
   },
@@ -3026,9 +3145,9 @@
       {
         "text": " To graciously enable Thy servants to dispense with all but Thee, to draw nigh unto Thee, and to become detached from aught else save Thee. Thou, verily, art the God of power, of might and mercy. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 127, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 128, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -3037,9 +3156,9 @@
       {
         "text": " Enable them then, O my God, to bear witness to Thy unity and to testify to Thy oneness in such wise that they may behold naught save Thee and shut their eyes to all else. Thou, in truth, art powerful to do what pleaseth Thee. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 129, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 130, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -3048,9 +3167,9 @@
       {
         "text": " Kindle, then, within their breasts, O my Beloved, the fire of Thy love, that it may burn away the mention of aught else, and that they may testify within themselves that from everlasting Thou hast dwelt within the inaccessible heights of Thine eternity, that Thou wert alone with none beside Thee, and that Thou wilt continue unto everlasting to be what Thou hast ever been. No God is there but Thee, the Lord of might and bounty. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 131, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 132, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -3059,9 +3178,9 @@
       {
         "text": " For were Thy servants who long to scale the heights of Thy unity to set their hearts upon aught except Thee, they could not be reckoned among such as have truly believed, nor would the sign of Thy singleness be found within them. Praise be to Thee, O Thou Who art "
       },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 133, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 134, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -3071,6 +3190,7 @@
         "text": " Glorified art Thou, O Lord my God! Such being the case, I implore Thee to send down from the clouds of Thy mercy that which shall purify the hearts of Thine ardent lovers and sanctify the souls of those who adore Thee. Raise them up, then, through Thy transcendent power, and render them victorious over all who dwell on earth. This, indeed, is that which Thou hast promised Thy loved ones through Thy word of truth: "
       },
       {
+        "number": 135,
         "type": "quote",
         "spans": [
           {
@@ -3079,13 +3199,14 @@
         ]
       },
       {
+        "number": 14,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 28:5. " }] }]
       },
       { "text": " Praise be to Thee, O Thou Who art " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 136, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": ", O Thou besides Whom there is none but " },
-      { "type": "quote", "spans": [{ "text": "He" }] },
+      { "number": 137, "type": "quote", "spans": [{ "text": "He" }] },
       { "text": "! " }
     ]
   },
@@ -3117,6 +3238,7 @@
         "text": " Lo, the gates of Paradise were unlocked, and the hallowed Youth came forth bearing a serpent plain."
       },
       {
+        "number": 15,
         "type": "note",
         "content": [{ "spans": [{ "text": " See Qur’án 7:107. " }] }]
       },
@@ -3157,10 +3279,12 @@
     "spans": [
       { "text": " Upon it was graven, in a secret and ancient script: " },
       {
+        "number": 138,
         "type": "quote",
         "spans": [{ "text": "By God! A most noble Angel is this." }]
       },
       {
+        "number": 16,
         "type": "note",
         "content": [{ "spans": [{ "text": " Cf. Qur’án 12:31. " }] }]
       },
@@ -3168,6 +3292,7 @@
         "text": " And the hearts of the inmates of the eternal realm cried out: "
       },
       {
+        "number": 139,
         "type": "quote",
         "spans": [
           {
@@ -3183,6 +3308,7 @@
         "text": " Upon His right cheek was a mark whose sight caused every man of understanding to waver in his faith. And they that dwell behind the veil of the Unseen exclaimed: "
       },
       {
+        "number": 140,
         "type": "quote",
         "spans": [
           {
@@ -3198,6 +3324,7 @@
         "text": " This is the Point from which the knowledge of the former and the latter generations hath been unfolded. And the denizens of the Kingdom intoned: "
       },
       {
+        "number": 141,
         "type": "quote",
         "spans": [
           {
@@ -3213,6 +3340,7 @@
         "text": " This, verily, is the Horseman of the Spirit Who circleth round the fount of everlasting life. And they that lie concealed in the retreats of the highest heaven cried out: "
       },
       {
+        "number": 142,
         "type": "quote",
         "spans": [
           {
@@ -3235,6 +3363,7 @@
         "text": " Standing in the midmost heaven, He shone forth like unto the sun in its meridian splendour, illumining the seat of divine beauty with His mighty Name. Whereupon the Crier cried out: "
       },
       {
+        "number": 143,
         "type": "quote",
         "spans": [
           {
@@ -3250,6 +3379,7 @@
         "text": " And the Maids of Heaven cried out from their celestial chambers: "
       },
       {
+        "number": 144,
         "type": "quote",
         "spans": [
           {
@@ -3259,6 +3389,7 @@
       },
       { "text": " And the nightingale sang sweetly: " },
       {
+        "number": 145,
         "type": "quote",
         "spans": [
           {
@@ -3274,6 +3405,7 @@
         "text": " And lo, the gates of Paradise were unlocked a second time with the key of His Great Name. "
       },
       {
+        "number": 146,
         "type": "quote",
         "spans": [
           {
@@ -3387,6 +3519,7 @@
         "text": " And from the source of God’s inscrutable decree the Tongue of the Unseen proclaimed: "
       },
       {
+        "number": 147,
         "type": "quote",
         "spans": [
           {
@@ -3460,9 +3593,9 @@
       {
         "text": " That concealed Word upon which the souls of all the Messengers of God and His Chosen Ones have ever depended hath manifested itself out of the invisible world into the visible plane. No sooner had this hidden Word shone forth from the Realm of inmost being and absolute singleness to illumine the peoples of the earth than a breeze of mercy wafted therefrom, purifying all things from the stench of sin and arraying the countless forms of existence and the reality of man with the vesture of forgiveness. So great was the wondrous grace which pervaded all things that through the utterance of the letters "
       },
-      { "type": "quote", "spans": [{ "text": "B" }] },
+      { "number": 148, "type": "quote", "spans": [{ "text": "B" }] },
       { "text": " and " },
-      { "type": "quote", "spans": [{ "text": "E" }] },
+      { "number": 149, "type": "quote", "spans": [{ "text": "E" }] },
       {
         "text": " the gems that lay hid within the repositories of this contingent world were brought forth and made manifest. Thus were the seen and the unseen joined in one garment, and the hidden and the manifest clothed in a single robe; thus did utter nothingness attain the realm of eternity, and pure evanescence gain admittance into the court of everlasting life. "
       }
@@ -3508,6 +3641,7 @@
         "text": " Lo, the Tongue of Glory hath called aloud and the Word of God hath cried out, proclaiming: "
       },
       {
+        "number": 150,
         "type": "quote",
         "spans": [
           {
@@ -3533,11 +3667,16 @@
         "text": " This is the eve of that Day from whose horizon the ancient Morn hath dawned forth with the splendour of the light beaming from that effulgent horizon. Say: This is the Day whereon God established the Covenant concerning Him Who is the voice of Truth"
       },
       {
+        "number": 17,
         "type": "note",
         "content": [{ "spans": [{ "text": " Bahá’u’lláh. " }] }]
       },
       { "text": " by sending forth the One" },
-      { "type": "note", "content": [{ "spans": [{ "text": " The Báb. " }] }] },
+      {
+        "number": 18,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " The Báb. " }] }]
+      },
       {
         "text": " Who imparted unto humankind the glad‑tidings of this Great Announcement. This is the Day whereon the Most Great Sign appeared and proclaimed this mighty Name, captivating thereby all created things with the reviving breezes of the verses of God. Happy the one that hath recognised his Lord and is numbered with them that have attained His presence. "
       }
@@ -3656,6 +3795,7 @@
         "text": " O people! Will ye take a false deity for your helper rather than God? Will ye follow the Most Great Idol before your Lord, the Almighty, the Most Powerful?"
       },
       {
+        "number": 19,
         "type": "note",
         "content": [{ "spans": [{ "text": " See Qur’án 4:51. " }] }]
       },
@@ -3708,6 +3848,7 @@
         "text": " O Rasúl! Shouldst thou ask concerning the Sun of the heaven of inner meaning, know that it hath been eclipsed by the clouds of envy; and shouldst thou enquire regarding the Moon of the realm of everlasting holiness, be apprised that it hath been obscured by the shrouds of hatred; and shouldst thou search after the Star of the firmament of unseen reality, be informed that it hath sunk below the horizon of malice. Behold, a lone Ḥusayn assailed by a hundred thousand deadly foes! Behold, a solitary Abraham compassed by a myriad tyrant kings!"
       },
       {
+        "number": 20,
         "type": "note",
         "content": [
           {
@@ -3769,12 +3910,14 @@
         "text": " Strive, then, that thou mayest forsake the path of illusion and imitation and gain admittance into the realm of inner vision and the kingdom of spiritual discoveries. For in these days all are bewildered in the drunkenness of ignorance, save those whom thy Lord hath willed to spare. Some consider the fading mirage to be the billowing ocean and reckon the impenetrable darkness as the radiant morn. Others, having forsaken the river of eternal life, content themselves with a vanishing drop. Such is the state and condition of the people: "
       },
       {
+        "number": 151,
         "type": "quote",
         "spans": [
           { "text": "Thus have We created the souls in divers conditions." }
         ]
       },
       {
+        "number": 21,
         "type": "note",
         "content": [{ "spans": [{ "text": " Cf. Qur’án 71:14. " }] }]
       }
@@ -3796,7 +3939,11 @@
       {
         "text": " O Maryam! The wrongs which I suffer have blotted out the wrongs suffered by My First Name"
       },
-      { "type": "note", "content": [{ "spans": [{ "text": " The Báb. " }] }] },
+      {
+        "number": 22,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " The Báb. " }] }]
+      },
       {
         "text": " from the Tablet of creation. The clouds of divine decree have at every moment rained down upon this manifest Beauty the showers of tribulation. My banishment from My homeland was for the sake of none but the Beloved; My exile was in no other path save that of His good‑pleasure. In the midst of heaven‑sent trials I glowed bright as a candle, and in the face of divinely ordained afflictions I stood as firm as a mountain. In manifesting the outpourings of His grace I was even as a bounteous cloud, and in laying hold on the foes of the peerless King I was even as a burning flame. "
       }
@@ -3808,6 +3955,7 @@
         "text": " The clear tokens of My power roused the envy of My foes, and the compelling evidences of My wisdom stirred the hatred of the malevolent: Not a single night did I repose in peace; not a single morn did I awake in tranquillity. I swear by the beauty of God that Ḥusayn"
       },
       {
+        "number": 23,
         "type": "note",
         "content": [{ "spans": [{ "text": " Imám Ḥusayn. " }] }]
       },
@@ -3819,11 +3967,16 @@
   {
     "spans": [
       { "text": " O Maryam! From the land of Ṭá," },
-      { "type": "note", "content": [{ "spans": [{ "text": " Ṭihrán. " }] }] },
+      {
+        "number": 24,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Ṭihrán. " }] }]
+      },
       {
         "text": " after countless afflictions, We reached ‘Iráq, at the bidding of the Tyrant of Persia,"
       },
       {
+        "number": 25,
         "type": "note",
         "content": [
           {
@@ -3845,7 +3998,7 @@
       {
         "text": " O Maryam! To divulge the heavenly secrets would be unbefitting, and to disclose the celestial mysteries would be unseemly. By "
       },
-      { "type": "quote", "spans": [{ "text": "secrets" }] },
+      { "number": 152, "type": "quote", "spans": [{ "text": "secrets" }] },
       {
         "text": " is meant naught other than the treasuries enshrined within Mine own Being. By the righteousness of God! I have borne what no man, be he of the past or of the future, hath borne or will bear. "
       }
@@ -3863,11 +4016,16 @@
       {
         "text": " At last the divine decree prompted certain spiritual souls to remember this Canaanite Youth."
       },
-      { "type": "note", "content": [{ "spans": [{ "text": " Joseph. " }] }] },
+      {
+        "number": 26,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Joseph. " }] }]
+      },
       {
         "text": " Armed with a number of petitions, they searched in every place and enquired from every person, until they found in a mountain cave a trace of this traceless One. He, verily, guideth all things unto the Straight Path."
       },
       {
+        "number": 27,
         "type": "note",
         "content": [{ "spans": [{ "text": " Cf. Qur’án 22:54. " }] }]
       },
@@ -3950,11 +4108,16 @@
     "spans": [
       { "text": " O Maryam, We have called this Tablet " },
       {
+        "number": 153,
         "type": "quote",
         "spans": [{ "text": "the choicest of lamentations" }]
       },
       { "text": " and " },
-      { "type": "quote", "spans": [{ "text": "the vernal shower of tears" }] },
+      {
+        "number": 154,
+        "type": "quote",
+        "spans": [{ "text": "the vernal shower of tears" }]
+      },
       {
         "text": ". We have dispatched it unto thee that thou mayest weep, at thy heart’s ease, and share in the agonies and afflictions of the Ancient Beauty. "
       }
@@ -3969,6 +4132,7 @@
         "text": " Although the Realm of Glory hath none of the vanities of the world, yet within the treasury of trust and resignation We have bequeathed to Our heirs an excellent and priceless Heritage. Earthly treasures We have not bequeathed, nor have We added such cares as they entail. By God! In earthly riches fear is hidden and peril is concealed. Consider ye and call to mind that which the All‑Merciful hath revealed in the Qur’án: "
       },
       {
+        "number": 155,
         "type": "quote",
         "spans": [
           {
@@ -3977,6 +4141,7 @@
         ]
       },
       {
+        "number": 28,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 104:1–2. " }] }]
       },
@@ -4044,6 +4209,7 @@
         "text": "ṣán, the Afnán and My kindred to turn, one and all, their faces towards the Most Mighty Branch. Consider that which We have revealed in Our Most Holy Book: "
       },
       {
+        "number": 156,
         "type": "quote",
         "spans": [
           {
@@ -4054,9 +4220,13 @@
       {
         "text": " The object of this sacred verse is none except the Most Mighty Branch [‘Abdu’l‑Bahá]. Thus have We graciously revealed unto you Our potent Will, and I am verily the Gracious, the All‑Bountiful. Verily God hath ordained the station of the Greater Branch [Mírzá Muḥammad‑‘Alí] to be beneath that of the Most Great Branch [‘Abdu’l‑Bahá]. He is in truth the Ordainer, the All‑Wise. We have chosen "
       },
-      { "type": "quote", "spans": [{ "text": "the Greater" }] },
+      { "number": 157, "type": "quote", "spans": [{ "text": "the Greater" }] },
       { "text": " after " },
-      { "type": "quote", "spans": [{ "text": "the Most Great" }] },
+      {
+        "number": 158,
+        "type": "quote",
+        "spans": [{ "text": "the Most Great" }]
+      },
       {
         "text": ", as decreed by Him Who is the All‑Knowing, the All‑Informed. "
       }
@@ -4087,7 +4257,11 @@
       {
         "text": " Say: O servants! Let not the means of order be made the cause of confusion and the instrument of union an occasion for discord. We fain would hope that the people of Bahá may be guided by the blessed words: "
       },
-      { "type": "quote", "spans": [{ "text": "Say: All things are of God." }] },
+      {
+        "number": 159,
+        "type": "quote",
+        "spans": [{ "text": "Say: All things are of God." }]
+      },
       {
         "text": " This exalted utterance is like unto water for quenching the fire of hate and enmity which smouldereth within the hearts and breasts of men. By this single utterance contending peoples and kindreds will attain the light of true unity. Verily He speaketh the truth and leadeth the way. He is the All‑Powerful, the Exalted, the Gracious. "
       }
@@ -4106,6 +4280,7 @@
         "text": " That which is conducive to the regeneration of the world and the salvation of the peoples and kindreds of the earth hath been sent down from the heaven of the utterance of Him Who is the Desire of the world. Give ye a hearing ear to the counsels of the Pen of Glory. Better is this for you than all that is on the earth. Unto this beareth witness My glorious and wondrous Book."
       },
       {
+        "number": 29,
         "type": "note",
         "content": [
           {
@@ -4131,7 +4306,7 @@
       {
         "text": " The praise which hath dawned from Thy most august Self, and the glory which hath shone forth from Thy most effulgent Beauty, rest upon Thee, O Thou Who art the Manifestation of Grandeur, and the King of Eternity, and the Lord of all who are in heaven and on earth! I testify that through Thee the sovereignty of God and His dominion, and the majesty of God and His grandeur, were revealed, and the Day‑Stars of ancient splendour have shed their radiance in the heaven of Thine irrevocable decree, and the Beauty of the Unseen hath shone forth above the horizon of creation. I testify, moreover, that with but a movement of Thy Pen Thine injunction "
       },
-      { "type": "quote", "spans": [{ "text": "Be Thou" }] },
+      { "number": 160, "type": "quote", "spans": [{ "text": "Be Thou" }] },
       {
         "text": " hath been enforced, and God’s hidden Secret hath been divulged, and all created things have been called into being, and all the Revelations have been sent down. "
       }
@@ -4204,9 +4379,10 @@
   },
   {
     "spans": [
-      { "type": "quote", "spans": [{ "text": "God" }] },
+      { "number": 161, "type": "quote", "spans": [{ "text": "God" }] },
       { "text": ", said He, " },
       {
+        "number": 162,
         "type": "quote",
         "spans": [
           {
@@ -4228,9 +4404,10 @@
       {
         "text": " A few believed in Him; few of Our servants are the thankful. These He admonished, in all His Tablets—nay, in every passage of His wondrous writings—not to give themselves up in the Day of the promised Revelation to anything whatever, be it in the heaven or in the earth. "
       },
-      { "type": "quote", "spans": [{ "text": "O people!" }] },
+      { "number": 163, "type": "quote", "spans": [{ "text": "O people!" }] },
       { "text": " said He, " },
       {
+        "number": 164,
         "type": "quote",
         "spans": [
           {
@@ -4267,6 +4444,7 @@
         "text": " Emerge from behind the veil, by the leave of thy Lord, the All‑Glorious, the Most Powerful, and seize, before the eyes of those who are in the heavens and those who are on the earth, the Chalice of Immortality, in the name of thy Lord, the Inaccessible, the Most High, and quaff thy fill, and be not of them that tarry. I swear by God! The moment thou touchest the Cup with thy lips, the Concourse on high will acclaim thee saying, "
       },
       {
+        "number": 165,
         "type": "quote",
         "spans": [
           {
@@ -4278,6 +4456,7 @@
         "text": ", and the inhabitants of the Cities of Immortality will cry out, "
       },
       {
+        "number": 166,
         "type": "quote",
         "spans": [
           {
@@ -4287,6 +4466,7 @@
       },
       { "text": ", and the Tongue of Grandeur will hail thee, " },
       {
+        "number": 167,
         "type": "quote",
         "spans": [
           {
@@ -4307,7 +4487,11 @@
       {
         "text": " Announce unto My servants the advent of the One Who came unto them with the power of truth bearing the name of ‘Alí,"
       },
-      { "type": "note", "content": [{ "spans": [{ "text": " The Báb. " }] }] },
+      {
+        "number": 30,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " The Báb. " }] }]
+      },
       {
         "text": " Who dawned above the horizon of holiness with the splendours of a cherished glory, and from Whose right hand flowed the crystal streams of the spirit, laying bare the wonders of a hidden knowledge. "
       }
@@ -4315,9 +4499,10 @@
   },
   {
     "spans": [
-      { "type": "quote", "spans": [{ "text": "O people!" }] },
+      { "number": 168, "type": "quote", "spans": [{ "text": "O people!" }] },
       { "text": " He declared, " },
       {
+        "number": 169,
         "type": "quote",
         "spans": [
           {
@@ -4330,6 +4515,7 @@
   {
     "spans": [
       {
+        "number": 170,
         "type": "quote",
         "spans": [
           {
@@ -4343,6 +4529,7 @@
     "spans": [
       { "text": " But the people made reply, saying: " },
       {
+        "number": 171,
         "type": "quote",
         "spans": [
           {
@@ -4354,9 +4541,14 @@
   },
   {
     "spans": [
-      { "type": "quote", "spans": [{ "text": "O concourse of men!" }] },
+      {
+        "number": 172,
+        "type": "quote",
+        "spans": [{ "text": "O concourse of men!" }]
+      },
       { "text": " He declared, " },
       {
+        "number": 173,
         "type": "quote",
         "spans": [
           {
@@ -4369,6 +4561,7 @@
   {
     "spans": [
       {
+        "number": 174,
         "type": "quote",
         "spans": [
           {
@@ -4391,6 +4584,7 @@
         "text": " Erelong will God reveal the mystery of this Tree, make it to flourish through the power of truth, and cause it to intone: "
       },
       {
+        "number": 175,
         "type": "quote",
         "spans": [
           {
@@ -4440,6 +4634,7 @@
       { "type": "u", "text": "Sh" },
       { "text": "áh in the City" },
       {
+        "number": 31,
         "type": "note",
         "content": [{ "spans": [{ "text": " Constantinople. " }] }]
       },
@@ -4468,6 +4663,7 @@
         "text": " Hast thou not heard what a man of the family of Pharaoh, a believer, hath said of old, and which God recounted unto His Apostle, Whom He hath chosen above all human beings, and entrusted with His Message, and made the source of His mercy unto all them that dwell on earth? He said, and He, verily, speaketh the truth: "
       },
       {
+        "number": 176,
         "type": "quote",
         "spans": [
           {
@@ -4476,6 +4672,7 @@
         ]
       },
       {
+        "number": 32,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 40:28. " }] }]
       },
@@ -4496,7 +4693,11 @@
       {
         "text": " Your iniquity waxed greater and greater until ye slew Him Who had never taken His eyes away from the face of God, the Most Exalted, the Most Great."
       },
-      { "type": "note", "content": [{ "spans": [{ "text": " The Báb. " }] }] },
+      {
+        "number": 33,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " The Báb. " }] }]
+      },
       {
         "text": " Would that ye had put Him to death after the manner men are wont to put one another to death! Ye slew Him, however, in such circumstances as no man hath ever witnessed. The heavens wept sore over Him, and the souls of them who are nigh unto God cried out for His affliction. Was He not a Scion of your Prophet’s ancient House? Had not His fame as a direct descendant of the Apostle been spread abroad amongst you? Why, then, did ye inflict upon Him what no man, however far ye may look back, hath inflicted upon another? By God! The eye of creation hath never beheld your like. Ye slay Him Who is a Scion of your Prophet’s House, and rejoice and make merry while seated on your seats of honour! Ye utter your imprecations against them who were before you, and who have perpetrated what ye have perpetrated, and remain yourselves all the time unaware of your enormities! "
       }
@@ -4508,6 +4709,7 @@
         "text": " Be fair in your judgement. Did they whom ye curse, upon whom ye invoke evil, act differently from yourselves? Have they not slain the descendant of their Prophet"
       },
       {
+        "number": 34,
         "type": "note",
         "content": [{ "spans": [{ "text": " Imám Ḥusayn. " }] }]
       },
@@ -4563,7 +4765,11 @@
   {
     "spans": [
       { "text": " This is a Missive from the Primal Point" },
-      { "type": "note", "content": [{ "spans": [{ "text": " The Báb. " }] }] },
+      {
+        "number": 35,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " The Báb. " }] }]
+      },
       {
         "text": " unto them that have believed in God, the One, the Peerless, the Almighty, the All‑Knowing, wherein He addresseth those among the people of the Bayán who have vacillated in this Cause, that haply they may apprehend the wondrous words of God and forsake the couch of heedlessness in this shining and resplendent morn. "
       }
@@ -4573,6 +4779,7 @@
     "spans": [
       { "text": " Say:" },
       {
+        "number": 36,
         "type": "note",
         "content": [
           {
@@ -4588,6 +4795,7 @@
         "text": " We, verily, bid you in Our Book not to advance yourselves before those from whose ranks would appear He Who is the Beloved of every understanding heart and the Object of the adoration of the denizens of earth and heaven. Moreover, We commanded you, should ye attain the presence of God, to stand before Him and to utter on My behalf these mighty and exalted words: "
       },
       {
+        "number": 177,
         "type": "quote",
         "spans": [
           {
@@ -4596,6 +4804,7 @@
         ]
       },
       {
+        "number": 37,
         "type": "note",
         "content": [
           {
@@ -4631,11 +4840,12 @@
   {
     "spans": [
       { "text": " Say: But for Him the word " },
-      { "type": "quote", "spans": [{ "text": "love" }] },
+      { "number": 178, "type": "quote", "spans": [{ "text": "love" }] },
       {
         "text": " would never have been written, nor would the letters of the name of the Beloved have been joined together,"
       },
       {
+        "number": 38,
         "type": "note",
         "content": [
           {
@@ -4657,23 +4867,23 @@
   {
     "spans": [
       { "text": " I swear by My life! If I have made mention of " },
-      { "type": "quote", "spans": [{ "text": "lordship" }] },
+      { "number": 179, "type": "quote", "spans": [{ "text": "lordship" }] },
       {
         "text": ", I have intended only His lordship over all things. If the word "
       },
-      { "type": "quote", "spans": [{ "text": "divinity" }] },
+      { "number": 180, "type": "quote", "spans": [{ "text": "divinity" }] },
       {
         "text": " hath ever flowed from My pen, I have intended naught but His divinity in relation to the world; and if an allusion to the "
       },
-      { "type": "quote", "spans": [{ "text": "Desired One" }] },
+      { "number": 181, "type": "quote", "spans": [{ "text": "Desired One" }] },
       {
         "text": " hath proceeded therefrom, I have had none other in mind than Him. So too, in regard to the word "
       },
-      { "type": "quote", "spans": [{ "text": "Beloved" }] },
+      { "number": 182, "type": "quote", "spans": [{ "text": "Beloved" }] },
       {
         "text": ", He, indeed, is My Beloved and the Beloved of every understanding heart. If I have spoken of "
       },
-      { "type": "quote", "spans": [{ "text": "prostration" }] },
+      { "number": 183, "type": "quote", "spans": [{ "text": "prostration" }] },
       {
         "text": ", I have meant only prostration before His exalted, His glorious and sublime Countenance. If I have praised any soul, Mine aim hath only been to celebrate His praise. And if I have bidden the people to act, My sole purpose hath been that they should act in accordance with His good‑pleasure on the day of His Manifestation. Unto this beareth witness whatsoever was sent down unto Me from the kingdom of My Lord, the All‑Knowing, the All‑Wise. "
       }
@@ -4685,6 +4895,7 @@
         "text": " I have made all things conditional upon His approval and pleasure. He it is, in truth, Who is the Lord of the worlds and the Object of the desire of every searching soul. Were ye to open your eyes, ye would verily behold the Manifestations of "
       },
       {
+        "number": 184,
         "type": "quote",
         "spans": [{ "text": "He doeth whatsoever He willeth" }]
       },
@@ -4734,6 +4945,7 @@
         "text": " Ye have opposed Him and all that He hath manifested, even though We admonished you in Our Tablets that whoso calleth to mind His most great and most wondrous Name should arise from his place and repeat nineteen times: "
       },
       {
+        "number": 185,
         "type": "quote",
         "spans": [
           {
@@ -4743,6 +4955,7 @@
       },
       { "text": ", and then another nineteen times: " },
       {
+        "number": 186,
         "type": "quote",
         "spans": [
           { "text": "Glorified be God, the Lord of all glory and dominion!" }
@@ -4752,6 +4965,7 @@
         "text": ", and so forth, as We have revealed in a most mighty Tablet."
       },
       {
+        "number": 39,
         "type": "note",
         "content": [
           {
@@ -4766,9 +4980,17 @@
       {
         "text": " Ye, however, have disbelieved in Him and in His verses. Nay, not contenting yourselves with that, ye have disregarded the rights of God which revert unto Him, and have given no heed to that commandment of God which pertaineth to His own Self, the Most Exalted, the All‑Knowing. Ye have rejected all of His actions, one after another, and taken pleasure in deriding Him. Among you is he who saith: "
       },
-      { "type": "quote", "spans": [{ "text": "He drinketh tea!" }] },
+      {
+        "number": 187,
+        "type": "quote",
+        "spans": [{ "text": "He drinketh tea!" }]
+      },
       { "text": ", while another complaineth: " },
-      { "type": "quote", "spans": [{ "text": "He partaketh of food!" }] },
+      {
+        "number": 188,
+        "type": "quote",
+        "spans": [{ "text": "He partaketh of food!" }]
+      },
       {
         "text": " Yet another doth object to His apparel, though every thread thereof testifieth that there is none other God but Him and that He is the Object of the adoration of all who are nigh unto God. I bear witness that at times the Ancient Beauty was in want of even a change of garments. Thus testifieth the Tongue of truth and knowledge. Many a night was He unable to provide sustenance for His kindred, yet He concealed His plight to safeguard the honour of God’s mighty and unassailable Cause, and this notwithstanding that all things were created for His sake and that the key to the treasure‑houses of earth and heaven is in His grasp. "
       }
@@ -4813,7 +5035,11 @@
       {
         "text": " Would that thou wert standing at this moment before the Throne and couldst hear how the melodies of eternity issue from the Temple of Bahá! By the one true God, should His creatures but cleanse their ears, and should they hear but a single strain of these melodies, they would, one and all, fall thunderstruck upon the dust in the presence of thy Lord, the All‑Glorious, the Most Bountiful. Since, however, they have contended with God, He hath denied them the wonders of His grace and hath reckoned them in His sight as discarded lumps of clay. By God! Wert thou to consider their words, thou wouldst hear what was never heard from the Jews when We sent the Spirit unto them with a perspicuous Book, nor from the concourse of the Gospel when We caused the Day‑Star of eternity to dawn above the horizon of Mecca with world‑illumining splendours, nor yet from the people of the Qur’án when the heavens of divine knowledge were cleft asunder and God manifested Himself, with the power of the truth and in the shadow of His All‑Merciful Name, in the beauty of ‘Alí."
       },
-      { "type": "note", "content": [{ "spans": [{ "text": " The Báb. " }] }] }
+      {
+        "number": 40,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " The Báb. " }] }]
+      }
     ]
   },
   {
@@ -4829,6 +5055,7 @@
         "text": " Would that the universe had never been called into existence! Would that the world had never been brought into being! Would that no Prophet had ever been raised up, no Messenger sent forth, and no Cause established amongst men! Would that the Name of God had never been manifested betwixt earth and heaven, and that no Books, Tablets, or Scriptures had ever been revealed! Would that the Ancient Beauty had never been made to dwell among these workers of iniquity, nor to suffer at the hands of those who openly disbelieved in God and who committed against Him that which none on earth had ever dared commit! By the one true God! Wert thou, O ‘Alí,"
       },
       {
+        "number": 41,
         "type": "note",
         "content": [
           {
@@ -4860,6 +5087,7 @@
         "text": " Behold, My former Manifestation weepeth in turn and addresseth thee, saying, "
       },
       {
+        "number": 189,
         "type": "quote",
         "spans": [
           {
@@ -4873,6 +5101,7 @@
     "spans": [
       { "text": " Behold, the Ancient Beauty crieth out: " },
       {
+        "number": 190,
         "type": "quote",
         "spans": [
           {
@@ -4917,7 +5146,11 @@
       {
         "text": " Immeasurably exalted is God, the Maker of the heavens, Who hath caused this Day to speak forth that Name whereby the veils of idle fancy have been rent asunder, the mists of vain imaginings have been dispelled, and His name "
       },
-      { "type": "quote", "spans": [{ "text": "the Self‑Subsisting" }] },
+      {
+        "number": 191,
+        "type": "quote",
+        "spans": [{ "text": "the Self‑Subsisting" }]
+      },
       {
         "text": " hath dawned above the horizon of certitude. Through Thee the choice wine of everlasting life hath been unsealed, the doors of knowledge and utterance have been unlocked before the peoples of the earth, and the breezes of the All‑Merciful have been wafted over every region. All glory be to that hour wherein the Treasure of God, the All‑Powerful, the All‑Knowing, the All‑Wise, hath appeared! "
       }
@@ -4929,6 +5162,7 @@
         "text": " O concourse of earth and heaven! This is that first night, which God hath made to be a sign of that second night, whereon was born He Whom no praise can befittingly extol and no attribute describe. Well is it with him who reflecteth upon them both: Verily, he will find their outer reality to correspond to their inner essence, and will become acquainted with the divine mysteries that lie enshrined in this Revelation, a Revelation through which the foundations of misbelief have been shaken, the idols of superstition have been shattered, and the banner hath been unfurled which proclaimeth, "
       },
       {
+        "number": 192,
         "type": "quote",
         "spans": [
           {
@@ -4944,6 +5178,7 @@
         "text": " On this night the fragrance of nearness was wafted, the portals of reunion at the end of days were flung open, and all created things were moved to exclaim: "
       },
       {
+        "number": 193,
         "type": "quote",
         "spans": [
           {
@@ -4961,7 +5196,11 @@
       {
         "text": " O night of the All‑Bountiful! In thee do We verily behold the Mother Book. Is it a Book, in truth, or rather a child begotten? Nay, by Myself! Such words pertain to the realm of names, whilst God hath sanctified this Book above all names. Through it the Hidden Secret and the Treasured Mystery have been revealed. Nay, by My life! All that hath been mentioned pertaineth to the realm of attributes, whereas the Mother Book standeth supreme above this. Through it have appeared the manifestations of "
       },
-      { "type": "quote", "spans": [{ "text": "There is no God but God" }] },
+      {
+        "number": 194,
+        "type": "quote",
+        "spans": [{ "text": "There is no God but God" }]
+      },
       {
         "text": " over them all. Nay, while such things have been proclaimed to all people, in the estimation of thy Lord naught but His ear is capable of hearing them. Blessed are those that are well assured! "
       }
@@ -4973,6 +5212,7 @@
         "text": " Whereupon, dumbfounded, the Pen of the Most High cried out: "
       },
       {
+        "number": 195,
         "type": "quote",
         "spans": [
           {
@@ -5017,6 +5257,7 @@
         "text": " This glorious Tablet hath been revealed on the Anniversary of the Birth"
       },
       {
+        "number": 42,
         "type": "note",
         "content": [{ "spans": [{ "text": " Of the Bab. " }] }]
       },
@@ -5036,6 +5277,7 @@
     "spans": [
       { "text": " Thou art, in truth, the Forgiving, the Bountiful." },
       {
+        "number": 43,
         "type": "note",
         "content": [
           {
@@ -5078,6 +5320,7 @@
         "text": " This is the night round which have circled the Nights of Power,"
       },
       {
+        "number": 44,
         "type": "note",
         "content": [{ "spans": [{ "text": " Cf. Qur’án, súrih 97. " }] }]
       },
@@ -5092,6 +5335,7 @@
         "text": " This is the night wherein the limbs of Jibt were made to tremble, and the Most Great Idol fell upon the dust, and the foundations of iniquity were shattered, and Manát lamented in its inmost being, and the back of ‘Uzzá was broken and its face blackened;"
       },
       {
+        "number": 45,
         "type": "note",
         "content": [
           {
@@ -5248,6 +5492,7 @@
         "text": " This is the night wherein the Spirit intoned such a melody as to throw into commotion the inner realities of all men, proclaiming: "
       },
       {
+        "number": 196,
         "type": "quote",
         "spans": [
           {
@@ -5263,6 +5508,7 @@
         "text": " Whereupon did the Voice of God call out from within the Tabernacle of holiness and bounty: "
       },
       {
+        "number": 197,
         "type": "quote",
         "spans": [
           {
@@ -5278,6 +5524,7 @@
         "text": " This is the night wherein the Mystic Dove raised its call upon the branches and boughs of heaven, saying: "
       },
       {
+        "number": 198,
         "type": "quote",
         "spans": [{ "text": "Rejoice, O denizens of Paradise!" }]
       }
@@ -5417,6 +5664,7 @@
         "text": " This is the month wherein was born He Who beareth the Most Great Name, Whose appearance hath caused the limbs of humankind to quake and the dust of Whose footsteps the Concourse on high and the dwellers of the cities of names have sought for a blessing. Whereupon they rendered praise unto God and cried out in joy and exultation. By God! This is the month through which all other months have been illumined, the month wherein He Who is the Hidden Secret and the Well‑guarded Treasure hath been made manifest and hath called aloud amidst all humankind. All dominion belongeth to this newborn Child through Whom the face of creation hath been wreathed in smiles, and the trees have swayed, and the oceans have surged, and the mountains have taken flight, and Paradise hath lifted its voice, and the Rock hath cried out, and all things have exclaimed, "
       },
       {
+        "number": 199,
         "type": "quote",
         "spans": [
           {
@@ -5477,95 +5725,148 @@
   },
   {
     "spans": [
-      { "type": "quote", "spans": [{ "text": "And We desire" }] },
+      {
+        "number": 200,
+        "type": "quote",
+        "spans": [{ "text": "And We desire" }]
+      },
       { "text": " to " },
-      { "type": "quote", "spans": [{ "text": "Our heirs." }] },
+      { "number": 201, "type": "quote", "spans": [{ "text": "Our heirs." }] },
       { "text": " (KI ¶155) " }
     ]
   },
   {
     "spans": [
-      { "type": "quote", "spans": [{ "text": "There hath branched" }] },
+      {
+        "number": 202,
+        "type": "quote",
+        "spans": [{ "text": "There hath branched" }]
+      },
       { "text": " to " },
-      { "type": "quote", "spans": [{ "text": "this exalted Handiwork!" }] },
+      {
+        "number": 203,
+        "type": "quote",
+        "spans": [{ "text": "this exalted Handiwork!" }]
+      },
       { "text": " (WOB, 135) " }
     ]
   },
   {
     "spans": [
-      { "type": "quote", "spans": [{ "text": "A Word hath" }] },
+      { "number": 204, "type": "quote", "spans": [{ "text": "A Word hath" }] },
       { "text": " to " },
-      { "type": "quote", "spans": [{ "text": "among its people" }] },
+      {
+        "number": 205,
+        "type": "quote",
+        "spans": [{ "text": "among its people" }]
+      },
       { "text": " (WOB, 135) " }
     ]
   },
   {
     "spans": [
-      { "type": "quote", "spans": [{ "text": "Render thanks" }] },
+      {
+        "number": 206,
+        "type": "quote",
+        "spans": [{ "text": "Render thanks" }]
+      },
       { "text": " to " },
-      { "type": "quote", "spans": [{ "text": "His favoured servants." }] },
+      {
+        "number": 207,
+        "type": "quote",
+        "spans": [{ "text": "His favoured servants." }]
+      },
       { "text": " (WOB, 135) (WOB, 135) " }
     ]
   },
   {
     "spans": [
-      { "type": "quote", "spans": [{ "text": "We have sent" }] },
+      { "number": 208, "type": "quote", "spans": [{ "text": "We have sent" }] },
       { "text": " to " },
-      { "type": "quote", "spans": [{ "text": "will assuredly perish." }] },
+      {
+        "number": 209,
+        "type": "quote",
+        "spans": [{ "text": "will assuredly perish." }]
+      },
       { "text": " (WOB, 135) " }
     ]
   },
   {
     "spans": [
-      { "type": "quote", "spans": [{ "text": "The wrongs" }] },
+      { "number": 210, "type": "quote", "spans": [{ "text": "The wrongs" }] },
       { "text": " to " },
-      { "type": "quote", "spans": [{ "text": "Tablet of creation." }] },
+      {
+        "number": 211,
+        "type": "quote",
+        "spans": [{ "text": "Tablet of creation." }]
+      },
       { "text": " (GPB, 118) " }
     ]
   },
   {
     "spans": [
-      { "type": "quote", "spans": [{ "text": "O Maryam!" }] },
+      { "number": 212, "type": "quote", "spans": [{ "text": "O Maryam!" }] },
       { "text": " to " },
-      { "type": "quote", "spans": [{ "text": "thereafter!" }] },
+      { "number": 213, "type": "quote", "spans": [{ "text": "thereafter!" }] },
       { "text": " (GPB, 118) " }
     ]
   },
   {
     "spans": [
-      { "type": "quote", "spans": [{ "text": "I roamed" }] },
+      { "number": 214, "type": "quote", "spans": [{ "text": "I roamed" }] },
       { "text": " to " },
-      { "type": "quote", "spans": [{ "text": "My associates." }] },
+      {
+        "number": 215,
+        "type": "quote",
+        "spans": [{ "text": "My associates." }]
+      },
       { "text": " (GPB, 120) " }
     ]
   },
   {
     "spans": [
-      { "type": "quote", "spans": [{ "text": "For two years" }] },
+      {
+        "number": 216,
+        "type": "quote",
+        "spans": [{ "text": "For two years" }]
+      },
       { "text": " to " },
-      { "type": "quote", "spans": [{ "text": "jealousy abate." }] },
+      {
+        "number": 217,
+        "type": "quote",
+        "spans": [{ "text": "jealousy abate." }]
+      },
       { "text": " (GPB, 119) " }
     ]
   },
   {
     "spans": [
-      { "type": "quote", "spans": [{ "text": "I have borne" }] },
+      { "number": 218, "type": "quote", "spans": [{ "text": "I have borne" }] },
       { "text": " to " },
-      { "type": "quote", "spans": [{ "text": "or will bear." }] },
+      {
+        "number": 219,
+        "type": "quote",
+        "spans": [{ "text": "or will bear." }]
+      },
       { "text": " (GPB 118) " }
     ]
   },
   {
     "spans": [
-      { "type": "quote", "spans": [{ "text": "We found" }] },
+      { "number": 220, "type": "quote", "spans": [{ "text": "We found" }] },
       { "text": " to " },
-      { "type": "quote", "spans": [{ "text": "to its message." }] },
+      {
+        "number": 221,
+        "type": "quote",
+        "spans": [{ "text": "to its message." }]
+      },
       { "text": " (GPB, 125) " }
     ]
   },
   {
     "spans": [
       {
+        "number": 222,
         "type": "quote",
         "spans": [
           { "text": "It is incumbent upon the A" },
@@ -5574,7 +5875,11 @@
         ]
       },
       { "text": " to " },
-      { "type": "quote", "spans": [{ "text": "the All‑Bountiful." }] },
+      {
+        "number": 223,
+        "type": "quote",
+        "spans": [{ "text": "the All‑Bountiful." }]
+      },
       { "text": " (WOB, 134) " }
     ]
   },

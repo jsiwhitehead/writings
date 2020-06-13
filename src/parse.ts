@@ -31,7 +31,7 @@ const elements = {
     'brl-italic': 'i',
     'brl-align-center': 'c',
     'brl-align-right': 'r',
-    'brl-linegroup': 'p',
+    'brl-linegroup': 'block',
     'brl-linegroupline': 'l',
   },
 };
@@ -82,8 +82,22 @@ const correctSpelling = (s) =>
     s,
   );
 
+const flattenQuotesWithNotes = (spans) => {
+  const result = [] as any[];
+  spans.forEach((s) => {
+    if (s.type === 'quote' && s.spans.some((x) => x.type === 'note')) {
+      result.push({ text: '“' }, ...s.spans, { text: '”' });
+    } else {
+      result.push(s);
+    }
+  });
+  return result;
+};
+
 const parse = (data) => {
   const notes = {};
+  let quoteCount = 0;
+  let noteCount = 0;
   const walk = (items, children, paragraph?) =>
     children.forEach((node) => {
       if (node.type === 'text') {
@@ -120,13 +134,17 @@ const parse = (data) => {
               );
               items.push({ gap: 0, spans: [{ text: '' }] });
             } else if (type === 'note') {
+              noteCount++;
               last(items).spans.push(
-                { type, text: node.children[0].properties.href.slice(1) },
+                {
+                  type,
+                  text: node.children[0].properties.href.slice(1),
+                  number: noteCount,
+                },
                 { text: '' },
               );
             } else if (type === 'l') {
               walk(items, node.children, paragraph);
-              last(items).type = 'block';
               last(items).spans.push({ type: 'break' }, { text: '' });
             } else if (type) {
               last(items).spans.push({ type, text: '' });
@@ -170,9 +188,10 @@ const parse = (data) => {
                 while ((match = regex.exec(text)) !== null) {
                   if (match[0] === '“') {
                     if (++quoteLevel === 1) {
+                      quoteCount++;
                       spans.push(
                         { ...s, text: text.slice(start, match.index) },
-                        { type: 'quote', spans: [] },
+                        { type: 'quote', spans: [], number: quoteCount },
                       );
                       start = match.index + 1;
                     }
@@ -197,7 +216,7 @@ const parse = (data) => {
               }
             }
           });
-        const filtered = spans.filter(
+        const filtered = flattenQuotesWithNotes(spans).filter(
           (s) => s.type === 'quote' || s.text !== '',
         );
         const indices: any = filtered
@@ -216,7 +235,12 @@ const parse = (data) => {
       ...x,
       spans: x.spans.map((s) => {
         if (s.type !== 'note') return s;
-        return { type: 'note', start: s.start, content: notes[s.text] };
+        return {
+          type: 'note',
+          start: s.start,
+          content: notes[s.text],
+          number: s.number,
+        };
       }),
     };
   });

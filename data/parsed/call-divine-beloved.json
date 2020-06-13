@@ -11,6 +11,7 @@
   {
     "spans": [
       {
+        "number": 1,
         "type": "quote",
         "spans": [
           { "text": "At one time We spoke in the language of the lawgiver" }
@@ -20,6 +21,7 @@
         "text": ", Bahá’u’lláh writes in the Epistle to the Son of the Wolf, "
       },
       {
+        "number": 2,
         "type": "quote",
         "spans": [
           { "text": "at another in that of the truth‑seeker and the mystic" }
@@ -27,6 +29,7 @@
       },
       { "text": "." },
       {
+        "number": 1,
         "type": "note",
         "content": [
           {
@@ -49,6 +52,7 @@
         "text": " Although most of the Tablets in this collection were revealed during Bahá’u’lláh’s sojourn in ‘Iráq (1853–1863), the first, the poem known as "
       },
       {
+        "number": 3,
         "type": "quote",
         "spans": [
           { "text": "Ra" },
@@ -62,6 +66,7 @@
         "text": "ál and is among the few He revealed while in His native land of Persia, and in verse. Bahá’u’lláh recounts: "
       },
       {
+        "number": 4,
         "type": "quote",
         "spans": [
           {
@@ -70,6 +75,7 @@
         ]
       },
       {
+        "number": 2,
         "type": "note",
         "content": [
           { "spans": [{ "text": " Epistle to the Son of the Wolf, p. 22. " }] }
@@ -100,11 +106,13 @@
         "text": "s, to seek out the One Who dwelt as a humble dervish yet evinced a wisdom that was profound and a power of expression unequalled: "
       },
       {
+        "number": 5,
         "type": "quote",
         "spans": [{ "text": "Through His numerous discourses and epistles" }]
       },
       { "text": ", Shoghi Effendi writes, " },
       {
+        "number": 6,
         "type": "quote",
         "spans": [
           {
@@ -113,6 +121,7 @@
         ]
       },
       {
+        "number": 3,
         "type": "note",
         "content": [
           {
@@ -145,6 +154,7 @@
     "spans": [
       { "text": " This period, Shoghi Effendi tells us, saw an " },
       {
+        "number": 7,
         "type": "quote",
         "spans": [
           {
@@ -156,6 +166,7 @@
         "text": " revivified and transformed the Bábí community. It was a period so prolific that, on average, the unrecorded verses He would reveal in a single day and night equalled in number those of the Qur’án. "
       },
       {
+        "number": 8,
         "type": "quote",
         "spans": [
           {
@@ -164,6 +175,7 @@
         ]
       },
       {
+        "number": 4,
         "type": "note",
         "content": [{ "spans": [{ "text": " God Passes By, p. 216. " }] }]
       }
@@ -173,6 +185,7 @@
     "spans": [
       { "text": " Among the " },
       {
+        "number": 9,
         "type": "quote",
         "spans": [
           {
@@ -182,11 +195,13 @@
       },
       { "text": " in those days is Bahá’u’lláh’s " },
       {
+        "number": 10,
         "type": "quote",
         "spans": [{ "text": "greatest mystical composition" }]
       },
       { "text": ", the Seven Valleys, which " },
       {
+        "number": 11,
         "type": "quote",
         "spans": [
           {
@@ -195,6 +210,7 @@
         ]
       },
       {
+        "number": 5,
         "type": "note",
         "content": [
           { "spans": [{ "text": " God Passes By, pp. 217 and 220. " }] }
@@ -210,6 +226,7 @@
         "text": " This treatise was revealed in the language of the people, in the days prior to Our Declaration. The occasion for its revelation was the receipt of a letter addressed to the Most Holy Court in ‘Iráq from a man of Sunní persuasion, who was both a scholar and a mystic. This treatise was therefore revealed, in accordance with divine wisdom, in the manner that was current amongst the people. However, in this day, every soul who hath fixed his gaze upon the Supreme Horizon, and hath recognised the one true God, hath verily attained unto every one of the seven valleys or seven stations mentioned therein."
       },
       {
+        "number": 6,
         "type": "note",
         "content": [
           { "spans": [{ "text": " From a previously untranslated Tablet. " }] }
@@ -246,6 +263,7 @@
         "text": " May the publication of this volume contribute to a deeper appreciation of the mystical dimensions of Bahá’u’lláh’s Message and inspire a greater zeal and fervour in raising the celestial call of the Divine Beloved: "
       },
       {
+        "number": 12,
         "type": "quote",
         "spans": [
           {
@@ -254,6 +272,7 @@
         ]
       },
       {
+        "number": 7,
         "type": "note",
         "content": [
           {
@@ -287,6 +306,7 @@
         "text": " ’Tis from Our rapture that the clouds of realms above are raining down;"
       },
       {
+        "number": 8,
         "type": "note",
         "content": [
           {
@@ -379,11 +399,11 @@
     "type": "block",
     "spans": [
       { "text": " The Day of " },
-      { "type": "quote", "spans": [{ "text": "I am He" }] },
+      { "number": 13, "type": "quote", "spans": [{ "text": "I am He" }] },
       { "text": " is made to shine resplendent from Our face; " },
       { "type": "break" },
       { "text": " The Age of " },
-      { "type": "quote", "spans": [{ "text": "He is He" }] },
+      { "number": 14, "type": "quote", "spans": [{ "text": "He is He" }] },
       { "text": " from out Our flowing cup is raining down. " }
     ]
   },
@@ -547,6 +567,7 @@
         "text": " Praise be to God Who hath made being to come forth from nothingness; graven upon the tablet of man a measure of the mysteries of His eternity; taught him from the storehouse of divine utterance that which he knew not; made him a perspicuous book unto such as have believed and surrendered their souls; given him to behold, in this dark and ruinous age, a new creation within all things; and caused him to speak forth, from the midmost heart of eternity, and in a new and wondrous voice, embodied in the most excellent Temple."
       },
       {
+        "number": 9,
         "type": "note",
         "content": [{ "spans": [{ "text": " The Manifestation of God. " }] }]
       },
@@ -554,6 +575,7 @@
         "text": " And all to this end: that every man may testify, in himself and by himself, before the Seat of the revelation of his Lord, that there is none other God but Him; and that all may reach that summit of realities where none shall contemplate anything but that he shall perceive God therein. This is the vision of the splendours which have been deposited within the realities of all things; for otherwise He, exalted be His glory, is entirely sanctified above being seen or witnessed: "
       },
       {
+        "number": 15,
         "type": "quote",
         "spans": [
           {
@@ -562,6 +584,7 @@
         ]
       },
       {
+        "number": 10,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 6:103. " }] }]
       }
@@ -572,13 +595,14 @@
       {
         "text": " And I praise and glorify that primal Sea which hath branched out from the ocean of the unseen Essence, and that primal Morn which hath broken forth upon the horizon of Singleness, and that primal Sun which hath risen in the heaven of everlasting splendour, and that primal Fire which was kindled from the Lamp of eternity within the Niche of oneness: He Who is called "
       },
-      { "type": "quote", "spans": [{ "text": "Aḥmad" }] },
+      { "number": 16, "type": "quote", "spans": [{ "text": "Aḥmad" }] },
       { "text": " in the kingdom of the exalted ones, and " },
-      { "type": "quote", "spans": [{ "text": "Muḥammad" }] },
+      { "number": 17, "type": "quote", "spans": [{ "text": "Muḥammad" }] },
       { "text": " amongst the concourse of the favoured ones, and " },
-      { "type": "quote", "spans": [{ "text": "Maḥmúd" }] },
+      { "number": 18, "type": "quote", "spans": [{ "text": "Maḥmúd" }] },
       { "text": " in the realm of the sincere;" },
       {
+        "number": 11,
         "type": "note",
         "content": [
           {
@@ -592,12 +616,14 @@
       },
       { "text": " and in the hearts of the knowing, " },
       {
+        "number": 19,
         "type": "quote",
         "spans": [
           { "text": "whichsoever ye call upon, most beauteous are His names." }
         ]
       },
       {
+        "number": 12,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 17:110. " }] }]
       },
@@ -612,6 +638,7 @@
         "text": " To continue: I have hearkened to the song of the nightingale of knowledge upon the twigs of the tree of thine inmost being, and to the cooing of the dove of certitude upon the branches of the bower of thine heart. Methinks I inhaled the fragrance of purity from the raiment of thy love and, in perusing thy letter, attained thy very presence. I noted, moreover, thine allusions to thy death in God and thy life through Him, and the love thou dost cherish for the beloved of the Lord and for the Manifestations of His names and the Exponents of His attributes. I have purposed, therefore, to acquaint thee with holy and resplendent tokens from the realms of might and glory, that haply they may draw thee nigh unto the court of holiness, nearness, and beauty, and draw thee to a station wherein thou shalt see naught in all existence but the hallowed Countenance of thy Beloved, and wilt behold all of creation as a day wherein none was deemed worthy of mention."
       },
       {
+        "number": 13,
         "type": "note",
         "content": [{ "spans": [{ "text": " Cf. Qur’án 76:1. " }] }]
       }
@@ -623,6 +650,7 @@
         "text": " Of this did the nightingale of oneness sing in the garden of his mystical treatise,"
       },
       {
+        "number": 14,
         "type": "note",
         "content": [
           {
@@ -636,6 +664,7 @@
       },
       { "text": " saying, " },
       {
+        "number": 20,
         "type": "quote",
         "spans": [
           {
@@ -644,6 +673,7 @@
         ]
       },
       {
+        "number": 15,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 2:282, 16:69. " }] }]
       }
@@ -655,6 +685,7 @@
         "text": " By My life, O friend! Wert thou to taste the fruits of these verdant trees that spring from the soil of true understanding, once the effulgent light of His Essence hath been reflected in the Mirrors of His names and attributes, yearning would seize the reins of patience and restraint from out thy hand and stir thy spirit into commotion with the splendours of His light. It would draw thee from this abode of dust unto thy true and heavenly habitation in the midmost heart of mystic knowledge, and raise thee to a station wherein thou wilt soar in the air even as thou treadest upon the earth, and wilt walk upon the water even as thou movest over the land. Wherefore, may it rejoice me, and thee, and whosoever mounteth into the heaven of knowledge, and whose heart hath been revived by the breezes of certitude that waft from the Sheba of the All‑Merciful upon the meadow of his inner being. Peace be upon him who followeth the way of guidance!"
       },
       {
+        "number": 16,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 20:47. " }] }]
       }
@@ -666,6 +697,7 @@
         "text": " And further: the stages that mark the wayfarers’ journey from their mortal abode to the heavenly homeland are said to be seven. Some have referred to them as seven valleys, and others, as seven cities."
       },
       {
+        "number": 17,
         "type": "note",
         "content": [
           {
@@ -687,13 +719,15 @@
       {
         "text": " The first is the Valley of Search. The steed of this valley is patience; without patience the wayfarer on this journey will reach nowhere and attain no goal. Nor should he ever become downhearted: If he strive for a hundred thousand years and yet fail to behold the beauty of the Friend, he should not falter. For those who seek the Kaaba of "
       },
-      { "type": "quote", "spans": [{ "text": "for Us" }] },
+      { "number": 21, "type": "quote", "spans": [{ "text": "for Us" }] },
       { "text": " rejoice in the tidings " },
       {
+        "number": 22,
         "type": "quote",
         "spans": [{ "text": "In Our ways shall We assuredly guide them." }]
       },
       {
+        "number": 18,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 29:69. " }] }]
       },
@@ -722,6 +756,7 @@
         "text": " One must judge of search by the standard of the Majnún of love."
       },
       {
+        "number": 19,
         "type": "note",
         "content": [
           {
@@ -736,13 +771,26 @@
       {
         "text": " It is related that one day they came upon Majnún sifting the dust, his tears flowing down. They asked, "
       },
-      { "type": "quote", "spans": [{ "text": "What doest thou?" }] },
+      {
+        "number": 23,
+        "type": "quote",
+        "spans": [{ "text": "What doest thou?" }]
+      },
       { "text": " He said, " },
-      { "type": "quote", "spans": [{ "text": "I seek for Laylí." }] },
+      {
+        "number": 24,
+        "type": "quote",
+        "spans": [{ "text": "I seek for Laylí." }]
+      },
       { "text": " " },
-      { "type": "quote", "spans": [{ "text": "Alas for thee!" }] },
+      {
+        "number": 25,
+        "type": "quote",
+        "spans": [{ "text": "Alas for thee!" }]
+      },
       { "text": " they cried, " },
       {
+        "number": 26,
         "type": "quote",
         "spans": [
           {
@@ -752,6 +800,7 @@
       },
       { "text": " He said, " },
       {
+        "number": 27,
         "type": "quote",
         "spans": [
           { "text": "I seek her everywhere; haply somewhere I shall find her." }
@@ -765,6 +814,7 @@
         "text": " Yea, though to the wise it be shameful to seek the Lord of Lords in the dust, yet this betokeneth intense ardour in searching. "
       },
       {
+        "number": 28,
         "type": "quote",
         "spans": [
           {
@@ -773,6 +823,7 @@
         ]
       },
       {
+        "number": 20,
         "type": "note",
         "content": [{ "spans": [{ "text": " Arabic proverb. " }] }]
       }
@@ -783,13 +834,18 @@
       {
         "text": " The true seeker hunteth naught but the object of his quest, and the sincere lover hath no desire save reunion with his beloved. Nor shall the seeker reach his goal unless he sacrifice all things. That is, whatever he hath seen, and heard, and understood—all he must set at naught with "
       },
-      { "type": "quote", "spans": [{ "text": "no God is there" }] },
+      {
+        "number": 29,
+        "type": "quote",
+        "spans": [{ "text": "no God is there" }]
+      },
       {
         "text": ", that he may enter into the realm of the spirit, which is the city of "
       },
-      { "type": "quote", "spans": [{ "text": "but God" }] },
+      { "number": 30, "type": "quote", "spans": [{ "text": "but God" }] },
       { "text": "." },
       {
+        "number": 21,
         "type": "note",
         "content": [
           {
@@ -863,6 +919,7 @@
       { "type": "break" },
       { "text": " A knower is he who is dry in the sea." },
       {
+        "number": 22,
         "type": "note",
         "content": [{ "spans": [{ "text": " Saná’í (ca. 1045–1131). " }] }]
       }
@@ -881,7 +938,11 @@
       { "text": " Ne’er will love allow a living soul to tread its way; " },
       { "type": "break" },
       { "text": " Ne’er will the falcon deign to seize a lifeless prey." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Saná’í. " }] }] }
+      {
+        "number": 23,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Saná’í. " }] }]
+      }
     ]
   },
   {
@@ -889,8 +950,13 @@
       {
         "text": " Love setteth a world aflame at every turn and layeth waste every land wherein it raiseth its banner. Being hath no existence in its kingdom; the wise wield no command within its realm. The leviathan of love swalloweth the master of reason and slayeth the lord of knowledge. It drinketh the seven seas, but its heart’s thirst is still unquenched and it asketh, "
       },
-      { "type": "quote", "spans": [{ "text": "Is there yet any more?" }] },
       {
+        "number": 31,
+        "type": "quote",
+        "spans": [{ "text": "Is there yet any more?" }]
+      },
+      {
+        "number": 24,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 50:30. " }] }]
       },
@@ -905,7 +971,11 @@
       { "text": " Love’s a stranger to earth and heaven too;" },
       { "type": "break" },
       { "text": " In him are lunacies seventy and two." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] }
+      {
+        "number": 25,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
+      }
     ]
   },
   {
@@ -921,6 +991,7 @@
         "text": " Wherefore must the veils of the satanic self be burned away in the fire of love, that the spirit may be cleansed and refined, and thus may apprehend the station of Him but for Whom the world would not have been created."
       },
       {
+        "number": 26,
         "type": "note",
         "content": [
           {
@@ -941,6 +1012,7 @@
       { "type": "break" },
       { "text": " Then set thy foot into the land of the lovers." },
       {
+        "number": 27,
         "type": "note",
         "content": [{ "spans": [{ "text": " From a poem of Bahá’u’lláh. " }] }]
       }
@@ -960,6 +1032,7 @@
       { "type": "break" },
       { "text": " Within it thou wilt find a sun." },
       {
+        "number": 28,
         "type": "note",
         "content": [{ "spans": [{ "text": " Hátif‑i‑Iṣfahání (d.1783). " }] }]
       }
@@ -971,6 +1044,7 @@
         "text": " Gazing with the eye of absolute insight, the wayfarer in this valley seeth in God’s creation neither contradiction nor incongruity, and at every moment exclaimeth, "
       },
       {
+        "number": 32,
         "type": "quote",
         "spans": [
           {
@@ -979,6 +1053,7 @@
         ]
       },
       {
+        "number": 29,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 67:3. " }] }]
       },
@@ -986,6 +1061,7 @@
         "text": " He beholdeth justice in injustice, and in justice, grace. In ignorance he findeth many a knowledge hidden, and in knowledge a myriad wisdoms manifest. He breaketh the cage of the body and the hold of the passions, and communeth with the denizens of the immortal realm. He scaleth the ladders of inner truth and hasteneth to the heaven of inner meanings. He rideth in the ark of "
       },
       {
+        "number": 33,
         "type": "quote",
         "spans": [
           {
@@ -995,6 +1071,7 @@
       },
       { "text": ", and saileth upon the sea of " },
       {
+        "number": 34,
         "type": "quote",
         "spans": [
           { "text": "until it become plain to them that it is the truth" }
@@ -1002,6 +1079,7 @@
       },
       { "text": "." },
       {
+        "number": 30,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 41:53. " }] }]
       },
@@ -1023,6 +1101,7 @@
         "text": " At last the tree of his longing yielded the fruit of despair, and the fire of his hope fell to ashes. Then one night he could bear life no more, and he left his house for the marketplace. On a sudden, a watchman followed after him. He broke into a run, with the watchman in swift pursuit; then other watchmen came together and barred every passage to the weary one. And that wretched one cried from his heart, and ran here and there, and moaned to himself, "
       },
       {
+        "number": 35,
         "type": "quote",
         "spans": [
           {
@@ -1041,6 +1120,7 @@
         "text": " And there he beheld his beloved with a lamp in her hand, searching for a ring she had lost. When the heart‑surrendered lover looked upon his ravishing love, he drew a great breath and lifted his hands in prayer, crying, "
       },
       {
+        "number": 36,
         "type": "quote",
         "spans": [
           {
@@ -1069,21 +1149,26 @@
       {
         "text": " Such is the state of the wayfarers in this valley, but the people of the valleys above this see the end and the beginning as one. Nay, they see neither "
       },
-      { "type": "quote", "spans": [{ "text": "beginning" }] },
+      { "number": 37, "type": "quote", "spans": [{ "text": "beginning" }] },
       { "text": " nor " },
-      { "type": "quote", "spans": [{ "text": "end" }] },
+      { "number": 38, "type": "quote", "spans": [{ "text": "end" }] },
       { "text": " and witness neither " },
-      { "type": "quote", "spans": [{ "text": "first" }] },
+      { "number": 39, "type": "quote", "spans": [{ "text": "first" }] },
       { "text": " nor " },
-      { "type": "quote", "spans": [{ "text": "last" }] },
+      { "number": 40, "type": "quote", "spans": [{ "text": "last" }] },
       {
         "text": ". Nay rather, the denizens of the city of immortality, who dwell in the celestial garden, see not even "
       },
-      { "type": "quote", "spans": [{ "text": "neither first nor last" }] },
+      {
+        "number": 41,
+        "type": "quote",
+        "spans": [{ "text": "neither first nor last" }]
+      },
       {
         "text": ": They fly from all that is first and repulse all that is last. For these have passed over the worlds of names and, swift as lightning, fled beyond the worlds of attributes. Thus is it said: "
       },
       {
+        "number": 42,
         "type": "quote",
         "spans": [
           {
@@ -1092,6 +1177,7 @@
         ]
       },
       {
+        "number": 31,
         "type": "note",
         "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
       },
@@ -1106,6 +1192,7 @@
       { "type": "u", "text": "Kh" },
       { "text": "ájih ‘Abdu’lláh" },
       {
+        "number": 32,
         "type": "note",
         "content": [
           {
@@ -1124,16 +1211,19 @@
         "text": " —may God the Most High sanctify his blessed soul—hath made, in this connexion, a subtle point and spoken an eloquent word as to the meaning of "
       },
       {
+        "number": 43,
         "type": "quote",
         "spans": [{ "text": "Guide Thou us on the straight path" }]
       },
       { "text": "," },
       {
+        "number": 33,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 1:6. " }] }]
       },
       { "text": " which is: " },
       {
+        "number": 44,
         "type": "quote",
         "spans": [
           {
@@ -1149,11 +1239,13 @@
         "text": " Nay, they would even soar above this station, as it is said: "
       },
       {
+        "number": 45,
         "type": "quote",
         "spans": [{ "text": "Love is a veil betwixt the lover and beloved." }]
       },
       { "text": " " },
       {
+        "number": 46,
         "type": "quote",
         "spans": [{ "text": "More than this I am not permitted to tell." }]
       }
@@ -1176,7 +1268,11 @@
       { "text": " Then thou who hast no wings at all," },
       { "type": "break" },
       { "text": " Abandon any hope of flight!" },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] }
+      {
+        "number": 34,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
+      }
     ]
   },
   {
@@ -1185,12 +1281,14 @@
         "text": " If thou be a man of communion and prayer, soar upon the wings of assistance from the holy ones, that thou mayest behold the mysteries of the Friend and attain the lights of the Beloved: "
       },
       {
+        "number": 47,
         "type": "quote",
         "spans": [
           { "text": "Verily, we are God’s, and to Him shall we return." }
         ]
       },
       {
+        "number": 35,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 2:156. " }] }]
       }
@@ -1202,23 +1300,31 @@
         "text": " After passing through the Valley of Knowledge, which is the last station of limitation, the wayfarer cometh to the First Station of Unity and drinketh from the cup of oneness, and gazeth upon the manifestations of singleness. In this station he pierceth the veils of plurality, fleeth the realms of the flesh, and ascendeth unto the heaven of unity. With the ear of God he heareth; with the eye of God he beholdeth the mysteries of divine creation. He steppeth into the inner sanctuary of the Friend and, as an intimate, shareth the pavilion of the Well‑Beloved. He stretcheth forth the hand of truth from the sleeve of the Absolute and revealeth the mysteries of divine power. He seeth in himself neither name nor fame nor rank, but findeth his own praise in the praise of God, and in the name of God beholdeth his own. To him "
       },
       {
+        "number": 48,
         "type": "quote",
         "spans": [{ "text": "all songs are from that sovereign King" }]
       },
       { "text": " and every melody from Him. He sitteth on the throne of " },
-      { "type": "quote", "spans": [{ "text": "Say, all things are of God" }] },
       {
+        "number": 49,
+        "type": "quote",
+        "spans": [{ "text": "Say, all things are of God" }]
+      },
+      {
+        "number": 36,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 4:78. " }] }]
       },
       { "text": " and reclineth upon the seat of " },
       {
+        "number": 50,
         "type": "quote",
         "spans": [
           { "text": "There is no power nor strength but in God alone." }
         ]
       },
       {
+        "number": 37,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 18:39. " }] }]
       },
@@ -1247,6 +1353,7 @@
         "text": " Thus it is that certain feeble souls have confined the wide expanse of knowledge within the walls of self and passion, and beneath the cloak of ignorance and blindness, and have thereby veiled themselves from the light of the mystic Sun and the mysteries of the eternal Beloved. They have strayed far from the gem‑like wisdom of the resplendent Faith of the Lord of the Messengers,"
       },
       {
+        "number": 38,
         "type": "note",
         "content": [{ "spans": [{ "text": " The Prophet Muḥammad. " }] }]
       },
@@ -1275,7 +1382,11 @@
       { "text": " Cleanse thou the rheum from out thine head" },
       { "type": "break" },
       { "text": " And breathe the breath of God instead." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] }
+      {
+        "number": 39,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
+      }
     ]
   },
   {
@@ -1291,6 +1402,7 @@
         "text": " As the wayfarers traverse these three differing planes, their understanding and their words differ accordingly, and hence the sign of conflict hath ever appeared on earth. For there are some who dwell on the plane of Divine Unity and speak of that world, and some inhabit the realms of limitation, and some the grades of self, while others are completely veiled. Thus do the ignorant people of the day, who have no share of the radiance of the divine Beauty, make certain claims and, in every age and cycle, inflict upon the people of the ocean of Divine Unity what they themselves deserve. "
       },
       {
+        "number": 51,
         "type": "quote",
         "spans": [
           {
@@ -1299,6 +1411,7 @@
         ]
       },
       {
+        "number": 40,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 16:61. " }] }]
       }
@@ -1310,6 +1423,7 @@
         "text": " O My brother! A pure heart is as a mirror; cleanse it with the burnish of love and severance from all save God, that the true sun may shine therein and the eternal morning dawn. Then wilt thou clearly see the meaning of "
       },
       {
+        "number": 52,
         "type": "quote",
         "spans": [
           {
@@ -1318,6 +1432,7 @@
         ]
       },
       {
+        "number": 41,
         "type": "note",
         "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
       },
@@ -1332,6 +1447,7 @@
         "text": " Whensoever the light of the revelation of the King of Oneness settleth upon the throne of the heart and soul, His radiance becometh visible in every limb and member. At that time, the mystery of the famed tradition gleameth out of the darkness: "
       },
       {
+        "number": 53,
         "type": "quote",
         "spans": [
           {
@@ -1340,6 +1456,7 @@
         ]
       },
       {
+        "number": 42,
         "type": "note",
         "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
       },
@@ -1347,6 +1464,7 @@
         "text": " For thus the Master of the house hath appeared within His home, and all the pillars of the dwelling are ashine with His light. And as the action and effect of the light are from the Light‑Giver, so it is that all move through Him and arise by His will. This is that wellspring whereof the near ones drink, as it is said: "
       },
       {
+        "number": 54,
         "type": "quote",
         "spans": [
           { "text": "A fount whereof they who draw nigh to God shall drink" }
@@ -1354,6 +1472,7 @@
       },
       { "text": "." },
       {
+        "number": 43,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 83:28. " }] }]
       }
@@ -1365,6 +1484,7 @@
         "text": " However, let none construe these utterances to imply the incarnation or descent of the worlds of God into the grades of His creatures, nor should they lead thine eminence to such misapprehensions. For God, in His Essence, is sanctified above all ascent and descent, egress and regress; He hath through all eternity been exalted beyond the attributes of His creation, and will ever remain so. No man hath ever known Him; no soul hath ever fathomed the nature of His Being. In the valley of His knowledge every mystic wandereth astray; in the comprehension of His Essence every saint standeth bewildered. Sanctified is He above the understanding of the wise; exalted is He beyond the knowledge of the knowing! "
       },
       {
+        "number": 55,
         "type": "quote",
         "spans": [
           {
@@ -1373,6 +1493,7 @@
         ]
       },
       {
+        "number": 44,
         "type": "note",
         "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
       }
@@ -1384,6 +1505,7 @@
         "text": " Wherefore the lovers of the countenance of the Beloved have said, "
       },
       {
+        "number": 56,
         "type": "quote",
         "spans": [
           {
@@ -1393,21 +1515,35 @@
       },
       { "text": "." },
       {
+        "number": 45,
         "type": "note",
         "content": [{ "spans": [{ "text": " From a prayer of Imám ‘Alí. " }] }]
       },
       {
         "text": " How can utter nothingness spur its charger in the arena of eternity, or a fleeting shadow reach to the everlasting sun? The Friend addressed by the words "
       },
-      { "type": "quote", "spans": [{ "text": "But for Thee" }] },
+      { "number": 57, "type": "quote", "spans": [{ "text": "But for Thee" }] },
       { "text": " hath said, " },
-      { "type": "quote", "spans": [{ "text": "We have failed to know Thee" }] },
+      {
+        "number": 58,
+        "type": "quote",
+        "spans": [{ "text": "We have failed to know Thee" }]
+      },
       { "text": "; and the Beloved alluded to by the words " },
-      { "type": "quote", "spans": [{ "text": "or even closer" }] },
+      {
+        "number": 59,
+        "type": "quote",
+        "spans": [{ "text": "or even closer" }]
+      },
       { "text": " hath said, " },
-      { "type": "quote", "spans": [{ "text": "nor attained Thy presence" }] },
+      {
+        "number": 60,
+        "type": "quote",
+        "spans": [{ "text": "nor attained Thy presence" }]
+      },
       { "text": "." },
       {
+        "number": 46,
         "type": "note",
         "content": [
           {
@@ -1449,6 +1585,7 @@
       { "type": "break" },
       { "text": " When Alexander’s wall cannot keep them apart?" },
       {
+        "number": 47,
         "type": "note",
         "content": [
           {
@@ -1468,6 +1605,7 @@
         "text": " Secrets are many, and strangers are myriad. Volumes will not suffice to hold the mystery of the Beloved, nor can it be exhausted in these pages, though it be no more than a word, no more than a sign. "
       },
       {
+        "number": 61,
         "type": "quote",
         "spans": [
           {
@@ -1476,6 +1614,7 @@
         ]
       },
       {
+        "number": 48,
         "type": "note",
         "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
       }
@@ -1511,6 +1650,7 @@
       { "type": "break" },
       { "text": " A thousand rights are in this wrong concealed." },
       {
+        "number": 49,
         "type": "note",
         "content": [
           { "spans": [{ "text": " Rúmí; a reference to Qur’án 18:71. " }] }
@@ -1531,12 +1671,14 @@
         "text": " Although a brief example hath been given concerning the beginning and ending of the relative and contingent world, yet a further illustration is now provided, that the full meaning may become clear. For instance, let thine eminence consider his own self: Thou art first in relation to thy son, and last in relation to thy father. In thine outward appearance thou tellest of the appearance of power in the realms of divine creation; in thine inward being thou revealest the hidden mysteries which are the divine trust deposited within thee. And thus firstness and lastness, outwardness and inwardness, are, in the sense referred to, all true of thyself, so that in these four states conferred upon thee thou mayest comprehend the four divine states, and that the nightingale of thine heart, warbling on all the flowering branches of the tree of existence, whether seen or unseen, might cry out: "
       },
       {
+        "number": 62,
         "type": "quote",
         "spans": [
           { "text": "He is the First and the Last, the Seen and the Hidden!" }
         ]
       },
       {
+        "number": 50,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 57:3. " }] }]
       }
@@ -1547,9 +1689,9 @@
       {
         "text": " These statements are made in the sphere of that which is relative. Otherwise, those souls who with but one step have traversed the world of the relative and the conditioned, and dwelt in the court of independent sovereignty, and pitched their tent in the realms of absolute authority and command, have burned away these relativities with a single spark, and blotted out these words with a mere dewdrop. And they swim in the sea of the spirit, and soar in the holy atmosphere of light. Then what existence have words, on such a plane, that "
       },
-      { "type": "quote", "spans": [{ "text": "first" }] },
+      { "number": 63, "type": "quote", "spans": [{ "text": "first" }] },
       { "text": " and " },
-      { "type": "quote", "spans": [{ "text": "last" }] },
+      { "number": 64, "type": "quote", "spans": [{ "text": "last" }] },
       {
         "text": ", or other than these, should be mentioned or described? In this realm, the first is the same as the last, and the last is the same as the first. "
       }
@@ -1561,7 +1703,11 @@
       { "text": " In thy soul, of love build thou a fire" },
       { "type": "break" },
       { "text": " And burn all thoughts and words entire." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] }
+      {
+        "number": 51,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
+      }
     ]
   },
   {
@@ -1592,6 +1738,7 @@
       { "type": "break" },
       { "text": " And if I write, many a pen will break." },
       {
+        "number": 52,
         "type": "note",
         "content": [
           {
@@ -1618,10 +1765,12 @@
         "text": " The wayfarer, after traversing the high planes of this supernal journey, entereth into the City of Contentment. In this valley he feeleth the breezes of divine contentment blowing from the plane of the spirit. He burneth away the veils of want, and with inward and outward eye perceiveth within and without all things the day of "
       },
       {
+        "number": 65,
         "type": "quote",
         "spans": [{ "text": "God will satisfy everyone out of His abundance." }]
       },
       {
+        "number": 53,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 4:130. " }] }]
       },
@@ -1653,6 +1802,7 @@
       { "type": "break" },
       { "text": " A bliss no messenger can bear and no missive dare impart." },
       {
+        "number": 54,
         "type": "note",
         "content": [{ "spans": [{ "text": " Cf. ‘Aṭṭár. " }] }]
       }
@@ -1669,6 +1819,7 @@
         "text": " For my words would fail to reckon them and mine every effort would fall short."
       },
       {
+        "number": 55,
         "type": "note",
         "content": [{ "spans": [{ "text": " Ibn‑i‑Fáriḍ (1181–1235). " }] }]
       }
@@ -1679,13 +1830,15 @@
       {
         "text": " O friend, till thou enter the garden of these inner meanings, thou shalt never taste of the imperishable wine of this valley. And shouldst thou taste of it, thou wilt turn away from all else and drink of the cup of contentment; thou wilt loose thyself from all things and bind thyself unto Him, and lay down thy life in His path and offer up thy soul for His sake. And this, even though in this realm there is no "
       },
-      { "type": "quote", "spans": [{ "text": "all else" }] },
+      { "number": 66, "type": "quote", "spans": [{ "text": "all else" }] },
       { "text": " that thou needst forget: " },
       {
+        "number": 67,
         "type": "quote",
         "spans": [{ "text": "God was alone; there was none else besides Him." }]
       },
       {
+        "number": 56,
         "type": "note",
         "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
       },
@@ -1693,10 +1846,12 @@
         "text": " For on this plane the traveller witnesseth the beauty of the Friend in all things. In fire he seeth the face of the Beloved; in illusion he beholdeth the secret of reality; in the attributes he readeth the riddle of the Essence. For he hath burnt away all veils with a sigh, and cast aside all coverings with a glance. With piercing sight he gazeth upon the new creation, and with lucid heart he graspeth subtle verities. The words "
       },
       {
+        "number": 68,
         "type": "quote",
         "spans": [{ "text": "And we have made thy sight sharp in this day" }]
       },
       {
+        "number": 57,
         "type": "note",
         "content": [{ "spans": [{ "text": " Cf. Qur’án 50:21. " }] }]
       },
@@ -1739,7 +1894,11 @@
       { "text": " How can feeble reason embrace the Qur’án" },
       { "type": "break" },
       { "text": " Or the spider snare a phoenix in its web?" },
-      { "type": "note", "content": [{ "spans": [{ "text": " Saná’í. " }] }] }
+      {
+        "number": 58,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Saná’í. " }] }]
+      }
     ]
   },
   {
@@ -1748,6 +1907,7 @@
         "text": " All these states are to be found and witnessed in the Valley of Wonderment, wherein the wayfarer at every moment seeketh for more and is not wearied. Thus the Lord of the first and the last,"
       },
       {
+        "number": 59,
         "type": "note",
         "content": [{ "spans": [{ "text": " The Prophet Muḥammad. " }] }]
       },
@@ -1755,12 +1915,14 @@
         "text": " in setting forth the grades of contemplation and expressing bewilderment, hath said: "
       },
       {
+        "number": 69,
         "type": "quote",
         "spans": [
           { "text": "Increase my wonder and amazement at Thee, O God!" }
         ]
       },
       {
+        "number": 60,
         "type": "note",
         "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
       }
@@ -1794,6 +1956,7 @@
         "text": " Likewise, Luqmán, who had drunk from the wellspring of wisdom and tasted of the waters of mercy, in proving to his son Nathan the planes of resurrection and death, advanced the dream as evidence and example. We relate it here, that through this evanescent Servant a memory may endure of that youth of the school of Divine Unity, that elder of the realms of instruction and detachment. He said: "
       },
       {
+        "number": 70,
         "type": "quote",
         "spans": [
           {
@@ -1823,7 +1986,11 @@
       { "text": " The tale remaineth yet unfinished and untold;" },
       { "type": "break" },
       { "text": " Forgive me, then, for weariness hath taken hold." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] }
+      {
+        "number": 61,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
+      }
     ]
   },
   {
@@ -1832,12 +1999,14 @@
         "text": " The pen groaneth and the ink sheddeth tears, and the river of the heart surgeth in waves of blood. "
       },
       {
+        "number": 71,
         "type": "quote",
         "spans": [
           { "text": "Nothing can befall us but what God hath destined for us." }
         ]
       },
       {
+        "number": 62,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 9:51. " }] }]
       },
@@ -1861,7 +2030,11 @@
       { "text": " All mention Moses burned away" },
       { "type": "break" },
       { "text": " Of every fleeting, transient thing." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] }
+      {
+        "number": 63,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
+      }
     ]
   },
   {
@@ -1870,6 +2043,7 @@
         "text": " Whoso hath attained this station is sanctified from all that pertaineth to the world. Wherefore, if those who have reached the ocean of His presence are found to possess none of the limited things of this perishable world, whether earthly riches or worldly opinions, it mattereth not. For that which is with His creatures is circumscribed by their own limitations, whereas that which is with God is sanctified therefrom. This utterance must be deeply pondered, that its purport may be clear. "
       },
       {
+        "number": 72,
         "type": "quote",
         "spans": [
           {
@@ -1878,19 +2052,25 @@
         ]
       },
       {
+        "number": 64,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 76:5. " }] }]
       },
       { "text": " If the true meaning of " },
-      { "type": "quote", "spans": [{ "text": "camphor" }] },
+      { "number": 73, "type": "quote", "spans": [{ "text": "camphor" }] },
       { "text": " become known, our true intent will become evident. " }
     ]
   },
   {
     "spans": [
       { "text": " This station is that poverty of which it is said, " },
-      { "type": "quote", "spans": [{ "text": "Poverty is My glory." }] },
       {
+        "number": 74,
+        "type": "quote",
+        "spans": [{ "text": "Poverty is My glory." }]
+      },
+      {
+        "number": 65,
         "type": "note",
         "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
       },
@@ -1905,6 +2085,7 @@
         "text": " This is the station wherein the multiplicity of all things perisheth in the wayfarer; and the divine Countenance, dawning above the horizon of eternity, riseth out of the darkness; and the meaning of "
       },
       {
+        "number": 75,
         "type": "quote",
         "spans": [
           {
@@ -1914,6 +2095,7 @@
       },
       { "text": " is made manifest." },
       {
+        "number": 66,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 28:88. " }] }]
       }
@@ -1925,6 +2107,7 @@
         "text": " O My friend! Listen with heart and soul to the songs of the spirit, and treasure them as thine own eyes; for heavenly wisdoms, even as vernal showers, will not rain forever upon the earth of men’s hearts, and though the grace of the All‑Bounteous One is never ceasing and never stilled, yet to every time and era a portion is allotted and a bounty assigned, which is vouchsafed in a given measure. "
       },
       {
+        "number": 76,
         "type": "quote",
         "spans": [
           {
@@ -1933,6 +2116,7 @@
         ]
       },
       {
+        "number": 67,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 15:21. " }] }]
       },
@@ -1957,6 +2141,7 @@
       { "type": "break" },
       { "text": " Through every door and wall, O ye endued with sight!" },
       {
+        "number": 68,
         "type": "note",
         "content": [{ "spans": [{ "text": " Hátif‑i‑Iṣfahání. " }] }]
       }
@@ -1975,6 +2160,7 @@
         "text": " In this city, even the veils of light are rent asunder and vanish away. "
       },
       {
+        "number": 77,
         "type": "quote",
         "spans": [
           {
@@ -1983,6 +2169,7 @@
         ]
       },
       {
+        "number": 69,
         "type": "note",
         "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
       },
@@ -2002,6 +2189,7 @@
       { "type": "break" },
       { "text": " To the city of the blind!" },
       {
+        "number": 70,
         "type": "note",
         "content": [{ "spans": [{ "text": " Attributed to Rúmí. " }] }]
       }
@@ -2012,13 +2200,22 @@
       {
         "text": " In this valley the wayfarer passeth beyond the stages of the "
       },
-      { "type": "quote", "spans": [{ "text": "unity of existence" }] },
+      {
+        "number": 78,
+        "type": "quote",
+        "spans": [{ "text": "unity of existence" }]
+      },
       { "text": " and the " },
-      { "type": "quote", "spans": [{ "text": "unity of appearance" }] },
+      {
+        "number": 79,
+        "type": "quote",
+        "spans": [{ "text": "unity of appearance" }]
+      },
       {
         "text": " and reacheth a unity that is sanctified above both of these stations."
       },
       {
+        "number": 71,
         "type": "note",
         "content": [
           {
@@ -2047,9 +2244,14 @@
       {
         "text": " If any of the utterances of this Servant be not understood, or lead to perplexity, the same must be enquired of again, that no doubt may linger, and that the meaning may shine as resplendent as the face of the Beloved dawning from His "
       },
-      { "type": "quote", "spans": [{ "text": "Glorious Station" }] },
+      {
+        "number": 80,
+        "type": "quote",
+        "spans": [{ "text": "Glorious Station" }]
+      },
       { "text": "." },
       {
+        "number": 72,
         "type": "note",
         "content": [
           {
@@ -2069,6 +2271,7 @@
         "text": " These journeys have no visible ending in this temporal world, but the detached wayfarer—should invisible confirmation descend upon him and the Guardian of the Cause"
       },
       {
+        "number": 73,
         "type": "note",
         "content": [
           {
@@ -2084,6 +2287,7 @@
         "text": " assist him—may traverse these seven stages in seven steps, nay rather in seven breaths, nay even in a single breath, should God will and desire it. This is "
       },
       {
+        "number": 81,
         "type": "quote",
         "spans": [
           {
@@ -2092,6 +2296,7 @@
         ]
       },
       {
+        "number": 74,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 2:90. " }] }]
       }
@@ -2114,7 +2319,11 @@
       { "text": " When the pen did reach the point" },
       { "type": "break" },
       { "text": " Of depicting such a stage." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] }
+      {
+        "number": 75,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
+      }
     ]
   },
   { "type": "header" },
@@ -2147,6 +2356,7 @@
       { "type": "break" },
       { "text": " It endeth but with loss and death." },
       {
+        "number": 76,
         "type": "note",
         "content": [{ "spans": [{ "text": " Ibn‑i‑Fáriḍ. " }] }]
       }
@@ -2162,9 +2372,10 @@
       {
         "text": " The novel thoughts thou hast expressed as to the symbolism contained in the word "
       },
-      { "type": "quote", "spans": [{ "text": "sparrow" }] },
+      { "number": 82, "type": "quote", "spans": [{ "text": "sparrow" }] },
       { "text": " were considered." },
       {
+        "number": 77,
         "type": "note",
         "content": [
           {
@@ -2187,6 +2398,7 @@
         "text": " In one sense, these letters refer to the states of holiness. The first meaneth "
       },
       {
+        "number": 83,
         "type": "quote",
         "spans": [
           {
@@ -2196,6 +2408,7 @@
       },
       { "text": " The second meaneth " },
       {
+        "number": 84,
         "type": "quote",
         "spans": [
           {
@@ -2205,6 +2418,7 @@
       },
       { "text": " The third meaneth " },
       {
+        "number": 85,
         "type": "quote",
         "spans": [
           {
@@ -2214,6 +2428,7 @@
       },
       { "text": " The fourth meaneth " },
       {
+        "number": 86,
         "type": "quote",
         "spans": [
           {
@@ -2223,6 +2438,7 @@
       },
       { "text": " The fifth meaneth " },
       {
+        "number": 87,
         "type": "quote",
         "spans": [
           {
@@ -2255,6 +2471,7 @@
         "text": " I addressed unto thee aforetime an Epistle in the lucid Arabian tongue, and I now reveal for thee this Tablet in wondrous Persian prose, that thou mayest hear, in the glorious accents of the Nightingale of ‘Iráq, the sweet melodies of the nearness of the heavenly Paradise that had, ere this, been intoned in the language of Ḥijáz."
       },
       {
+        "number": 78,
         "type": "note",
         "content": [
           {
@@ -2276,11 +2493,16 @@
       {
         "text": " To continue: It is clear that the wayfarers in the wilderness of search and longing, of attainment and reunion, have numerous degrees and countless stations. Some, after spiritual struggle and physical toil, ascend from the lower reaches of "
       },
-      { "type": "quote", "spans": [{ "text": "no God is there" }] },
+      {
+        "number": 88,
+        "type": "quote",
+        "spans": [{ "text": "no God is there" }]
+      },
       { "text": " to the lofty bowers of " },
-      { "type": "quote", "spans": [{ "text": "but God" }] },
+      { "number": 89, "type": "quote", "spans": [{ "text": "but God" }] },
       { "text": "," },
       {
+        "number": 79,
         "type": "note",
         "content": [
           {
@@ -2300,9 +2522,13 @@
   {
     "spans": [
       { "text": " Others, without receiving the least intimation of " },
-      { "type": "quote", "spans": [{ "text": "no God is there" }] },
+      {
+        "number": 90,
+        "type": "quote",
+        "spans": [{ "text": "no God is there" }]
+      },
       { "text": ", pass beyond the highest horizon of " },
-      { "type": "quote", "spans": [{ "text": "but God" }] },
+      { "number": 91, "type": "quote", "spans": [{ "text": "but God" }] },
       {
         "text": "; without even tasting a dewdrop of the degrees of self‑surrender ascend unto the kingdom of life everlasting; and without partaking from the wellspring of utter abnegation quaff the wine of the Ancient of Days. These souls, as they traverse the stages of wayfaring and ascend unto the stations of reunion, walk a different path and occupy a different rank. "
       }
@@ -2320,7 +2546,11 @@
       {
         "text": " It is clear and evident that, in this Dispensation wherein the banner of utterance hath been raised aloft and the candle of discernment hath been lit, there is no Lord but the Exalted One."
       },
-      { "type": "note", "content": [{ "spans": [{ "text": " The Báb. " }] }] },
+      {
+        "number": 80,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " The Báb. " }] }]
+      },
       {
         "text": " He it is Who is one in His essence and one in His attributes, single in the kingdom of names and peerless in the realm of actions. It is by virtue of His blessed name that the seas of Divine Unity have been made to surge; it is through the power of His resistless command that the immutable decrees of destiny have been enforced; it is through the potency of His sovereign might that the dictates of fate have been fixed. Who hath the power to soar in that exalted atmosphere or to cherish another beloved than Him? We all abide beneath His shadow and seek our portion from the ocean of His grace. However far the gnat may fly, it can never traverse the length and breadth of heaven, and however high the sparrow may soar, it can never attain the tree of immortality. "
       }
@@ -2331,7 +2561,11 @@
       {
         "text": " But since all do not possess the same degree of spiritual understanding, certain statements will inevitably be made, and there shall arise, as a consequence, as many differing opinions as there are human minds, and as many divergent beliefs as there are created things. This is certain and settled, and can in no wise be averted. Now, it is clear that some are virtuous, others are sinful, and still others are rebellious. One must call the people to love and faithfulness, to zeal and contentment, that the sinful may be admonished and the ranks of the virtuous may swell. Nor is it possible that there be no sinners: So long as the name "
       },
-      { "type": "quote", "spans": [{ "text": "the Ever‑Forgiving" }] },
+      {
+        "number": 92,
+        "type": "quote",
+        "spans": [{ "text": "the Ever‑Forgiving" }]
+      },
       {
         "text": " shineth resplendent above the horizon of existence, there will be sinners in the world of creation, for the latter cannot appear without the former and the former cannot exist without the latter. "
       }
@@ -2343,6 +2577,7 @@
         "text": " Our aim is that thou shouldst urge all the believers to show forth kindness and mercy and to overlook certain shortcomings among them, that differences may be dispelled; true harmony be established; and the censure and reproach, the hatred and dissension, seen among the peoples of former times may not arise anew. Perchance they may be educated and, in the latter Resurrection,"
       },
       {
+        "number": 81,
         "type": "note",
         "content": [
           {
@@ -2428,12 +2663,14 @@
         "text": " With the fifth, ascend unto the heaven of wonderment, that thou mayest taste the goodly fruits of this blessed realm, lose thyself in bewilderment before the power of thy Beloved and the dominion of thy Creator, and proclaim that which the King of existence and the Goal of all desire hath proclaimed: "
       },
       {
+        "number": 93,
         "type": "quote",
         "spans": [
           { "text": "Increase my wonder and amazement at Thee, O God!" }
         ]
       },
       {
+        "number": 82,
         "type": "note",
         "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
       }
@@ -2519,7 +2756,11 @@
       { "text": " That thy roaring may perchance" },
       { "type": "break" },
       { "text": " To the seventh heaven soar!" },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] }
+      {
+        "number": 83,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
+      }
     ]
   },
   {
@@ -2535,6 +2776,7 @@
         "text": " O friend! Thine epistle was received. It told of naught save the fire which hath been kindled in the tree of human reality, and bore no message but that which bestoweth a new life upon enlightened hearts. Well is it with him that hath been set ablaze by the fire of thy love, and who hath quaffed the water of life from the cup of thine affection. "
       },
       {
+        "number": 94,
         "type": "quote",
         "spans": [
           {
@@ -2543,6 +2785,7 @@
         ]
       },
       {
+        "number": 84,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 76:5. " }] }]
       }
@@ -2553,9 +2796,14 @@
       {
         "text": " To continue: Thy letter, which was a repository of the pearls of celestial knowledge, was brought before this Exile. God be praised, it rolled up the scrolls of separation and remoteness and spread out in their stead the realms of nearness and reunion. Methinks through the water of thy longing the fire of separation was changed into "
       },
-      { "type": "quote", "spans": [{ "text": "coolness and safety" }] },
+      {
+        "number": 95,
+        "type": "quote",
+        "spans": [{ "text": "coolness and safety" }]
+      },
       { "text": "." },
       {
+        "number": 85,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 21:69. " }] }]
       },
@@ -2563,6 +2811,7 @@
         "text": " In truth, a perfect meeting was attained through thy letter, and, through thy mention of the stations of Divine Unity and the signs of pure abstraction and oneness, it lifted from the world the veils of limitation. And this, notwithstanding that even the limitations of the world of existence are praised and cherished by the wayfarer, for he seeth all things in the mirror of the verse "
       },
       {
+        "number": 96,
         "type": "quote",
         "spans": [
           {
@@ -2573,8 +2822,13 @@
       {
         "text": ", and at every moment he heareth with his inner ear the tongue of the Holy Spirit uttering the words "
       },
-      { "type": "quote", "spans": [{ "text": "Seest thou a single flaw?" }] },
       {
+        "number": 97,
+        "type": "quote",
+        "spans": [{ "text": "Seest thou a single flaw?" }]
+      },
+      {
+        "number": 86,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 67:3. " }] }]
       },
@@ -2593,7 +2847,11 @@
       { "text": " To suffer at thy vengeful hand—" },
       { "type": "break" },
       { "text": " How much dearer than to live!" },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] }
+      {
+        "number": 87,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
+      }
     ]
   },
   {
@@ -2613,13 +2871,25 @@
   {
     "type": "block",
     "spans": [
-      { "type": "quote", "spans": [{ "text": "O for a drop to drink!" }] },
+      {
+        "number": 98,
+        "type": "quote",
+        "spans": [{ "text": "O for a drop to drink!" }]
+      },
       { "text": " the thirsty soul doth groan; " },
       { "type": "break" },
       { "text": " " },
-      { "type": "quote", "spans": [{ "text": "O for a thirsty soul!" }] },
+      {
+        "number": 99,
+        "type": "quote",
+        "spans": [{ "text": "O for a thirsty soul!" }]
+      },
       { "text": " the spring in turn doth moan." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] }
+      {
+        "number": 88,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
+      }
     ]
   },
   {
@@ -2628,17 +2898,31 @@
         "text": " From yet another vantage he perceiveth that the lover and the beloved are one and the same, and that the seeker is himself the very object of his search. "
       },
       {
+        "number": 100,
         "type": "quote",
         "spans": [{ "text": "How can the lover from the loved one ever part?" }]
       },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] },
+      {
+        "number": 89,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
+      },
       {
         "text": " So it is that, at times, the lovers of the celestial Beauty sound the clarion of "
       },
-      { "type": "quote", "spans": [{ "text": "Say: All things are of God" }] },
-      { "text": ", while, at others, they raise the call of " },
-      { "type": "quote", "spans": [{ "text": "It is from thyself." }] },
       {
+        "number": 101,
+        "type": "quote",
+        "spans": [{ "text": "Say: All things are of God" }]
+      },
+      { "text": ", while, at others, they raise the call of " },
+      {
+        "number": 102,
+        "type": "quote",
+        "spans": [{ "text": "It is from thyself." }]
+      },
+      {
+        "number": 90,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 4:78–79. " }] }]
       }
@@ -2649,17 +2933,30 @@
       {
         "text": " Some have related the aforementioned stages to the inner and outer journeys of the soul, which is the station of "
       },
-      { "type": "quote", "spans": [{ "text": "the knowledge of certitude" }] },
+      {
+        "number": 103,
+        "type": "quote",
+        "spans": [{ "text": "the knowledge of certitude" }]
+      },
       {
         "text": ", whilst others that have quaffed the wine of reunion regard each and every stage as relating to that knowledge, and consider the two stations of "
       },
-      { "type": "quote", "spans": [{ "text": "the eye of certitude" }] },
+      {
+        "number": 104,
+        "type": "quote",
+        "spans": [{ "text": "the eye of certitude" }]
+      },
       { "text": " and " },
-      { "type": "quote", "spans": [{ "text": "the truth of certitude" }] },
+      {
+        "number": 105,
+        "type": "quote",
+        "spans": [{ "text": "the truth of certitude" }]
+      },
       {
         "text": " as being exalted above and sanctified beyond these realms and all that pertaineth unto them, even as hath been clearly affirmed by that mystic knower."
       },
       {
+        "number": 91,
         "type": "note",
         "content": [
           {
@@ -2674,9 +2971,14 @@
       {
         "text": " For in all these stages the mirror of the wayfarer’s heart may bear the reflection of shadowy desires, wayward thoughts, and worldly attachments. Wherefore hath it been said that, in these stations, at one time the hosts of reason are triumphant and, at another, the armies of love prevail. At one time, the clouds of affliction and sorrow conceal the heavens of gladness and joy; at another, the eternal leviathan of love devoureth, in one fleeting moment, all manifestations of sadness, anguish, grief, and dejection, and the morn of divine guidance dawneth forth with the joyful tidings of "
       },
-      { "type": "quote", "spans": [{ "text": "despair not of God’s mercy" }] },
+      {
+        "number": 106,
+        "type": "quote",
+        "spans": [{ "text": "despair not of God’s mercy" }]
+      },
       { "text": "," },
       {
+        "number": 92,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 39:53. " }] }]
       },
@@ -2691,21 +2993,32 @@
         "text": " Some wayfarers remain forever veiled in these stages. Others are assisted by invisible aid from the Source of unfailing grace, whereat the hosts of the Realm on high raise the tabernacle of divine power, and the ascendency of "
       },
       {
+        "number": 107,
         "type": "quote",
         "spans": [{ "text": "and verily Our host shall conquer" }]
       },
       {
+        "number": 93,
         "type": "note",
         "content": [{ "spans": [{ "text": " Cf. Qur’án 37:173. " }] }]
       },
       {
         "text": " is manifested, obliterating the signs and standards of every worldly attachment and limitation, even as alluded to by some who have attained this station. At such times, the ascendancy of God’s names and attributes will so surround a soul as to leave it no place either to stay or to flee. This station, however, hath its own obscurities and impediments, for they that journey towards the land of Divine Unity and detachment are still wrapt within the confines of names and attributes, and take delight in their gardens and bowers. Thus it is that, in describing these stations, some have made reference to the "
       },
-      { "type": "quote", "spans": [{ "text": "unity of existence" }] },
+      {
+        "number": 108,
+        "type": "quote",
+        "spans": [{ "text": "unity of existence" }]
+      },
       { "text": " and the " },
-      { "type": "quote", "spans": [{ "text": "unity of appearance" }] },
+      {
+        "number": 109,
+        "type": "quote",
+        "spans": [{ "text": "unity of appearance" }]
+      },
       { "text": "." },
       {
+        "number": 94,
         "type": "note",
         "content": [{ "spans": [{ "text": " See note 71. " }] }]
       },
@@ -2719,9 +3032,14 @@
       {
         "text": " Yet others, assisted by the grace of the everlasting Friend, consume these veils with the fire of His love and step into the meads of ancient glory. That is, forsaking the wilderness of the "
       },
-      { "type": "quote", "spans": [{ "text": "unity of existence" }] },
+      {
+        "number": 110,
+        "type": "quote",
+        "spans": [{ "text": "unity of existence" }]
+      },
       { "text": ", they attain unto the ultimate abode of the " },
       {
+        "number": 111,
         "type": "quote",
         "spans": [{ "text": "true appearance of the Divine Unity" }]
       },
@@ -2729,6 +3047,7 @@
         "text": ". So clearly will they witness in this stage God’s all‑encompassing mercy that in every created thing, both in the world and in the souls of men, they will behold Him Who hath been interpreted as the Holy Outpouring. No longer will they close their eyes to any beauty, nor stop their ears from hearkening to any voice. For there is no prohibition in this stage and no debarment, inasmuch as in all things they will discern, with both their outer and inner eyes, the revelation of the signs of Him Who is the King of all names and attributes, and in every atom they will find a door that leadeth to the garden of Divine Unity and the city of pure abstraction. "
       },
       {
+        "number": 112,
         "type": "quote",
         "spans": [
           { "text": "Where’er I turn my gaze, ’tis Thee Whom I behold." }
@@ -2760,6 +3079,7 @@
       { "type": "break" },
       { "text": " Who fain could hope to rival thee!" },
       {
+        "number": 95,
         "type": "note",
         "content": [
           {
@@ -2794,7 +3114,11 @@
       { "text": " Is it that poverty’s our lot" },
       { "type": "break" },
       { "text": " And wealth and pageantry thy share?" },
-      { "type": "note", "content": [{ "spans": [{ "text": " Sa‘dí. " }] }] }
+      {
+        "number": 96,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Sa‘dí. " }] }]
+      }
     ]
   },
   {
@@ -2803,6 +3127,7 @@
         "text": " Or is it that a single arrow hath driven thee from the battle? Hast thou not heard that steadfastness is the prime requisite of the mystic path and the means of admittance to His holy Court? "
       },
       {
+        "number": 113,
         "type": "quote",
         "spans": [
           {
@@ -2811,6 +3136,7 @@
         ]
       },
       {
+        "number": 97,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 41:30. " }] }]
       }
@@ -2820,10 +3146,12 @@
     "spans": [
       { "text": " Likewise He saith, " },
       {
+        "number": 114,
         "type": "quote",
         "spans": [{ "text": "Be thou steadfast as thou hast been bidden." }]
       },
       {
+        "number": 98,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 11:112. " }] }]
       },
@@ -2838,7 +3166,11 @@
       { "text": " I do as bidden and convey the message," },
       { "type": "break" },
       { "text": " Whether it give thee counsel or offence." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Sa‘dí. " }] }] }
+      {
+        "number": 99,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Sa‘dí. " }] }]
+      }
     ]
   },
   {
@@ -2862,7 +3194,11 @@
       },
       { "type": "break" },
       { "text": " And set the speakers and the hearers dancing to and fro." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Sa‘dí. " }] }] }
+      {
+        "number": 100,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Sa‘dí. " }] }]
+      }
     ]
   },
   {
@@ -2878,7 +3214,11 @@
       { "text": " Today’s the first of these—" },
       { "type": "break" },
       { "text": " ’Tis why thou seest me glad." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] }
+      {
+        "number": 101,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
+      }
     ]
   },
   {
@@ -2901,11 +3241,13 @@
         "text": " If the wayfarers be among them that seek after the sanctuary of the Desired One, this plane pertaineth to the self—but the self which is intended is "
       },
       {
+        "number": 115,
         "type": "quote",
         "spans": [{ "text": "the Self of God that pervadeth all His laws" }]
       },
       { "text": "." },
       {
+        "number": 102,
         "type": "note",
         "content": [
           { "spans": [{ "text": " From a prayer attributed to Imám ‘Alí. " }] }
@@ -2923,6 +3265,7 @@
       { "type": "break" },
       { "text": " Slay! Slay these four thieving birds of prey!" },
       {
+        "number": 103,
         "type": "note",
         "content": [
           {
@@ -2947,6 +3290,7 @@
         "text": " This is the plane of the soul that is pleasing unto God, whereof He saith: "
       },
       {
+        "number": 116,
         "type": "quote",
         "spans": [
           {
@@ -2955,6 +3299,7 @@
         ]
       },
       {
+        "number": 104,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 89: 29–30. " }] }]
       }
@@ -2966,6 +3311,7 @@
         "text": " This station hath myriad signs and countless tokens. Hence it is said: "
       },
       {
+        "number": 117,
         "type": "quote",
         "spans": [
           {
@@ -2974,6 +3320,7 @@
         ]
       },
       {
+        "number": 105,
         "type": "note",
         "content": [{ "spans": [{ "text": " Cf. Qur’án 41:53. " }] }]
       }
@@ -2985,6 +3332,7 @@
         "text": " One must, then, read the book of one’s own self, rather than the treatise of some grammarian. Wherefore He hath said, "
       },
       {
+        "number": 118,
         "type": "quote",
         "spans": [
           {
@@ -2993,6 +3341,7 @@
         ]
       },
       {
+        "number": 106,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 17:14. " }] }]
       }
@@ -3003,9 +3352,14 @@
       {
         "text": " The storey is told of a mystic knower who went on a journey with a learned grammarian for a companion. They came to the shore of the Sea of Grandeur. The knower, putting his trust in God, straightway flung himself into the waves, but the grammarian stood bewildered and lost in thoughts that were as words traced upon the water. The mystic called out to him, "
       },
-      { "type": "quote", "spans": [{ "text": "Why dost thou not follow?" }] },
+      {
+        "number": 119,
+        "type": "quote",
+        "spans": [{ "text": "Why dost thou not follow?" }]
+      },
       { "text": " The grammarian answered, " },
       {
+        "number": 120,
         "type": "quote",
         "spans": [
           {
@@ -3015,6 +3369,7 @@
       },
       { "text": " Then the mystic cried, " },
       {
+        "number": 121,
         "type": "quote",
         "spans": [
           {
@@ -3023,6 +3378,7 @@
         ]
       },
       {
+        "number": 107,
         "type": "note",
         "content": [
           { "spans": [{ "text": " Famed writers on grammar and rhetoric. " }] }
@@ -3038,13 +3394,18 @@
       },
       { "type": "break" },
       { "text": " Be nothing, then, and cross this sea unharmed." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] }
+      {
+        "number": 108,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
+      }
     ]
   },
   {
     "spans": [
       { "text": " Likewise He saith, " },
       {
+        "number": 122,
         "type": "quote",
         "spans": [
           {
@@ -3053,6 +3414,7 @@
         ]
       },
       {
+        "number": 109,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 59:19. " }] }]
       }
@@ -3083,6 +3445,7 @@
         "text": " On this plane, the traveller meeteth with many a trial and reverse. Now is he lifted up to heaven, now is he cast into the depths. As it hath been said: "
       },
       {
+        "number": 123,
         "type": "quote",
         "spans": [
           {
@@ -3094,6 +3457,7 @@
         "text": " The hidden mystery of this station is divulged in the following blessed verse from the Súrih of the Cave: "
       },
       {
+        "number": 124,
         "type": "quote",
         "spans": [
           {
@@ -3102,6 +3466,7 @@
         ]
       },
       {
+        "number": 110,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 18:17. " }] }]
       }
@@ -3113,6 +3478,7 @@
         "text": " If a soul could grasp the allusions that lie hid in this single verse, it would suffice him. Such indeed are those whom He hath extolled as "
       },
       {
+        "number": 125,
         "type": "quote",
         "spans": [
           {
@@ -3122,6 +3488,7 @@
       },
       { "text": "." },
       {
+        "number": 111,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 24:37. " }] }]
       }
@@ -3133,16 +3500,19 @@
         "text": " This station is that of the true standard of knowledge and the final end of tests and trials. Nor is it needed, in this realm, to seek after knowledge, for He hath said concerning the guidance of wayfarers on this plane, "
       },
       {
+        "number": 126,
         "type": "quote",
         "spans": [{ "text": "Fear ye God; God will teach you" }]
       },
       { "text": "," },
       {
+        "number": 112,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 2:282. " }] }]
       },
       { "text": " and again, " },
       {
+        "number": 127,
         "type": "quote",
         "spans": [
           {
@@ -3151,6 +3521,7 @@
         ]
       },
       {
+        "number": 113,
         "type": "note",
         "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
       }
@@ -3162,21 +3533,25 @@
         "text": " Wherefore, one must make ready the receptacle and become worthy of the descent of heavenly bestowals, that the all‑sufficing Cup‑Bearer may give one to drink of the wine of bounty from the crystal chalice of mercy. "
       },
       {
+        "number": 128,
         "type": "quote",
         "spans": [{ "text": "For this let the striving strive!" }]
       },
       {
+        "number": 114,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 83:26. " }] }]
       },
       { "text": " And now do I say, " },
       {
+        "number": 129,
         "type": "quote",
         "spans": [
           { "text": "Verily, we are God’s, and to Him shall we return." }
         ]
       },
       {
+        "number": 115,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 2:156. " }] }]
       }
@@ -3199,7 +3574,11 @@
       { "text": " The minstrel of love harpeth this lay:" },
       { "type": "break" },
       { "text": " Servitude enslaveth, lordship doth betray." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] }
+      {
+        "number": 116,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
+      }
     ]
   },
   {
@@ -3208,6 +3587,7 @@
         "text": " This plane demandeth pure love and unalloyed affection. In describing these companions He saith: "
       },
       {
+        "number": 130,
         "type": "quote",
         "spans": [
           {
@@ -3216,6 +3596,7 @@
         ]
       },
       {
+        "number": 117,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 21:27. " }] }]
       }
@@ -3227,11 +3608,13 @@
         "text": " In this station, neither the reign of the intellect is sufficient nor the rule of self. Thus one of the Prophets of God asked, "
       },
       {
+        "number": 131,
         "type": "quote",
         "spans": [{ "text": "O my Lord, how shall I reach Thee?" }]
       },
       { "text": " And the answer came: " },
       {
+        "number": 132,
         "type": "quote",
         "spans": [{ "text": "Leave thy self behind, and then approach Me." }]
       }
@@ -3265,7 +3648,11 @@
       {
         "text": " The pain of Thee hath firmly barred the gate of hope as well."
       },
-      { "type": "note", "content": [{ "spans": [{ "text": " Sa‘dí. " }] }] }
+      {
+        "number": 118,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Sa‘dí. " }] }]
+      }
     ]
   },
   {
@@ -3290,6 +3677,7 @@
       { "type": "break" },
       { "text": " The Cyclic Scheme, to them, is but to Him a stair." },
       {
+        "number": 119,
         "type": "note",
         "content": [
           {
@@ -3324,7 +3712,11 @@
       { "text": " And grant this drop of wisdom that" },
       { "type": "break" },
       { "text": " Thou gavest me To be at last united with Thy mighty sea." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí " }] }] }
+      {
+        "number": 120,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Rúmí " }] }]
+      }
     ]
   },
   {
@@ -3340,6 +3732,7 @@
         "text": " If the mystic knowers be among them that have attained the beauty of the Beloved, this station is the throne of the inmost heart and the secret of divine guidance. This is the seat of the mystery "
       },
       {
+        "number": 133,
         "type": "quote",
         "spans": [
           {
@@ -3351,6 +3744,7 @@
         "text": " Should all that are in heaven and on earth attempt to unravel this exalted allusion and subtle mystery, from now until the Day whereon the Trumpet shall sound, yet would they fail to comprehend even a letter thereof, for this is the station of God’s immutable decree and His foreordained mystery. Hence, when asked regarding this matter, He made reply: "
       },
       {
+        "number": 134,
         "type": "quote",
         "spans": [
           { "text": "It is a bottomless sea that none shall ever fathom." }
@@ -3358,6 +3752,7 @@
       },
       { "text": " And when the question was repeated, He answered: " },
       {
+        "number": 135,
         "type": "quote",
         "spans": [
           {
@@ -3366,6 +3761,7 @@
         ]
       },
       {
+        "number": 121,
         "type": "note",
         "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
       }
@@ -3377,6 +3773,7 @@
         "text": " Whoso comprehendeth this station will assuredly conceal it, and were he to reveal but the faintest trace thereof, they would assuredly hang him from the gallows. And yet, by God, were a true seeker to be found, I would divulge it to him; for He saith: "
       },
       {
+        "number": 136,
         "type": "quote",
         "spans": [
           {
@@ -3385,6 +3782,7 @@
         ]
       },
       {
+        "number": 122,
         "type": "note",
         "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
       }
@@ -3396,6 +3794,7 @@
         "text": " In truth, the wayfarer who journeyeth unto God, who treadeth the snow‑white Path and turneth towards the Crimson Pillar, will never reach his heavenly home unless his hands are empty of such worldly things as are cherished by men. "
       },
       {
+        "number": 137,
         "type": "quote",
         "spans": [
           {
@@ -3413,7 +3812,11 @@
       },
       { "type": "break" },
       { "text": " Love indeed doth have a hundred other tongues in store." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] }
+      {
+        "number": 123,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
+      }
     ]
   },
   {
@@ -3446,6 +3849,7 @@
         "text": " Methinks at this moment I perceive the musk‑scented fragrance of the garment of Há’ from the Joseph of Bahá; verily He seemeth near at hand, though ye may think Him far away."
       },
       {
+        "number": 124,
         "type": "note",
         "content": [
           {
@@ -3481,7 +3885,11 @@
       { "text": " That land and sky may laugh aloud today," },
       { "type": "break" },
       { "text": " And it may gladden mind and heart and eye." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] }
+      {
+        "number": 125,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
+      }
     ]
   },
   {
@@ -3490,6 +3898,7 @@
         "text": " This is the realm of pure awareness and utter self‑effacement. Not even love can find a way to this plane, nor doth affection have a place therein. Wherefore is it said: "
       },
       {
+        "number": 138,
         "type": "quote",
         "spans": [
           { "text": "Love is a veil betwixt the lover and the beloved." }
@@ -3525,11 +3934,13 @@
         "text": " Abiding in the court of rapture, the dwellers of this mansion wield with utmost joy and gladness the sceptres of divinity and lordship; and, established upon the lofty seats of justice, they exert their rule and bestow upon every soul its due. Those who drink of this cup abide beneath the canopy of glory, above the throne of the Ancient of Days, and dwell upon the seat of grandeur beneath the tabernacle of majesty. These are they that "
       },
       {
+        "number": 139,
         "type": "quote",
         "spans": [{ "text": "know neither sun nor piercing cold" }]
       },
       { "text": "." },
       {
+        "number": 126,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 76:13. " }] }]
       }
@@ -3541,6 +3952,7 @@
         "text": " On this plane the highest heavens are neither opposed to, nor distinguished from, the lowly earth, for this is the realm of divine favours, not the arena of worldly contraries. Albeit at every moment a new condition be displayed, yet that condition is ever the same. Wherefore He saith in one instance, "
       },
       {
+        "number": 140,
         "type": "quote",
         "spans": [
           {
@@ -3549,6 +3961,7 @@
         ]
       },
       {
+        "number": 127,
         "type": "note",
         "content": [
           {
@@ -3560,10 +3973,12 @@
       },
       { "text": " And in another He saith, " },
       {
+        "number": 141,
         "type": "quote",
         "spans": [{ "text": "Verily, His ways differ every day." }]
       },
       {
+        "number": 128,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 55:29. " }] }]
       }
@@ -3575,6 +3990,7 @@
         "text": " This is the food whose savour changeth not and whose colour altereth not. Wert thou to partake thereof, thou wouldst assuredly recite the verse "
       },
       {
+        "number": 142,
         "type": "quote",
         "spans": [
           {
@@ -3583,11 +3999,13 @@
         ]
       },
       {
+        "number": 129,
         "type": "note",
         "content": [{ "spans": [{ "text": " Cf. Qur’án 6:79. " }] }]
       },
       { "text": " " },
       {
+        "number": 143,
         "type": "quote",
         "spans": [
           {
@@ -3596,6 +4014,7 @@
         ]
       },
       {
+        "number": 130,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 6:75. " }] }]
       },
@@ -3617,7 +4036,11 @@
       { "text": " No more than this will I impart to thee:" },
       { "type": "break" },
       { "text": " The riverbed can never hold the sea." },
-      { "type": "note", "content": [{ "spans": [{ "text": " Rúmí. " }] }] }
+      {
+        "number": 131,
+        "type": "note",
+        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
+      }
     ]
   },
   {
@@ -3632,13 +4055,19 @@
       {
         "text": " Astonishment here is highly prized, and utter poverty greatly cherished. Wherefore hath He said, "
       },
-      { "type": "quote", "spans": [{ "text": "Poverty is My pride." }] },
       {
+        "number": 144,
+        "type": "quote",
+        "spans": [{ "text": "Poverty is My pride." }]
+      },
+      {
+        "number": 132,
         "type": "note",
         "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
       },
       { "text": " And again: " },
       {
+        "number": 145,
         "type": "quote",
         "spans": [
           {
@@ -3647,6 +4076,7 @@
         ]
       },
       {
+        "number": 133,
         "type": "note",
         "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
       },
@@ -3654,6 +4084,7 @@
         "text": " These are they who see with His eyes and hear with His ears, as hath been recorded in the well‑known tradition."
       },
       {
+        "number": 134,
         "type": "note",
         "content": [{ "spans": [{ "text": " See the Seven Valleys, ¶ 44. " }] }]
       }
@@ -3670,6 +4101,7 @@
     "spans": [
       { "text": " The first is His statement " },
       {
+        "number": 146,
         "type": "quote",
         "spans": [
           {
@@ -3679,6 +4111,7 @@
       },
       { "text": " And the second: " },
       {
+        "number": 147,
         "type": "quote",
         "spans": [
           {
@@ -3694,6 +4127,7 @@
         "text": " Whatever high proofs and wondrous allusions are recounted herein concern but a single letter and a single point. For such is God’s method, and no change canst thou find in His mode of dealing."
       },
       {
+        "number": 135,
         "type": "note",
         "content": [{ "spans": [{ "text": " Cf. Qur’án 35:43, 48:23. " }] }]
       }
@@ -3705,10 +4139,12 @@
         "text": " I undertook to write this epistle some time ago in thy remembrance, and, since thy letter had not reached Me yet, I began with a few words of grievance and reproach. Now, thy new missive hath dispelled that feeling and hath caused Me to send thee this letter. To speak of My love for thine eminence is needless. "
       },
       {
+        "number": 148,
         "type": "quote",
         "spans": [{ "text": "Sufficient witness is God unto us." }]
       },
       {
+        "number": 136,
         "type": "note",
         "content": [{ "spans": [{ "text": " Qur’án 4:166. " }] }]
       }
@@ -3741,6 +4177,7 @@
         "text": " When I entrusted this message of love to My pen, it refused the burden and swooned away. Then, coming to itself, it spoke and said, "
       },
       {
+        "number": 149,
         "type": "quote",
         "spans": [
           {
@@ -3749,6 +4186,7 @@
         ]
       },
       {
+        "number": 137,
         "type": "note",
         "content": [{ "spans": [{ "text": " Cf. Qur’án 7:143. " }] }]
       },
@@ -3772,6 +4210,7 @@
       { "type": "u", "text": "Sh" },
       { "text": "ams‑i‑Tabríz." },
       {
+        "number": 138,
         "type": "note",
         "content": [
           {
