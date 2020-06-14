@@ -20,6 +20,15 @@ export const quotes = {
 
 export const skipNotes = [11, 21, 46, 52, 71, 77, 79, 91, 94, 107, 127];
 
+export const sliceNotes = {
+  49: 7,
+  72: 15,
+  95: 7,
+  103: 11,
+  119: 7,
+  138: 7,
+};
+
 // const levels = [0, 0, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 2, 2, 2, 1, 1];
 
 // "The Call of the Divine Beloved"

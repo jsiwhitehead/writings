@@ -28,7 +28,7 @@
       {
         "type": "quote",
         "spans": [{ "text": "all things are become new" }],
-        "source": [{ "spans": [{ "text": " 2 Corinthians 5:17. " }] }]
+        "source": { "info": "2 Corinthians." }
       },
       { "text": "." },
       {
@@ -43,7 +43,7 @@
         "text": " Reflect thou, how, in one hand, He hath, by His mighty grasp, turned the earth of knowledge and understanding, previously unfolded, into a mere handful, and, on the other, spread out a new and highly exalted earth in the hearts of men, thus causing the freshest and loveliest blossoms, and the mightiest and loftiest trees to spring forth from the illumined bosom of man."
       }
     ],
-    "source": [{ "spans": [{ "text": " Kitáb‑i‑Íqán ¶51. " }] }]
+    "source": { "info": "Kitáb‑i‑Íqán ¶51." }
   },
   {
     "spans": [
@@ -2578,19 +2578,9 @@
       {
         "type": "quote",
         "spans": [{ "text": "He" }],
-        "source": [
-          {
-            "spans": [
-              {
-                "text": " In the Tafsír‑i‑Hú Bahá’u’lláh explains that the name “He” (or "
-              },
-              { "type": "i", "text": "Huva" },
-              {
-                "text": ", consisting of the letters Há’ and Váv) is God’s Most Great Name, for it is a mirror in which all of God’s names and attributes are reflected together. "
-              }
-            ]
-          }
-        ]
+        "source": {
+          "info": "In the Tafsír‑i‑Hú Bahá’u’lláh explains that the name “He”."
+        }
       },
       { "text": "!" }
     ]
@@ -3023,7 +3013,7 @@
             "text": "And We desire to show favour to those who were brought low in the land, and to make them spiritual leaders among men, and to make of them Our heirs."
           }
         ],
-        "source": [{ "spans": [{ "text": " Qur’án 28:5. " }] }]
+        "source": { "book": "Qur’án", "ref": [28, 5] }
       },
       { "text": " Praise be to Thee, O Thou Who art " },
       { "text": "“" },
@@ -3106,7 +3096,7 @@
       {
         "type": "quote",
         "spans": [{ "text": "By God! A most noble Angel is this." }],
-        "source": [{ "spans": [{ "text": " Cf. Qur’án 12:31. " }] }]
+        "source": { "book": "Qur’án", "cf": true, "ref": [12, 31] }
       },
       {
         "text": " And the hearts of the inmates of the eternal realm cried out: "
@@ -3689,7 +3679,7 @@
         "spans": [
           { "text": "Thus have We created the souls in divers conditions." }
         ],
-        "source": [{ "spans": [{ "text": " Cf. Qur’án 71:14. " }] }]
+        "source": { "book": "Qur’án", "cf": true, "ref": [71, 14] }
       }
     ]
   },
@@ -3891,7 +3881,10 @@
             "text": "Woe betide every slanderer and defamer, him that layeth up riches and counteth them."
           }
         ],
-        "source": [{ "spans": [{ "text": " Qur’án 104:1–2. " }] }]
+        "source": {
+          "book": "Qur’án",
+          "ref": { "end": [104, 2], "start": [104, 1] }
+        }
       },
       {
         "text": " Fleeting are the riches of the world; all that perisheth and changeth is not, and hath never been, worthy of attention, except to a recognised measure. "
@@ -4367,7 +4360,7 @@
             "text": "Will ye slay a man because he saith my Lord is God, when he hath already come to you with proofs of his mission? And if he be a liar, on him will be his lie, but if he be a man of truth, part at least of what he threateneth will fall upon you."
           }
         ],
-        "source": [{ "spans": [{ "text": " Qur’án 40:28. " }] }]
+        "source": { "book": "Qur’án", "ref": [40, 28] }
       },
       {
         "text": " This is what God hath revealed unto His Well‑Beloved One, in His unerring Book. "
@@ -4484,17 +4477,9 @@
             "text": "Upon Thee, O Glory of God, and upon Thy kinfolk, be the remembrance of God and the praise of all things at every moment before and after Ḥín."
           }
         ],
-        "source": [
-          {
-            "spans": [
-              { "text": " The numerical value of the letters of the word " },
-              { "type": "i", "text": "Ḥín" },
-              {
-                "text": " is 68. “After Ḥín” is thus an allusion to the year after A.H. 1268, which was 1269 (A.D. 1852–3), the year that marked the birth of the Bahá’í Revelation. "
-              }
-            ]
-          }
-        ]
+        "source": {
+          "info": "The numerical value of the letters of the word Ḥín is 68."
+        }
       },
       {
         "text": " We honoured the people of the Bayán with these words, that they might ascend thereby unto the heights of holiness and be numbered with the blest. Yet they have so utterly forsaken Our injunction that not a single one among them hath appeared in His presence as We had commanded in Our Tablets. Nay rather, from every side they have hurled at Him the darts of malice. And at this, I, and the denizens of the Kingdom of grandeur, and beyond them the Faithful Spirit, have wept sore. "
@@ -4521,17 +4506,7 @@
       {
         "type": "quote",
         "spans": [{ "text": "love" }],
-        "source": [
-          {
-            "spans": [
-              { "text": " The letters Ḥá’ and Bá’ spell the word " },
-              { "type": "i", "text": "ḥubb" },
-              { "text": " (love), while Há’ and Váv constitute the word " },
-              { "type": "i", "text": "Huva" },
-              { "text": " (He). " }
-            ]
-          }
-        ]
+        "source": { "info": "The letters Ḥá’ and Bá’ spell the word ḥubb." }
       },
       {
         "text": " would never have been written, nor would the letters of the name of the Beloved have been joined together,"
@@ -4640,15 +4615,9 @@
         "spans": [
           { "text": "Glorified be God, the Lord of all glory and dominion!" }
         ],
-        "source": [
-          {
-            "spans": [
-              {
-                "text": " These invocations come from a Tablet of the Báb addressed to Mullá Báqir‑i‑Tabrízí about Him Whom God shall make manifest. "
-              }
-            ]
-          }
-        ]
+        "source": {
+          "info": "These invocations come  Tablet of the Báb addressed to Mullá Báqir‑i‑Tabrízí about Him Whom God shall make manifest."
+        }
       },
       {
         "text": ", and so forth, as We have revealed in a most mighty Tablet."
