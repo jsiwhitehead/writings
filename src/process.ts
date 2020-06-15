@@ -20,11 +20,11 @@ const stringify = (x = null as any, ...content) => {
 };
 
 export default async (read, write, map) => {
-  const files = (await fs.readdir('./src/books')).map((f) => f.slice(0, -3));
+  const files = (await fs.readdir('./src/books')).map((f) => f.slice(0, -5));
   await fs.emptyDir(`./data/${write}`);
   await Promise.all(
     files.map(async (f) => {
-      const config = require(`./books/${f}`);
+      const config = require(`./books/${f}.json`);
       const data = await fs.readFile(
         `./data/${read}/${f}.${read === 'downloaded' ? 'html' : 'json'}`,
         'utf8',

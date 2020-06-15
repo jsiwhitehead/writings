@@ -13,11 +13,11 @@ const findTable = (n) => {
 };
 
 (async () => {
-  const files = (await fs.readdir('./src/books')).map((f) => f.slice(0, -3));
+  const files = (await fs.readdir('./src/books')).map((f) => f.slice(0, -5));
   await fs.emptyDir('./data/downloaded');
   await Promise.all(
     files.map(async (f) => {
-      const { url, replace = [] } = require(`./books/${f}`);
+      const { url, replace = [] } = require(`./books/${f}.json`);
       const html = await (await fetch(url)).text();
       await fs.writeFile(
         `./data/downloaded/${f}.html`,
