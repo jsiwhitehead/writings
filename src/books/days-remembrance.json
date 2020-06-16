@@ -1,5 +1,9 @@
 {
   "url": "https://www.bahai.org/library/authoritative-texts/bahaullah/days-remembrance/days-remembrance.xhtml",
+  "quotes": {
+    "1": 2
+  },
+  "skipNotes": [12, 37, 38, 39],
   "levels": {
     "Days of Remembrance": 0,
     "Selections from the Writings of Bahá’u’lláh for Bahá’í Holy Days": 0,

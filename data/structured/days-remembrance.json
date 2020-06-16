@@ -21,13 +21,13 @@
       {
         "text": " The coming of each Manifestation of God brings renewal and revitalization: "
       },
-      { "text": "“" },
-      { "text": "old things are passed away" },
-      { "text": "”" },
-      { "text": " and " },
       {
         "type": "quote",
-        "spans": [{ "text": "all things are become new" }],
+        "spans": [
+          { "text": "old things are passed away" },
+          { "type": "join", "spans": [{ "text": " and " }] },
+          { "text": "all things are become new" }
+        ],
         "source": { "info": "2 Corinthians." }
       },
       { "text": "." },
@@ -2575,14 +2575,26 @@
       { "text": "He" },
       { "text": "”" },
       { "text": ", O Thou Who art " },
+      { "text": "“" },
+      { "text": "He" },
+      { "text": "”" },
+      { "text": "!" },
       {
-        "type": "quote",
-        "spans": [{ "text": "He" }],
-        "source": {
-          "info": "In the Tafsír‑i‑Hú Bahá’u’lláh explains that the name “He”."
-        }
-      },
-      { "text": "!" }
+        "type": "note",
+        "content": [
+          {
+            "spans": [
+              {
+                "text": " In the Tafsír‑i‑Hú Bahá’u’lláh explains that the name “He” (or "
+              },
+              { "type": "i", "text": "Huva" },
+              {
+                "text": ", consisting of the letters Há’ and Váv) is God’s Most Great Name, for it is a mirror in which all of God’s names and attributes are reflected together. "
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -4470,16 +4482,24 @@
       {
         "text": " We, verily, bid you in Our Book not to advance yourselves before those from whose ranks would appear He Who is the Beloved of every understanding heart and the Object of the adoration of the denizens of earth and heaven. Moreover, We commanded you, should ye attain the presence of God, to stand before Him and to utter on My behalf these mighty and exalted words: "
       },
+      { "text": "“" },
       {
-        "type": "quote",
-        "spans": [
+        "text": "Upon Thee, O Glory of God, and upon Thy kinfolk, be the remembrance of God and the praise of all things at every moment before and after Ḥín."
+      },
+      { "text": "”" },
+      {
+        "type": "note",
+        "content": [
           {
-            "text": "Upon Thee, O Glory of God, and upon Thy kinfolk, be the remembrance of God and the praise of all things at every moment before and after Ḥín."
+            "spans": [
+              { "text": " The numerical value of the letters of the word " },
+              { "type": "i", "text": "Ḥín" },
+              {
+                "text": " is 68. “After Ḥín” is thus an allusion to the year after A.H. 1268, which was 1269 (A.D. 1852–3), the year that marked the birth of the Bahá’í Revelation. "
+              }
+            ]
           }
-        ],
-        "source": {
-          "info": "The numerical value of the letters of the word Ḥín is 68."
-        }
+        ]
       },
       {
         "text": " We honoured the people of the Bayán with these words, that they might ascend thereby unto the heights of holiness and be numbered with the blest. Yet they have so utterly forsaken Our injunction that not a single one among them hath appeared in His presence as We had commanded in Our Tablets. Nay rather, from every side they have hurled at Him the darts of malice. And at this, I, and the denizens of the Kingdom of grandeur, and beyond them the Faithful Spirit, have wept sore. "
@@ -4503,13 +4523,25 @@
   {
     "spans": [
       { "text": " Say: But for Him the word " },
-      {
-        "type": "quote",
-        "spans": [{ "text": "love" }],
-        "source": { "info": "The letters Ḥá’ and Bá’ spell the word ḥubb." }
-      },
+      { "text": "“" },
+      { "text": "love" },
+      { "text": "”" },
       {
         "text": " would never have been written, nor would the letters of the name of the Beloved have been joined together,"
+      },
+      {
+        "type": "note",
+        "content": [
+          {
+            "spans": [
+              { "text": " The letters Ḥá’ and Bá’ spell the word " },
+              { "type": "i", "text": "ḥubb" },
+              { "text": " (love), while Há’ and Váv constitute the word " },
+              { "type": "i", "text": "Huva" },
+              { "text": " (He). " }
+            ]
+          }
+        ]
       },
       {
         "text": " nor would creation itself have been brought into being, would that ye might understand! But for Him I would never have surrendered Myself into the hands of the ungodly nor consented to be suspended in the air. By God! I have borne, in My love and yearning for Him, that which no other Prophet or Messenger hath borne, and I have acquiesced to bear all this Myself, that He might never be made to endure aught that would sadden His most kind and tender, His most pure and sanctified heart. We admonished you throughout the Bayán not to be the cause of grief to any soul, that haply no sorrow should ever befall Him. Otherwise, why would I have exhorted you and occupied Myself with your care, O assemblage of wavering ones? I intended in the Bayán none other than Him, I extolled no praise but His praise, and I uttered no name save His most blessed and most exalted, His most holy and most wondrous name. "
@@ -4610,17 +4642,23 @@
       },
       { "text": "”" },
       { "text": ", and then another nineteen times: " },
-      {
-        "type": "quote",
-        "spans": [
-          { "text": "Glorified be God, the Lord of all glory and dominion!" }
-        ],
-        "source": {
-          "info": "These invocations come  Tablet of the Báb addressed to Mullá Báqir‑i‑Tabrízí about Him Whom God shall make manifest."
-        }
-      },
+      { "text": "“" },
+      { "text": "Glorified be God, the Lord of all glory and dominion!" },
+      { "text": "”" },
       {
         "text": ", and so forth, as We have revealed in a most mighty Tablet."
+      },
+      {
+        "type": "note",
+        "content": [
+          {
+            "spans": [
+              {
+                "text": " These invocations come from a Tablet of the Báb addressed to Mullá Báqir‑i‑Tabrízí about Him Whom God shall make manifest. "
+              }
+            ]
+          }
+        ]
       },
       {
         "text": " Ye, however, have disbelieved in Him and in His verses. Nay, not contenting yourselves with that, ye have disregarded the rights of God which revert unto Him, and have given no heed to that commandment of God which pertaineth to His own Self, the Most Exalted, the All‑Knowing. Ye have rejected all of His actions, one after another, and taken pleasure in deriding Him. Among you is he who saith: "
