@@ -120,7 +120,7 @@ const parseSource = (spans, extra = '') => {
 
 process(
   'parsed',
-  'structured',
+  'organised',
   (
     data,
     { quotes = {}, skipNotes = [] as any[], sliceNotes = {}, extraNotes = {} },
