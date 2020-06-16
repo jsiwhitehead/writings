@@ -238,7 +238,7 @@ const parse = (data) => {
         return {
           type: 'note',
           start: s.start,
-          content: notes[s.text],
+          content: notes[s.text].map((x) => x.spans),
           number: s.number,
         };
       }),
@@ -246,6 +246,14 @@ const parse = (data) => {
   });
 };
 
-process('downloaded', 'parsed', (html) =>
-  parse(unified().use(rehype, { footnotes: true }).parse(html).children),
-);
+process('downloaded', 'parsed', (html) => {
+  const result = parse(
+    unified().use(rehype, { footnotes: true }).parse(html).children,
+  );
+  let headerCount = 0;
+  return result.map((x) => {
+    if (x.type !== 'header') return x;
+    headerCount++;
+    return { ...x, number: headerCount };
+  });
+});

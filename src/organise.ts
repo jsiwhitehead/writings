@@ -122,29 +122,47 @@ process(
   'parsed',
   'organised',
   (
-    data,
-    { quotes = {}, skipNotes = [] as any[], sliceNotes = {}, extraNotes = {} },
+    fullData,
+    {
+      quotes = {},
+      skipNotes = [] as any[],
+      sliceNotes = {},
+      extraNotes = {},
+      headers,
+    },
   ) => {
+    const data = fullData.slice(
+      headers
+        ? fullData.findIndex(
+            (d) => d.type === 'header' && d.number === headers[0],
+          )
+        : 0,
+      headers
+        ? fullData.findIndex(
+            (d) => d.type === 'header' && d.number === headers[1],
+          )
+        : undefined,
+    );
     const combineQuotes = (spans) => {
       const result = [] as any[];
       let quoteRun = 0;
-      spans.forEach((s) => {
+      spans.forEach((s, i) => {
         if (s.type === 'note') {
           result.push(s);
         } else if (s.type === 'quote') {
           if (quoteRun > 0) {
-            last(result).spans.push(...s.spans);
+            last(result).content.push(s.spans);
           } else {
             quoteRun = quotes[s.number] || 1;
-            result.push(s);
+            result.push({ type: 'quote', content: [s.spans] });
           }
-          delete s.number;
           quoteRun--;
         } else {
           if (quoteRun > 0) {
-            const c = last(result).spans;
-            if (last(c).type !== 'join') c.push({ type: 'join', spans: [] });
-            last(c).spans.push(s);
+            if (spans[i - 1].type === 'quote') {
+              last(result).content.push([]);
+            }
+            last(last(result).content).push(s);
           } else {
             result.push(s);
           }
@@ -168,13 +186,13 @@ process(
           if (q) {
             if (sliceNotes[s.number]) {
               const { source, note } = sliceNote(
-                s.content[0].spans,
+                s.content[0],
                 sliceNotes[s.number],
               );
               q.source = parseSource(source, extraNotes[s.number]);
-              result.push({ ...s, content: [{ spans: note }] });
+              result.push({ ...s, content: [note] });
             } else {
-              q.source = parseSource(s.content[0].spans, extraNotes[s.number]);
+              q.source = parseSource(s.content[0], extraNotes[s.number]);
             }
           } else {
             result.push(s);
@@ -189,7 +207,11 @@ process(
       const result = [] as any[];
       spans.forEach((s) => {
         if (s.type === 'quote' && !s.source) {
-          result.push({ text: '“' }, ...s.spans, { text: '”' });
+          result.push(
+            { text: '“' },
+            ...s.content.reduce((res, s) => [...res, ...s], []),
+            { text: '”' },
+          );
         } else {
           result.push(s);
         }
@@ -207,14 +229,14 @@ process(
       ) {
         if (sliceNotes[l.number]) {
           const { source, note } = sliceNote(
-            l.content[0].spans,
+            l.content[0],
             sliceNotes[l.number],
           );
           x.source = parseSource(source, extraNotes[l.number]);
-          l.content[0].spans = note;
+          l.content[0] = note;
         } else {
           x.source = parseSource(
-            x.spans.pop().content[0].spans,
+            x.spans.pop().content[0],
             extraNotes[l.number],
           );
         }
@@ -223,14 +245,15 @@ process(
       return {
         ...x,
         spans: removePlainQuotes(addSources(combineQuotes(x.spans))),
+        number: undefined,
       };
     });
-    res.forEach((x) => {
-      if (x.source) console.log(JSON.stringify(x.source, null, 2));
-      x.spans?.forEach((s) => {
-        if (s.source) console.log(JSON.stringify(s.source, null, 2));
-      });
-    });
+    // res.forEach((x) => {
+    //   if (x.source) console.log(JSON.stringify(x.source, null, 2));
+    //   x.spans?.forEach((s) => {
+    //     if (s.source) console.log(JSON.stringify(s.source, null, 2));
+    //   });
+    // });
     return res;
   },
 );

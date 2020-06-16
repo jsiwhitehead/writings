@@ -1,13 +1,15 @@
 [
   {
+    "number": 1,
     "type": "header",
     "spans": [{ "text": " The Call of the Divine Beloved " }]
   },
   {
+    "number": 2,
     "type": "header",
     "spans": [{ "text": " Selected Mystical Works of Bahá’u’lláh " }]
   },
-  { "type": "header", "spans": [{ "text": " Preface " }] },
+  { "number": 3, "type": "header", "spans": [{ "text": " Preface " }] },
   {
     "spans": [
       {
@@ -32,13 +34,11 @@
         "number": 1,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " Epistle to the Son of the Wolf (trans. Shoghi Effendi, Wilmette, IL: Bahá’í Publishing Trust, 1988), p. 15. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " Epistle to the Son of the Wolf (trans. Shoghi Effendi, Wilmette, IL: Bahá’í Publishing Trust, 1988), p. 15. "
+            }
+          ]
         ]
       },
       {
@@ -77,9 +77,7 @@
       {
         "number": 2,
         "type": "note",
-        "content": [
-          { "spans": [{ "text": " Epistle to the Son of the Wolf, p. 22. " }] }
-        ]
+        "content": [[{ "text": " Epistle to the Son of the Wolf, p. 22. " }]]
       },
       {
         "text": " The poetic reflection of that experience, as conveyed in Ra"
@@ -124,13 +122,11 @@
         "number": 3,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " God Passes By (Wilmette, IL: Bahá’í Publishing Trust, 1974, 2018 printing), pp. 192–93. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " God Passes By (Wilmette, IL: Bahá’í Publishing Trust, 1974, 2018 printing), pp. 192–93. "
+            }
+          ]
         ]
       }
     ]
@@ -177,7 +173,7 @@
       {
         "number": 4,
         "type": "note",
-        "content": [{ "spans": [{ "text": " God Passes By, p. 216. " }] }]
+        "content": [[{ "text": " God Passes By, p. 216. " }]]
       }
     ]
   },
@@ -212,9 +208,7 @@
       {
         "number": 5,
         "type": "note",
-        "content": [
-          { "spans": [{ "text": " God Passes By, pp. 217 and 220. " }] }
-        ]
+        "content": [[{ "text": " God Passes By, pp. 217 and 220. " }]]
       },
       { "text": " Writing years later in ‘Akká, He explained: " }
     ]
@@ -228,9 +222,7 @@
       {
         "number": 6,
         "type": "note",
-        "content": [
-          { "spans": [{ "text": " From a previously untranslated Tablet. " }] }
-        ]
+        "content": [[{ "text": " From a previously untranslated Tablet. " }]]
       }
     ]
   },
@@ -275,19 +267,18 @@
         "number": 7,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " Bahá’u’lláh, Gleanings from the Writings of Bahá’u’lláh, CLI, ¶ 2. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " Bahá’u’lláh, Gleanings from the Writings of Bahá’u’lláh, CLI, ¶ 2. "
+            }
+          ]
         ]
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " 1 " }] },
+  { "number": 4, "type": "header", "spans": [{ "text": " 1 " }] },
   {
+    "number": 5,
     "type": "header",
     "spans": [
       { "text": "Ra" },
@@ -296,6 +287,7 @@
     ]
   },
   {
+    "number": 6,
     "type": "header",
     "spans": [{ "text": " (The Clouds of the Realms Above) " }]
   },
@@ -309,13 +301,11 @@
         "number": 8,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " “‘Amá’ is defined as an extremely thin and subtle cloud, seen and then not seen. For shouldst thou gaze with the utmost care, thou wouldst discern something, but as soon as thou dost look again, it ceaseth to be seen. For this reason, in the usage of mystics who seek after truth, ‘Amá’ signifieth the Universal Reality without individuations as such, for these individuations exist in the mode of uncompounded simplicity and oneness and are not differentiated from the Divine Essence. Thus they are individuated and not individuated. This is the station alluded to by the terms Aḥadíyyih [Absolute Oneness] and ‘Amá’. This is the station of the “Hidden Treasure” mentioned in the Ḥadíth. The divine attributes, therefore, are individuations that exist in the Essence but are not differentiated therefrom. They are seen and then not seen. This, in brief, is what is meant by ‘Amá’.” (From a previously untranslated Tablet of ‘Abdu’l‑Bahá.) "
-              }
-            ]
-          }
+          [
+            {
+              "text": " “‘Amá’ is defined as an extremely thin and subtle cloud, seen and then not seen. For shouldst thou gaze with the utmost care, thou wouldst discern something, but as soon as thou dost look again, it ceaseth to be seen. For this reason, in the usage of mystics who seek after truth, ‘Amá’ signifieth the Universal Reality without individuations as such, for these individuations exist in the mode of uncompounded simplicity and oneness and are not differentiated from the Divine Essence. Thus they are individuated and not individuated. This is the station alluded to by the terms Aḥadíyyih [Absolute Oneness] and ‘Amá’. This is the station of the “Hidden Treasure” mentioned in the Ḥadíth. The divine attributes, therefore, are individuations that exist in the Essence but are not differentiated therefrom. They are seen and then not seen. This, in brief, is what is meant by ‘Amá’.” (From a previously untranslated Tablet of ‘Abdu’l‑Bahá.) "
+            }
+          ]
         ]
       },
       { "text": " " },
@@ -547,8 +537,12 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " 2 " }] },
-  { "type": "header", "spans": [{ "text": "The Seven Valleys " }] },
+  { "number": 7, "type": "header", "spans": [{ "text": " 2 " }] },
+  {
+    "number": 8,
+    "type": "header",
+    "spans": [{ "text": "The Seven Valleys " }]
+  },
   {
     "spans": [
       {
@@ -569,7 +563,7 @@
       {
         "number": 9,
         "type": "note",
-        "content": [{ "spans": [{ "text": " The Manifestation of God. " }] }]
+        "content": [[{ "text": " The Manifestation of God. " }]]
       },
       {
         "text": " And all to this end: that every man may testify, in himself and by himself, before the Seat of the revelation of his Lord, that there is none other God but Him; and that all may reach that summit of realities where none shall contemplate anything but that he shall perceive God therein. This is the vision of the splendours which have been deposited within the realities of all things; for otherwise He, exalted be His glory, is entirely sanctified above being seen or witnessed: "
@@ -586,7 +580,7 @@
       {
         "number": 10,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 6:103. " }] }]
+        "content": [[{ "text": " Qur’án 6:103. " }]]
       }
     ]
   },
@@ -605,13 +599,11 @@
         "number": 11,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " Aḥmad, Muḥammad, and Maḥmúd are names and titles of the Prophet derived from the verb “to praise”, “to extol”. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " Aḥmad, Muḥammad, and Maḥmúd are names and titles of the Prophet derived from the verb “to praise”, “to extol”. "
+            }
+          ]
         ]
       },
       { "text": " and in the hearts of the knowing, " },
@@ -625,7 +617,7 @@
       {
         "number": 12,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 17:110. " }] }]
+        "content": [[{ "text": " Qur’án 17:110. " }]]
       },
       {
         "text": " And upon His kindred and His companions be abundant, abiding, and eternal peace! "
@@ -640,7 +632,7 @@
       {
         "number": 13,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Cf. Qur’án 76:1. " }] }]
+        "content": [[{ "text": " Cf. Qur’án 76:1. " }]]
       }
     ]
   },
@@ -653,13 +645,11 @@
         "number": 14,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " Literally, “in the garden of Ghawthíyyih”. The Risáliy‑i‑Ghawthíyyih is a mystical treatise by ‘Abdu’l‑Qádir‑i‑Gílání (ca. 1077–1166). The sentence that follows is a quotation from this work. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " Literally, “in the garden of Ghawthíyyih”. The Risáliy‑i‑Ghawthíyyih is a mystical treatise by ‘Abdu’l‑Qádir‑i‑Gílání (ca. 1077–1166). The sentence that follows is a quotation from this work. "
+            }
+          ]
         ]
       },
       { "text": " saying, " },
@@ -675,7 +665,7 @@
       {
         "number": 15,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 2:282, 16:69. " }] }]
+        "content": [[{ "text": " Qur’án 2:282, 16:69. " }]]
       }
     ]
   },
@@ -687,7 +677,7 @@
       {
         "number": 16,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 20:47. " }] }]
+        "content": [[{ "text": " Qur’án 20:47. " }]]
       }
     ]
   },
@@ -700,13 +690,11 @@
         "number": 17,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " ‘Aṭṭár (ca. 1119–1230) in his Manṭiqu’ṭ‑Ṭayr (The Conference of the Birds) has elaborated seven valleys through which the birds pass in search of their king. Bahá’u’lláh refers to ‘Aṭṭár’s scheme of the valleys. Rúmí (1207–1273) alludes to the “seven cities of love” crossed by ‘Aṭṭár. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " ‘Aṭṭár (ca. 1119–1230) in his Manṭiqu’ṭ‑Ṭayr (The Conference of the Birds) has elaborated seven valleys through which the birds pass in search of their king. Bahá’u’lláh refers to ‘Aṭṭár’s scheme of the valleys. Rúmí (1207–1273) alludes to the “seven cities of love” crossed by ‘Aṭṭár. "
+            }
+          ]
         ]
       },
       {
@@ -729,7 +717,7 @@
       {
         "number": 18,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 29:69. " }] }]
+        "content": [[{ "text": " Qur’án 29:69. " }]]
       },
       {
         "text": " In their search, they have stoutly girded up the loins of service and at every moment journey from the plane of heedlessness into the realm of search. No bond shall hold them back and no counsel deter them. "
@@ -759,13 +747,11 @@
         "number": 19,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " Majnún means “madman”. This is the title of the celebrated lover of ancient Persian and Arabian lore whose beloved was Laylí. Symbolising true human love bordering on the divine, the story has been the theme of many Persian romantic poems, most famously that of Niẓámí, written in 1188. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " Majnún means “madman”. This is the title of the celebrated lover of ancient Persian and Arabian lore whose beloved was Laylí. Symbolising true human love bordering on the divine, the story has been the theme of many Persian romantic poems, most famously that of Niẓámí, written in 1188. "
+            }
+          ]
         ]
       },
       {
@@ -825,7 +811,7 @@
       {
         "number": 20,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Arabic proverb. " }] }]
+        "content": [[{ "text": " Arabic proverb. " }]]
       }
     ]
   },
@@ -848,13 +834,11 @@
         "number": 21,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " A reference to the Islamic profession of faith: “No God is there but God, and Muḥammad is the Messenger of God.” "
-              }
-            ]
-          }
+          [
+            {
+              "text": " A reference to the Islamic profession of faith: “No God is there but God, and Muḥammad is the Messenger of God.” "
+            }
+          ]
         ]
       },
       {
@@ -921,7 +905,7 @@
       {
         "number": 22,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Saná’í (ca. 1045–1131). " }] }]
+        "content": [[{ "text": " Saná’í (ca. 1045–1131). " }]]
       }
     ]
   },
@@ -938,11 +922,7 @@
       { "text": " Ne’er will love allow a living soul to tread its way; " },
       { "type": "break" },
       { "text": " Ne’er will the falcon deign to seize a lifeless prey." },
-      {
-        "number": 23,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Saná’í. " }] }]
-      }
+      { "number": 23, "type": "note", "content": [[{ "text": " Saná’í. " }]] }
     ]
   },
   {
@@ -958,7 +938,7 @@
       {
         "number": 24,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 50:30. " }] }]
+        "content": [[{ "text": " Qur’án 50:30. " }]]
       },
       {
         "text": " It shunneth its own self and draweth away from all on earth. "
@@ -971,11 +951,7 @@
       { "text": " Love’s a stranger to earth and heaven too;" },
       { "type": "break" },
       { "text": " In him are lunacies seventy and two." },
-      {
-        "number": 25,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
-      }
+      { "number": 25, "type": "note", "content": [[{ "text": " Rúmí. " }]] }
     ]
   },
   {
@@ -994,13 +970,11 @@
         "number": 26,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " An allusion to the Ḥadíth in which God is said to address the Prophet Muhammad in these words: “But for Thee, I would not have created the spheres.” "
-              }
-            ]
-          }
+          [
+            {
+              "text": " An allusion to the Ḥadíth in which God is said to address the Prophet Muhammad in these words: “But for Thee, I would not have created the spheres.” "
+            }
+          ]
         ]
       }
     ]
@@ -1014,7 +988,7 @@
       {
         "number": 27,
         "type": "note",
-        "content": [{ "spans": [{ "text": " From a poem of Bahá’u’lláh. " }] }]
+        "content": [[{ "text": " From a poem of Bahá’u’lláh. " }]]
       }
     ]
   },
@@ -1034,7 +1008,7 @@
       {
         "number": 28,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Hátif‑i‑Iṣfahání (d.1783). " }] }]
+        "content": [[{ "text": " Hátif‑i‑Iṣfahání (d.1783). " }]]
       }
     ]
   },
@@ -1055,7 +1029,7 @@
       {
         "number": 29,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 67:3. " }] }]
+        "content": [[{ "text": " Qur’án 67:3. " }]]
       },
       {
         "text": " He beholdeth justice in injustice, and in justice, grace. In ignorance he findeth many a knowledge hidden, and in knowledge a myriad wisdoms manifest. He breaketh the cage of the body and the hold of the passions, and communeth with the denizens of the immortal realm. He scaleth the ladders of inner truth and hasteneth to the heaven of inner meanings. He rideth in the ark of "
@@ -1081,7 +1055,7 @@
       {
         "number": 30,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 41:53. " }] }]
+        "content": [[{ "text": " Qur’án 41:53. " }]]
       },
       {
         "text": " And if he meeteth with injustice he shall have patience, and if he cometh upon wrath he shall manifest love. "
@@ -1179,7 +1153,7 @@
       {
         "number": 31,
         "type": "note",
-        "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
+        "content": [[{ "text": " From a Ḥadíth. " }]]
       },
       {
         "text": " And they have made their dwelling‑place in the shadow of the Divine Essence. "
@@ -1195,16 +1169,14 @@
         "number": 32,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              { "type": "u", "text": "Sh" },
-              { "text": "ay" },
-              { "type": "u", "text": "kh" },
-              {
-                "text": " Abú Ismá‘íl ‘Abdu’lláh Anṣárí of Hirát (1006–1089), a Ṣúfí master, poet, and scholar. "
-              }
-            ]
-          }
+          [
+            { "type": "u", "text": "Sh" },
+            { "text": "ay" },
+            { "type": "u", "text": "kh" },
+            {
+              "text": " Abú Ismá‘íl ‘Abdu’lláh Anṣárí of Hirát (1006–1089), a Ṣúfí master, poet, and scholar. "
+            }
+          ]
         ]
       },
       {
@@ -1219,7 +1191,7 @@
       {
         "number": 33,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 1:6. " }] }]
+        "content": [[{ "text": " Qur’án 1:6. " }]]
       },
       { "text": " which is: " },
       {
@@ -1268,11 +1240,7 @@
       { "text": " Then thou who hast no wings at all," },
       { "type": "break" },
       { "text": " Abandon any hope of flight!" },
-      {
-        "number": 34,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
-      }
+      { "number": 34, "type": "note", "content": [[{ "text": " Rúmí. " }]] }
     ]
   },
   {
@@ -1290,7 +1258,7 @@
       {
         "number": 35,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 2:156. " }] }]
+        "content": [[{ "text": " Qur’án 2:156. " }]]
       }
     ]
   },
@@ -1313,7 +1281,7 @@
       {
         "number": 36,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 4:78. " }] }]
+        "content": [[{ "text": " Qur’án 4:78. " }]]
       },
       { "text": " and reclineth upon the seat of " },
       {
@@ -1326,7 +1294,7 @@
       {
         "number": 37,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 18:39. " }] }]
+        "content": [[{ "text": " Qur’án 18:39. " }]]
       },
       {
         "text": " He looketh upon all things with the eye of Unity, and seeth the effulgent rays of the Sun of Truth shining from the dayspring of the Divine Essence upon all created things alike, and beholdeth the lights of Unity reflected upon all creation. "
@@ -1355,7 +1323,7 @@
       {
         "number": 38,
         "type": "note",
-        "content": [{ "spans": [{ "text": " The Prophet Muḥammad. " }] }]
+        "content": [[{ "text": " The Prophet Muḥammad. " }]]
       },
       {
         "text": " have been shut out of the inner court of the All‑Beauteous, and have been banished from the Kaaba of glory. Such is the worth of the people of this age! "
@@ -1382,11 +1350,7 @@
       { "text": " Cleanse thou the rheum from out thine head" },
       { "type": "break" },
       { "text": " And breathe the breath of God instead." },
-      {
-        "number": 39,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
-      }
+      { "number": 39, "type": "note", "content": [[{ "text": " Rúmí. " }]] }
     ]
   },
   {
@@ -1413,7 +1377,7 @@
       {
         "number": 40,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 16:61. " }] }]
+        "content": [[{ "text": " Qur’án 16:61. " }]]
       }
     ]
   },
@@ -1434,7 +1398,7 @@
       {
         "number": 41,
         "type": "note",
-        "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
+        "content": [[{ "text": " From a Ḥadíth. " }]]
       },
       {
         "text": " And thou wilt take up thy life in thy hand and with infinite longing cast it before thy newly found Beloved. "
@@ -1458,7 +1422,7 @@
       {
         "number": 42,
         "type": "note",
-        "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
+        "content": [[{ "text": " From a Ḥadíth. " }]]
       },
       {
         "text": " For thus the Master of the house hath appeared within His home, and all the pillars of the dwelling are ashine with His light. And as the action and effect of the light are from the Light‑Giver, so it is that all move through Him and arise by His will. This is that wellspring whereof the near ones drink, as it is said: "
@@ -1474,7 +1438,7 @@
       {
         "number": 43,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 83:28. " }] }]
+        "content": [[{ "text": " Qur’án 83:28. " }]]
       }
     ]
   },
@@ -1495,7 +1459,7 @@
       {
         "number": 44,
         "type": "note",
-        "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
+        "content": [[{ "text": " From a Ḥadíth. " }]]
       }
     ]
   },
@@ -1517,7 +1481,7 @@
       {
         "number": 45,
         "type": "note",
-        "content": [{ "spans": [{ "text": " From a prayer of Imám ‘Alí. " }] }]
+        "content": [[{ "text": " From a prayer of Imám ‘Alí. " }]]
       },
       {
         "text": " How can utter nothingness spur its charger in the arena of eternity, or a fleeting shadow reach to the everlasting sun? The Friend addressed by the words "
@@ -1546,13 +1510,11 @@
         "number": 46,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " “But for Thee” refers to the Ḥadíth quoted in note 26. “We have failed to know Thee” alludes to a prayer attributed to Muḥammad that says, “We have not known Thee, O God, as Thou oughtest to be known.” “Or even closer” alludes to Qur’án 53:9. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " “But for Thee” refers to the Ḥadíth quoted in note 26. “We have failed to know Thee” alludes to a prayer attributed to Muḥammad that says, “We have not known Thee, O God, as Thou oughtest to be known.” “Or even closer” alludes to Qur’án 53:9. "
+            }
+          ]
         ]
       }
     ]
@@ -1588,13 +1550,11 @@
         "number": 47,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " Sa‘dí (ca. 1213–1292), author of the Gulistán and other poetical works. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " Sa‘dí (ca. 1213–1292), author of the Gulistán and other poetical works. "
+            }
+          ]
         ]
       }
     ]
@@ -1616,7 +1576,7 @@
       {
         "number": 48,
         "type": "note",
-        "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
+        "content": [[{ "text": " From a Ḥadíth. " }]]
       }
     ]
   },
@@ -1652,9 +1612,7 @@
       {
         "number": 49,
         "type": "note",
-        "content": [
-          { "spans": [{ "text": " Rúmí; a reference to Qur’án 18:71. " }] }
-        ]
+        "content": [[{ "text": " Rúmí; a reference to Qur’án 18:71. " }]]
       }
     ]
   },
@@ -1680,7 +1638,7 @@
       {
         "number": 50,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 57:3. " }] }]
+        "content": [[{ "text": " Qur’án 57:3. " }]]
       }
     ]
   },
@@ -1703,11 +1661,7 @@
       { "text": " In thy soul, of love build thou a fire" },
       { "type": "break" },
       { "text": " And burn all thoughts and words entire." },
-      {
-        "number": 51,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
-      }
+      { "number": 51, "type": "note", "content": [[{ "text": " Rúmí. " }]] }
     ]
   },
   {
@@ -1741,13 +1695,11 @@
         "number": 52,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " This refers to Bahá’u’lláh Himself, Who had not yet declared His mission. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " This refers to Bahá’u’lláh Himself, Who had not yet declared His mission. "
+            }
+          ]
         ]
       }
     ]
@@ -1772,7 +1724,7 @@
       {
         "number": 53,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 4:130. " }] }]
+        "content": [[{ "text": " Qur’án 4:130. " }]]
       },
       {
         "text": " From sorrow he turneth to bliss, and from grief to joy, and from anguish and dejection to delight and rapture. "
@@ -1804,7 +1756,7 @@
       {
         "number": 54,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Cf. ‘Aṭṭár. " }] }]
+        "content": [[{ "text": " Cf. ‘Aṭṭár. " }]]
       }
     ]
   },
@@ -1821,7 +1773,7 @@
       {
         "number": 55,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Ibn‑i‑Fáriḍ (1181–1235). " }] }]
+        "content": [[{ "text": " Ibn‑i‑Fáriḍ (1181–1235). " }]]
       }
     ]
   },
@@ -1840,7 +1792,7 @@
       {
         "number": 56,
         "type": "note",
-        "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
+        "content": [[{ "text": " From a Ḥadíth. " }]]
       },
       {
         "text": " For on this plane the traveller witnesseth the beauty of the Friend in all things. In fire he seeth the face of the Beloved; in illusion he beholdeth the secret of reality; in the attributes he readeth the riddle of the Essence. For he hath burnt away all veils with a sigh, and cast aside all coverings with a glance. With piercing sight he gazeth upon the new creation, and with lucid heart he graspeth subtle verities. The words "
@@ -1853,7 +1805,7 @@
       {
         "number": 57,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Cf. Qur’án 50:21. " }] }]
+        "content": [[{ "text": " Cf. Qur’án 50:21. " }]]
       },
       {
         "text": " are a sufficient proof of this assertion and a befitting description of this state. "
@@ -1894,11 +1846,7 @@
       { "text": " How can feeble reason embrace the Qur’án" },
       { "type": "break" },
       { "text": " Or the spider snare a phoenix in its web?" },
-      {
-        "number": 58,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Saná’í. " }] }]
-      }
+      { "number": 58, "type": "note", "content": [[{ "text": " Saná’í. " }]] }
     ]
   },
   {
@@ -1909,7 +1857,7 @@
       {
         "number": 59,
         "type": "note",
-        "content": [{ "spans": [{ "text": " The Prophet Muḥammad. " }] }]
+        "content": [[{ "text": " The Prophet Muḥammad. " }]]
       },
       {
         "text": " in setting forth the grades of contemplation and expressing bewilderment, hath said: "
@@ -1924,7 +1872,7 @@
       {
         "number": 60,
         "type": "note",
-        "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
+        "content": [[{ "text": " From a Ḥadíth. " }]]
       }
     ]
   },
@@ -1986,11 +1934,7 @@
       { "text": " The tale remaineth yet unfinished and untold;" },
       { "type": "break" },
       { "text": " Forgive me, then, for weariness hath taken hold." },
-      {
-        "number": 61,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
-      }
+      { "number": 61, "type": "note", "content": [[{ "text": " Rúmí. " }]] }
     ]
   },
   {
@@ -2008,7 +1952,7 @@
       {
         "number": 62,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 9:51. " }] }]
+        "content": [[{ "text": " Qur’án 9:51. " }]]
       },
       { "text": " Peace be upon him who followeth the way of guidance! " }
     ]
@@ -2030,11 +1974,7 @@
       { "text": " All mention Moses burned away" },
       { "type": "break" },
       { "text": " Of every fleeting, transient thing." },
-      {
-        "number": 63,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
-      }
+      { "number": 63, "type": "note", "content": [[{ "text": " Rúmí. " }]] }
     ]
   },
   {
@@ -2054,7 +1994,7 @@
       {
         "number": 64,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 76:5. " }] }]
+        "content": [[{ "text": " Qur’án 76:5. " }]]
       },
       { "text": " If the true meaning of " },
       { "number": 73, "type": "quote", "spans": [{ "text": "camphor" }] },
@@ -2072,7 +2012,7 @@
       {
         "number": 65,
         "type": "note",
-        "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
+        "content": [[{ "text": " From a Ḥadíth. " }]]
       },
       {
         "text": " And of inward and outward poverty there is many a stage and many a meaning which I have not thought pertinent to mention here; hence I have reserved these for another time, dependent on what God may desire and fate may seal. "
@@ -2097,7 +2037,7 @@
       {
         "number": 66,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 28:88. " }] }]
+        "content": [[{ "text": " Qur’án 28:88. " }]]
       }
     ]
   },
@@ -2118,7 +2058,7 @@
       {
         "number": 67,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 15:21. " }] }]
+        "content": [[{ "text": " Qur’án 15:21. " }]]
       },
       {
         "text": " Indeed, the clouds of the Loved One’s mercy rain only on the garden of the spirit, and bestow this bounty only in the season of spring. Other seasons have no share in this supernal grace, and barren lands hold no portion of this bounteous favour. "
@@ -2143,7 +2083,7 @@
       {
         "number": 68,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Hátif‑i‑Iṣfahání. " }] }]
+        "content": [[{ "text": " Hátif‑i‑Iṣfahání. " }]]
       }
     ]
   },
@@ -2171,7 +2111,7 @@
       {
         "number": 69,
         "type": "note",
-        "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
+        "content": [[{ "text": " From a Ḥadíth. " }]]
       },
       {
         "text": " How strange that the Beloved is as visible as the sun and yet the heedless still hunt after tinsel and base metal. Yea, the intensity of His revelation hath veiled Him, and the fullness of His shining forth hath hidden Him. "
@@ -2191,7 +2131,7 @@
       {
         "number": 70,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Attributed to Rúmí. " }] }]
+        "content": [[{ "text": " Attributed to Rúmí. " }]]
       }
     ]
   },
@@ -2218,13 +2158,11 @@
         "number": 71,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " A reference to two Ṣúfí concepts. The doctrine of the unity of existence is commonly ascribed to Ibnu’l‑Arabí (1165–1240), that of the unity of appearance to Aḥmad Sirhindí (1564–1624). See ‘Abdu’l‑Bahá, Some Answered Questions, chapter 82. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " A reference to two Ṣúfí concepts. The doctrine of the unity of existence is commonly ascribed to Ibnu’l‑Arabí (1165–1240), that of the unity of appearance to Aḥmad Sirhindí (1564–1624). See ‘Abdu’l‑Bahá, Some Answered Questions, chapter 82. "
+            }
+          ]
         ]
       },
       {
@@ -2254,13 +2192,11 @@
         "number": 72,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " Qur’án 17:79. A reference to the station of the Manifestation of God. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " Qur’án 17:79. A reference to the station of the Manifestation of God. "
+            }
+          ]
         ]
       }
     ]
@@ -2274,13 +2210,11 @@
         "number": 73,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " “The word ‘Guardian’ in the Seven Valleys has no connection with the Bahá’í Guardianship.” (From a letter dated 8 January 1949 written on behalf of Shoghi Effendi.) "
-              }
-            ]
-          }
+          [
+            {
+              "text": " “The word ‘Guardian’ in the Seven Valleys has no connection with the Bahá’í Guardianship.” (From a letter dated 8 January 1949 written on behalf of Shoghi Effendi.) "
+            }
+          ]
         ]
       },
       {
@@ -2298,7 +2232,7 @@
       {
         "number": 74,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 2:90. " }] }]
+        "content": [[{ "text": " Qur’án 2:90. " }]]
       }
     ]
   },
@@ -2319,14 +2253,10 @@
       { "text": " When the pen did reach the point" },
       { "type": "break" },
       { "text": " Of depicting such a stage." },
-      {
-        "number": 75,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
-      }
+      { "number": 75, "type": "note", "content": [[{ "text": " Rúmí. " }]] }
     ]
   },
-  { "type": "header" },
+  { "number": 9, "type": "header" },
   {
     "spans": [
       {
@@ -2358,7 +2288,7 @@
       {
         "number": 76,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Ibn‑i‑Fáriḍ. " }] }]
+        "content": [[{ "text": " Ibn‑i‑Fáriḍ. " }]]
       }
     ]
   },
@@ -2378,13 +2308,11 @@
         "number": 77,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " In what follows, Bahá’u’lláh interprets the meaning of each of the five letters comprising the word “sparrow” (gunjishk) in Persian. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " In what follows, Bahá’u’lláh interprets the meaning of each of the five letters comprising the word “sparrow” (gunjishk) in Persian. "
+            }
+          ]
         ]
       },
       {
@@ -2455,8 +2383,9 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " 3 " }] },
+  { "number": 10, "type": "header", "spans": [{ "text": " 3 " }] },
   {
+    "number": 11,
     "type": "header",
     "spans": [{ "text": "From the Letter Bá’ to the Letter Há’ " }]
   },
@@ -2474,13 +2403,7 @@
         "number": 78,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " The recipient of this Tablet was Mírzá Hádí Qazvíní. "
-              }
-            ]
-          }
+          [{ "text": " The recipient of this Tablet was Mírzá Hádí Qazvíní. " }]
         ]
       },
       {
@@ -2505,13 +2428,11 @@
         "number": 79,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " Allusions to the Muslim profession of faith. See note 21. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " Allusions to the Muslim profession of faith. See note 21. "
+            }
+          ]
         ]
       },
       {
@@ -2546,11 +2467,7 @@
       {
         "text": " It is clear and evident that, in this Dispensation wherein the banner of utterance hath been raised aloft and the candle of discernment hath been lit, there is no Lord but the Exalted One."
       },
-      {
-        "number": 80,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " The Báb. " }] }]
-      },
+      { "number": 80, "type": "note", "content": [[{ "text": " The Báb. " }]] },
       {
         "text": " He it is Who is one in His essence and one in His attributes, single in the kingdom of names and peerless in the realm of actions. It is by virtue of His blessed name that the seas of Divine Unity have been made to surge; it is through the power of His resistless command that the immutable decrees of destiny have been enforced; it is through the potency of His sovereign might that the dictates of fate have been fixed. Who hath the power to soar in that exalted atmosphere or to cherish another beloved than Him? We all abide beneath His shadow and seek our portion from the ocean of His grace. However far the gnat may fly, it can never traverse the length and breadth of heaven, and however high the sparrow may soar, it can never attain the tree of immortality. "
       }
@@ -2580,13 +2497,11 @@
         "number": 81,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " An allusion to Bahá’u’lláh’s approaching declaration. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " An allusion to Bahá’u’lláh’s approaching declaration. "
+            }
+          ]
         ]
       },
       {
@@ -2608,8 +2523,12 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": "Three Other Tablets " }] },
-  { "type": "header", "spans": [{ "text": " 4 " }] },
+  {
+    "number": 12,
+    "type": "header",
+    "spans": [{ "text": "Three Other Tablets " }]
+  },
+  { "number": 13, "type": "header", "spans": [{ "text": " 4 " }] },
   {
     "spans": [
       { "text": " In the name of our Lord, the Most Exalted, the Most High! " }
@@ -2672,7 +2591,7 @@
       {
         "number": 82,
         "type": "note",
-        "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
+        "content": [[{ "text": " From a Ḥadíth. " }]]
       }
     ]
   },
@@ -2704,7 +2623,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " 5 " }] },
+  { "number": 14, "type": "header", "spans": [{ "text": " 5 " }] },
   {
     "spans": [{ "text": " In the name of the peerless and ever‑loving Lord! " }]
   },
@@ -2745,7 +2664,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " 6 " }] },
+  { "number": 15, "type": "header", "spans": [{ "text": " 6 " }] },
   {
     "type": "block",
     "spans": [
@@ -2756,11 +2675,7 @@
       { "text": " That thy roaring may perchance" },
       { "type": "break" },
       { "text": " To the seventh heaven soar!" },
-      {
-        "number": 83,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
-      }
+      { "number": 83, "type": "note", "content": [[{ "text": " Rúmí. " }]] }
     ]
   },
   {
@@ -2787,7 +2702,7 @@
       {
         "number": 84,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 76:5. " }] }]
+        "content": [[{ "text": " Qur’án 76:5. " }]]
       }
     ]
   },
@@ -2805,7 +2720,7 @@
       {
         "number": 85,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 21:69. " }] }]
+        "content": [[{ "text": " Qur’án 21:69. " }]]
       },
       {
         "text": " In truth, a perfect meeting was attained through thy letter, and, through thy mention of the stations of Divine Unity and the signs of pure abstraction and oneness, it lifted from the world the veils of limitation. And this, notwithstanding that even the limitations of the world of existence are praised and cherished by the wayfarer, for he seeth all things in the mirror of the verse "
@@ -2830,7 +2745,7 @@
       {
         "number": 86,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 67:3. " }] }]
+        "content": [[{ "text": " Qur’án 67:3. " }]]
       },
       {
         "text": " In faithlessness he beholdeth the secret of fidelity, and in deadly poison he tasteth the sweetest honey. Even vengeance is embraced in this state; nay more, the true lover welcometh the betrayal of the beloved. "
@@ -2847,11 +2762,7 @@
       { "text": " To suffer at thy vengeful hand—" },
       { "type": "break" },
       { "text": " How much dearer than to live!" },
-      {
-        "number": 87,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
-      }
+      { "number": 87, "type": "note", "content": [[{ "text": " Rúmí. " }]] }
     ]
   },
   {
@@ -2885,11 +2796,7 @@
         "spans": [{ "text": "O for a thirsty soul!" }]
       },
       { "text": " the spring in turn doth moan." },
-      {
-        "number": 88,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
-      }
+      { "number": 88, "type": "note", "content": [[{ "text": " Rúmí. " }]] }
     ]
   },
   {
@@ -2902,11 +2809,7 @@
         "type": "quote",
         "spans": [{ "text": "How can the lover from the loved one ever part?" }]
       },
-      {
-        "number": 89,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
-      },
+      { "number": 89, "type": "note", "content": [[{ "text": " Rúmí. " }]] },
       {
         "text": " So it is that, at times, the lovers of the celestial Beauty sound the clarion of "
       },
@@ -2924,7 +2827,7 @@
       {
         "number": 90,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 4:78–79. " }] }]
+        "content": [[{ "text": " Qur’án 4:78–79. " }]]
       }
     ]
   },
@@ -2959,13 +2862,11 @@
         "number": 91,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " A reference to the three levels of certitude in the Islamic mystical tradition. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " A reference to the three levels of certitude in the Islamic mystical tradition. "
+            }
+          ]
         ]
       },
       {
@@ -2980,7 +2881,7 @@
       {
         "number": 92,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 39:53. " }] }]
+        "content": [[{ "text": " Qur’án 39:53. " }]]
       },
       {
         "text": " and the gentle breezes of His providence dispel every vestige of torpor and estrangement. These tidings, however, are not constant and immutable in these stations, and the wayfarer remaineth confined between the right hand of faith and assurance and the left hand of denial and despair. "
@@ -3000,7 +2901,7 @@
       {
         "number": 93,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Cf. Qur’án 37:173. " }] }]
+        "content": [[{ "text": " Cf. Qur’án 37:173. " }]]
       },
       {
         "text": " is manifested, obliterating the signs and standards of every worldly attachment and limitation, even as alluded to by some who have attained this station. At such times, the ascendancy of God’s names and attributes will so surround a soul as to leave it no place either to stay or to flee. This station, however, hath its own obscurities and impediments, for they that journey towards the land of Divine Unity and detachment are still wrapt within the confines of names and attributes, and take delight in their gardens and bowers. Thus it is that, in describing these stations, some have made reference to the "
@@ -3020,7 +2921,7 @@
       {
         "number": 94,
         "type": "note",
-        "content": [{ "spans": [{ "text": " See note 71. " }] }]
+        "content": [[{ "text": " See note 71. " }]]
       },
       {
         "text": " By this is meant that the seeker will close his eyes to all save his Beloved and open them to naught but His beauty. He will pass beyond the mortal world and approach the everlasting realm. He will see no beauty but the Beloved’s and hear no utterance but His praise; that is, he will avert his gaze from aught save His beauty and refuse to hearken to any melody but the sweet accents of His voice. Howbeit some are led astray even in this station; for no sooner do they inhale the fragrance of reunion, and hearken unto the voice of the doves of heavenly grace, than they imagine themselves to have attained perfection and wander lost in the wilderness of self‑conceit, thus depriving themselves of the soft‑flowing stream of divine providence and the ethereal cup of heavenly delight. "
@@ -3065,8 +2966,12 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " 7 " }] },
-  { "type": "header", "spans": [{ "text": "The Four Valleys " }] },
+  { "number": 16, "type": "header", "spans": [{ "text": " 7 " }] },
+  {
+    "number": 17,
+    "type": "header",
+    "spans": [{ "text": "The Four Valleys " }]
+  },
   { "spans": [{ "text": " He is the Ever‑Living. " }] },
   {
     "type": "block",
@@ -3082,17 +2987,15 @@
         "number": 95,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              { "text": " Rúmí. Bahá’u’lláh is here comparing " },
-              { "type": "u", "text": "Sh" },
-              { "text": "ay" },
-              { "type": "u", "text": "kh" },
-              {
-                "text": " ‘Abdu’r‑Raḥmán, the recipient of the Tablet, with Ḥusámu’d‑Dín Chalabí, to whom Rúmí dedicated his Mathnaví. Ḥusámu’d‑Dín means “sword of faith”. "
-              }
-            ]
-          }
+          [
+            { "text": " Rúmí. Bahá’u’lláh is here comparing " },
+            { "type": "u", "text": "Sh" },
+            { "text": "ay" },
+            { "type": "u", "text": "kh" },
+            {
+              "text": " ‘Abdu’r‑Raḥmán, the recipient of the Tablet, with Ḥusámu’d‑Dín Chalabí, to whom Rúmí dedicated his Mathnaví. Ḥusámu’d‑Dín means “sword of faith”. "
+            }
+          ]
         ]
       }
     ]
@@ -3114,11 +3017,7 @@
       { "text": " Is it that poverty’s our lot" },
       { "type": "break" },
       { "text": " And wealth and pageantry thy share?" },
-      {
-        "number": 96,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Sa‘dí. " }] }]
-      }
+      { "number": 96, "type": "note", "content": [[{ "text": " Sa‘dí. " }]] }
     ]
   },
   {
@@ -3138,7 +3037,7 @@
       {
         "number": 97,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 41:30. " }] }]
+        "content": [[{ "text": " Qur’án 41:30. " }]]
       }
     ]
   },
@@ -3153,7 +3052,7 @@
       {
         "number": 98,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 11:112. " }] }]
+        "content": [[{ "text": " Qur’án 11:112. " }]]
       },
       {
         "text": " It followeth that they that abide in the court of reunion must needs conduct themselves accordingly. "
@@ -3166,11 +3065,7 @@
       { "text": " I do as bidden and convey the message," },
       { "type": "break" },
       { "text": " Whether it give thee counsel or offence." },
-      {
-        "number": 99,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Sa‘dí. " }] }]
-      }
+      { "number": 99, "type": "note", "content": [[{ "text": " Sa‘dí. " }]] }
     ]
   },
   {
@@ -3194,11 +3089,7 @@
       },
       { "type": "break" },
       { "text": " And set the speakers and the hearers dancing to and fro." },
-      {
-        "number": 100,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Sa‘dí. " }] }]
-      }
+      { "number": 100, "type": "note", "content": [[{ "text": " Sa‘dí. " }]] }
     ]
   },
   {
@@ -3214,11 +3105,7 @@
       { "text": " Today’s the first of these—" },
       { "type": "break" },
       { "text": " ’Tis why thou seest me glad." },
-      {
-        "number": 101,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
-      }
+      { "number": 101, "type": "note", "content": [[{ "text": " Rúmí. " }]] }
     ]
   },
   {
@@ -3249,9 +3136,7 @@
       {
         "number": 102,
         "type": "note",
-        "content": [
-          { "spans": [{ "text": " From a prayer attributed to Imám ‘Alí. " }] }
-        ]
+        "content": [[{ "text": " From a prayer attributed to Imám ‘Alí. " }]]
       },
       {
         "text": " In this station the self is not rejected but beloved; it is regarded with favour and is not to be shunned. Although at the beginning this plane is the realm of conflict, yet it endeth in the ascent to the throne of glory. As it hath been said: "
@@ -3268,13 +3153,11 @@
         "number": 103,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " Cf. Rúmí. Here Rúmí tells a story of four evil birds which, when put to death, changed into four birds of goodness. The allegory refers to subduing evil qualities and replacing them with good. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " Cf. Rúmí. Here Rúmí tells a story of four evil birds which, when put to death, changed into four birds of goodness. The allegory refers to subduing evil qualities and replacing them with good. "
+            }
+          ]
         ]
       }
     ]
@@ -3301,7 +3184,7 @@
       {
         "number": 104,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 89: 29–30. " }] }]
+        "content": [[{ "text": " Qur’án 89: 29–30. " }]]
       }
     ]
   },
@@ -3322,7 +3205,7 @@
       {
         "number": 105,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Cf. Qur’án 41:53. " }] }]
+        "content": [[{ "text": " Cf. Qur’án 41:53. " }]]
       }
     ]
   },
@@ -3343,7 +3226,7 @@
       {
         "number": 106,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 17:14. " }] }]
+        "content": [[{ "text": " Qur’án 17:14. " }]]
       }
     ]
   },
@@ -3380,9 +3263,7 @@
       {
         "number": 107,
         "type": "note",
-        "content": [
-          { "spans": [{ "text": " Famed writers on grammar and rhetoric. " }] }
-        ]
+        "content": [[{ "text": " Famed writers on grammar and rhetoric. " }]]
       }
     ]
   },
@@ -3394,11 +3275,7 @@
       },
       { "type": "break" },
       { "text": " Be nothing, then, and cross this sea unharmed." },
-      {
-        "number": 108,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
-      }
+      { "number": 108, "type": "note", "content": [[{ "text": " Rúmí. " }]] }
     ]
   },
   {
@@ -3416,7 +3293,7 @@
       {
         "number": 109,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 59:19. " }] }]
+        "content": [[{ "text": " Qur’án 59:19. " }]]
       }
     ]
   },
@@ -3468,7 +3345,7 @@
       {
         "number": 110,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 18:17. " }] }]
+        "content": [[{ "text": " Qur’án 18:17. " }]]
       }
     ]
   },
@@ -3490,7 +3367,7 @@
       {
         "number": 111,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 24:37. " }] }]
+        "content": [[{ "text": " Qur’án 24:37. " }]]
       }
     ]
   },
@@ -3508,7 +3385,7 @@
       {
         "number": 112,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 2:282. " }] }]
+        "content": [[{ "text": " Qur’án 2:282. " }]]
       },
       { "text": " and again, " },
       {
@@ -3523,7 +3400,7 @@
       {
         "number": 113,
         "type": "note",
-        "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
+        "content": [[{ "text": " From a Ḥadíth. " }]]
       }
     ]
   },
@@ -3540,7 +3417,7 @@
       {
         "number": 114,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 83:26. " }] }]
+        "content": [[{ "text": " Qur’án 83:26. " }]]
       },
       { "text": " And now do I say, " },
       {
@@ -3553,7 +3430,7 @@
       {
         "number": 115,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 2:156. " }] }]
+        "content": [[{ "text": " Qur’án 2:156. " }]]
       }
     ]
   },
@@ -3574,11 +3451,7 @@
       { "text": " The minstrel of love harpeth this lay:" },
       { "type": "break" },
       { "text": " Servitude enslaveth, lordship doth betray." },
-      {
-        "number": 116,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
-      }
+      { "number": 116, "type": "note", "content": [[{ "text": " Rúmí. " }]] }
     ]
   },
   {
@@ -3598,7 +3471,7 @@
       {
         "number": 117,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 21:27. " }] }]
+        "content": [[{ "text": " Qur’án 21:27. " }]]
       }
     ]
   },
@@ -3648,11 +3521,7 @@
       {
         "text": " The pain of Thee hath firmly barred the gate of hope as well."
       },
-      {
-        "number": 118,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Sa‘dí. " }] }]
-      }
+      { "number": 118, "type": "note", "content": [[{ "text": " Sa‘dí. " }]] }
     ]
   },
   {
@@ -3680,13 +3549,11 @@
         "number": 119,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " Rúmí. A reference to the Cyclic Theory of Avicenna (Abu‑‘Alí Síná [980–1037]). "
-              }
-            ]
-          }
+          [
+            {
+              "text": " Rúmí. A reference to the Cyclic Theory of Avicenna (Abu‑‘Alí Síná [980–1037]). "
+            }
+          ]
         ]
       }
     ]
@@ -3712,11 +3579,7 @@
       { "text": " And grant this drop of wisdom that" },
       { "type": "break" },
       { "text": " Thou gavest me To be at last united with Thy mighty sea." },
-      {
-        "number": 120,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Rúmí " }] }]
-      }
+      { "number": 120, "type": "note", "content": [[{ "text": " Rúmí " }]] }
     ]
   },
   {
@@ -3763,7 +3626,7 @@
       {
         "number": 121,
         "type": "note",
-        "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
+        "content": [[{ "text": " From a Ḥadíth. " }]]
       }
     ]
   },
@@ -3784,7 +3647,7 @@
       {
         "number": 122,
         "type": "note",
-        "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
+        "content": [[{ "text": " From a Ḥadíth. " }]]
       }
     ]
   },
@@ -3812,11 +3675,7 @@
       },
       { "type": "break" },
       { "text": " Love indeed doth have a hundred other tongues in store." },
-      {
-        "number": 123,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
-      }
+      { "number": 123, "type": "note", "content": [[{ "text": " Rúmí. " }]] }
     ]
   },
   {
@@ -3852,13 +3711,11 @@
         "number": 124,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " An intimation of Bahá’u’lláh’s imminent Manifestation. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " An intimation of Bahá’u’lláh’s imminent Manifestation. "
+            }
+          ]
         ]
       }
     ]
@@ -3885,11 +3742,7 @@
       { "text": " That land and sky may laugh aloud today," },
       { "type": "break" },
       { "text": " And it may gladden mind and heart and eye." },
-      {
-        "number": 125,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
-      }
+      { "number": 125, "type": "note", "content": [[{ "text": " Rúmí. " }]] }
     ]
   },
   {
@@ -3942,7 +3795,7 @@
       {
         "number": 126,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 76:13. " }] }]
+        "content": [[{ "text": " Qur’án 76:13. " }]]
       }
     ]
   },
@@ -3964,11 +3817,7 @@
         "number": 127,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              { "text": " A famous adage cited in many Islamic sources. " }
-            ]
-          }
+          [{ "text": " A famous adage cited in many Islamic sources. " }]
         ]
       },
       { "text": " And in another He saith, " },
@@ -3980,7 +3829,7 @@
       {
         "number": 128,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 55:29. " }] }]
+        "content": [[{ "text": " Qur’án 55:29. " }]]
       }
     ]
   },
@@ -4001,7 +3850,7 @@
       {
         "number": 129,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Cf. Qur’án 6:79. " }] }]
+        "content": [[{ "text": " Cf. Qur’án 6:79. " }]]
       },
       { "text": " " },
       {
@@ -4016,7 +3865,7 @@
       {
         "number": 130,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 6:75. " }] }]
+        "content": [[{ "text": " Qur’án 6:75. " }]]
       },
       {
         "text": " Wherefore, put thy hand into thy bosom, then stretch it forth with power, and behold, thou shalt find it a light unto all the world. "
@@ -4036,11 +3885,7 @@
       { "text": " No more than this will I impart to thee:" },
       { "type": "break" },
       { "text": " The riverbed can never hold the sea." },
-      {
-        "number": 131,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Rúmí. " }] }]
-      }
+      { "number": 131, "type": "note", "content": [[{ "text": " Rúmí. " }]] }
     ]
   },
   {
@@ -4063,7 +3908,7 @@
       {
         "number": 132,
         "type": "note",
-        "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
+        "content": [[{ "text": " From a Ḥadíth. " }]]
       },
       { "text": " And again: " },
       {
@@ -4078,7 +3923,7 @@
       {
         "number": 133,
         "type": "note",
-        "content": [{ "spans": [{ "text": " From a Ḥadíth. " }] }]
+        "content": [[{ "text": " From a Ḥadíth. " }]]
       },
       {
         "text": " These are they who see with His eyes and hear with His ears, as hath been recorded in the well‑known tradition."
@@ -4086,7 +3931,7 @@
       {
         "number": 134,
         "type": "note",
-        "content": [{ "spans": [{ "text": " See the Seven Valleys, ¶ 44. " }] }]
+        "content": [[{ "text": " See the Seven Valleys, ¶ 44. " }]]
       }
     ]
   },
@@ -4129,7 +3974,7 @@
       {
         "number": 135,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Cf. Qur’án 35:43, 48:23. " }] }]
+        "content": [[{ "text": " Cf. Qur’án 35:43, 48:23. " }]]
       }
     ]
   },
@@ -4146,7 +3991,7 @@
       {
         "number": 136,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 4:166. " }] }]
+        "content": [[{ "text": " Qur’án 4:166. " }]]
       }
     ]
   },
@@ -4188,7 +4033,7 @@
       {
         "number": 137,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Cf. Qur’án 7:143. " }] }]
+        "content": [[{ "text": " Cf. Qur’án 7:143. " }]]
       },
       { "text": " All praise be to God, the Lord of the worlds! " }
     ]
@@ -4213,15 +4058,13 @@
         "number": 138,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              { "text": " Rúmí. " },
-              { "type": "u", "text": "Sh" },
-              {
-                "text": "ams‑i‑Tabríz was the Ṣúfí who exerted a powerful influence on Rúmí, diverting his attention from science to mysticism. A great part of Rúmí’s works are dedicated to him. "
-              }
-            ]
-          }
+          [
+            { "text": " Rúmí. " },
+            { "type": "u", "text": "Sh" },
+            {
+              "text": "ams‑i‑Tabríz was the Ṣúfí who exerted a powerful influence on Rúmí, diverting his attention from science to mysticism. A great part of Rúmí’s works are dedicated to him. "
+            }
+          ]
         ]
       }
     ]
@@ -4255,7 +4098,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " Notes " }] },
+  { "number": 18, "type": "header", "spans": [{ "text": " Notes " }] },
   {
     "spans": [
       {

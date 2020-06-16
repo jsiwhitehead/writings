@@ -1,6 +1,11 @@
 [
-  { "type": "header", "spans": [{ "text": " Days of Remembrance " }] },
   {
+    "number": 1,
+    "type": "header",
+    "spans": [{ "text": " Days of Remembrance " }]
+  },
+  {
+    "number": 2,
     "type": "header",
     "spans": [
       {
@@ -8,7 +13,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " Preface " }] },
+  { "number": 3, "type": "header", "spans": [{ "text": " Preface " }] },
   {
     "spans": [
       {
@@ -36,7 +41,7 @@
       {
         "number": 1,
         "type": "note",
-        "content": [{ "spans": [{ "text": " 2 Corinthians 5:17. " }] }]
+        "content": [[{ "text": " 2 Corinthians 5:17. " }]]
       },
       {
         "text": " By His authority, former laws are abrogated and the manners and customs of the previous Dispensation are reformed. Through the creative power of Divine Revelation, fresh life is instilled into hearts and souls: "
@@ -52,7 +57,7 @@
       {
         "number": 2,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Kitáb‑i‑Íqán ¶51. " }] }]
+        "content": [[{ "text": " Kitáb‑i‑Íqán ¶51. " }]]
       }
     ]
   },
@@ -123,8 +128,8 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " Naw‑Rúz " }] },
-  { "type": "header", "spans": [{ "text": " – 1 – " }] },
+  { "number": 4, "type": "header", "spans": [{ "text": " Naw‑Rúz " }] },
+  { "number": 5, "type": "header", "spans": [{ "text": " – 1 – " }] },
   { "spans": [{ "text": " He is the Almighty. " }] },
   {
     "spans": [
@@ -190,7 +195,7 @@
       { "text": " Thou, in truth, art the All‑Knowing, the All‑Wise. " }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 2 – " }] },
+  { "number": 6, "type": "header", "spans": [{ "text": " – 2 – " }] },
   {
     "spans": [
       { "text": " I am the Most Holy, the Most Great, the Most Glorious. " }
@@ -224,7 +229,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 3 – " }] },
+  { "number": 7, "type": "header", "spans": [{ "text": " – 3 – " }] },
   {
     "spans": [
       { "text": " He is the Most Holy, the Most Mighty, the Most Exalted. " }
@@ -380,7 +385,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 4 – " }] },
+  { "number": 8, "type": "header", "spans": [{ "text": " – 4 – " }] },
   {
     "spans": [
       {
@@ -493,7 +498,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 5 – " }] },
+  { "number": 9, "type": "header", "spans": [{ "text": " – 5 – " }] },
   { "spans": [{ "text": " He is the Sovereign King, the Holy of Holies. " }] },
   {
     "spans": [
@@ -516,8 +521,8 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " Riḍván " }] },
-  { "type": "header", "spans": [{ "text": " – 6 – " }] },
+  { "number": 10, "type": "header", "spans": [{ "text": " Riḍván " }] },
+  { "number": 11, "type": "header", "spans": [{ "text": " – 6 – " }] },
   {
     "spans": [
       {
@@ -774,7 +779,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 7 – " }] },
+  { "number": 12, "type": "header", "spans": [{ "text": " – 7 – " }] },
   {
     "spans": [
       { "text": " He it is Who is established upon this luminous Throne. " }
@@ -871,7 +876,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 8 – " }] },
+  { "number": 13, "type": "header", "spans": [{ "text": " – 8 – " }] },
   { "spans": [{ "text": " He is the Most Holy, the Most Glorious. " }] },
   {
     "spans": [
@@ -901,7 +906,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 9 – " }] },
+  { "number": 14, "type": "header", "spans": [{ "text": " – 9 – " }] },
   {
     "spans": [
       {
@@ -910,7 +915,7 @@
       {
         "number": 3,
         "type": "note",
-        "content": [{ "spans": [{ "text": " That is, jihad. " }] }]
+        "content": [[{ "text": " That is, jihad. " }]]
       },
       {
         "text": " Second, that ere the expiration of one thousand years whosoever advanceth a prophetic claim is false. By "
@@ -928,7 +933,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 10 – " }] },
+  { "number": 15, "type": "header", "spans": [{ "text": " – 10 – " }] },
   {
     "spans": [
       {
@@ -1144,13 +1149,11 @@
         "number": 4,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " The angel who will sound the trumpet on the Day of Resurrection. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " The angel who will sound the trumpet on the Day of Resurrection. "
+            }
+          ]
         ]
       },
       {
@@ -1283,7 +1286,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 11 – " }] },
+  { "number": 16, "type": "header", "spans": [{ "text": " – 11 – " }] },
   {
     "spans": [
       {
@@ -1397,9 +1400,10 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 12 – " }] },
-  { "type": "header", "spans": [{ "text": " Ḥúr‑i‑‘Ujáb " }] },
+  { "number": 17, "type": "header", "spans": [{ "text": " – 12 – " }] },
+  { "number": 18, "type": "header", "spans": [{ "text": " Ḥúr‑i‑‘Ujáb " }] },
   {
+    "number": 19,
     "type": "header",
     "spans": [{ "text": " (Tablet of the Wondrous Maiden) " }]
   },
@@ -1644,7 +1648,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 13 – " }] },
+  { "number": 20, "type": "header", "spans": [{ "text": " – 13 – " }] },
   { "spans": [{ "text": " He is the Most Holy, the Most Glorious. " }] },
   {
     "spans": [
@@ -1674,7 +1678,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 14 – " }] },
+  { "number": 21, "type": "header", "spans": [{ "text": " – 14 – " }] },
   {
     "spans": [
       { "text": " In the name of God, the Almighty, the All‑Bountiful! " }
@@ -1722,7 +1726,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 15 – " }] },
+  { "number": 22, "type": "header", "spans": [{ "text": " – 15 – " }] },
   {
     "spans": [
       {
@@ -1832,7 +1836,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 16 – " }] },
+  { "number": 23, "type": "header", "spans": [{ "text": " – 16 – " }] },
   {
     "spans": [
       {
@@ -1942,11 +1946,7 @@
   {
     "spans": [
       { "text": " This is the Day whereon the Spirit" },
-      {
-        "number": 5,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Jesus. " }] }]
-      },
+      { "number": 5, "type": "note", "content": [[{ "text": " Jesus. " }]] },
       { "text": " proclaimed from the midmost heart of heaven: " },
       {
         "number": 53,
@@ -2043,11 +2043,7 @@
   {
     "spans": [
       { "text": " This is the Day whereon the Point of the Bayán" },
-      {
-        "number": 6,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " The Báb. " }] }]
-      },
+      { "number": 6, "type": "note", "content": [[{ "text": " The Báb. " }]] },
       { "text": " called out from the midmost heart of Paradise, saying: " },
       {
         "number": 60,
@@ -2103,7 +2099,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 17 – " }] },
+  { "number": 24, "type": "header", "spans": [{ "text": " – 17 – " }] },
   {
     "spans": [
       { "text": " In the name of God, the Almighty, the Unconstrained! " }
@@ -2131,7 +2127,7 @@
       {
         "number": 7,
         "type": "note",
-        "content": [{ "spans": [{ "text": " A reference to tea. " }] }]
+        "content": [[{ "text": " A reference to tea. " }]]
       },
       {
         "text": " I beseech Thee, O my God, by Thy Word which Thou hast made to be the lodestone of the hearts and souls of men, the Word whereby Thou hast drawn Thy servants unto the heaven of Thy loving‑kindness and the horizon of Thy grace and bounty, to accept from the former all that they have accomplished in Thy path and to ordain for the latter the recompense of whatsoever they had purposed to accomplish. Thou, verily, art the Lord of bounty and generosity, of grace and glory. O Lord, help certain souls among them to know their own selves and to restrain their tongues, lest they utter that which would abase their stations and bring their works to naught. Thou, verily, hast power over all things. "
@@ -2150,11 +2146,7 @@
       {
         "text": " Look Thou moreover, O my God, with the glances of the eye of Thy mercy, upon Thy loved ones who are scattered in the land of Ḥá."
       },
-      {
-        "number": 8,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Haifa. " }] }]
-      },
+      { "number": 8, "type": "note", "content": [[{ "text": " Haifa. " }]] },
       {
         "text": " They have tarried there ever since they were prevented from seeking shelter beneath the shade of the Tree of Thy oneness. O Lord, deny them not the things Thou dost possess. Verily, Thou art the Ruler of the heavens and of the earth. No God is there but Thee, the Almighty, the All‑Wise. Praise be to Thee, O Lord of the worlds and Desire of all them that have recognised Thee! "
       }
@@ -2181,7 +2173,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 18 – " }] },
+  { "number": 25, "type": "header", "spans": [{ "text": " – 18 – " }] },
   { "spans": [{ "text": " In the name of God, the Most Glorious! " }] },
   {
     "spans": [
@@ -2197,7 +2189,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 19 – " }] },
+  { "number": 26, "type": "header", "spans": [{ "text": " – 19 – " }] },
   { "spans": [{ "text": " He is God. " }] },
   {
     "spans": [
@@ -2220,7 +2212,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 20 – " }] },
+  { "number": 27, "type": "header", "spans": [{ "text": " – 20 – " }] },
   { "spans": [{ "text": " He is the Most Holy, the Most Glorious. " }] },
   {
     "spans": [
@@ -2236,8 +2228,9 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 21 – " }] },
+  { "number": 28, "type": "header", "spans": [{ "text": " – 21 – " }] },
   {
+    "number": 29,
     "type": "header",
     "spans": [
       { "text": " Lawḥ‑i‑‘Á" },
@@ -2248,6 +2241,7 @@
     ]
   },
   {
+    "number": 30,
     "type": "header",
     "spans": [{ "text": " (Tablet of the Lover and the Beloved) " }]
   },
@@ -2323,7 +2317,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 22 – " }] },
+  { "number": 31, "type": "header", "spans": [{ "text": " – 22 – " }] },
   {
     "spans": [
       { "text": " In Thy name, the Most Wondrous, the Most Glorious! " }
@@ -2511,9 +2505,13 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 23 – " }] },
-  { "type": "header", "spans": [{ "text": " Súriy‑i‑Qalam " }] },
-  { "type": "header", "spans": [{ "text": " (Súrih of the Pen) " }] },
+  { "number": 32, "type": "header", "spans": [{ "text": " – 23 – " }] },
+  { "number": 33, "type": "header", "spans": [{ "text": " Súriy‑i‑Qalam " }] },
+  {
+    "number": 34,
+    "type": "header",
+    "spans": [{ "text": " (Súrih of the Pen) " }]
+  },
   {
     "spans": [
       {
@@ -2590,7 +2588,7 @@
       {
         "number": 9,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Cf. Qur’án 76:1. " }] }]
+        "content": [[{ "text": " Cf. Qur’án 76:1. " }]]
       },
       {
         "text": " These are they to whom their Lord will give to drink, from His own hands, of the sealed wine of holiness. Verily, whoso turneth his face towards this most blessed and luminous Spot, round him shall circle resplendent suns whose effulgence knoweth neither beginning nor end, and above the horizon of his heart there shall dawn that Sun of suns before Whose light the orbs of worldly names are wrapped in darkness, if ye be of them that understand. "
@@ -2644,13 +2642,11 @@
         "number": 10,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " Here begins a dialogue between the Maid of Heaven and Bahá’u’lláh, alternating from paragraph to paragraph. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " Here begins a dialogue between the Maid of Heaven and Bahá’u’lláh, alternating from paragraph to paragraph. "
+            }
+          ]
         ]
       },
       { "text": " " },
@@ -2731,7 +2727,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 24 – " }] },
+  { "number": 35, "type": "header", "spans": [{ "text": " – 24 – " }] },
   { "spans": [{ "text": " He is the Ever‑Abiding. " }] },
   {
     "spans": [
@@ -2740,7 +2736,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 25 – " }] },
+  { "number": 36, "type": "header", "spans": [{ "text": " – 25 – " }] },
   {
     "spans": [
       {
@@ -2773,13 +2769,11 @@
         "number": 11,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " Mírzá Áqá Ján, the amanuensis of Bahá’u’lláh, in whose voice the first part of this Tablet was revealed. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " Mírzá Áqá Ján, the amanuensis of Bahá’u’lláh, in whose voice the first part of this Tablet was revealed. "
+            }
+          ]
         ]
       },
       {
@@ -2835,10 +2829,18 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " Declaration of the Báb " }] },
-  { "type": "header", "spans": [{ "text": " – 26 – " }] },
-  { "type": "header", "spans": [{ "text": " Lawḥ‑i‑Náqús " }] },
-  { "type": "header", "spans": [{ "text": " (Tablet of the Bell) " }] },
+  {
+    "number": 37,
+    "type": "header",
+    "spans": [{ "text": " Declaration of the Báb " }]
+  },
+  { "number": 38, "type": "header", "spans": [{ "text": " – 26 – " }] },
+  { "number": 39, "type": "header", "spans": [{ "text": " Lawḥ‑i‑Náqús " }] },
+  {
+    "number": 40,
+    "type": "header",
+    "spans": [{ "text": " (Tablet of the Bell) " }]
+  },
   { "spans": [{ "text": " He is the All‑Glorious. " }] },
   {
     "spans": [
@@ -2860,17 +2862,15 @@
         "number": 12,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " In the Tafsír‑i‑Hú Bahá’u’lláh explains that the name “He” (or "
-              },
-              { "type": "i", "text": "Huva" },
-              {
-                "text": ", consisting of the letters Há’ and Váv) is God’s Most Great Name, for it is a mirror in which all of God’s names and attributes are reflected together. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " In the Tafsír‑i‑Hú Bahá’u’lláh explains that the name “He” (or "
+            },
+            { "type": "i", "text": "Huva" },
+            {
+              "text": ", consisting of the letters Há’ and Váv) is God’s Most Great Name, for it is a mirror in which all of God’s names and attributes are reflected together. "
+            }
+          ]
         ]
       }
     ]
@@ -2917,11 +2917,7 @@
         "number": 13,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              { "text": " That is, the letter “B” in the name “Bahá”. " }
-            ]
-          }
+          [{ "text": " That is, the letter “B” in the name “Bahá”. " }]
         ]
       },
       { "text": " Praise be to Thee, O Thou Who art " },
@@ -3201,7 +3197,7 @@
       {
         "number": 14,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 28:5. " }] }]
+        "content": [[{ "text": " Qur’án 28:5. " }]]
       },
       { "text": " Praise be to Thee, O Thou Who art " },
       { "number": 136, "type": "quote", "spans": [{ "text": "He" }] },
@@ -3210,8 +3206,9 @@
       { "text": "! " }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 27 – " }] },
+  { "number": 41, "type": "header", "spans": [{ "text": " – 27 – " }] },
   {
+    "number": 42,
     "type": "header",
     "spans": [
       { "text": " Lawḥ‑i‑" },
@@ -3222,6 +3219,7 @@
     ]
   },
   {
+    "number": 43,
     "type": "header",
     "spans": [{ "text": " (Tablet of the Immortal Youth) " }]
   },
@@ -3240,7 +3238,7 @@
       {
         "number": 15,
         "type": "note",
-        "content": [{ "spans": [{ "text": " See Qur’án 7:107. " }] }]
+        "content": [[{ "text": " See Qur’án 7:107. " }]]
       },
       {
         "text": " Rejoice! This is the immortal Youth, come with crystal waters. "
@@ -3286,7 +3284,7 @@
       {
         "number": 16,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Cf. Qur’án 12:31. " }] }]
+        "content": [[{ "text": " Cf. Qur’án 12:31. " }]]
       },
       {
         "text": " And the hearts of the inmates of the eternal realm cried out: "
@@ -3629,7 +3627,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 28 – " }] },
+  { "number": 44, "type": "header", "spans": [{ "text": " – 28 – " }] },
   {
     "spans": [
       { "text": " He is the Ever‑Abiding, the Most Exalted, the Most Great. " }
@@ -3669,14 +3667,10 @@
       {
         "number": 17,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Bahá’u’lláh. " }] }]
+        "content": [[{ "text": " Bahá’u’lláh. " }]]
       },
       { "text": " by sending forth the One" },
-      {
-        "number": 18,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " The Báb. " }] }]
-      },
+      { "number": 18, "type": "note", "content": [[{ "text": " The Báb. " }]] },
       {
         "text": " Who imparted unto humankind the glad‑tidings of this Great Announcement. This is the Day whereon the Most Great Sign appeared and proclaimed this mighty Name, captivating thereby all created things with the reviving breezes of the verses of God. Happy the one that hath recognised his Lord and is numbered with them that have attained His presence. "
       }
@@ -3710,9 +3704,14 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " Ascension of Bahá’u’lláh " }] },
-  { "type": "header", "spans": [{ "text": " – 29 – " }] },
   {
+    "number": 45,
+    "type": "header",
+    "spans": [{ "text": " Ascension of Bahá’u’lláh " }]
+  },
+  { "number": 46, "type": "header", "spans": [{ "text": " – 29 – " }] },
+  {
+    "number": 47,
     "type": "header",
     "spans": [
       { "text": " Súriy‑i‑" },
@@ -3720,7 +3719,11 @@
       { "text": "uṣn " }
     ]
   },
-  { "type": "header", "spans": [{ "text": " (Tablet of the Branch) " }] },
+  {
+    "number": 48,
+    "type": "header",
+    "spans": [{ "text": " (Tablet of the Branch) " }]
+  },
   {
     "spans": [
       { "text": " He it is Who abideth forever in the Realm of Glory. " }
@@ -3797,7 +3800,7 @@
       {
         "number": 19,
         "type": "note",
-        "content": [{ "spans": [{ "text": " See Qur’án 4:51. " }] }]
+        "content": [[{ "text": " See Qur’án 4:51. " }]]
       },
       {
         "text": " Forsake their mention, O people, and seize the cup of life in the name of your Lord, the All‑Merciful. By the righteousness of God! A single drop from this cup quickeneth all humankind, could ye but know it. "
@@ -3832,9 +3835,13 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 30 – " }] },
-  { "type": "header", "spans": [{ "text": " Lawḥ‑i‑Rasúl " }] },
-  { "type": "header", "spans": [{ "text": " (Tablet to Rasúl) " }] },
+  { "number": 49, "type": "header", "spans": [{ "text": " – 30 – " }] },
+  { "number": 50, "type": "header", "spans": [{ "text": " Lawḥ‑i‑Rasúl " }] },
+  {
+    "number": 51,
+    "type": "header",
+    "spans": [{ "text": " (Tablet to Rasúl) " }]
+  },
   {
     "spans": [
       {
@@ -3851,17 +3858,15 @@
         "number": 20,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              { "text": " “Deadly foes” (lit., “" },
-              { "type": "u", "text": "Sh" },
-              { "text": "imrs”) and “tyrant kings” (lit., “Nimrods”): " },
-              { "type": "u", "text": "Sh" },
-              {
-                "text": "imr dealt the blow that killed Imám Ḥusayn, and Nimrod was the persecutor of Abraham. "
-              }
-            ]
-          }
+          [
+            { "text": " “Deadly foes” (lit., “" },
+            { "type": "u", "text": "Sh" },
+            { "text": "imrs”) and “tyrant kings” (lit., “Nimrods”): " },
+            { "type": "u", "text": "Sh" },
+            {
+              "text": "imr dealt the blow that killed Imám Ḥusayn, and Nimrod was the persecutor of Abraham. "
+            }
+          ]
         ]
       },
       {
@@ -3919,7 +3924,7 @@
       {
         "number": 21,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Cf. Qur’án 71:14. " }] }]
+        "content": [[{ "text": " Cf. Qur’án 71:14. " }]]
       }
     ]
   },
@@ -3930,20 +3935,20 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 31 – " }] },
-  { "type": "header", "spans": [{ "text": " Lawḥ‑i‑Maryam " }] },
-  { "type": "header", "spans": [{ "text": " (Tablet to Maryam) " }] },
+  { "number": 52, "type": "header", "spans": [{ "text": " – 31 – " }] },
+  { "number": 53, "type": "header", "spans": [{ "text": " Lawḥ‑i‑Maryam " }] },
+  {
+    "number": 54,
+    "type": "header",
+    "spans": [{ "text": " (Tablet to Maryam) " }]
+  },
   { "spans": [{ "text": " Sorrowful is He at My sorrows. " }] },
   {
     "spans": [
       {
         "text": " O Maryam! The wrongs which I suffer have blotted out the wrongs suffered by My First Name"
       },
-      {
-        "number": 22,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " The Báb. " }] }]
-      },
+      { "number": 22, "type": "note", "content": [[{ "text": " The Báb. " }]] },
       {
         "text": " from the Tablet of creation. The clouds of divine decree have at every moment rained down upon this manifest Beauty the showers of tribulation. My banishment from My homeland was for the sake of none but the Beloved; My exile was in no other path save that of His good‑pleasure. In the midst of heaven‑sent trials I glowed bright as a candle, and in the face of divinely ordained afflictions I stood as firm as a mountain. In manifesting the outpourings of His grace I was even as a bounteous cloud, and in laying hold on the foes of the peerless King I was even as a burning flame. "
       }
@@ -3957,7 +3962,7 @@
       {
         "number": 23,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Imám Ḥusayn. " }] }]
+        "content": [[{ "text": " Imám Ḥusayn. " }]]
       },
       {
         "text": " shed tears of anguish at the wrongs I suffered and Abraham cast Himself into the flames for the sake of the afflictions I sustained. Wert thou to gaze with discernment, thou wouldst behold the Eye of Grandeur weeping sore beneath the tabernacle of sanctity, and the Essence of Majesty lamenting within the realms of loftiness. Unto this beareth witness the Tongue of truth and glory. "
@@ -3967,11 +3972,7 @@
   {
     "spans": [
       { "text": " O Maryam! From the land of Ṭá," },
-      {
-        "number": 24,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Ṭihrán. " }] }]
-      },
+      { "number": 24, "type": "note", "content": [[{ "text": " Ṭihrán. " }]] },
       {
         "text": " after countless afflictions, We reached ‘Iráq, at the bidding of the Tyrant of Persia,"
       },
@@ -3979,13 +3980,11 @@
         "number": 25,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              { "text": " Náṣiri’d‑Dín " },
-              { "type": "u", "text": "Sh" },
-              { "text": "áh. " }
-            ]
-          }
+          [
+            { "text": " Náṣiri’d‑Dín " },
+            { "type": "u", "text": "Sh" },
+            { "text": "áh. " }
+          ]
         ]
       },
       {
@@ -4016,18 +4015,14 @@
       {
         "text": " At last the divine decree prompted certain spiritual souls to remember this Canaanite Youth."
       },
-      {
-        "number": 26,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " Joseph. " }] }]
-      },
+      { "number": 26, "type": "note", "content": [[{ "text": " Joseph. " }]] },
       {
         "text": " Armed with a number of petitions, they searched in every place and enquired from every person, until they found in a mountain cave a trace of this traceless One. He, verily, guideth all things unto the Straight Path."
       },
       {
         "number": 27,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Cf. Qur’án 22:54. " }] }]
+        "content": [[{ "text": " Cf. Qur’án 22:54. " }]]
       },
       {
         "text": " I swear by the Day‑Star of eternal truth that the arrival of these souls so astonished and amazed this poor and exiled Soul that My pen is powerless to describe it. Perchance a steel‑sharp pen will emerge from the realm of eternity, rend the veils asunder, and reveal these secrets with perfect truth and absolute sincerity; or haply an eloquent tongue will speak and bring forth the pearls of the spirit from the shell of silence. And this indeed would not be hard of accomplishment for God. In brief, the hand of Him Who is the Unconstrained broke the seal of the mysteries—this, however, none can perceive save them that are endued with true understanding, nay rather, them that have severed themselves from all things. "
@@ -4123,9 +4118,13 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 32 – " }] },
-  { "type": "header", "spans": [{ "text": " Kitáb‑i‑‘Ahd " }] },
-  { "type": "header", "spans": [{ "text": " (Book of the Covenant) " }] },
+  { "number": 55, "type": "header", "spans": [{ "text": " – 32 – " }] },
+  { "number": 56, "type": "header", "spans": [{ "text": " Kitáb‑i‑‘Ahd " }] },
+  {
+    "number": 57,
+    "type": "header",
+    "spans": [{ "text": " (Book of the Covenant) " }]
+  },
   {
     "spans": [
       {
@@ -4143,7 +4142,7 @@
       {
         "number": 28,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 104:1–2. " }] }]
+        "content": [[{ "text": " Qur’án 104:1–2. " }]]
       },
       {
         "text": " Fleeting are the riches of the world; all that perisheth and changeth is not, and hath never been, worthy of attention, except to a recognised measure. "
@@ -4283,24 +4282,26 @@
         "number": 29,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " This translation of the Kitáb‑i‑‘Ahd was first published in "
-              },
-              {
-                "type": "i",
-                "text": "Tablets of Bahá’u’lláh Revealed after the Kitáb‑i‑Aqdas"
-              },
-              { "text": ". " }
-            ]
-          }
+          [
+            {
+              "text": " This translation of the Kitáb‑i‑‘Ahd was first published in "
+            },
+            {
+              "type": "i",
+              "text": "Tablets of Bahá’u’lláh Revealed after the Kitáb‑i‑Aqdas"
+            },
+            { "text": ". " }
+          ]
         ]
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 33 – " }] },
-  { "type": "header", "spans": [{ "text": " The Tablet of Visitation " }] },
+  { "number": 58, "type": "header", "spans": [{ "text": " – 33 – " }] },
+  {
+    "number": 59,
+    "type": "header",
+    "spans": [{ "text": " The Tablet of Visitation " }]
+  },
   {
     "spans": [
       {
@@ -4354,8 +4355,12 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " Martyrdom of the Báb " }] },
-  { "type": "header", "spans": [{ "text": " – 34 – " }] },
+  {
+    "number": 60,
+    "type": "header",
+    "spans": [{ "text": " Martyrdom of the Báb " }]
+  },
+  { "number": 61, "type": "header", "spans": [{ "text": " – 34 – " }] },
   {
     "spans": [
       {
@@ -4476,22 +4481,23 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 35 – " }] },
+  { "number": 62, "type": "header", "spans": [{ "text": " – 35 – " }] },
   {
+    "number": 63,
     "type": "header",
     "spans": [{ "text": " Excerpt from the Súriy‑i‑Nuṣḥ " }]
   },
-  { "type": "header", "spans": [{ "text": " (Súrih of Counsel) " }] },
+  {
+    "number": 64,
+    "type": "header",
+    "spans": [{ "text": " (Súrih of Counsel) " }]
+  },
   {
     "spans": [
       {
         "text": " Announce unto My servants the advent of the One Who came unto them with the power of truth bearing the name of ‘Alí,"
       },
-      {
-        "number": 30,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " The Báb. " }] }]
-      },
+      { "number": 30, "type": "note", "content": [[{ "text": " The Báb. " }]] },
       {
         "text": " Who dawned above the horizon of holiness with the splendours of a cherished glory, and from Whose right hand flowed the crystal streams of the spirit, laying bare the wonders of a hidden knowledge. "
       }
@@ -4622,12 +4628,17 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 36 – " }] },
+  { "number": 65, "type": "header", "spans": [{ "text": " – 36 – " }] },
   {
+    "number": 66,
     "type": "header",
     "spans": [{ "text": " Excerpt from the Súriy‑i‑Mulúk " }]
   },
-  { "type": "header", "spans": [{ "text": " (Súrih of the Kings) " }] },
+  {
+    "number": 67,
+    "type": "header",
+    "spans": [{ "text": " (Súrih of the Kings) " }]
+  },
   {
     "spans": [
       { "text": " Dost thou imagine, O Minister of the " },
@@ -4636,7 +4647,7 @@
       {
         "number": 31,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Constantinople. " }] }]
+        "content": [[{ "text": " Constantinople. " }]]
       },
       {
         "text": " that I hold within My grasp the ultimate destiny of the Cause of God? Thinkest thou that My imprisonment, or the shame I have been made to suffer, or even My death and utter annihilation, can deflect its course? Wretched is what thou hast imagined in thine heart! Thou art indeed of them that walk after the vain imaginings which their hearts devise. No God is there but Him. Powerful is He to manifest His Cause, and to exalt His testimony, and to establish whatsoever is His Will, and to elevate it to so eminent a position that neither thine own hands, nor the hands of them that have turned away from Him, can ever touch or harm it. "
@@ -4674,7 +4685,7 @@
       {
         "number": 32,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Qur’án 40:28. " }] }]
+        "content": [[{ "text": " Qur’án 40:28. " }]]
       },
       {
         "text": " This is what God hath revealed unto His Well‑Beloved One, in His unerring Book. "
@@ -4693,11 +4704,7 @@
       {
         "text": " Your iniquity waxed greater and greater until ye slew Him Who had never taken His eyes away from the face of God, the Most Exalted, the Most Great."
       },
-      {
-        "number": 33,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " The Báb. " }] }]
-      },
+      { "number": 33, "type": "note", "content": [[{ "text": " The Báb. " }]] },
       {
         "text": " Would that ye had put Him to death after the manner men are wont to put one another to death! Ye slew Him, however, in such circumstances as no man hath ever witnessed. The heavens wept sore over Him, and the souls of them who are nigh unto God cried out for His affliction. Was He not a Scion of your Prophet’s ancient House? Had not His fame as a direct descendant of the Apostle been spread abroad amongst you? Why, then, did ye inflict upon Him what no man, however far ye may look back, hath inflicted upon another? By God! The eye of creation hath never beheld your like. Ye slay Him Who is a Scion of your Prophet’s House, and rejoice and make merry while seated on your seats of honour! Ye utter your imprecations against them who were before you, and who have perpetrated what ye have perpetrated, and remain yourselves all the time unaware of your enormities! "
       }
@@ -4711,7 +4718,7 @@
       {
         "number": 34,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Imám Ḥusayn. " }] }]
+        "content": [[{ "text": " Imám Ḥusayn. " }]]
       },
       {
         "text": " as ye have slain the descendant of your own? Is not your conduct similar to their conduct? Wherefore, then, claim ye to be different from them, O ye sowers of dissension amongst men? "
@@ -4725,12 +4732,17 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 37 – " }] },
+  { "number": 68, "type": "header", "spans": [{ "text": " – 37 – " }] },
   {
+    "number": 69,
     "type": "header",
     "spans": [{ "text": " Excerpt from the Lawḥ‑i‑Salmán I " }]
   },
-  { "type": "header", "spans": [{ "text": " (Tablet to Salmán I) " }] },
+  {
+    "number": 70,
+    "type": "header",
+    "spans": [{ "text": " (Tablet to Salmán I) " }]
+  },
   {
     "spans": [
       {
@@ -4738,8 +4750,9 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 38 – " }] },
+  { "number": 71, "type": "header", "spans": [{ "text": " – 38 – " }] },
   {
+    "number": 72,
     "type": "header",
     "spans": [
       { "text": " Excerpt from the Súriy‑i‑" },
@@ -4747,7 +4760,11 @@
       { "text": "ikr " }
     ]
   },
-  { "type": "header", "spans": [{ "text": " (Súrih of Remembrance) " }] },
+  {
+    "number": 73,
+    "type": "header",
+    "spans": [{ "text": " (Súrih of Remembrance) " }]
+  },
   {
     "spans": [
       {
@@ -4765,11 +4782,7 @@
   {
     "spans": [
       { "text": " This is a Missive from the Primal Point" },
-      {
-        "number": 35,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " The Báb. " }] }]
-      },
+      { "number": 35, "type": "note", "content": [[{ "text": " The Báb. " }]] },
       {
         "text": " unto them that have believed in God, the One, the Peerless, the Almighty, the All‑Knowing, wherein He addresseth those among the people of the Bayán who have vacillated in this Cause, that haply they may apprehend the wondrous words of God and forsake the couch of heedlessness in this shining and resplendent morn. "
       }
@@ -4782,13 +4795,11 @@
         "number": 36,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " In paragraphs 2–15 Bahá’u’lláh speaks in the voice of the Báb. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " In paragraphs 2–15 Bahá’u’lláh speaks in the voice of the Báb. "
+            }
+          ]
         ]
       },
       {
@@ -4807,15 +4818,13 @@
         "number": 37,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              { "text": " The numerical value of the letters of the word " },
-              { "type": "i", "text": "Ḥín" },
-              {
-                "text": " is 68. “After Ḥín” is thus an allusion to the year after A.H. 1268, which was 1269 (A.D. 1852–3), the year that marked the birth of the Bahá’í Revelation. "
-              }
-            ]
-          }
+          [
+            { "text": " The numerical value of the letters of the word " },
+            { "type": "i", "text": "Ḥín" },
+            {
+              "text": " is 68. “After Ḥín” is thus an allusion to the year after A.H. 1268, which was 1269 (A.D. 1852–3), the year that marked the birth of the Bahá’í Revelation. "
+            }
+          ]
         ]
       },
       {
@@ -4848,15 +4857,13 @@
         "number": 38,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              { "text": " The letters Ḥá’ and Bá’ spell the word " },
-              { "type": "i", "text": "ḥubb" },
-              { "text": " (love), while Há’ and Váv constitute the word " },
-              { "type": "i", "text": "Huva" },
-              { "text": " (He). " }
-            ]
-          }
+          [
+            { "text": " The letters Ḥá’ and Bá’ spell the word " },
+            { "type": "i", "text": "ḥubb" },
+            { "text": " (love), while Há’ and Váv constitute the word " },
+            { "type": "i", "text": "Huva" },
+            { "text": " (He). " }
+          ]
         ]
       },
       {
@@ -4968,13 +4975,11 @@
         "number": 39,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " These invocations come from a Tablet of the Báb addressed to Mullá Báqir‑i‑Tabrízí about Him Whom God shall make manifest. "
-              }
-            ]
-          }
+          [
+            {
+              "text": " These invocations come from a Tablet of the Báb addressed to Mullá Báqir‑i‑Tabrízí about Him Whom God shall make manifest. "
+            }
+          ]
         ]
       },
       {
@@ -5024,22 +5029,23 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 39 – " }] },
+  { "number": 74, "type": "header", "spans": [{ "text": " – 39 – " }] },
   {
+    "number": 75,
     "type": "header",
     "spans": [{ "text": " Excerpt from the Súriy‑i‑Aḥzán " }]
   },
-  { "type": "header", "spans": [{ "text": " (Súrih of Sorrows) " }] },
+  {
+    "number": 76,
+    "type": "header",
+    "spans": [{ "text": " (Súrih of Sorrows) " }]
+  },
   {
     "spans": [
       {
         "text": " Would that thou wert standing at this moment before the Throne and couldst hear how the melodies of eternity issue from the Temple of Bahá! By the one true God, should His creatures but cleanse their ears, and should they hear but a single strain of these melodies, they would, one and all, fall thunderstruck upon the dust in the presence of thy Lord, the All‑Glorious, the Most Bountiful. Since, however, they have contended with God, He hath denied them the wonders of His grace and hath reckoned them in His sight as discarded lumps of clay. By God! Wert thou to consider their words, thou wouldst hear what was never heard from the Jews when We sent the Spirit unto them with a perspicuous Book, nor from the concourse of the Gospel when We caused the Day‑Star of eternity to dawn above the horizon of Mecca with world‑illumining splendours, nor yet from the people of the Qur’án when the heavens of divine knowledge were cleft asunder and God manifested Himself, with the power of the truth and in the shadow of His All‑Merciful Name, in the beauty of ‘Alí."
       },
-      {
-        "number": 40,
-        "type": "note",
-        "content": [{ "spans": [{ "text": " The Báb. " }] }]
-      }
+      { "number": 40, "type": "note", "content": [[{ "text": " The Báb. " }]] }
     ]
   },
   {
@@ -5058,15 +5064,13 @@
         "number": 41,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " The Súriy‑i‑Aḥzán was revealed for Mírzá ‘Alíy‑i‑Sayyáḥ‑i‑Mará"
-              },
-              { "type": "u", "text": "gh" },
-              { "text": "ih’í. " }
-            ]
-          }
+          [
+            {
+              "text": " The Súriy‑i‑Aḥzán was revealed for Mírzá ‘Alíy‑i‑Sayyáḥ‑i‑Mará"
+            },
+            { "type": "u", "text": "gh" },
+            { "text": "ih’í. " }
+          ]
         ]
       },
       {
@@ -5118,8 +5122,12 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " Birth of the Báb " }] },
-  { "type": "header", "spans": [{ "text": " – 40 – " }] },
+  {
+    "number": 77,
+    "type": "header",
+    "spans": [{ "text": " Birth of the Báb " }]
+  },
+  { "number": 78, "type": "header", "spans": [{ "text": " – 40 – " }] },
   {
     "spans": [
       {
@@ -5222,7 +5230,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 41 – " }] },
+  { "number": 79, "type": "header", "spans": [{ "text": " – 41 – " }] },
   {
     "spans": [
       {
@@ -5259,7 +5267,7 @@
       {
         "number": 42,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Of the Bab. " }] }]
+        "content": [[{ "text": " Of the Bab. " }]]
       },
       {
         "text": " that thou mayest recite it in a spirit of humility and supplication and give thanks unto thy Lord, the All‑Knowing, the All‑Informed. Make thou every effort to render service unto God, that from thee may appear that which will immortalise thy memory in His glorious and exalted heaven. "
@@ -5280,26 +5288,32 @@
         "number": 43,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " This selection, with the exception of the invocation, was first published in "
-              },
-              {
-                "type": "i",
-                "text": "Tablets of Bahá’u’lláh Revealed after the Kitáb‑i‑Aqdas"
-              },
-              { "text": ". " }
-            ]
-          }
+          [
+            {
+              "text": " This selection, with the exception of the invocation, was first published in "
+            },
+            {
+              "type": "i",
+              "text": "Tablets of Bahá’u’lláh Revealed after the Kitáb‑i‑Aqdas"
+            },
+            { "text": ". " }
+          ]
         ]
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " Birth of Bahá’u’lláh " }] },
-  { "type": "header", "spans": [{ "text": " – 42 – " }] },
-  { "type": "header", "spans": [{ "text": " Lawḥ‑i‑Mawlúd " }] },
-  { "type": "header", "spans": [{ "text": " (Tablet of the Birth) " }] },
+  {
+    "number": 80,
+    "type": "header",
+    "spans": [{ "text": " Birth of Bahá’u’lláh " }]
+  },
+  { "number": 81, "type": "header", "spans": [{ "text": " – 42 – " }] },
+  { "number": 82, "type": "header", "spans": [{ "text": " Lawḥ‑i‑Mawlúd " }] },
+  {
+    "number": 83,
+    "type": "header",
+    "spans": [{ "text": " (Tablet of the Birth) " }]
+  },
   {
     "spans": [
       {
@@ -5322,7 +5336,7 @@
       {
         "number": 44,
         "type": "note",
-        "content": [{ "spans": [{ "text": " Cf. Qur’án, súrih 97. " }] }]
+        "content": [[{ "text": " Cf. Qur’án, súrih 97. " }]]
       },
       {
         "text": " wherein the angels and the Spirit have come down bearing cups filled at the streams of Paradise, the night wherein Heaven itself was adorned with the ornament of God, the Almighty, the All‑Gracious, the Most Bountiful, wherein every created thing was brought to life, and all the peoples of the earth were surrounded by His grace. All joy to the concourse of the Spirit for this manifest and resplendent bounty! "
@@ -5338,13 +5352,11 @@
         "number": 45,
         "type": "note",
         "content": [
-          {
-            "spans": [
-              {
-                "text": " Jibt, Manát, and ‘Uzzá are the names of idols worshipped in the days of the pagan Arabs and mentioned in the Qur’án (4:51 and 53:19–20). "
-              }
-            ]
-          }
+          [
+            {
+              "text": " Jibt, Manát, and ‘Uzzá are the names of idols worshipped in the days of the pagan Arabs and mentioned in the Qur’án (4:51 and 53:19–20). "
+            }
+          ]
         ]
       },
       {
@@ -5429,7 +5441,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 43 – " }] },
+  { "number": 84, "type": "header", "spans": [{ "text": " – 43 – " }] },
   {
     "spans": [
       { "text": " He is the Most Holy, the Most Exalted, the Most Great. " }
@@ -5477,7 +5489,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 44 – " }] },
+  { "number": 85, "type": "header", "spans": [{ "text": " – 44 – " }] },
   { "spans": [{ "text": " He is God. " }] },
   {
     "spans": [
@@ -5656,7 +5668,7 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " – 45 – " }] },
+  { "number": 86, "type": "header", "spans": [{ "text": " – 45 – " }] },
   { "spans": [{ "text": " He is the Most Holy, the Most Great. " }] },
   {
     "spans": [
@@ -5688,20 +5700,37 @@
       }
     ]
   },
-  { "type": "header", "spans": [{ "text": " Notes " }] },
-  { "type": "header", "spans": [{ "text": "Preface" }] },
-  { "type": "header", "spans": [{ "text": "Riḍván" }] },
-  { "type": "header", "spans": [{ "text": "Declaration of the Báb" }] },
-  { "type": "header", "spans": [{ "text": "Ascension of Bahá’u’lláh" }] },
-  { "type": "header", "spans": [{ "text": "Martyrdom of the Báb" }] },
-  { "type": "header", "spans": [{ "text": "Birth of the Báb" }] },
-  { "type": "header", "spans": [{ "text": "Birth of Bahá’u’lláh" }] },
+  { "number": 87, "type": "header", "spans": [{ "text": " Notes " }] },
+  { "number": 88, "type": "header", "spans": [{ "text": "Preface" }] },
+  { "number": 89, "type": "header", "spans": [{ "text": "Riḍván" }] },
   {
+    "number": 90,
+    "type": "header",
+    "spans": [{ "text": "Declaration of the Báb" }]
+  },
+  {
+    "number": 91,
+    "type": "header",
+    "spans": [{ "text": "Ascension of Bahá’u’lláh" }]
+  },
+  {
+    "number": 92,
+    "type": "header",
+    "spans": [{ "text": "Martyrdom of the Báb" }]
+  },
+  { "number": 93, "type": "header", "spans": [{ "text": "Birth of the Báb" }] },
+  {
+    "number": 94,
+    "type": "header",
+    "spans": [{ "text": "Birth of Bahá’u’lláh" }]
+  },
+  {
+    "number": 95,
     "type": "header",
     "spans": [{ "text": " Key to Passages Translated by Shoghi Effendi " }]
   },
-  { "type": "header", "spans": [{ "text": " Abbreviations " }] },
-  { "type": "header", "spans": [{ "text": " Selection " }] },
+  { "number": 96, "type": "header", "spans": [{ "text": " Abbreviations " }] },
+  { "number": 97, "type": "header", "spans": [{ "text": " Selection " }] },
   {
     "spans": [
       { "text": " The entire Tablet, except the invocation (PMB XLVI) " }
