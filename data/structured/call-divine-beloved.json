@@ -178,7 +178,10 @@
         "text": " This treatise was revealed in the language of the people, in the days prior to Our Declaration. The occasion for its revelation was the receipt of a letter addressed to the Most Holy Court in ‘Iráq from a man of Sunní persuasion, who was both a scholar and a mystic. This treatise was therefore revealed, in accordance with divine wisdom, in the manner that was current amongst the people. However, in this day, every soul who hath fixed his gaze upon the Supreme Horizon, and hath recognised the one true God, hath verily attained unto every one of the seven valleys or seven stations mentioned therein."
       }
     ],
-    "source": { "info": "Previously untranslated Tablet." }
+    "source": {
+      "author": "Bahá’u’lláh",
+      "info": "Previously untranslated Tablet."
+    }
   },
   {
     "spans": [
@@ -731,7 +734,7 @@
             "text": "Whoso seeketh out a thing and persisteth with zeal shall find it."
           }
         ],
-        "source": { "book": "Arabic proverb" }
+        "source": { "info": "Arabic proverb." }
       }
     ]
   },

@@ -24,7 +24,8 @@ const books = [
   'Gleanings from the Writings of Bahá’u’lláh',
   'Qur’án',
   'Ḥadíth',
-  'Arabic proverb',
+  '2 Corinthians',
+  'Kitáb‑i‑Íqán',
 ];
 
 const parseSingleRef = (parts) => {
@@ -58,6 +59,8 @@ const parseSingleRef = (parts) => {
     return romanToArab(parts.shift());
   } else if (/^¶ /.test(parts[0])) {
     return parseInt(parts.shift().slice(2), 10);
+  } else if (/\d+/.test(parts[0])) {
+    return parseInt(parts.shift(), 10);
   }
 };
 const parseRef = (parts) => {
@@ -67,16 +70,18 @@ const parseRef = (parts) => {
   return result.length <= 1 ? result[0] : result;
 };
 
-const parseSource = (spans) => {
-  const text = spans
-    .map((s) => s.text)
-    .join('')
-    .replace(/from an?/gi, '')
-    .replace(/prayer attributed to/gi, '')
-    .replace(/attributed to/gi, '')
-    .replace(/prayer of/gi, '')
-    .replace(/poem of/gi, '')
-    .trim();
+const parseSource = (spans, extra = '') => {
+  const text =
+    extra +
+    spans
+      .map((s) => s.text)
+      .join('')
+      .replace(/from an?/gi, '')
+      .replace(/prayer attributed to/gi, '')
+      .replace(/attributed to/gi, '')
+      .replace(/prayer of/gi, '')
+      .replace(/poem of/gi, '')
+      .trim();
   const parts = (text[text.length - 1] === '.' ? text.slice(0, -1) : text)
     .split(/\s*(\([^\)]*\))\s*/g)
     .reduce(
@@ -86,13 +91,13 @@ const parseSource = (spans) => {
           : [
               ...res,
               ...t
-                .split(/[.,;]\s*/g)
+                .split(/\s*[.,;¶]\s*/g)
                 .reduce(
                   (res, x) => [...res, ...x.split(/\s*(\d+:\s*\d+(?:–\d+)?)/g)],
-                  [],
+                  [] as any[],
                 ),
             ],
-      [],
+      [] as any[],
     )
     .filter((t) => t);
   const cf = parts[0].toLowerCase() === 'cf' ? !!parts.shift() : undefined;
@@ -116,7 +121,10 @@ const parseSource = (spans) => {
 process(
   'parsed',
   'structured',
-  (data, { quotes = {}, skipNotes = [] as any[], sliceNotes = {} }) => {
+  (
+    data,
+    { quotes = {}, skipNotes = [] as any[], sliceNotes = {}, extraNotes = {} },
+  ) => {
     const combineQuotes = (spans) => {
       const result = [] as any[];
       let quoteRun = 0;
@@ -163,10 +171,10 @@ process(
                 s.content[0].spans,
                 sliceNotes[s.number],
               );
-              q.source = parseSource(source);
+              q.source = parseSource(source, extraNotes[s.number]);
               result.push({ ...s, content: [{ spans: note }] });
             } else {
-              q.source = parseSource(s.content[0].spans);
+              q.source = parseSource(s.content[0].spans, extraNotes[s.number]);
             }
           } else {
             result.push(s);
@@ -202,10 +210,13 @@ process(
             l.content[0].spans,
             sliceNotes[l.number],
           );
-          x.source = parseSource(source);
+          x.source = parseSource(source, extraNotes[l.number]);
           l.content[0].spans = note;
         } else {
-          x.source = parseSource(x.spans.pop().content[0].spans);
+          x.source = parseSource(
+            x.spans.pop().content[0].spans,
+            extraNotes[l.number],
+          );
         }
         delete x.source.number;
       }
@@ -214,12 +225,12 @@ process(
         spans: removePlainQuotes(addSources(combineQuotes(x.spans))),
       };
     });
-    // res.forEach((x) => {
-    //   if (x.source) console.log(JSON.stringify(x.source, null, 2));
-    //   x.spans?.forEach((s) => {
-    //     if (s.source) console.log(JSON.stringify(s.source, null, 2));
-    //   });
-    // });
+    res.forEach((x) => {
+      if (x.source) console.log(JSON.stringify(x.source, null, 2));
+      x.spans?.forEach((s) => {
+        if (s.source) console.log(JSON.stringify(s.source, null, 2));
+      });
+    });
     return res;
   },
 );

@@ -28,7 +28,7 @@
           { "type": "join", "spans": [{ "text": " and " }] },
           { "text": "all things are become new" }
         ],
-        "source": { "info": "2 Corinthians." }
+        "source": { "book": "2 Corinthians", "ref": [5, 17] }
       },
       { "text": "." },
       {
@@ -43,7 +43,7 @@
         "text": " Reflect thou, how, in one hand, He hath, by His mighty grasp, turned the earth of knowledge and understanding, previously unfolded, into a mere handful, and, on the other, spread out a new and highly exalted earth in the hearts of men, thus causing the freshest and loveliest blossoms, and the mightiest and loftiest trees to spring forth from the illumined bosom of man."
       }
     ],
-    "source": { "info": "Kitáb‑i‑Íqán ¶51." }
+    "source": { "book": "Kitáb‑i‑Íqán", "ref": 51 }
   },
   {
     "spans": [
