@@ -3,7 +3,7 @@ import { last, sortMultiple } from './utils';
 
 const getLevel = (levels, header, index) => {
   if (Array.isArray(levels)) return levels[index];
-  return levels[header] || levels[''];
+  return levels[header?.trim()] ?? levels[''];
 };
 
 const hash = (s) => {
@@ -65,7 +65,7 @@ const structure = (data, url, levelsConfig) => {
   const chunks = {};
   const levels = data
     .filter((d) => d.type === 'header')
-    .map((h, i) => getLevel(levelsConfig, h.content, i));
+    .map((h, i) => getLevel(levelsConfig, h.spans?.[0].text, i));
   const content = data
     .map(({ type, spans, ...other }) => {
       const level =
