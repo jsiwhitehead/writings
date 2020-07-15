@@ -247,9 +247,7 @@ const parse = (data) => {
 };
 
 process('downloaded', 'parsed', (html) => {
-  const result = parse(
-    unified().use(rehype, { footnotes: true }).parse(html).children,
-  );
+  const result = parse(unified().use(rehype).parse(html).children);
   let headerCount = 0;
   return result.map((x) => {
     if (x.type !== 'header') return x;

@@ -9,64 +9,50 @@
       margin: 0 auto,
       color: \#333,
     ],
-  @url
-  .1
-  .[
-    group=>
-      {
-        (
-          @group = d,
+  {
+    para:
+      [
+        span=>>
           [
-            [
-              style: ['padding-bottom': 10px],
-              \« Back,
-              mouse:~ ,
-              @mouse.left = down | [] -> @url,
-            ],
-            @data
-            .[v=>> (@v.title.@simple = @url.2, @v)]
-            .1
-            .items
-            .[x=>> @x.@paragraph],
+            : span,
+            style:
+              [
+                'font-weight': (@span.type = b, bold),
+                'font-style': (@span.type = i, italic),
+                'text-decoration': (@span.type = u, underline),
+              ],
+            @span.content,
           ],
-        ),
-        (@group, @page.[@group, @url.2]),
-        @stack
-        .40
-        .[
+      ],
+    titlesX: @data.outline.[v=>> : (@v.2.[=>> ], [@v])],
+    titles: @data.outline,
+    @stack
+    .20
+    .(
+      @titles
+      .[
+        v=>>
           [
-            [style: ['font-size': 30px, 'font-weight': bold], Author],
-            @data
-            .[v=>> @v.author: true]
-            .[
-              v=> k=>
-                :
-                  [
-                    [
-                      @k,
-                      mouse:~ ,
-                      @mouse.left = down | [author, @simple.@k] -> @url,
-                    ],
-                  ],
-            ],
+            style:
+              [
+                'font-weight': bold,
+                'font-size':
+                  (@v.2.[=>> ], (16 * '1.12' ^ (3 - @v.1))px, => 16px),
+                'padding-left': (30 * (@v.1 - 1))px,
+              ],
+            (
+              @v.2.[=>> ],
+              @v.2.[x=>> @x.@para],
+              =>
+                [
+                  mouse:~ ,
+                  @mouse.left = down | [@v.2] -> @url,
+                  style: [color: '#3498db'],
+                  Read,
+                ],
+            ),
           ],
-          [
-            [style: ['font-size': 30px, 'font-weight': bold], Category],
-            @data
-            .[v=>> @v.type: true]
-            .[
-              v=> k=>
-                :
-                  [
-                    [
-                      @k,
-                      mouse:~ ,
-                      @mouse.left = down | [category, @simple.@k] -> @url,
-                    ],
-                  ],
-            ],
-          ],
-        ],
-      },
-  ],
+      ],
+    ),
+  },
 ]

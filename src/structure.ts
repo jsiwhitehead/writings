@@ -36,11 +36,10 @@ const flattenSpans = (spans) => {
         content: s.content.map((x) => flattenSpans(x)),
       });
     } else {
-      result.content += s.text;
-      result.content = result.content
-        .replace(/\s+$/g, ' ')
-        .replace(/￿/g, '')
-        .trimLeft();
+      result.content += result.content.endsWith(' ')
+        ? (s.text || '').trimLeft()
+        : s.text || '';
+      result.content = result.content.replace(/￿/g, '').trimLeft();
       if (s.type) {
         const end = result.content.length;
         result.spans.push({ start, end, type: s.type });
@@ -81,9 +80,10 @@ const structure = (data, url, levelsConfig) => {
         index[level]++;
       }
       const chunk = hash(url + index.slice(0, -1).join('.'));
-      const content = spans ? flattenSpans(spans) : {};
+      const content = spans ? flattenSpans(spans) : ({} as any);
+      inHeader = type === 'header';
       if (type === 'header') {
-        if (spans) {
+        if (spans && !/^\d+$/.test(content.content)) {
           titles[index.join('.')] = [
             ...(titles[index.join('.')] || []),
             content,
@@ -91,17 +91,16 @@ const structure = (data, url, levelsConfig) => {
         }
       } else {
         chunks[index.slice(0, -1).join('.')] = chunk;
+        return {
+          ...other,
+          ...content,
+          // index: index.join('.'),
+          chunk,
+          item: last(index),
+        };
       }
-      inHeader = type === 'header';
-      return {
-        ...other,
-        ...content,
-        index: index.join('.'),
-        chunk,
-        item: last(index),
-      };
     })
-    .filter((x) => x.type !== 'header');
+    .filter((x) => x);
   const outline = [
     ...Object.keys(titles).map((k) => [
       k.split('.').map((x) => parseInt(x, 10)),
