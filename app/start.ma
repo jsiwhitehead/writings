@@ -24,35 +24,27 @@
             @span.content,
           ],
       ],
-    titlesX: @data.outline.[v=>> : (@v.2.[=>> ], [@v])],
-    titles: @data.outline,
-    @stack
-    .20
-    .(
-      @titles
-      .[
-        v=>>
+    hovered:~ ,
+    render:
+      [
+        layer=> i=>
           [
+            mouse:~ ,
+            @mouse | @layer.text -> @hovered,
             style:
               [
-                'font-weight': bold,
-                'font-size':
-                  (@v.2.[=>> ], (16 * '1.12' ^ (3 - @v.1))px, => 16px),
-                'padding-left': (30 * (@v.1 - 1))px,
+                padding: 10px 20px,
+                'padding-bottom': (@layer.content, 10px, 0px),
+                background: (@startswith.[@layer.text, @hovered], lightgrey),
+                cursor: pointer,
               ],
-            (
-              @v.2.[=>> ],
-              @v.2.[x=>> @x.@para],
-              =>
-                [
-                  mouse:~ ,
-                  @mouse.left = down | [@v.2] -> @url,
-                  style: [color: '#3498db'],
-                  Read,
-                ],
-            ),
+            [
+              style: ['padding-bottom': (@layer.content, 0px, 10px)],
+              (@layer.title, @layer.title.[v=>> @v.@para], => Part (@i)),
+            ],
+            @layer.content.@render,
           ],
       ],
-    ),
+    @render.[@data.outline],
   },
 ]

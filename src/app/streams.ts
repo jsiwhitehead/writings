@@ -1,4 +1,4 @@
-import { fromJs, resolve, streamMap, toJs } from 'maraca';
+import { fromJs, print, resolve, streamMap, toJs } from 'maraca';
 import * as webfont from 'webfontloader';
 
 import parseColor from './color';
@@ -34,6 +34,12 @@ const nestContent = (content, spans = [] as any[]) => {
   return result.filter((x) => x.content);
 };
 
+const nestOutline = ({ title, content, text }) => ({
+  title: title?.map((x) => nestContent(x.content, x.spans)),
+  content: content?.map((x) => nestOutline(x)),
+  text,
+});
+
 // const loadData = async () => {
 //   const files = (await fs.readdir('./src/books')).map((f) => f.slice(0, -5));
 //   const data = await Promise.all(
@@ -49,19 +55,19 @@ const map = (func) =>
 
 export default {
   data: fromJs({
-    outline: data.outline.map((x) => [
-      x[0],
-      Array.isArray(x[1])
-        ? x[1].map((y) => nestContent(y.content, y.spans))
-        : x[1],
-    ]),
+    outline: nestOutline(data.outline),
     content: data.content.map((x) => ({
       ...x,
       content: nestContent(x.content, x.spans),
     })),
   }),
-  hcl: map((color) => parseColor(color.type === 'value' ? color.value : '')),
+  hcl: map((color) => parseColor(toJs(color, 'string'))),
   simple: map((s) =>
     (toJs(s, 'string') || '').replace(/\s+/g, '-').toLowerCase(),
   ),
+  startswith: map((x) => {
+    const [a, b] = toJs(x, ['string']);
+    return a.startsWith(b);
+  }),
+  print: map((x) => print(x, (a) => a)),
 };

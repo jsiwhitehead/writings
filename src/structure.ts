@@ -1,22 +1,21 @@
 import process from './process';
-import { last, sortMultiple } from './utils';
+import { last } from './utils';
 
 const getLevel = (levels, header, index) => {
   if (Array.isArray(levels)) return levels[index];
   return levels[header?.trim()] ?? levels[''];
 };
 
-const hash = (s) => {
-  let hash = 0;
-  let i;
-  let chr;
-  for (i = 0; i < s.length; i++) {
-    chr = s.charCodeAt(i);
-    hash = (hash << 5) - hash + chr;
-    hash |= 0;
-  }
-  return hash;
-};
+const set = (data, index, key, value) =>
+  index.reduce((res, i, j) => {
+    if (!res.content) res.content = [];
+    if (!res.content[i - 1]) res.content[i - 1] = {};
+    if (j === index.length - 1) {
+      res.content[i - 1][key] =
+        typeof value === 'function' ? value(res.content[i - 1][key]) : value;
+    }
+    return res.content[i - 1];
+  }, data);
 
 const flattenSpans = (spans) => {
   const result = { spans: [] as any[], content: '' };
@@ -56,12 +55,11 @@ const flattenSpans = (spans) => {
   return result;
 };
 
-const structure = (data, url, levelsConfig) => {
+const structure = (data, _, levelsConfig) => {
   let header = 0;
   let index = [];
   let inHeader = false;
-  const titles = {};
-  const chunks = {};
+  const outline = {} as any;
   const levels = data
     .filter((d) => d.type === 'header')
     .map((h, i) => getLevel(levelsConfig, h.spans?.[0].text, i));
@@ -79,41 +77,25 @@ const structure = (data, url, levelsConfig) => {
         index = index.slice(0, level + 1);
         index[level]++;
       }
-      const chunk = hash(url + index.slice(0, -1).join('.'));
-      const content = spans ? flattenSpans(spans) : ({} as any);
+      const content = spans && flattenSpans(spans);
       inHeader = type === 'header';
       if (type === 'header') {
-        if (spans && !/^\d+$/.test(content.content)) {
-          titles[index.join('.')] = [
-            ...(titles[index.join('.')] || []),
-            content,
-          ];
+        if (content && !/^(\d+|– \d+ –)$/.test(content.content)) {
+          set(outline, index, 'title', (v) => [...(v || []), content]);
         }
+        set(outline, index.slice(0, -1), 'text', index.slice(0, -1).join('.'));
       } else {
-        chunks[index.slice(0, -1).join('.')] = chunk;
+        set(outline, index.slice(0, -1), 'text', index.slice(0, -1).join('.'));
         return {
           ...other,
-          ...content,
-          // index: index.join('.'),
-          chunk,
+          ...(content || {}),
+          index: index.join('.'),
           item: last(index),
         };
       }
     })
     .filter((x) => x);
-  const outline = [
-    ...Object.keys(titles).map((k) => [
-      k.split('.').map((x) => parseInt(x, 10)),
-      titles[k],
-    ]),
-    ...Object.keys(chunks).map((k) => [
-      k.split('.').map((x) => parseInt(x, 10)),
-      chunks[k],
-    ]),
-  ]
-    .sort((a, b) => sortMultiple(a[0], b[0], (a, b) => a - b))
-    .map(([k, v]) => [k.length, v]);
-  return { content, outline };
+  return { content, outline: outline.content[0] };
 };
 
 process('organised', 'structured', (data, { url, levels }) => {
