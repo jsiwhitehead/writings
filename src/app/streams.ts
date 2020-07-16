@@ -70,4 +70,19 @@ export default {
     return a.startsWith(b);
   }),
   print: map((x) => print(x, (a) => a)),
+  smooth: fromJs((x) => (set, get) => {
+    let current;
+    let timeout;
+    return () => {
+      const v = resolve(x, get).value;
+      if (v !== current) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => {
+          set(fromJs(current));
+          timeout = null;
+        }, 25);
+      }
+      current = v;
+    };
+  }),
 };
