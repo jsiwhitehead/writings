@@ -22,16 +22,29 @@ const nestContent = (content, spans = [] as any[]) => {
           start,
         ),
       },
-      { ...info, content: content.slice(start, end ?? start) },
+      ...(info.type === 'quote'
+        ? info.content.reduce(
+            (r, c, i) => [
+              ...r,
+              ...nestContent(c.content, c.spans).map((x) => ({
+                ...(i % 2 === 0 ? info : {}),
+                ...x,
+              })),
+            ],
+            [],
+          )
+        : [{ ...info, content: content.slice(start, end ?? start) }]),
     ],
     [],
   );
   result.push({
     content: sorted.length
-      ? content.slice(sorted[sorted.length - 1].end)
+      ? content.slice(
+          sorted[sorted.length - 1].end ?? sorted[sorted.length - 1].start,
+        )
       : content,
   });
-  return result.filter((x) => x.content);
+  return result.filter((x) => x.content || x.type === 'break');
 };
 
 const nestOutline = ({ title, content, text }) => ({
@@ -53,14 +66,25 @@ const nestOutline = ({ title, content, text }) => ({
 const map = (func) =>
   fromJs((x) => streamMap((get) => fromJs(func(resolve(x, get)))));
 
+const nestedOutline = nestOutline(data.outline);
+
+const flattenOutline = ({ content, ...outline }) => [
+  outline,
+  ...(content
+    ? content.reduce((res, c) => [...res, ...flattenOutline(c)], [] as any)
+    : outline.title
+    ? [{ text: outline.text }]
+    : []),
+];
+
 export default {
-  data: fromJs({
-    outline: nestOutline(data.outline),
-    content: data.content.map((x) => ({
+  outline: fromJs(nestedOutline),
+  data: fromJs(
+    data.content.map((x) => ({
       ...x,
       content: nestContent(x.content, x.spans),
     })),
-  }),
+  ),
   hcl: map((color) => parseColor(toJs(color, 'string'))),
   simple: map((s) =>
     (toJs(s, 'string') || '').replace(/\s+/g, '-').toLowerCase(),
@@ -84,5 +108,13 @@ export default {
       }
       current = v;
     };
+  }),
+  split: map((x) => toJs(x, 'string').split('.')),
+  getContent: map((x) => {
+    const index = toJs(x, ['number']);
+    const subset = index
+      .slice(1)
+      .reduce((res, i) => res.content[i - 1], nestedOutline);
+    return flattenOutline(subset);
   }),
 };

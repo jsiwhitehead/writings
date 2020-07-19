@@ -87,6 +87,9 @@ const structure = (data, _, levelsConfig) => {
       } else {
         set(outline, index.slice(0, -1), 'text', index.slice(0, -1).join('.'));
         return {
+          type: content?.spans?.some((x) => x.type === 'break')
+            ? 'lines'
+            : type,
           ...other,
           ...(content || {}),
           index: index.join('.'),

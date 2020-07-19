@@ -171,6 +171,7 @@
     {
       "index": "1.1.7",
       "item": 7,
+      "type": "block",
       "content": "This treatise was revealed in the language of the people, in the days prior to Our Declaration. The occasion for its revelation was the receipt of a letter addressed to the Most Holy Court in ‘Iráq from a man of Sunní persuasion, who was both a scholar and a mystic. This treatise was therefore revealed, in accordance with divine wisdom, in the manner that was current amongst the people. However, in this day, every soul who hath fixed his gaze upon the Supreme Horizon, and hath recognised the one true God, hath verily attained unto every one of the seven valleys or seven stations mentioned therein.",
       "source": {
         "author": "Bahá’u’lláh",
@@ -217,6 +218,7 @@
     {
       "index": "1.2.1",
       "item": 1,
+      "type": "lines",
       "spans": [
         {
           "start": 71,
@@ -234,114 +236,133 @@
     {
       "index": "1.2.2",
       "item": 2,
+      "type": "lines",
       "spans": [{ "end": 58, "start": 58, "type": "break" }],
       "content": "Upon the Eastern wind Cathay’s entrancing musk doth waft; This sweetly scented breeze from Our curling locks is raining down."
     },
     {
       "index": "1.2.3",
       "item": 3,
+      "type": "lines",
       "spans": [{ "end": 67, "start": 67, "type": "break" }],
       "content": "The day‑star of adornment hath dawned forth above the face of God; Behold that mystic truth which from His Countenance is raining down."
     },
     {
       "index": "1.2.4",
       "item": 4,
+      "type": "lines",
       "spans": [{ "end": 61, "start": 61, "type": "break" }],
       "content": "The sea of purity hath from the wave of true reunion surged; This precious, rare bestowal from Our rapture is raining down."
     },
     {
       "index": "1.2.5",
       "item": 5,
+      "type": "lines",
       "spans": [{ "end": 62, "start": 62, "type": "break" }],
       "content": "The treasuries of love lay hid within the very heart of Fárs; From out this treasure trove the pearls of faithfulness are raining down."
     },
     {
       "index": "1.2.6",
       "item": 6,
+      "type": "lines",
       "spans": [{ "end": 67, "start": 67, "type": "break" }],
       "content": "The splendour of the rose doth bring the ecstasy of choicest wine; This subtle music from the ringing tones of Lordship is raining down."
     },
     {
       "index": "1.2.7",
       "item": 7,
+      "type": "lines",
       "spans": [{ "end": 71, "start": 71, "type": "break" }],
       "content": "The trumpet‑blast of Judgement Day, the joyful bliss of heaven’s call— Both at a single breath are from the firmament now raining down."
     },
     {
       "index": "1.2.8",
       "item": 8,
+      "type": "lines",
       "spans": [{ "end": 65, "start": 65, "type": "break" }],
       "content": "The Day of “I am He” is made to shine resplendent from Our face; The Age of “He is He” from out Our flowing cup is raining down."
     },
     {
       "index": "1.2.9",
       "item": 9,
+      "type": "lines",
       "spans": [{ "end": 70, "start": 70, "type": "break" }],
       "content": "From out the fountain of Our heart hath God’s celestial river flowed; This cup of honeyed nectar from Our ruby lips is raining down."
     },
     {
       "index": "1.2.10",
       "item": 10,
+      "type": "lines",
       "spans": [{ "end": 73, "start": 73, "type": "break" }],
       "content": "The Day of God hath been fulfilled, for lo, the Lord hath been unveiled; This wondrous message from the melody of Ṭá’ is raining down."
     },
     {
       "index": "1.2.11",
       "item": 11,
+      "type": "lines",
       "spans": [{ "end": 64, "start": 64, "type": "break" }],
       "content": "Behold Bahá’s outpouring grace, the bounty of the clouds above, Which, merged into a single song, in God’s own voice is raining down."
     },
     {
       "index": "1.2.12",
       "item": 12,
+      "type": "lines",
       "spans": [{ "end": 60, "start": 60, "type": "break" }],
       "content": "Behold the Lord’s leviathan, behold His sacred countenance; Behold the blessings of the heart that from His throne are raining down."
     },
     {
       "index": "1.2.13",
       "item": 13,
+      "type": "lines",
       "spans": [{ "end": 62, "start": 62, "type": "break" }],
       "content": "Behold the Palm of Paradise, behold the warbling of the Dove; Behold the glorious hymns that in the purest light are raining down."
     },
     {
       "index": "1.2.14",
       "item": 14,
+      "type": "lines",
       "spans": [{ "end": 65, "start": 65, "type": "break" }],
       "content": "Behold the soul‑entrancing song, behold the beating of the drum, Behold the sacred rhythms that from Our hand are raining down."
     },
     {
       "index": "1.2.15",
       "item": 15,
+      "type": "lines",
       "spans": [{ "end": 60, "start": 60, "type": "break" }],
       "content": "Behold the Countenance Divine! Behold the Maid of Paradise! Behold the grace upon the world from Our own presence raining down."
     },
     {
       "index": "1.2.16",
       "item": 16,
+      "type": "lines",
       "spans": [{ "end": 64, "start": 64, "type": "break" }],
       "content": "Behold the everlasting Face! Behold the chalice‑bearer’s charm! Behold the crystal draught that from Our brimming cup is raining down."
     },
     {
       "index": "1.2.17",
       "item": 17,
+      "type": "lines",
       "spans": [{ "end": 59, "start": 59, "type": "break" }],
       "content": "Behold the fire of Moses, see His hand that shineth white; Behold the heart of Sinai—from Our hand all raining down."
     },
     {
       "index": "1.2.18",
       "item": 18,
+      "type": "lines",
       "spans": [{ "end": 67, "start": 67, "type": "break" }],
       "content": "Hear ye the sotted lovers’ sighs, behold the garden blooming fair; Behold the bliss that from His presence in your midst is raining down."
     },
     {
       "index": "1.2.19",
       "item": 19,
+      "type": "lines",
       "spans": [{ "end": 66, "start": 66, "type": "break" }],
       "content": "Behold the radiant face of Há’, behold the beauteous robe of Bá’; Behold the Lordly grace that from Our Pen is raining down."
     },
     {
       "index": "1.2.20",
       "item": 20,
+      "type": "lines",
       "spans": [{ "end": 66, "start": 66, "type": "break" }],
       "content": "The vessel of the Advent this, the clouds of limpid waters these; The trill of songbirds this, from Our fleeting Wellspring raining down."
     },
@@ -569,6 +590,7 @@
     {
       "index": "1.3.1.18",
       "item": 18,
+      "type": "lines",
       "spans": [{ "end": 47, "start": 47, "type": "break" }],
       "content": "For the infidel, error—for the faithful, faith; For ‘Aṭṭár’s heart, an atom of thy pain."
     },
@@ -590,6 +612,7 @@
     {
       "index": "1.3.1.22",
       "item": 22,
+      "type": "lines",
       "spans": [{ "end": 39, "start": 39, "type": "break" }],
       "content": "A lover is he who is chill in hellfire; A knower is he who is dry in the sea.",
       "source": { "author": "Saná’í", "authorInfo": "(ca. 1045–1131)" }
@@ -602,6 +625,7 @@
     {
       "index": "1.3.1.24",
       "item": 24,
+      "type": "lines",
       "spans": [{ "end": 54, "start": 54, "type": "break" }],
       "content": "Ne’er will love allow a living soul to tread its way; Ne’er will the falcon deign to seize a lifeless prey.",
       "source": { "author": "Saná’í" }
@@ -622,6 +646,7 @@
     {
       "index": "1.3.1.26",
       "item": 26,
+      "type": "lines",
       "spans": [{ "end": 42, "start": 42, "type": "break" }],
       "content": "Love’s a stranger to earth and heaven too; In him are lunacies seventy and two.",
       "source": { "author": "Rúmí" }
@@ -650,6 +675,7 @@
     {
       "index": "1.3.1.29",
       "item": 29,
+      "type": "lines",
       "spans": [{ "end": 49, "start": 49, "type": "break" }],
       "content": "Kindle the fire of love and burn away all things; Then set thy foot into the land of the lovers.",
       "source": { "author": "Bahá’u’lláh" }
@@ -662,6 +688,7 @@
     {
       "index": "1.3.1.31",
       "item": 31,
+      "type": "lines",
       "spans": [{ "end": 31, "start": 31, "type": "break" }],
       "content": "Split the atom’s heart, and lo! Within it thou wilt find a sun.",
       "source": { "author": "Hátif‑i‑Iṣfahání", "authorInfo": "(d.1783)" }
@@ -777,6 +804,7 @@
     {
       "index": "1.3.1.42",
       "item": 42,
+      "type": "lines",
       "spans": [
         { "end": 31, "start": 31, "type": "break" },
         { "end": 65, "start": 65, "type": "break" },
@@ -862,6 +890,7 @@
     {
       "index": "1.3.1.50",
       "item": 50,
+      "type": "lines",
       "spans": [{ "end": 42, "start": 42, "type": "break" }],
       "content": "Cleanse thou the rheum from out thine head And breathe the breath of God instead.",
       "source": { "author": "Rúmí" }
@@ -993,6 +1022,7 @@
     {
       "index": "1.3.1.60",
       "item": 60,
+      "type": "lines",
       "spans": [{ "end": 47, "start": 47, "type": "break" }],
       "content": "How can a curtain part the lover from his love, When Alexander’s wall cannot keep them apart?",
       "source": {
@@ -1036,6 +1066,7 @@
     {
       "index": "1.3.1.65",
       "item": 65,
+      "type": "lines",
       "spans": [
         { "end": 5, "start": 3, "type": "u" },
         { "end": 41, "start": 41, "type": "break" },
@@ -1078,6 +1109,7 @@
     {
       "index": "1.3.1.69",
       "item": 69,
+      "type": "lines",
       "spans": [{ "end": 38, "start": 38, "type": "break" }],
       "content": "In thy soul, of love build thou a fire And burn all thoughts and words entire.",
       "source": { "author": "Rúmí" }
@@ -1100,6 +1132,7 @@
     {
       "index": "1.3.1.73",
       "item": 73,
+      "type": "lines",
       "spans": [
         { "end": 43, "start": 43, "type": "break" },
         {
@@ -1147,6 +1180,7 @@
     {
       "index": "1.3.1.78",
       "item": 78,
+      "type": "lines",
       "spans": [{ "end": 66, "start": 66, "type": "break" }],
       "content": "The bliss of mystic knowers can be only told from heart to heart, A bliss no messenger can bear and no missive dare impart.",
       "source": { "author": "‘Aṭṭár", "cf": true }
@@ -1154,6 +1188,7 @@
     {
       "index": "1.3.1.79",
       "item": 79,
+      "type": "lines",
       "spans": [{ "end": 61, "start": 61, "type": "break" }],
       "content": "How many are the matters I have out of weakness left unsaid; For my words would fail to reckon them and mine every effort would fall short.",
       "source": { "author": "Ibn‑i‑Fáriḍ", "authorInfo": "(1181–1235)" }
@@ -1204,6 +1239,7 @@
     {
       "index": "1.3.1.85",
       "item": 85,
+      "type": "lines",
       "spans": [{ "end": 40, "start": 40, "type": "break" }],
       "content": "How can feeble reason embrace the Qur’án Or the spider snare a phoenix in its web?",
       "source": { "author": "Saná’í" }
@@ -1236,6 +1272,7 @@
     {
       "index": "1.3.1.88",
       "item": 88,
+      "type": "lines",
       "spans": [{ "end": 45, "start": 45, "type": "break" }],
       "content": "Dost thou deem thyself a small and puny form, When thou foldest within thyself the greater world?"
     },
@@ -1262,6 +1299,7 @@
     {
       "index": "1.3.1.93",
       "item": 93,
+      "type": "lines",
       "spans": [{ "end": 45, "start": 45, "type": "break" }],
       "content": "The tale remaineth yet unfinished and untold; Forgive me, then, for weariness hath taken hold.",
       "source": { "author": "Rúmí" }
@@ -1291,6 +1329,7 @@
     {
       "index": "1.3.1.96",
       "item": 96,
+      "type": "lines",
       "spans": [
         { "end": 36, "start": 36, "type": "break" },
         { "end": 68, "start": 68, "type": "break" },
@@ -1371,6 +1410,7 @@
     {
       "index": "1.3.1.102",
       "item": 102,
+      "type": "lines",
       "spans": [{ "end": 59, "start": 59, "type": "break" }],
       "content": "The Friend, unveiled, doth shed the splendour of His light Through every door and wall, O ye endued with sight!",
       "source": { "author": "Hátif‑i‑Iṣfahání" }
@@ -1400,6 +1440,7 @@
     {
       "index": "1.3.1.105",
       "item": 105,
+      "type": "lines",
       "spans": [
         { "end": 24, "start": 24, "type": "break" },
         { "end": 59, "start": 59, "type": "break" },
@@ -1486,6 +1527,7 @@
     {
       "index": "1.3.1.111",
       "item": 111,
+      "type": "lines",
       "spans": [
         { "end": 30, "start": 30, "type": "break" },
         { "end": 63, "start": 63, "type": "break" },
@@ -1511,6 +1553,7 @@
     {
       "index": "1.3.2.3",
       "item": 3,
+      "type": "lines",
       "spans": [
         { "end": 32, "start": 32, "type": "break" },
         { "end": 68, "start": 68, "type": "break" },
@@ -1740,6 +1783,7 @@
     {
       "index": "1.5.3.1",
       "item": 1,
+      "type": "lines",
       "spans": [
         { "end": 25, "start": 25, "type": "break" },
         { "end": 46, "start": 46, "type": "break" },
@@ -1800,6 +1844,7 @@
     {
       "index": "1.5.3.5",
       "item": 5,
+      "type": "lines",
       "spans": [
         { "end": 32, "start": 32, "type": "break" },
         { "end": 68, "start": 68, "type": "break" },
@@ -1821,6 +1866,7 @@
     {
       "index": "1.5.3.8",
       "item": 8,
+      "type": "lines",
       "spans": [{ "end": 54, "start": 54, "type": "break" }],
       "content": "“O for a drop to drink!” the thirsty soul doth groan; “O for a thirsty soul!” the spring in turn doth moan.",
       "source": { "author": "Rúmí" }
@@ -1907,6 +1953,7 @@
     {
       "index": "1.6.2",
       "item": 2,
+      "type": "lines",
       "spans": [
         { "end": 35, "start": 35, "type": "break" },
         { "end": 59, "start": 59, "type": "break" },
@@ -1936,6 +1983,7 @@
     {
       "index": "1.6.4",
       "item": 4,
+      "type": "lines",
       "spans": [
         { "end": 35, "start": 35, "type": "break" },
         { "end": 73, "start": 73, "type": "break" },
@@ -1979,6 +2027,7 @@
     {
       "index": "1.6.7",
       "item": 7,
+      "type": "lines",
       "spans": [{ "end": 38, "start": 38, "type": "break" }],
       "content": "I do as bidden and convey the message, Whether it give thee counsel or offence.",
       "source": { "author": "Sa‘dí" }
@@ -1991,6 +2040,7 @@
     {
       "index": "1.6.9",
       "item": 9,
+      "type": "lines",
       "spans": [
         { "end": 58, "start": 58, "type": "break" },
         { "end": 117, "start": 117, "type": "break" },
@@ -2007,6 +2057,7 @@
     {
       "index": "1.6.11",
       "item": 11,
+      "type": "lines",
       "spans": [
         { "end": 24, "start": 24, "type": "break" },
         { "end": 49, "start": 49, "type": "break" },
@@ -2043,6 +2094,7 @@
     {
       "index": "1.6.15",
       "item": 15,
+      "type": "lines",
       "spans": [
         { "end": 54, "start": 54, "type": "break" },
         {
@@ -2132,6 +2184,7 @@
     {
       "index": "1.6.21",
       "item": 21,
+      "type": "lines",
       "spans": [{ "end": 64, "start": 64, "type": "break" }],
       "content": "With renunciation, not with grammar’s rules, one must be armed: Be nothing, then, and cross this sea unharmed.",
       "source": { "author": "Rúmí" }
@@ -2161,6 +2214,7 @@
     {
       "index": "1.6.24",
       "item": 24,
+      "type": "lines",
       "spans": [
         { "end": 42, "start": 42, "type": "break" },
         { "end": 83, "start": 83, "type": "break" },
@@ -2254,6 +2308,7 @@
     {
       "index": "1.6.30",
       "item": 30,
+      "type": "lines",
       "spans": [
         { "end": 44, "start": 44, "type": "break" },
         { "end": 81, "start": 81, "type": "break" },
@@ -2297,6 +2352,7 @@
     {
       "index": "1.6.35",
       "item": 35,
+      "type": "lines",
       "spans": [
         { "end": 51, "start": 51, "type": "break" },
         { "end": 114, "start": 114, "type": "break" },
@@ -2313,6 +2369,7 @@
     {
       "index": "1.6.37",
       "item": 37,
+      "type": "lines",
       "spans": [
         { "end": 46, "start": 46, "type": "break" },
         { "end": 89, "start": 89, "type": "break" },
@@ -2340,6 +2397,7 @@
     {
       "index": "1.6.39",
       "item": 39,
+      "type": "lines",
       "spans": [
         { "end": 49, "start": 49, "type": "break" },
         { "end": 99, "start": 99, "type": "break" },
@@ -2401,6 +2459,7 @@
     {
       "index": "1.6.44",
       "item": 44,
+      "type": "lines",
       "spans": [{ "end": 60, "start": 60, "type": "break" }],
       "content": "Speak the Persian tongue, though the Arabian pleaseth more: Love indeed doth have a hundred other tongues in store.",
       "source": { "author": "Rúmí" }
@@ -2413,6 +2472,7 @@
     {
       "index": "1.6.46",
       "item": 46,
+      "type": "lines",
       "spans": [
         { "end": 33, "start": 33, "type": "break" },
         { "end": 71, "start": 71, "type": "break" },
@@ -2444,6 +2504,7 @@
     {
       "index": "1.6.49",
       "item": 49,
+      "type": "lines",
       "spans": [
         { "end": 38, "start": 38, "type": "break" },
         { "end": 62, "start": 62, "type": "break" },
@@ -2454,6 +2515,7 @@
     {
       "index": "1.6.50",
       "item": 50,
+      "type": "lines",
       "spans": [
         { "end": 36, "start": 36, "type": "break" },
         { "end": 80, "start": 80, "type": "break" },
@@ -2470,6 +2532,7 @@
     {
       "index": "1.6.52",
       "item": 52,
+      "type": "lines",
       "spans": [
         { "end": 35, "start": 35, "type": "break" },
         { "end": 65, "start": 65, "type": "break" },
@@ -2550,6 +2613,7 @@
     {
       "index": "1.6.58",
       "item": 58,
+      "type": "lines",
       "spans": [{ "end": 40, "start": 40, "type": "break" }],
       "content": "No more than this will I impart to thee: The riverbed can never hold the sea.",
       "source": { "author": "Rúmí" }
@@ -2634,6 +2698,7 @@
     {
       "index": "1.6.66",
       "item": 66,
+      "type": "lines",
       "spans": [{ "end": 60, "start": 60, "type": "break" }],
       "content": "I seek thy nearness, more desired than heaven in mine eyes; I see thy visage, fairer than the bowers of Paradise."
     },
@@ -2657,6 +2722,7 @@
     {
       "index": "1.6.68",
       "item": 68,
+      "type": "lines",
       "spans": [
         { "end": 27, "start": 27, "type": "break" },
         { "end": 54, "start": 54, "type": "break" },
@@ -2691,6 +2757,7 @@
     {
       "index": "1.6.71",
       "item": 71,
+      "type": "lines",
       "spans": [{ "end": 41, "start": 41, "type": "break" }],
       "content": "I write no more, beleaguered by the flies That my sweet words have drawn about the page."
     },
