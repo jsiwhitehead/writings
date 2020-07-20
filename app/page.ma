@@ -10,7 +10,7 @@
               : span,
               style:
                 [
-                  'font-weight': ({@span.type = b, @span.type = quote}, bold),
+                  'font-weight': ({@span.type = b}, bold),
                   'font-style': (@span.type = i, italic),
                   'text-decoration': (@span.type = u, underline),
                 ],
@@ -29,27 +29,47 @@
           @part
           .title
           .[
-            v=> i=> [style: ['font-size': (16 * '0.85' ^ (@i - 1))px], @v.@para]
-            ,
+            style: ['padding-top': 50px],
+            v=> i=>
+              [
+                style:
+                  [
+                    'font-size': (24 * '0.85' ^ (@i - 1))px,
+                    'text-align': center,
+                    'font-weight': bold,
+                  ],
+                @v.@para,
+              ],
           ],
           =>
-            @data
-            .[
-              d=>>
-                (
-                  @startswith.[@d.index, @part.text],
+            [
+              [
+                style:
                   [
-                    style:
-                      [
-                        'padding-top': 20px,
-                        'text-indent': (@d.type ! lines, 25px),
-                        'padding-left':
-                          ({@d.type = block, @d.type = lines}, 25px),
-                        'font-weight': (@d.type = block, bold),
-                      ],
-                    @d.content.@para,
+                    'font-size': 24px,
+                    'padding-top': 30px,
+                    'text-align': center,
+                    'font-weight': bold,
                   ],
-                ),
+                \⭑,
+              ],
+              @data
+              .[
+                d=>>
+                  (
+                    @startswith.[@d.index, @part.text],
+                    [
+                      style:
+                        [
+                          'padding-top': 20px,
+                          'text-indent': (@d.type ! lines, 30px),
+                          'padding-left':
+                            ({@d.type = block, @d.type = lines}, 30px),
+                        ],
+                      @d.content.@para,
+                    ],
+                  ),
+              ],
             ],
         ),
     ],

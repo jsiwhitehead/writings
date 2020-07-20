@@ -17,7 +17,7 @@ const set = (data, index, key, value) =>
     return res.content[i - 1];
   }, data);
 
-const flattenSpans = (spans) => {
+const flattenSpans = (spans, first, last) => {
   const result = { spans: [] as any[], content: '' };
   spans.forEach((s) => {
     const start = result.content.length;
@@ -25,27 +25,34 @@ const flattenSpans = (spans) => {
       result.spans.push({
         start,
         ...s,
-        content: s.content.map((x) => flattenSpans(x)),
+        content: s.content.map((x) => flattenSpans(x, true, true)),
       });
     } else if (s.type === 'quote') {
       result.content += '￿';
       result.spans.push({
         start,
         ...s,
-        content: s.content.map((x) => flattenSpans(x)),
+        content: s.content.map((x, i) =>
+          flattenSpans(x, i === 0, i === s.content.length - 1),
+        ),
       });
     } else {
-      result.content += result.content.endsWith(' ')
-        ? (s.text || '').trimLeft()
-        : s.text || '';
-      result.content = result.content.replace(/￿/g, '').trimLeft();
+      result.content +=
+        (spans[0].type !== 'quote' && !result.content && first) ||
+        result.content.endsWith(' ')
+          ? (s.text || '').trimLeft()
+          : s.text || '';
+      result.content = result.content.replace(/￿/g, '');
       if (s.type) {
         const end = result.content.length;
         result.spans.push({ start, end, type: s.type });
       }
     }
   });
-  result.content = result.content.replace(/￿/g, '').trimRight();
+  result.content = result.content.replace(/￿/g, '');
+  if (last && spans[spans.length - 1].type !== 'quote') {
+    result.content = result.content.trimRight();
+  }
   result.spans = result.spans.map(({ start, end, ...other }) => ({
     start: Math.min(start, result.content.length),
     end: end && Math.min(end, result.content.length),
@@ -77,7 +84,7 @@ const structure = (data, _, levelsConfig) => {
         index = index.slice(0, level + 1);
         index[level]++;
       }
-      const content = spans && flattenSpans(spans);
+      const content = spans && flattenSpans(spans, true, true);
       inHeader = type === 'header';
       if (type === 'header') {
         if (content && !/^(\d+|– \d+ –)$/.test(content.content)) {

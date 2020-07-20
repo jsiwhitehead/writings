@@ -221,7 +221,7 @@
           "type": "quote",
           "content": [
             { "content": "old things are passed away" },
-            { "content": "and" },
+            { "content": " and " },
             { "content": "all things are become new" }
           ],
           "source": { "book": "2 Corinthians", "ref": [5, 17] }
@@ -2367,7 +2367,7 @@
       "item": 8,
       "spans": [
         {
-          "start": 539,
+          "start": 540,
           "type": "quote",
           "content": [
             {
@@ -2377,7 +2377,7 @@
           "source": { "book": "Qur’án", "cf": true, "ref": [71, 14] }
         }
       ],
-      "content": "Strive, then, that thou mayest forsake the path of illusion and imitation and gain admittance into the realm of inner vision and the kingdom of spiritual discoveries. For in these days all are bewildered in the drunkenness of ignorance, save those whom thy Lord hath willed to spare. Some consider the fading mirage to be the billowing ocean and reckon the impenetrable darkness as the radiant morn. Others, having forsaken the river of eternal life, content themselves with a vanishing drop. Such is the state and condition of the people:"
+      "content": "Strive, then, that thou mayest forsake the path of illusion and imitation and gain admittance into the realm of inner vision and the kingdom of spiritual discoveries. For in these days all are bewildered in the drunkenness of ignorance, save those whom thy Lord hath willed to spare. Some consider the fading mirage to be the billowing ocean and reckon the impenetrable darkness as the radiant morn. Others, having forsaken the river of eternal life, content themselves with a vanishing drop. Such is the state and condition of the people: "
     },
     {
       "index": "1.5.2.9",
