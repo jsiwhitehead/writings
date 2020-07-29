@@ -7,7 +7,8 @@ webfont.load({
   google: { families: ['PT+Serif:400,700'] },
 });
 
-const data = require('../../data/structured/call-divine-beloved.json');
+const data = require('../../data/structured/bahai-prayers.json');
+// bahai-prayers
 // call-divine-beloved
 // days-remembrance
 

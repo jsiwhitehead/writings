@@ -2000,7 +2000,7 @@
     ],
     "source": { "author": "Rúmí" }
   },
-  { "number": 9, "type": "header" },
+  { "type": "header" },
   {
     "spans": [
       {

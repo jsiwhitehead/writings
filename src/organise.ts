@@ -220,7 +220,7 @@ process(
     };
 
     const res = data.map((x) => {
-      if (!x.spans) return x;
+      if (!x.spans) return { ...x, number: undefined };
       const l = last(x.spans);
       if (
         x.type === 'block' &&
@@ -248,12 +248,13 @@ process(
         number: undefined,
       };
     });
-    // res.forEach((x) => {
-    //   if (x.source) console.log(JSON.stringify(x.source, null, 2));
-    //   x.spans?.forEach((s) => {
-    //     if (s.source) console.log(JSON.stringify(s.source, null, 2));
-    //   });
-    // });
+    res.forEach((x) => {
+      if (x.type === 'header') console.log(JSON.stringify(x, null, 2));
+      // if (x.source) console.log(JSON.stringify(x.source, null, 2));
+      // x.spans?.forEach((s) => {
+      //   if (s.source) console.log(JSON.stringify(s.source, null, 2));
+      // });
+    });
     return res;
   },
 );

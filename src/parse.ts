@@ -12,10 +12,10 @@ const elements = {
     h4: 'header',
     h5: 'header',
     h6: 'header',
+    blockquote: 'block',
     a: 'ignore',
     sup: 'note',
     p: 'p',
-    blockquote: 'p',
     hr: 'p',
     u: 'u',
     em: 'i',
@@ -25,7 +25,7 @@ const elements = {
   },
   classes: {
     'brl-global-gloss-definition': 'block',
-    'brl-margin-2': 'block',
+    // 'brl-margin-2': 'block',
     'brl-head': 'header',
     'brl-subtitle': 'header',
     'brl-italic': 'i',
@@ -94,7 +94,7 @@ const flattenQuotesWithNotes = (spans) => {
   return result;
 };
 
-const parse = (data) => {
+const parse = (data, extraGaps) => {
   const notes = {};
   let quoteCount = 0;
   let noteCount = 0;
@@ -162,7 +162,10 @@ const parse = (data) => {
     const items = first ? [first] : [];
     walk(items, children);
     for (let i = items.length - 1; i >= 0; i--) {
-      if (items[i].gap > 1) {
+      if (
+        items[i].gap > 1 ||
+        extraGaps.includes(items[i].spans[0].text.trim())
+      ) {
         items.splice(i + 1, 0, { type: 'header' });
       }
       delete items[i].gap;
@@ -246,8 +249,8 @@ const parse = (data) => {
   });
 };
 
-process('downloaded', 'parsed', (html) => {
-  const result = parse(unified().use(rehype).parse(html).children);
+process('downloaded', 'parsed', (html, { gaps = [] }) => {
+  const result = parse(unified().use(rehype).parse(html).children, gaps);
   let headerCount = 0;
   return result.map((x) => {
     if (x.type !== 'header') return x;
