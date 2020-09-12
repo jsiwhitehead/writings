@@ -22,7 +22,7 @@
     "js-levenshtein": "^1.1.6",
     "maraca-app": "^0.4.0",
     "moment": "^2.27.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "prettier": "^2.0.5",
     "prettier-plugin-maraca": "^0.3.13",
     "rehype-parse": "^7.0.1",
